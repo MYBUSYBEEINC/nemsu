@@ -1,0 +1,124 @@
+Ver 6.3 (18-09-2020)
+* PHP 7.4 issue Fixed.
+
+Ver 6.2 (04-12-2019)
+* Fixed : staff dashborad specific appointments.
+* Fixed : staff dashborad permission by admin dashborad.
+* Added : staff dashborad hide/show option setting in admin dashborad.
+
+Ver 6.1 (29-11-2019)
+* Fixed : staff specific appointments showing incorrectly
+
+Ver 6.0 (26-11-2019)
+* Updated : bootstarp library updated.
+* Updated : fontawesome library updated.
+
+Ver 5.9 (18-11-2019)
+=========
+* fixed : Sync appointments on calender issue fixed.
+* Updated : Google calender library updated.
+* Updated : deprecated function update_usermeta replace by update_user_meta.
+* fixed : stripe payment issue and Added colomn on plugin activation. 
+* Tested with latest wordpress 5.3
+
+Ver 5.8 (23-10-2019)
+=========
+* Dashboard calender appointments issue fixed.
+* Testing with latest wordpress 5.2.4
+
+Ver 5.7 (16-02-2019)
+=========
+* Appointment pending, cancel, approve issue is fixed.
+* Dashboard paymentshowing issue fixed
+* Testing with latest wp5.0.3
+
+Ver 5.6 (02-01-2019)
+=========
+* multilocation issue fixed
+* Dynamic shortcode added add location tab
+
+Ver 5.5 (24 Nov 2018)
+=========
+* Service duration increase For 23 hours, User can create service max to max 23 hours.
+
+Ver 5.4 (27 Oct 2018)
+=========
+* Stripe payment gateway applied
+
+Ver 5.3 (08 August 2018)
+=========
+* Update notification issue fixed
+* License activation option added
+
+Ver 5.2 (18 June 2018)
+=========
+* Add New Feature: Staff Holiday feature is added ( Now staff can individually take leave )
+* Bug-Fixed: Change the background-color of Dashboard's report div's footer ( .statbox .footer ) 
+
+Ver 5.1.11 (23 April 2018)
+=========
+* Fix: Time Picker CSS Bug Fixed
+
+Ver 5.1.10 (19 April 2018)
+=========
+* Fix: Permission Bug Fixed
+
+Ver 5.1.9 (16 April 2018)
+=========
+* Fix: Bugs Fixed and new features added into plugin
+* Appointment Table alter table query bug fixed
+* Google sync Refresh Token error fixed
+
+Ver 5.1.7 (21 Dec 2017)
+=========
+* Fix: function redeclaration error has been fixed
+
+Ver 5.1.6
+=========
+* Fix: Dashboard appointment approve / cancel / completed email fix
+* Fix: Delete all bug fix
+
+Ver 5.1.5
+=========
+* Fix: Get and assign blog admin email if staff email is empty - 1 sept 2017
+* Business Name strip slashes - 1 sept 2017
+* Business typo fix in settings - 30 aug 2017
+* Business Name saving bug fix - 30 aug 2017
+* Customer Edit Phone number fix - 30 aug 2017
+* Payment settings moved to option table 
+* Business Profile, Business Hours, Appearance General Settings, Calendar View Settings moved to option table
+* Coupon code bug solved
+
+Ver 5.1.4
+=========
+* New Feature: Cash enable / disable setting
+* Fix: Purticular staff time slot calculation
+* Fix: Onload Setting hidden
+* Fix: Cash setting moved to "Option Table"
+* Improvement: Code Indentation
+* Improvement: JS validation added into dashboard (Service, Staff, Appointments, Customers)
+* Improvement: Move all Settings sub setting into "Option Table"
+* Fix: Back 2 button not avialble
+* Fix: Pending appointment timeslots disable
+* String Fix: Message on appointment booking
+* String Fix: Duration :  40minutes Step 4 Confirmation
+* String Fix: Price :  10.00 Step 4 add unit
+
+Ver 5.1.3
+=========
+* New Feature: PayPal Class Renamed
+* New Feature: Service Description Length Increased
+* New Feature: Payment Yes/No
+* New Feature: Service Duration Length Increased
+
+Ver 5.1.2
+=========
+* New Feature: TYPO ERROR FIXED
+
+Ver 5.1.1
+=========
+* New Feature: Razorpay Payment Method Added
+
+Ver 5.1
+========
+* New Feature: Email Reminder

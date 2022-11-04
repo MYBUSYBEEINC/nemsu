@@ -1,0 +1,84 @@
+div.dataTables_wrapper div.dataTables_length select {
+	width: -webkit-fill-available;
+}
+input[type=number] {
+	height: unset;
+	line-height: unset;
+}
+textarea {
+	resize: vertical;
+}
+textarea[name="institute_pro_address"] {
+	min-height: 105px;
+}
+textarea[name="course_detail"] {
+	min-height: 86px;
+}
+textarea[name="notice_title"] {
+	min-height: 86px;
+}
+.wlim_select_col {
+	margin-top: -2px;
+}
+.photo-signature {
+	max-height: 250px;
+	max-width: 100%;
+}
+.wlim-date_of_birth {
+	z-index: 3000 !important;
+}
+#wlim-institute_pro_logo {
+	max-height: 250px;
+	max-width: 250px;
+}
+.wlim-student-heading {
+	font-size: 25px;
+}
+.wlim-student-name-heading {
+	font-size: 25px;
+	font-weight: 500;
+}
+.wlim-noticeboard-section {
+	max-height: 500px;
+	overflow: hidden;
+}
+.wlim-noticeboard, .wlim-noticeboard-all {
+	overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+}
+.wlim-noticeboard {
+    top: 6em;
+	animation: marquee 13s linear infinite;
+}
+.wlim-noticeboard:hover {
+    animation-play-state: paused;
+}
+@keyframes marquee {
+    0%   { top: 8em }
+    100% { top: -8em }
+}
+.wlim-noticboard-background {
+    background-color: #1273aa;
+}
+.wlim-noticeboard-notice {
+	color: #023871;
+	font-weight: 600;
+}
+.wlim-student-fee-status, .wlim-student-fee-amount {
+	font-size: 18px;
+}
+.wlim-student-fee-status {
+	font-weight: 600;
+}
+@media (min-width: 576px) {
+	.modal-dialog {
+		max-width: 650px !important;
+	}
+	#print-student, #print-student-admission-detail, #print-student-fees-report, #print-student-certificate, #print-installment-fee-receipt {
+		z-index: 9999;
+	}
+	#print-student-dialog, #print-student-admission-detail-dialog, #print-student-fees-report-dialog, #print-student-certificate-dialog, #print-installment-fee-receipt-dialog {
+		max-width: 1980px !important;
+	}
+}

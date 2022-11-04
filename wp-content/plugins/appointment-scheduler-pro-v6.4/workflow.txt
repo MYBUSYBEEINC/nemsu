@@ -1,0 +1,259 @@
+
+APPOINTMENT SCHEDULER PRO WORKFLOW-
+
+**********************FRONTENT******************
+=================
+
+1) Plugin Shortcode
+	* [appointment] 
+	
+2) Main File
+	* appointment.php
+
+3) On Page Load
+	* Preloader
+	* All the holidays are disabled in datepicker from file appointment.php
+
+4) Step 1 Function
+=======	APPOINTMENT.PHP=========
+	* Loads all services with cost and currency.
+	* Loads staff corresponsing to the services.
+	* redirect the page to "time-slot-calculate.php"
+
+5) Stap 2 Function 
+=======	TIME SLOT CALCULATE.PHP=========
+	* Disable previously booked time slots according to status set by admin in setting > general settings (backend).
+	* Check staff leave on selected date & lunch hours of staff.
+	* Check current time with selected staff's working hours- for business closed.
+	* redirect the page to "details.php".
+
+3) =======DETAILS.PHP=========
+	* On register / login, redirect the user to "login.php".
+
+4) =======LOGIN.PHP===========
+	* If Login
+		# check user is already a subscriber.
+		# Assign the values to labels in confirm page (labels html is in login.php)
+
+	* If Register
+		# register the user as a subscriber.
+		# Assign the values to labels in confirm page (labels html is in login.php)
+
+5) Step 4 Function
+	* check if the service is FREE, skip payment page, send pending mail and save the data in appointment table & payment table .
+	* check if service is alloted with any of the coupon code, show coupon div.
+		# If coupon is applied,
+			i)    check the entered copuon is valid or not.
+			ii)   check total no. of times the coupon is used.
+			iii)  check per person limit of coupon.
+			iv)   check coupon session.
+
+	* show payment page (/paypal-api/PaymentGateway.php) .
+	* save the data in appointment table with a appointment_id.
+
+5) PaymentGateway.php
+	* Check the payment method 
+	* If payment method is "Cash", redirects the page to "paypal_redirect.php"
+		# PAYPAL_REDIRECT.PHP
+			i) send the pending mail to the client/staff/admin (as per backend notification setting)
+			ii) save the details in payment table.
+
+	* If payment method is "PAYPAL"
+		# check the paypal setting from backend, if if is sandbox mode, redirect the page to sandbox mode else to live mode.
+		# pass an appointment_id with the attributes.
+		# On successful payment
+			i)   redirects the page to "...&payment_status=confirmed" 
+			ii)  show div of successful paypal 
+			iii) send mail of appointment approved to client/staff/admin (as per backend notification setting)
+			iv)  we will get the appointment_id that we passed, by this id, update the appointment status.
+			v)   save the data in payment table.
+	
+		# On payment failure
+			# redirects the page to "...&payment_status=cancelled" 
+			# send mail of appointment pending to client/staff/admin (as per backend notification setting)
+			# show div of failure paypal
+		
+	* If payment method is "RAZORPAY"
+		# redirects the page to razorpay, following "payment-id: appointment_id.
+		# On successful payment
+			i)  Update the appointment status by appointment_id from success url.
+		 	ii) send mail of appointment approved to client/staff/admin (as per backend notification setting).
+
+
+==================================================================================================================================================================================
+
+
+**********************BACKEND******************
+
+
+On plugin activation, "install.php" runs and creates tables in db. 
+
+
+1) Main File
+	* main_page.php
+
+2) Dashboard
+	* dashboard.php
+		# loads all appointment details in graphical view.
+
+	* dashboard-ajax.php
+		# loads all appointment details in graphical view by ajax.
+
+3) Calender
+	* calendar.php
+		# fullcalender-js.
+		# Modal for booking new appointment.
+		# Modal for updating appointment.
+			
+	* json-events.php
+		# loads all events & appointments in calender. 
+
+	* calendar_customer.php
+		# loads all customers by ajax.
+
+	* calendar_service.php
+		# loads all services by ajax.
+
+	* calendar_staff.php
+		# loads all staff by ajax.
+
+	* category-fetch.php
+		# loads all categories by ajax.
+
+3) Services
+	* service.php
+		# add new services.
+	* service-ajax.php
+		# fetch all service details in update service.
+
+4) Staff members
+	* staff.php
+		# Add new staff and load all staff details
+
+5) Appointments
+ 	* appointment.php
+		# booking new appointment.
+		# send mail onchange of status to client/staff/admin (as per backend notification setting)
+
+
+	* appointment-fetch.php
+		# loads all the appointment details in update modal.
+
+	* appointment-json.php
+		# loads all the appointment details in data table.
+
+	* appointment-all-csv.php
+		# print all appointment details in csv.
+
+	* appointment-csv.php
+		# print details of particular appointment in csv.
+
+6) Customers 
+	* customer.php
+		# add new customer
+		# add customer as subscriber.
+
+	* customer-fetch.php
+		# loads all customer details in update modal.
+
+	* customer-json.php
+		# loads all the customer details in data table.
+
+	* customer-all-csv.php
+		# print all customer details in csv.
+
+	* customer-csv.php
+		# print details of particular customer in csv.
+
+7) Payment
+	* payment.php
+		# show all payment details.
+
+	* payment-fetch.php
+		# show payment details on update.
+
+	* payment-json.php
+		# loads all the payment details in data table.
+
+	* payment-all-csv.php
+		# print all payment details in csv. 
+
+	* payment-csv.php
+		# print details of particular payment in csv.
+
+8) Coupon
+	* coupon.php
+		# create new coupon.
+
+	* coupon-fetch.php
+		# show coupon details on update.
+
+	* coupon-json.php
+		# loads all the coupon details in data table.
+
+9) Appearance
+	* appearance.php
+		# save the appearance setting for frontentd.
+		# save the tips for individual step for frontend.
+
+10) Email Notification
+	* email-notification.php
+		# selection of email type.
+		# customization of message body for client, staff and admin.
+		# send test mail.
+
+11) Holiday
+	* holiday.php
+		# add new holiday.
+
+	* holiday-fetch.php
+		# show holiday details on update.
+
+	* holiday-json.php
+		# loads all the holiday details in data table.
+
+12) Reminder Log
+	 	
+		Reminder Log file is called from the main file of the plugin i.e "appoinment-scheduler-pro.php" by cron function that runs periodically (period is set by the admin from settings.)
+
+	* email-reminder.php
+		# get status from "reminder table".
+		# Is status is falure, 
+			i) Send reminder mail.
+			ii) update the retries value by adding 1.
+
+13) Setting
+	# General Settings
+		i) date, Time, currency, time slots.
+
+	# Business Info (Business Info is getting used on the header of plugin in frontend).  
+	# Business Hours (Business Hours is getting used on the header of plugin in frontend to show business hours).
+
+	# Payment Settings
+		i) Payment Settings for Paypal Checkout.
+		ii) Payment Settings for Razorpay Checkout.
+	
+	# Calender Settings
+		i) theme, color, font style for applying in calender.
+
+	# Reminder Settings
+			i) Set time to send mail.
+			ii) Set message body for email reminder.
+
+	# Remove Plugin
+		i) "backup-csv.php" file is called to get backup.
+		ii) plugin gets uninstalled by "uninstall.php" file.	
+
+
+==================================================================================================================================================================================
+
+
+**********************WIDGET******************
+
+1) Widget
+	* widget is created by- "appointment-scheduler-pro-widget.php"
+		# backend
+			i) select staff whose schedule is to be shown in frontend.
+
+	* "widget-shortcode.php" is included in the file- "appointment-scheduler-pro-widget.php"
+		

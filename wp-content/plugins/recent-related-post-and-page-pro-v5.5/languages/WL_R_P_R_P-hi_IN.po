@@ -1,0 +1,1588 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: related-posts-and-recent-posts\n"
+"POT-Creation-Date: 2018-08-07 19:59+0530\n"
+"PO-Revision-Date: 2018-08-07 19:59+0530\n"
+"Last-Translator: Mubrak ali <ansari9731@gmail.com>\n"
+"Language-Team: \n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: /languages\n"
+
+#: admin/WL_RRPPP_LM.php:59
+msgid "Please provide a license key."
+msgstr ""
+
+#: admin/WL_RRPPP_Menu.php:6 admin/WL_RRPPP_Menu.php:9 init.php:143
+msgid "RR Post & Page Pro"
+msgstr "रीसेंट रिलेटेड पोस्ट और पेज प्रो"
+
+#: admin/inc/admin_menu.php:11
+#, fuzzy
+#| msgid "Search Recent Related Post And Page Pro"
+msgid "Thank you for choosing Recent Related Post & Page Pro Plugin"
+msgstr "रीसेंट रिलेटेड पोस्ट और पेज खोजे"
+
+#: admin/inc/admin_menu.php:12
+msgid ""
+"Please activate this plugin with a license key. If you don’t have a license yet, you "
+"can purchase it from "
+msgstr ""
+
+#: admin/inc/admin_menu.php:13
+msgid "here"
+msgstr ""
+
+#: admin/inc/admin_menu.php:21
+msgid "Let’s get some work done!"
+msgstr ""
+
+#: admin/inc/admin_menu.php:22
+msgid "We have some useful links to get you started"
+msgstr ""
+
+#: admin/inc/admin_menu.php:34
+msgid "Get Your License Key"
+msgstr ""
+
+#: admin/inc/admin_menu.php:34 init.php:238
+msgid "Click Here"
+msgstr "यहां क्लिक करे"
+
+#: admin/inc/admin_menu.php:44
+msgid "License Key applied"
+msgstr ""
+
+#: admin/inc/admin_menu.php:45
+msgid "Click here to navigate to dashboard"
+msgstr ""
+
+#: admin/inc/admin_menu.php:49 admin/inc/admin_menu.php:68
+msgid "License Key"
+msgstr ""
+
+#: admin/inc/admin_menu.php:55
+#, fuzzy
+#| msgid "Recent Related Post And Page Pro Widget"
+msgid "Congratulation! Recent Related Post & Page Pro Plugin is activated."
+msgstr "रीसेंट रिलेटेड पोस्ट और पेज प्रो विजेट"
+
+#: admin/inc/admin_menu.php:57
+msgid "Plugin Configuration Click Here"
+msgstr ""
+
+#: admin/inc/admin_menu.php:80
+msgid "Getting Started"
+msgstr ""
+
+#: admin/inc/admin_menu.php:81
+msgid "Video Tutorial"
+msgstr ""
+
+#: admin/inc/admin_menu.php:82
+msgid "More Products"
+msgstr ""
+
+#: admin/inc/admin_menu.php:83
+#, fuzzy
+#| msgid "Center"
+msgid "Help Center"
+msgstr "बीच "
+
+#: admin/inc/admin_menu.php:86
+msgid "Guides & Support"
+msgstr ""
+
+#: admin/inc/admin_menu.php:87
+msgid "Demo"
+msgstr ""
+
+#: admin/inc/admin_menu.php:88
+msgid "Documentation guide"
+msgstr ""
+
+#: admin/inc/admin_menu.php:89
+msgid "Support forum"
+msgstr ""
+
+#: init.php:141 init.php:142
+msgid "Recent Related Post And Page Pro"
+msgstr "रीसेंट रिलेटेड पोस्ट और पेज प्रो"
+
+#: init.php:144 init.php:145
+msgid "Add New "
+msgstr "नया विकल्प जोड़ें:"
+
+#: init.php:146
+msgid "Edit Recent Related Post And Page Pro"
+msgstr "रीसेंट रिलेटेड पोस्ट और पेज लिखें"
+
+#: init.php:147
+msgid "New Recent Related Post And Page Pro"
+msgstr "नया रीसेंट रिलेटेड पोस्ट और पेज"
+
+#: init.php:148
+msgid "View Recent Related Post And Page Pro"
+msgstr "रीसेंट रिलेटेड पोस्ट और पेज प्रो देखे"
+
+#: init.php:149
+msgid "Search Recent Related Post And Page Pro"
+msgstr "रीसेंट रिलेटेड पोस्ट और पेज खोजे"
+
+#: init.php:150
+msgid "No data found"
+msgstr "कोई संग्रह नही मिला"
+
+#: init.php:151
+msgid "No data found in Trash"
+msgstr "कचरे में कोई संग्रह नही मिला "
+
+#: init.php:152
+msgid "Parent Recent Related Post And Page Pro:"
+msgstr "मुख्य रीसेंट रिलेटेड पोस्ट और पेज"
+
+#: init.php:153 page-post-settings.php:157 page-post-settings.php:192
+msgid "All Shortcode"
+msgstr "सभी शोर्टकोड"
+
+#: init.php:181
+msgid "Recent Related Post And Page"
+msgstr "रीसेंट रिलेटेड पोस्ट और पेज"
+
+#: init.php:182
+msgid "Recent Related Post And Page Shortcode"
+msgstr "रीसेंट रिलेटेड पोस्ट और पेज शोर्टकोड"
+
+#: init.php:183 settings/general-settings.php:433
+msgid "Date"
+msgstr "तिथि"
+
+#: init.php:201
+msgid " Add Images"
+msgstr "छवियां जोड़ें"
+
+#: init.php:201
+msgid "Select Template"
+msgstr "टेम्पलेट चुने"
+
+#: init.php:202
+msgid "Add settings"
+msgstr "सेटिंग जोड़ो"
+
+#: init.php:203
+msgid "Recent Related Post And Page Box"
+msgstr "रीसेंट रिलेटेड पोस्ट और पेज बॉक्स"
+
+#: init.php:203
+msgid " Recent Related Post And Page Shortcode"
+msgstr "रीसेंट रिलेटेड पोस्ट और पेज शोर्ट"
+
+#: init.php:204
+msgid "Recent Related Post And Page Preview Box"
+msgstr "रीसेंट रिलेटेड पोस्ट और पेज प्रीव्यू बॉक्स"
+
+#: init.php:204
+msgid "Related and recent post Preview Box"
+msgstr "रिलेटेड पोस्ट और रीसेंट पोस्ट पूर्वावलोकन बॉक्स"
+
+#: init.php:205
+msgid "Recent Related Post And Page pro Widget"
+msgstr "रीसेंट रिलेटेड पोस्ट और पेज प्रो विजेट"
+
+#: init.php:219
+msgid "Use below shortcode in any Page/Post to publish your Recent Related Post And Page"
+msgstr " नीचे दिए रीसेंट रिलेटेड पोस्ट और पेज शोर्टकोड का इस्तेमाल "
+
+#: init.php:226
+msgid "<h3 align=\"center\">Click here to preview</h3>"
+msgstr "प्रीव्यू के लिए यहाँ क्लिक करे"
+
+#: init.php:230
+msgid "<h4 align=\"center\">Please publish first to preview</h4>"
+msgstr "प्रीव्यू के लिए पहले पब्लिश करे"
+
+#: init.php:237
+msgid "To activate widget into any widget area"
+msgstr "विजेट को विजेट शेत्र में चालू करने के लिए"
+
+#: init.php:239
+msgid "Find"
+msgstr "खोजे:"
+
+#: init.php:239
+msgid "Recent Related Post And Page Pro Widget"
+msgstr "रीसेंट रिलेटेड पोस्ट और पेज प्रो विजेट"
+
+#: init.php:239
+msgid ""
+"and place it to your widget area. Select any Shortcode for the dropdown and save "
+"changes."
+msgstr "और इसे विजेट एरिया में रखे. ड्रापडाउन से कोई भी शोर्टकोड चुने"
+
+#: init.php:439
+msgid "Select  Recent Related Post And Page Shortcode to insert with content"
+msgstr "रीसेंट रिलेटेड पोस्ट और पेज शोर्टकोड चुने"
+
+#: init.php:440
+msgid "Select Recent Related Post And Page Shortcode to insert into content"
+msgstr "रीसेंट रिलेटेड पोस्ट और पेज शोर्टकोड चुने"
+
+#: init.php:442
+msgid " Related & Recent Posts"
+msgstr " रिलेटेड पोस्ट और रीसेंट पोस्ट"
+
+#: init.php:460
+msgid "Select Recent Related Post And Page Shortcode To Insert Into Post"
+msgstr "रीसेंट रिलेटेड पोस्ट और पेज शोर्टकोड चुने"
+
+#: init.php:470
+msgid "Insert Recent Related Post And Page Shortcode"
+msgstr "रीसेंट रिलेटेड पोस्ट और पेज शोर्टकोड डाले"
+
+#: init.php:473
+msgid "Sorry! No Shortcode found."
+msgstr "माफ़ कीजिए कोई शोर्टकोड नही मिला"
+
+#: on-page-post-settings/on-page-post-shortcode.php:151
+#: recent-related-post-and-page-shortcode.php:152
+#, fuzzy
+msgid "Sorry! Invalid Shortcode Embedded"
+msgstr "माफ़ करे गलत अबाउट मी शोर्ट कोड जोड़ा "
+
+#: on-page-post-settings/shortcode-files/shortcode-1.php:279
+#: on-page-post-settings/shortcode-files/shortcode-2.php:258
+#: on-page-post-settings/shortcode-files/shortcode-3.php:249
+#: on-page-post-settings/shortcode-files/shortcode-4.php:263
+#: on-page-post-settings/shortcode-files/shortcode-5.php:246
+#: on-page-post-settings/shortcode-files/shortcode-6.php:246
+#: on-page-post-settings/shortcode-files/shortcode-7.php:241
+#: on-page-post-settings/shortcode-files/shortcode-8.php:247
+#: shortcode-files/shortcode-1.php:236 shortcode-files/shortcode-2.php:232
+#: shortcode-files/shortcode-3.php:212 shortcode-files/shortcode-4.php:229
+#: shortcode-files/shortcode-5.php:207 shortcode-files/shortcode-6.php:208
+#: shortcode-files/shortcode-7.php:209 shortcode-files/shortcode-8.php:210
+msgid "Sorry! no posts found"
+msgstr "माफ़ कीजिए कोई पोस्ट नही मिला"
+
+#: page-post-settings.php:122
+msgid "Page/Post settings"
+msgstr "पेज/पोस्ट सेटिंग"
+
+#: page-post-settings.php:125
+msgid "Display settings"
+msgstr "सेटिंग दिखाए"
+
+#: page-post-settings.php:128
+msgid "On page"
+msgstr "पेज पर"
+
+#: page-post-settings.php:130 page-post-settings.php:140 settings/general-settings.php:323
+#: settings/general-settings.php:378 settings/general-settings.php:436
+msgid "Yes"
+msgstr "हाँ"
+
+#: page-post-settings.php:132 page-post-settings.php:142 settings/general-settings.php:325
+#: settings/general-settings.php:380 settings/general-settings.php:438
+msgid "No"
+msgstr "नहीं"
+
+#: page-post-settings.php:138
+msgid "On post"
+msgstr "पोस्ट पर"
+
+#: page-post-settings.php:147
+msgid "Select Shortcode Style To Display On Page Context "
+msgstr "पेज के नीचे "
+
+#: page-post-settings.php:167 page-post-settings.php:202
+#: recent-related-post-and-page-widget-code.php:95
+msgid "No Title"
+msgstr "कोई शिर्षक नहीं"
+
+#: page-post-settings.php:182
+msgid "Select Shortcode Style To Display On Post Context "
+msgstr "पेज के नीचें शोर्टकोड दिखाये"
+
+#: page-post-settings.php:215
+msgid "Recent Related Post And Page label settings"
+msgstr "पोस्ट के नीचें शोर्टकोड दिखाये"
+
+#: page-post-settings.php:218
+msgid "Label Text For Page"
+msgstr "पेज का  लेबल "
+
+#: page-post-settings.php:226
+msgid "Label Text For Post"
+msgstr "पोस्ट का लेबल"
+
+#: page-post-settings.php:235 settings/general-settings.php:393
+#: settings/general-settings.php:443 settings/general-settings.php:484
+msgid "Font size"
+msgstr "फ़ॉन्ट शैली"
+
+#: page-post-settings.php:243 settings/general-settings.php:365
+#: settings/general-settings.php:367
+msgid "Background Color"
+msgstr "पीछे का रंग"
+
+#: page-post-settings.php:251
+msgid "Font Color"
+msgstr "शब्दों का रंग"
+
+#: page-post-settings.php:258 settings/general-settings.php:564
+#: settings/general-settings.php:567
+msgid "Font Family"
+msgstr "फ़ॉन्ट शैली"
+
+#: page-post-settings.php:305 settings/general-settings.php:615
+msgid "Choose a caption font style."
+msgstr "एक शीर्षक फ़ॉन्ट शैली चुनें ।"
+
+#: recent-related-post-and-page-pro-help-and-support.php:10
+msgid "View Support Docs or Open a Ticket"
+msgstr "दृष्टिकोण का समर्थन डॉक्स या एक टिकट खुला"
+
+#: recent-related-post-and-page-widget-code.php:71
+msgid "Widget Title"
+msgstr "विजेट शीर्षक"
+
+#: recent-related-post-and-page-widget-code.php:76
+msgid "Select Any"
+msgstr " चयन करें।"
+
+#: recommendations.php:56
+#, php-format
+msgid "%s rating"
+msgstr "रेटिंग्स"
+
+#: recommendations.php:123
+msgid "More Details"
+msgstr "अधिक जानकारी"
+
+#: recommendations.php:134
+msgid "Install Now"
+msgstr "अब "
+
+#: recommendations.php:141
+msgid "Update Now"
+msgstr "अपडेट करे"
+
+#: recommendations.php:185 recommendations.php:195 recommendations.php:205
+#: recommendations.php:215 recommendations.php:225 recommendations.php:235
+msgid "Premium Editions"
+msgstr "प्रीमियम भाग"
+
+#: recommendations.php:188 recommendations.php:198 recommendations.php:208
+#: recommendations.php:218 recommendations.php:228 recommendations.php:238
+msgid "Visit Website"
+msgstr "वेबसाइट देखे"
+
+#: recommendations.php:256
+msgid "Last Updated:"
+msgstr "लास्ट अपडेट"
+
+#: recommendations.php:267
+msgid "<strong>Untested</strong> with your version of WordPress"
+msgstr ""
+
+#: recommendations.php:270
+msgid "Incompatible with your version of WordPress"
+msgstr ""
+
+#: recommendations.php:272
+msgid "Compatible with your version of WordPress"
+msgstr ""
+
+#: rprp-update-checker.php:116
+#, php-format
+msgid "Weblizar WordPress Plugin ( %s ) "
+msgstr ""
+
+#: rprp-update-checker.php:128
+msgid " - "
+msgstr ""
+
+#: rprp-update-checker.php:132
+msgid "Weblizar Plugin Update Process"
+msgstr ""
+
+#: rprp-update-checker.php:133
+msgid "You can see the manual Update steps at our weblizar site"
+msgstr ""
+
+#: rprp-update-checker.php:134
+msgid ": <a target=\"_blank\" href=\""
+msgstr ""
+
+#: rprp-update-checker.php:135
+#, fuzzy
+#| msgid "Weblizar Responsive WordPress Theme"
+msgid "Weblizar WordPress Plugin "
+msgstr " Weblizar  रेस्पोंसिव वर्डप्रेस थीम"
+
+#: rprp-update-checker.php:138
+msgid ""
+"1. First, Please download the new version of Weblizar Premium Plugin Package from your "
+"weblizar account. Then Login with your user name and Password."
+msgstr ""
+
+#: rprp-update-checker.php:141
+msgid "Login For Download New Version"
+msgstr ""
+
+#: rprp-update-checker.php:144
+msgid "After Login you find this page"
+msgstr ""
+
+#: rprp-update-checker.php:146
+msgid ""
+"2. Upload the downloaded Plugin package in your site ( server ) using wordpress Plugin "
+"Uploader ( Go to Admin Dashboard =&gt; Plugins=&gt; Add New =&gt; Upload Plugin =&gt; "
+"Choose File and click on install button )."
+msgstr ""
+
+#: rprp-update-checker.php:147
+msgid ""
+"Otherwise you can use any FTP ( filezilla or bitwise ) and upload the Plugin zip "
+"package or unzip the Plugin package. After that go to Admin Dashboard =&gt; Plugins and "
+"click on active."
+msgstr ""
+
+#: rprp-update-checker.php:149
+msgid "Your Weblizar pro Plugin Activated Now"
+msgstr ""
+
+#: rprp-update-checker.php:150
+msgid ""
+"For more details to follow the Plugin documentation link : <a target=\"_blank\" href="
+msgstr ""
+
+#: rprp-update-checker.php:151
+msgid "Thanks for purchasing our Premium Plugin"
+msgstr ""
+
+#: settings/general-settings.php:219
+msgid "General option"
+msgstr "सामान्य विकल्प"
+
+#: settings/general-settings.php:221
+msgid "Post Order"
+msgstr "पोस्ट आर्डर"
+
+#: settings/general-settings.php:232
+msgid "Post Status"
+msgstr "पोस्ट स्टेटस"
+
+#: settings/general-settings.php:249
+msgid "Note: Please Select Post Type ."
+msgstr "नोट क्रप्या पोस्ट चुने"
+
+#: settings/general-settings.php:255
+msgid "Post Types"
+msgstr "पोस्ट टाइप"
+
+#: settings/general-settings.php:261
+msgid "Post"
+msgstr "पोस्ट"
+
+#: settings/general-settings.php:265
+msgid "Page"
+msgstr "पेज"
+
+#: settings/general-settings.php:269
+msgid "Note: Please Select atleast one ."
+msgstr "नोट: क्रप्या एक चुने"
+
+#: settings/general-settings.php:275
+msgid "Order By"
+msgstr "क्रम अनुसार"
+
+#: settings/general-settings.php:291
+msgid "Slider Display Options"
+msgstr "स्लाइडर विक्लप"
+
+#: settings/general-settings.php:293
+msgid "Total Posts To Show"
+msgstr "सारी पोस्ट देखे"
+
+#: settings/general-settings.php:301
+msgid "No. Of Post To Show In Slide"
+msgstr "स्लाइडर में पोस्ट दिखाए"
+
+#: settings/general-settings.php:310
+msgid "Slider Direction"
+msgstr "स्लाइडर दिशा"
+
+#: settings/general-settings.php:313
+msgid "Up"
+msgstr "उपर"
+
+#: settings/general-settings.php:315
+msgid "Down"
+msgstr "नीचे"
+
+#: settings/general-settings.php:320
+msgid "Pause Slide On Mouseover"
+msgstr "माउस रखने पर  स्लाइड रोके"
+
+#: settings/general-settings.php:330
+msgid "Sliding Arrow Color"
+msgstr "स्लाइडर  एरो रंग"
+
+#: settings/general-settings.php:338
+msgid "Sliding Arrow Size"
+msgstr "स्लाइडर एरो आकार"
+
+#: settings/general-settings.php:346
+msgid "Slider Speed"
+msgstr "स्लाइडर गति"
+
+#: settings/general-settings.php:349
+msgid "Slow"
+msgstr "धीरे"
+
+#: settings/general-settings.php:350
+msgid "Medium"
+msgstr "मध्यम"
+
+#: settings/general-settings.php:351
+msgid "Fast"
+msgstr "तेज़"
+
+#: settings/general-settings.php:352
+msgid "Custom"
+msgstr "कस्टम"
+
+#: settings/general-settings.php:358
+msgid "Set custom value"
+msgstr "कस्टम मूल्य रखे"
+
+#: settings/general-settings.php:362
+msgid "ex : 10 (in milliseconds)"
+msgstr "उदहारण के लिये 10(मिली-सेकंड)"
+
+#: settings/general-settings.php:373
+msgid "Title option"
+msgstr "शीर्षक  विकल्प"
+
+#: settings/general-settings.php:375
+msgid "Use Title As Link "
+msgstr "शीर्षक को लिंक की तरह प्रयोग  "
+
+#: settings/general-settings.php:385
+msgid "Number Of Letters In Title"
+msgstr "शीर्षक में शब्द"
+
+#: settings/general-settings.php:401 settings/general-settings.php:425
+#: settings/general-settings.php:451 settings/general-settings.php:492
+msgid "Font Text Color"
+msgstr "शब्द रंग"
+
+#: settings/general-settings.php:407
+msgid "Description option"
+msgstr "विवरण विकल्प"
+
+#: settings/general-settings.php:409
+msgid "Number Of Letters In Description"
+msgstr "विवरण में शब्द"
+
+#: settings/general-settings.php:417
+msgid "Font Size"
+msgstr "शब्दों का आकार"
+
+#: settings/general-settings.php:431
+msgid "Date option"
+msgstr "तिथि विकल्प"
+
+#: settings/general-settings.php:458 settings/general-settings.php:499
+msgid "BackgroundColor"
+msgstr "पीछे का रंग"
+
+#: settings/general-settings.php:465
+msgid "Align Date "
+msgstr "तिथि का स्थान"
+
+#: settings/general-settings.php:468 settings/general-settings.php:525
+msgid "Right"
+msgstr "दायाँ"
+
+#: settings/general-settings.php:470 settings/general-settings.php:527
+msgid "Left"
+msgstr "बायाँ"
+
+#: settings/general-settings.php:474
+msgid "Link option"
+msgstr "लिंक विकल्प"
+
+#: settings/general-settings.php:476
+msgid "Text"
+msgstr "टेक्स्ट"
+
+#: settings/general-settings.php:480
+msgid "Maximum charcter Limit 20."
+msgstr "अधिकतम शब्द सख्या"
+
+#: settings/general-settings.php:506
+msgid "BackgroundColor On Hover"
+msgstr "होवर पर बैकग्राउंड रंग"
+
+#: settings/general-settings.php:514
+msgid "Font Text Color On Hover"
+msgstr "होव्वर पर शब्दों  का रंग"
+
+#: settings/general-settings.php:522
+msgid "Align Link "
+msgstr "लिंक का स्थान"
+
+#: settings/general-settings.php:531
+msgid " Bottom Border option"
+msgstr "नीचे की बॉर्डर का विकल्प"
+
+#: settings/general-settings.php:533
+msgid "Border Style"
+msgstr "बॉर्डर प्रभाव"
+
+#: settings/general-settings.php:551
+msgid "Border Size"
+msgstr "बॉर्डर आकार"
+
+#: settings/general-settings.php:559
+msgid "Border Color"
+msgstr " बॉर्डर रंग"
+
+#: settings/general-settings.php:621 settings/general-settings.php:624
+msgid "Custom CSS"
+msgstr "कस्टम css"
+
+#: settings/general-settings.php:626
+msgid "Enter custom css here"
+msgstr "कस्टम css यहाँ रखे"
+
+#: settings/general-settings.php:628
+#, fuzzy
+#| msgid ""
+#| "Enter any custom css you want to apply on this shortcode.\n"
+#| "\t\t\t\t\tNote: Please Do Not Use Style Tag With Custom CSS."
+msgid "Enter any custom css you want to apply on this gallery."
+msgstr ""
+"कस्टम सी एस एस डाले जो की आप इस  शोर्टकोड पर लागू करना  चाहते  हो   नोट: क्रपया स्टाइल टैग का "
+"इस्तेमाल  नही करे"
+
+#: settings/template-settings.php:165
+msgid "Template 1 "
+msgstr "प्रभाव 1"
+
+#: settings/template-settings.php:172
+msgid "Template 2"
+msgstr "प्रभाव 2"
+
+#: settings/template-settings.php:179
+msgid "Template 3"
+msgstr "प्रभाव 3"
+
+#: settings/template-settings.php:187
+msgid "Template 4"
+msgstr "प्रभाव 4"
+
+#: settings/template-settings.php:193
+msgid "Template 5"
+msgstr "प्रभाव 5"
+
+#: settings/template-settings.php:199
+msgid "Template 6"
+msgstr "प्रभाव 6"
+
+#: settings/template-settings.php:205
+msgid "Template 7"
+msgstr "प्रभाव 7"
+
+#: settings/template-settings.php:211
+msgid "Template 8"
+msgstr "प्रभाव 8"
+
+#: settings/template-settings.php:220
+msgid "Template Style 1"
+msgstr "प्रभाव 1"
+
+#: settings/template-settings.php:234
+msgid "Template Style 2 "
+msgstr "प्रभाव 2"
+
+#: settings/template-settings.php:250
+msgid "Template Style 3 "
+msgstr "प्रभाव 3"
+
+#: settings/template-settings.php:266
+msgid "Template Style 4"
+msgstr "प्रभाव 4"
+
+#: settings/template-settings.php:283
+msgid "Template Style 5"
+msgstr "प्रभाव 5"
+
+#: settings/template-settings.php:300
+msgid "Template Style 6"
+msgstr "प्रभाव 6"
+
+#: settings/template-settings.php:316
+msgid "Template Style 7"
+msgstr "प्रभाव 7"
+
+#: settings/template-settings.php:332
+msgid "Template Style 8"
+msgstr "प्रभाव 8"
+
+#: settings/template-settings.php:350 settings/template-settings.php:427
+#: settings/template-settings.php:498 settings/template-settings.php:533
+#: settings/template-settings.php:607 settings/template-settings.php:633
+#: settings/template-settings.php:658 settings/template-settings.php:728
+msgid " Display Featured Images"
+msgstr "फीचर्ड छवि दिखाने का विकल्प"
+
+#: settings/template-settings.php:353 settings/template-settings.php:430
+#: settings/template-settings.php:500 settings/template-settings.php:536
+#: settings/template-settings.php:610 settings/template-settings.php:636
+#: settings/template-settings.php:661 settings/template-settings.php:731
+msgid "Default"
+msgstr "डिफ़ॉल्ट"
+
+#: settings/template-settings.php:355 settings/template-settings.php:432
+#: settings/template-settings.php:502 settings/template-settings.php:538
+#: settings/template-settings.php:612 settings/template-settings.php:638
+#: settings/template-settings.php:663 settings/template-settings.php:733
+msgid "Plugin Upload"
+msgstr "प्लगीन अपलोड"
+
+#: settings/template-settings.php:357 settings/template-settings.php:434
+#: settings/template-settings.php:504 settings/template-settings.php:540
+#: settings/template-settings.php:614 settings/template-settings.php:640
+#: settings/template-settings.php:665 settings/template-settings.php:735
+msgid "None"
+msgstr "कोई नही"
+
+#: settings/template-settings.php:364 settings/template-settings.php:367
+#: settings/template-settings.php:440 settings/template-settings.php:443
+#: settings/template-settings.php:510 settings/template-settings.php:513
+#: settings/template-settings.php:547 settings/template-settings.php:550
+#: settings/template-settings.php:620 settings/template-settings.php:623
+#: settings/template-settings.php:645 settings/template-settings.php:648
+#: settings/template-settings.php:671 settings/template-settings.php:674
+#: settings/template-settings.php:741 settings/template-settings.php:744
+msgid "Upload"
+msgstr "अपलोड"
+
+#: settings/template-settings.php:366 settings/template-settings.php:442
+#: settings/template-settings.php:512 settings/template-settings.php:549
+#: settings/template-settings.php:622 settings/template-settings.php:647
+#: settings/template-settings.php:673 settings/template-settings.php:743
+msgid "No media selected!"
+msgstr "कोई  मीडिया नहीं जोड़ा गया"
+
+#: settings/template-settings.php:368 settings/template-settings.php:444
+#: settings/template-settings.php:551
+msgid "Note: Please upload image of 300*350 pixel maximum."
+msgstr "नोट: कृपया अधिकतम 300*350 पिक्सेल कई छवि डाले"
+
+#: settings/template-settings.php:374 settings/template-settings.php:449
+#: settings/template-settings.php:556 settings/template-settings.php:680
+msgid "Featured Images Border Style"
+msgstr "फीचर्ड छवि  बॉर्डर प्रभाव"
+
+#: settings/template-settings.php:394 settings/template-settings.php:467
+#: settings/template-settings.php:574 settings/template-settings.php:698
+msgid "Featured Images Border Size"
+msgstr "फीचर्ड छवि  बॉर्डर आकर"
+
+#: settings/template-settings.php:402 settings/template-settings.php:475
+#: settings/template-settings.php:582 settings/template-settings.php:706
+msgid "Featured Images Border Color"
+msgstr "फीचर्ड छवि बॉर्डर रंग"
+
+#: settings/template-settings.php:409 settings/template-settings.php:482
+#: settings/template-settings.php:589
+msgid "Featured Images Layout Style"
+msgstr "फीचर्ड छवि प्रभाव"
+
+#: settings/template-settings.php:412 settings/template-settings.php:485
+#: settings/template-settings.php:592
+msgid "In Circle"
+msgstr "गोल आकर में"
+
+#: settings/template-settings.php:414 settings/template-settings.php:487
+#: settings/template-settings.php:594
+msgid "In Square"
+msgstr "वर्ग के आकार में"
+
+#: settings/template-settings.php:514 settings/template-settings.php:648
+#: settings/template-settings.php:675 settings/template-settings.php:744
+msgid "Note: Please upload image of 500*300 pixel maximum."
+msgstr "नोट: कृपया अधिकतम 500*300 पिक्सेल कई छवि डाले"
+
+#: settings/template-settings.php:519 settings/template-settings.php:713
+msgid "Background Image Height"
+msgstr "बैकग्राउंड छवि लंबाई"
+
+#: settings/template-settings.php:624
+msgid "Note: Please upload image of 900*200 pixel maximum."
+msgstr "नोट: कृपया अधिकतम 900*200 पिक्सेल कई छवि डाले"
+
+#: settings/tooltip.php:88
+msgid ""
+"Display Featured Images (Default) - Display featured image added during creating page/"
+"post."
+msgstr ""
+"फीचर्ड छवि दिखाने का विकल्प(डिफ़ॉल्ट)- फीचर्ड छवि दिखाये जो की पोस्ट/पेज  बनाते  समय जोड़ा गया था"
+
+#: settings/tooltip.php:92
+msgid ""
+"Display Featured Images (Plugin Uploaded) - If you want to display only own selected "
+"feature image then use this option to set a new feature image."
+msgstr "फीचर्ड छवि दिखाने का विकल्प(प्लगीन अपलोड)-  फीचर्ड छवि दिखाये  जो की आपने अपलोड ली है"
+
+#: settings/tooltip.php:96
+msgid ""
+"Display Featured Images (None) - This option hides the feature image from the post."
+msgstr "फीचर्ड छवि दिखाने का विकल्प(कोई नही)- यह विकल्प  फीचर्ड छवि को छुपाता है"
+
+#: settings/tooltip.php:100
+msgid "Featured Images Border Style - Select a border style from the list."
+msgstr "फीचर्ड छवि बॉर्डर प्रभाव - फीचर्ड छवि बॉर्डर चुने"
+
+#: settings/tooltip.php:104
+msgid "Featured Images Border Size - You can set featured image border size."
+msgstr "फीचर्ड छवि बॉर्डर आकर -  फीचर्ड छवि बॉर्डर आकर चुने"
+
+#: settings/tooltip.php:108
+msgid "Featured Images Border Color - You can set a color for featured image border."
+msgstr "फीचर्ड छवि बॉर्डर रंग -  फीचर्ड छवि बॉर्डर रंग चुने"
+
+#: settings/tooltip.php:112
+msgid "Featured Images Layout Style - You can select feature image shape circle."
+msgstr "फीचर्ड छवि प्रभाव - फीचर्ड छवि प्रभाव गोल आकार "
+
+#: settings/tooltip.php:116
+msgid " Featured Images Layout Style - You can select feature image shape rectangle."
+msgstr "फीचर्ड छवि प्रभाव - फीचर्ड छवि प्रभाव वर्ग के आकार में"
+
+#: settings/tooltip.php:120
+msgid "Background Image Height - You can set featured image background height size."
+msgstr "बैकग्राउंड छवि लंबाई - बैकग्राउंड छवि लंबाई रखे"
+
+#: settings/tooltip.php:125
+msgid ""
+"Post Order - You can display post/pages either in ascending order or descending order."
+msgstr "पोस्ट आर्डर - पोस्ट/पेज बढते या घटते क्रम में दिखाए"
+
+#: settings/tooltip.php:129
+msgid ""
+"Post Status - Which type of post status do you want to display into the shortcode, "
+"choose an option from the list."
+msgstr "पोस्ट स्टेटस - कोनसा पोस्ट स्टेटस आप दिखाना चाहते एक विकल्प चुने"
+
+#: settings/tooltip.php:133 settings/tooltip.php:137
+msgid ""
+"Post Types - You can display both post and post using shortcode or you can display post/"
+"page using the shortcode."
+msgstr "पोस्ट टाइप - शोर्टकोड में पोस्ट/पेज दिखाए या दोनों दिखाए"
+
+#: settings/tooltip.php:141
+msgid "Order By - You can specify post order by a more specific filter like -date etc."
+msgstr "क्रम अनुसार - क्रम अनुसार पोस्ट दिखाए  जैसे  डेट  "
+
+#: settings/tooltip.php:145
+msgid "Total Posts To Show - Set how many posts you want to display into a shortcode."
+msgstr "सारी पोस्ट देखे - सारी पोस्ट देखे में आपके अनुसार पोस्ट/पेज देखे"
+
+#: settings/tooltip.php:149
+msgid ""
+"No. Of Post To Show In Slide - How many posts do you want to display at a time in "
+"recent post slider."
+msgstr "स्लाइडर में पोस्ट दिखाए - कितनी पोस्ट आप  स्लाइडर में दिखाना चाहते हो"
+
+#: settings/tooltip.php:153
+msgid "Slider Direction - You can set sliding directing UP."
+msgstr "स्लाइडर दिशा - स्लाइडर दिशा ऊपर"
+
+#: settings/tooltip.php:157
+msgid "Slider Direction - You can set sliding directing Down."
+msgstr "स्लाइडर दिशा - स्लाइडर दिशा नीचे"
+
+#: settings/tooltip.php:161
+msgid ""
+"Pause Slide On Mouse Hover - If this setting is Yes, hover mouse on the slider it will "
+"pause the current slide."
+msgstr "माउस रखने पर स्लाइड रोके - यदि हाँ चुनते हो तो माउस रखने  स्लाइड  रुक जाएगी"
+
+#: settings/tooltip.php:165
+msgid ""
+"Pause Slide On Mouse Hover - If this setting is No, hover mouse on the slider it will "
+"not pause the slide."
+msgstr "माउस रखने पर स्लाइड रोके - यदि ना चुनते हो तो माउस रखने  स्लाइड नही  रुकेगी जाएगी"
+
+#: settings/tooltip.php:169
+msgid "Sliding Arrow Color - You can set slide arrow color."
+msgstr "स्लाइडर एरो रंग - स्लाइडर एरो का  रंग चुने"
+
+#: settings/tooltip.php:173
+msgid "Sliding Arrow Size - You can set slide arrow size."
+msgstr "स्लाइडर एरो आकार - स्लाइडर एरो आकार चुने"
+
+#: settings/tooltip.php:177
+msgid "Slider Speed - You can select sliding speed like slow, medium."
+msgstr "स्लाइडर गति - स्लाइडर गति धीमी ,मध्यम, तेज़ या  स्वत चुने"
+
+#: settings/tooltip.php:181
+msgid "Background Color - You can select slides background color using this setting."
+msgstr "पीछे का रंग - पीछे का रंग चुने"
+
+#: settings/tooltip.php:185
+msgid "Use Title As Link - If this setting Yes, then the title will assign post link."
+msgstr "शीर्षक को लिंक की तरह प्रयोग - यदि हाँ चुनते हें तो शीर्षक को लिंक की तरह कार्य करेगा"
+
+#: settings/tooltip.php:189
+msgid "Use Title As Link - If this setting N0, then the title will not assign post link."
+msgstr "शीर्षक को लिंक की तरह प्रयोग - यदि ना चुनते हें तो शीर्षक को लिंक की तरह कार्य नही करेगा"
+
+#: settings/tooltip.php:193
+msgid ""
+"Number Of Letters In Title - How many characters do you want to display into post title."
+msgstr "शीर्षक में शब्द - शीर्षक में शब्द तय करे"
+
+#: settings/tooltip.php:197
+msgid "Font Size - This will specify the font size of the post title."
+msgstr "फ़ॉन्ट शैली - शीर्षक की  फ़ॉन्ट शैली  चुने"
+
+#: settings/tooltip.php:201
+msgid "Font Text Color - This will specify the font color of the post title."
+msgstr "शब्द रंग-  शीर्षक के  शब्दों का  रंग चुने"
+
+#: settings/tooltip.php:205
+msgid ""
+"Number Of Letters In Description - How many characters do you want to display into post "
+"description."
+msgstr "विवरण में शब्द - विवरण में शब्द  सीमा तय करे"
+
+#: settings/tooltip.php:209
+msgid "Font Size - This will specify the font size of post description."
+msgstr "शब्दों का आकार - विवरण  शब्दों का आकार तय "
+
+#: settings/tooltip.php:213
+msgid "Font Text Color - This will specify the font color of post description."
+msgstr "शब्द रंग - विवरण का शब्द रंग चुने"
+
+#: settings/tooltip.php:217
+msgid "Date - Set yes to display the date on the slide."
+msgstr "तिथि - तिथि दिखाने के लिए हाँ चुने"
+
+#: settings/tooltip.php:221
+msgid "Date - Set no to hide the date on the slide."
+msgstr "तिथि - तिथि  नही दिखाने के लिए  नही चुने"
+
+#: settings/tooltip.php:225
+msgid "Font Size - This will specify the font size of post date."
+msgstr "फ़ॉन्ट शैली - तिथि का शब्द आकार चुने"
+
+#: settings/tooltip.php:229
+msgid "Font Text Color - This will specify the text color of post date."
+msgstr "शब्द रंग- तिथि का शब्द रंग चुने"
+
+#: settings/tooltip.php:233
+msgid "Background Color - This will specify the background color of post date."
+msgstr "पीछे का रंग - तिथि का बैकग्राउंड रंग चुने"
+
+#: settings/tooltip.php:237
+msgid "Align Date - This will specify the right alignment of post date."
+msgstr "तिथि का स्थान - तिथि का स्थान दायाँ "
+
+#: settings/tooltip.php:241
+msgid "Align Date - This will specify the left alignment of post date."
+msgstr "तिथि का स्थान - तिथि का स्थान बायाँ"
+
+#: settings/tooltip.php:245
+msgid "Text - Read More button text can be customized from here."
+msgstr "टेक्स्ट - लिंक विकल्प के शब्द लिखे"
+
+#: settings/tooltip.php:249
+msgid "Font Size - This will specify the font size of Read More button text."
+msgstr "फ़ॉन्ट शैली - लिंक विकल्प फ़ॉन्ट आकार तय करे"
+
+#: settings/tooltip.php:254
+msgid "Font Text Color - This will specify the text color of Read More button text."
+msgstr "शब्द रंग - लिंक विकल्प  का शब्द रंग  तय करे"
+
+#: settings/tooltip.php:258
+msgid "Background Color - This will specify the background color of Read More button."
+msgstr "पीछे का रंग - लिंक विकल्प का बैकग्राउंड रंग तय करे"
+
+#: settings/tooltip.php:262
+msgid ""
+"Background Color On Hover - This will specify the background color of Read More button "
+"when you mouse hover the button."
+msgstr "होवर पर बैकग्राउंड रंग - होवर पर बैकग्राउंड रंग चुने"
+
+#: settings/tooltip.php:266
+msgid ""
+"Font Text Color On Hover - This will specify the color of Read More button text when "
+"you mouse hover on the button."
+msgstr "होव्वर पर शब्दों का रंग - लिंक विकल्प का होव्वर पर शब्दों का रंग "
+
+#: settings/tooltip.php:270
+msgid "Align Link - This will specify the right alignment of Read More button."
+msgstr "लिंक का स्थान - लिंक का स्थान दायाँ"
+
+#: settings/tooltip.php:274
+msgid "Align Link - This will specify the left alignment of Read More button."
+msgstr "लिंक का स्थान - लिंक का स्थान बायाँ"
+
+#: settings/tooltip.php:278
+msgid "Border Style - You can set slide border-bottom-style using this option."
+msgstr "बॉर्डर प्रभाव - स्लाइडर के नीचे की बॉर्डर तय करे"
+
+#: settings/tooltip.php:282
+msgid "Border Size - You can set slide border bottom border size using this setting."
+msgstr "बॉर्डर आकार -  स्लाइडर की नीचे की बॉर्डर का आकार तय करे"
+
+#: settings/tooltip.php:286
+msgid "Border Color - You can set slide border bottom border color using this setting."
+msgstr "बॉर्डर रंग -  स्लाइडर की नीचे की बॉर्डर का  रंग चुने "
+
+#: settings/tooltip.php:290
+msgid ""
+"Font Family    - This setting applies font family to all text appearing on slides like "
+"title text, description text, date text, and read more button text."
+msgstr "फ़ॉन्ट शैली - यह फ़ॉन्ट शैली  शीर्षक,विवरण,तिथि आदी पर लागू होगी"
+
+#: settings/tooltip.php:294
+msgid ""
+"Custom CSS - If you want to apply your own design and style then use this setting "
+"freely."
+msgstr "कस्टम css - अगर आप अपनी css लगाना चाहते हो तो आप इस विकल्प को चुन सकते हो"
+
+#: settings/tooltip.php:299
+msgid ""
+"On Page - If you want to display recent & related PAGES after each published page then "
+"set this setting Yes."
+msgstr "पेज पर - यदि आप शोर्टकोड हर पेज के नीचे दिखाना चाहते हो "
+
+#: settings/tooltip.php:303
+msgid ""
+"On Page - If you does not want to display recent & related PAGES after each published "
+"page then set this setting No."
+msgstr "पेज पर - यदि आप शोर्टकोड हर पेज के नीचे दिखाना नही दिखाना चाहते हो "
+
+#: settings/tooltip.php:307
+msgid ""
+"On Post - If you  want to display recent & related POSTS after each published post then "
+"set this setting Yes."
+msgstr "पोस्ट पर - यदि आप शोर्टकोड को हर पोस्ट के नीचे  दिखाना चाहते हो "
+
+#: settings/tooltip.php:312
+msgid ""
+"On Post - If you does not want to display recent & related POSTS after each published "
+"post then set this setting No."
+msgstr "पोस्ट पर - यदि आप शोर्टकोड हर पोस्ट के नीचे नही दिखाना चाहते हो  "
+
+#: settings/tooltip.php:316
+msgid ""
+"Select Any Shortcode Style - Select which shortcode style & settings you want to apply "
+"which will be displayed after your page content."
+msgstr "कोई भी शोर्टकोड स्टाइल चुने-  कोई भी शोर्टकोड स्टाइल चुने जो की आप पेज के नीचे लगाना चाहते हो"
+
+#: settings/tooltip.php:321
+msgid ""
+"Select Any Shortcode Style - Select which shortcode style & settings you want to apply "
+"which will be displayed after your post content."
+msgstr ""
+"कोई भी शोर्टकोड स्टाइल चुने-  कोई भी शोर्टकोड स्टाइल चुने जो की आप पोस्ट के नीचे लगाना चाहते हो"
+
+#: settings/tooltip.php:326
+msgid ""
+"Label Text For Page - This option display a label text before recent & related post "
+"shortcode display after page content."
+msgstr "पेज का लेबल- यह विकल्प पेज के उपर  यह लेबल दिखता है  "
+
+#: settings/tooltip.php:331
+msgid ""
+"Label Text For Post - This option display a label text before recent & related post "
+"shortcode display after post content."
+msgstr "पोस्ट का लेबल - यह विकल्प पोस्ट के उपर  यह लेबल दिखता है  "
+
+#: settings/tooltip.php:336
+msgid "Font size - This option will specify the font size of Label Text."
+msgstr "फ़ॉन्ट आकार - लेबल का  फ़ॉन्ट आकार  तय करे"
+
+#: settings/tooltip.php:341
+msgid "Background Color - This option will specify the background color of Label Text."
+msgstr "पीछे का रंग - लेबल का बैकग्राउंड रंग चुने"
+
+#: settings/tooltip.php:346
+msgid "Font Color - This option will specify font color of Label Text."
+msgstr "शब्दों का रंग -  लेबल के शब्दों का रंग चुने"
+
+#: settings/tooltip.php:352
+msgid "Font Family - This option will specify font family of Label Text."
+msgstr "फ़ॉन्ट शैली - लेबल की फ़ॉन्ट शैली  चुने"
+
+#~ msgid "Get The Premium, And Create your website Beautifully."
+#~ msgstr "प्रीमियम थीम प्राप्त करे और अपनी खूबसूरत वेबसाइट बनाये"
+
+#~ msgid "Premium Themes"
+#~ msgstr "प्रीमियम थीम"
+
+#~ msgid "Enigma"
+#~ msgstr "Enigma"
+
+#~ msgid "Weblizar"
+#~ msgstr "बस एक और Weblizar विषय"
+
+#~ msgid "Guardian"
+#~ msgstr "Guardian"
+
+#~ msgid "Green-lantern"
+#~ msgstr "Green-lantern"
+
+#~ msgid "Creative "
+#~ msgstr "Creative "
+
+#~ msgid "Incredible"
+#~ msgstr "Incredible"
+
+#~ msgid "Premium Plugins"
+#~ msgstr "प्रीमियम प्लगिन"
+
+#~ msgid "Ultimate Responsive Image Slider"
+#~ msgstr "Ultimate Responsive Image Slider"
+
+#~ msgid "Responsive Photo Gallery"
+#~ msgstr "Responsive Photo Gallery"
+
+#~ msgid "Responsive Portfolio"
+#~ msgstr "Responsive Portfolio"
+
+#~ msgid "Lightbox Slider"
+#~ msgstr "Lightbox Slider"
+
+#~ msgid "Flickr Album Gallery"
+#~ msgstr "Flickr Album Gallery"
+
+#~ msgid "Gallery Pro Weblizar"
+#~ msgstr "Gallery Pro Weblizar"
+
+#~ msgid ""
+#~ "Note: More details to click on weblizar Products site link are below given view site "
+#~ "button."
+#~ msgstr "सूचना:अधिक जानकर्री नीचे दिए गए लिंक पर क्लिक करे"
+
+#~ msgid "View Site"
+#~ msgstr "साईट देखे"
+
+#~ msgid ""
+#~ "Enter any custom css you want to apply on this shortcode.\n"
+#~ "\t\t\t\t\t\tNote: Please Do Not Use Style Tag With Custom CSS."
+#~ msgstr ""
+#~ " कस्टम css डाले जिसे आप चाहते लागू करना इस शोर्ट कोड पर : कृपया style टैग का इस्तेमाल न करे"
+
+#~ msgid "Display Settings"
+#~ msgstr "सेटिंग देखें"
+
+#~ msgid "White"
+#~ msgstr "सफ़ेद"
+
+#~ msgid "Red"
+#~ msgstr "लाल"
+
+#~ msgid "Green"
+#~ msgstr "हरा"
+
+#~ msgid "Blue"
+#~ msgstr "नीला"
+
+#~ msgid "Black"
+#~ msgstr "कला"
+
+#~ msgid "Yellow"
+#~ msgstr "नीला"
+
+#~ msgid "RR Post And Page"
+#~ msgstr "रीसेंट रिलेटेड पोस्ट और पेज"
+
+#~ msgid "Edit Recent Related Post And Page"
+#~ msgstr "रीसेंट रिलेटेड पोस्ट और पेज लिखें"
+
+#~ msgid "New Recent Related Post And Page"
+#~ msgstr "नया रीसेंट रिलेटेड पोस्ट और पेज"
+
+#~ msgid "View Recent Related Post And Page"
+#~ msgstr "रीसेंट रिलेटेड पोस्ट और पेज देखें"
+
+#~ msgid "Search Recent Related Post And Page"
+#~ msgstr "रीसेंट रिलेटेड पोस्ट और पेज चुने"
+
+#~ msgid "Parent Recent Related Post And Page:"
+#~ msgstr "मुख्य रीसेंट रिलेटेड पोस्ट और पेज"
+
+#~ msgid "Recent Related Post And Page Widget"
+#~ msgstr "रीसेंट रिलेटेड पोस्ट और पेज विजेट"
+
+#~ msgid "Preview"
+#~ msgstr "प्रीव्यू"
+
+#~ msgid "Recent Related Post And Page "
+#~ msgstr "रीसेंट रिलेटेड पोस्ट और पेज"
+
+#~ msgid "Recent Related Post And Page  Widget"
+#~ msgstr "रीसेंट रिलेटेड पोस्ट और पेज विजेट"
+
+#~ msgid "no"
+#~ msgstr "नहीं"
+
+#~ msgid "Related Posts And Recent Posts"
+#~ msgstr "रिलेटेड पोस्ट और रीसेंट पोस्ट"
+
+#~ msgid "Related Posts And Recent Posts Pro"
+#~ msgstr "रिलेटेड पोस्ट और रीसेंट पोस्ट प्रो"
+
+#~ msgid "R Post & R Post"
+#~ msgstr "रिलेटेड पोस्ट और रीसेंट पोस्ट"
+
+#~ msgid "Edit Related Posts And Recent Posts"
+#~ msgstr "रिलेटेड पोस्ट और रीसेंट पोस्ट को संपादित करे"
+
+#~ msgid "New Related Posts And Recent Posts"
+#~ msgstr "नया  रिलेटेड पोस्ट और रीसेंट पोस्ट जोड़े"
+
+#~ msgid "View Related Posts And Recent Posts"
+#~ msgstr "रिलेटेड पोस्ट और रीसेंट पोस्ट देखें"
+
+#~ msgid "Search Related Posts And Recent Posts"
+#~ msgstr "रिलेटेड पोस्ट और रीसेंट पोस्ट देखें खोजे"
+
+#~ msgid "Parent Related Posts And Recent Posts:"
+#~ msgstr "मुख्य रिलेटेड पोस्ट और रीसेंट पोस्ट"
+
+#~ msgid "Related Posts And Recent Posts Shortcode"
+#~ msgstr "रिलेटेड पोस्ट और रीसेंट पोस्ट शोर्टकोड"
+
+#~ msgid "Related And Recent Posts Box"
+#~ msgstr "संबंधित और हाल ही में पोस्ट बॉक्स"
+
+#~ msgid "Related  And Recent Posts pro Widget"
+#~ msgstr "रिलेटेड पोस्ट और रीसेंट पोस्ट प्रो"
+
+#~ msgid "Related Posts And Recent Posts pro Widget"
+#~ msgstr "रिलेटेड पोस्ट और रीसेंट पोस्ट प्रो विजेट"
+
+#~ msgid ""
+#~ "Use below shortcode in any Page/Post to publish your Related Posts And Recent Posts"
+#~ msgstr "नीचे दिए गये रिलेटेड पोस्ट और रीसेंट पोस्ट शोर्टकोड का पेज/पोस्ट पर प्रयोग करे"
+
+#~ msgid "<h3>Click here to preview</h3>"
+#~ msgstr "पूर्वावलोकन के लिए यहाँ क्लिक करे"
+
+#~ msgid "<h4>Please publish first to preview</h4>"
+#~ msgstr "पूर्वावलोकन के लिए पहले प्रकाशित करे"
+
+#~ msgid "Related Posts And Recent Posts Pro Widget"
+#~ msgstr "रिलेटेड पोस्ट और रीसेंट पोस्ट प्रो विजेट"
+
+#~ msgid "Select  Related Posts And Recent Posts Shortcode to insert with content"
+#~ msgstr "कोई भी रिलेटेड पोस्ट और रीसेंट पोस्ट शोर्टकोड चुने"
+
+#~ msgid "Select  Related Posts And Recent Posts Shortcode to insert into content"
+#~ msgstr "कोई भी रिलेटेड पोस्ट और रीसेंट पोस्ट शोर्टकोड चुने"
+
+#~ msgid "Select Related Posts And Recent Posts Shortcode To Insert Into Post"
+#~ msgstr "कोई भी रिलेटेड पोस्ट और रीसेंट पोस्ट शोर्टकोड चुने"
+
+#~ msgid "Insert Related Posts And Recent Posts Shortcode"
+#~ msgstr "कोई भी रिलेटेड पोस्ट और रीसेंट पोस्ट शोर्टकोड डाले"
+
+#~ msgid "No Related Posts And Recent Posts Shortcode found"
+#~ msgstr "कोई भी रिलेटेड पोस्ट और रीसेंट पोस्ट शोर्टकोड नही पाया गया"
+
+#~ msgid "Orderby"
+#~ msgstr "आर्डर के अनुसार"
+
+#~ msgid "Total Posts to show"
+#~ msgstr "टोटल पोस्ट दिखाये"
+
+#~ msgid "No. of post to show in slide"
+#~ msgstr "स्लाइडर में पोस्ट दिखाए"
+
+#~ msgid "Slider direction"
+#~ msgstr "स्लाइडर दिशा"
+
+#~ msgid "Pause slide on mouseover"
+#~ msgstr "माउस रखने पर  स्लाइड रोके"
+
+#~ msgid "ex : 10 (in seconds)"
+#~ msgstr "उदहारण के लिये 10(सेकंड)"
+
+#~ msgid "Number of letters of Title"
+#~ msgstr "शीर्षक के शब्द"
+
+#~ msgid "Font-Text-Color"
+#~ msgstr "फ़ॉन्ट शब्द रंग"
+
+#~ msgid "Number of letters of Description"
+#~ msgstr "विवरण के शब्द"
+
+#~ msgid "Maximum charcter Limit 12."
+#~ msgstr "अधिकतम शब्द सीमा"
+
+#~ msgid "Font-Text-Color On Hover"
+#~ msgstr "होवर पर फॉन्ट टेक्स्ट"
+
+#~ msgid "In Rectangle"
+#~ msgstr "आयत आकार में"
+
+#~ msgid "About me Shortcode & Widget Pro"
+#~ msgstr "अबाउट मी शोर्ट कोड  एंड विजेट प्रो"
+
+#~ msgid "About me Shortcode And Widget Pro"
+#~ msgstr "शोर्ट कोड  एंड विजेट प्रो"
+
+#~ msgid "About Me Pro"
+#~ msgstr "अबाउट मी  प्रो"
+
+#~ msgid "Edit About me"
+#~ msgstr "सम्पादित अबाउट मी"
+
+#~ msgid "New About me"
+#~ msgstr "नया अबाउट मी "
+
+#~ msgid "View About_me"
+#~ msgstr "अबाउट मी शोर्ट देखें"
+
+#~ msgid "Search About me"
+#~ msgstr " अबाउट मी खोजे"
+
+#~ msgid "Parent About_me:"
+#~ msgstr "प्रमुख अबाउट मी "
+
+#~ msgid "All About me Shortcode"
+#~ msgstr "अबाउट मी शोर्ट कोड "
+
+#~ msgid "ABOUT ME"
+#~ msgstr "अबाउट मी "
+
+#~ msgid "ABOUT ME Shortcode"
+#~ msgstr "अबाउट मी शोर्ट कोड"
+
+#~ msgid "Add set-tt-ings"
+#~ msgstr "सेटिंग जोड़ो"
+
+#~ msgid "About Me Shortcode"
+#~ msgstr "अबाउट मी शोर्ट कोड"
+
+#~ msgid "About Me Preview Box"
+#~ msgstr "अबाउट मी प्रीव्यू बॉक्स"
+
+#~ msgid "Activate About me pro Widget"
+#~ msgstr "अबाउट मी शोर्ट कोड  एंड विजेट "
+
+#~ msgid "Use below shortcode in any Page/Post to publish your Auther information"
+#~ msgstr "लेखक की सूचना दिखाने के लिए किसी भी पेज या पोस्ट में नीचे  दिए गए शोर्ट कोड का प्रयोग करें "
+
+#~ msgid ""
+#~ "and place it to your widget area. Select any About Me Pro from the dropdown and save "
+#~ "changes."
+#~ msgstr "और विजेट शेत्र में रखे और चयन करे किसी अबाउट मी प्रो का  डरौपडाउन से"
+
+#~ msgid "Select ABOUT ME to insert into post"
+#~ msgstr " चयन करें किसी भी अबाउट मी का पोस्ट में डालने के लिए"
+
+#~ msgid "About Me Shortcode And Widget"
+#~ msgstr "अबाउट मी शोर्ट कोड  एंड विजेट "
+
+#~ msgid "Select About Me Shortcode And Widget To Insert Into Post"
+#~ msgstr " चयन करे अबाउट मी शोर्ट कोड  एंड विजेट का पोस्ट में डालने के लिए"
+
+#~ msgid "Insert ABOUT ME Shortcode"
+#~ msgstr "अबाउट मी शोर्ट कोड  एंड विजेट प्रो बारे में डालें"
+
+#~ msgid "No ABOUT ME found"
+#~ msgstr "कोई अबाट मी नहीं मिला"
+
+#~ msgid "Social Profile Information"
+#~ msgstr "सोशल प्रोफाइल सूचना"
+
+#~ msgid "Sorry! Invalid About me Shortcode Embedded"
+#~ msgstr "माफ़ करे गलत अबाउट मी शोर्ट कोड जोड़ा "
+
+#~ msgid "Author Settings"
+#~ msgstr "लेखक सेटिंग"
+
+#~ msgid "Display Author settings"
+#~ msgstr "लेखक सेटिंग दिखाए"
+
+#~ msgid "yes"
+#~ msgstr "हाँ"
+
+#~ msgid "Select Template Style"
+#~ msgstr "प्रभाव शैली का चयन करे "
+
+#~ msgid "Choose one"
+#~ msgstr "एक चुने"
+
+#~ msgid "Display on post or page"
+#~ msgstr "पेज और पोस्ट पर दिखाए"
+
+#~ msgid "Name"
+#~ msgstr "नाम"
+
+#~ msgid "Website Name"
+#~ msgstr "वेबसाइट का नाम"
+
+#~ msgid "Biographical Info"
+#~ msgstr "बायोग्राफिकल सूचना"
+
+#~ msgid "Author label settings"
+#~ msgstr "लेखक लेबल सेटिंग"
+
+#~ msgid "Author label text"
+#~ msgstr "लेखक लेबल टेक्स्ट"
+
+#~ msgid "Instagram Shortcode & Widget"
+#~ msgstr "मेरे बारे में शोर्ट और विजेट प्रो"
+
+#~ msgid "Profile Image Layout"
+#~ msgstr "छवि लेआउट"
+
+#~ msgid "Profile Image Layout settings"
+#~ msgstr "छवि लेआउट सेटिंग"
+
+#~ msgid "Border"
+#~ msgstr "बॉर्डर"
+
+#~ msgid "Border size"
+#~ msgstr "बॉर्डर आकर"
+
+#~ msgid "Discription"
+#~ msgstr "विवरण"
+
+#~ msgid "Note: Maximum words for Discription are 325."
+#~ msgstr "नोट: विवरण के लिए शब्द सीमा 325"
+
+#~ msgid "Social link"
+#~ msgstr "सोशल लिंक"
+
+#~ msgid "Facebook"
+#~ msgstr "फेसबुक"
+
+#~ msgid "Twitter"
+#~ msgstr "ट्विटर"
+
+#~ msgid "Google"
+#~ msgstr "गूगल"
+
+#~ msgid "LinkedIn"
+#~ msgstr "लिंक्डीन"
+
+#~ msgid "Flickr"
+#~ msgstr "फ्लिकर"
+
+#~ msgid "Pinterest"
+#~ msgstr "पिन्तेरेस्ट"
+
+#~ msgid "Tumblr"
+#~ msgstr "टम्बलर"
+
+#~ msgid "Bitbucket"
+#~ msgstr "बिटबकेट"
+
+#~ msgid "Dropbox"
+#~ msgstr "ड्रापबॉक्स"
+
+#~ msgid "Github"
+#~ msgstr "गीटहब"
+
+#~ msgid "Instagram"
+#~ msgstr "इन्स्ताग्राम"
+
+#~ msgid "VK"
+#~ msgstr "वीके"
+
+#~ msgid "Social Link Color"
+#~ msgstr "सोशल लिंक रंग"
+
+#~ msgid "Color"
+#~ msgstr "रंग"
+
+#~ msgid "Social icon size"
+#~ msgstr "छवि सीमा आकार"
+
+#~ msgid "Size"
+#~ msgstr "आकार"
+
+#~ msgid "Name Information Settings"
+#~ msgstr "नाम सूचना सेटिंग"
+
+#~ msgid "Website Information Settings"
+#~ msgstr "वेबसाइट सूचना सेटिंग"
+
+#~ msgid "Website Link Color"
+#~ msgstr "लिंक"
+
+#~ msgid "Discription Information Settings"
+#~ msgstr "विवरण सूचना सेटिंग"
+
+#~ msgid "Discription Text Color"
+#~ msgstr "विवरण टेक्स्ट रंग"
+
+#~ msgid "Template 1"
+#~ msgstr "प्रभाव 1"
+
+#~ msgid "Template 9"
+#~ msgstr "प्रभाव 9"
+
+#~ msgid "Template 10"
+#~ msgstr "प्रभाव 10"
+
+#~ msgid "Upload profile Image"
+#~ msgstr "अपलोड़ प्रोफाइल इमेज"
+
+#~ msgid "*Upload profile Image size should be 200*200 pixel maximum and 150*150 minimum"
+#~ msgstr "अपलोड प्रोफाइल इमेज का साइज़ कम से कम  150*150 और अधिक से अधिक 200*200 पिक्सेल रखे"
+
+#~ msgid "Template Style 10"
+#~ msgstr "प्रभाव 10"
+
+#~ msgid "*Upload profile image size should be 200*200 pixel maximum and 150*150 minimum"
+#~ msgstr "अपलोड प्रोफाइल इमेज का साइज़ कम से कम 150*150 और अधिक से अधिक 200*200 पिक्सेल रखे"
+
+#~ msgid "Upload Background Image"
+#~ msgstr "*अपलोड बैकग्राउंड इमेज"
+
+#~ msgid ""
+#~ "*Upload background image size should be 1000*700 pixel maximum and 900*700 minimum"
+#~ msgstr "*अपलोड  बैकग्राउंड इमेज का साइज़ कम से कम 900*700 और अधिक से अधिक 1000*700 पिक्सेल रखे"
+
+#~ msgid "Template Style 2"
+#~ msgstr "प्रभाव 2"
+
+#~ msgid "Upload Header Background Image"
+#~ msgstr "अपलोड हैडर बैकग्राउंड इमेज"
+
+#~ msgid ""
+#~ "*Upload header background image size should be 800*150 pixel maximum and 600*150 "
+#~ "minimum"
+#~ msgstr ""
+#~ "*अपलोड  हैडर बैकग्राउंड इमेज का साइज़ कम से कम 600*150 और अधिक से अधिक 800*150 पिक्सेल रखे"
+
+#~ msgid "Template Style 3"
+#~ msgstr "प्रभाव 3"
+
+#~ msgid "*Upload profile image size should be 200*200 pixel maximum and 150*150 minimum "
+#~ msgstr "*अपलोड प्रोफाइल इमेज का साइज़ कम से कम 150*150 और अधिक से अधिक 200*200 पिक्सेल रखे"
+
+#~ msgid "Template Style 9"
+#~ msgstr "प्रभाव 9"

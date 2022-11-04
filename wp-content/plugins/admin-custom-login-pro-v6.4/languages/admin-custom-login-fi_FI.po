@@ -1,0 +1,1809 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: admin-custom-login\n"
+"POT-Creation-Date: 2018-10-03 18:50+0530\n"
+"PO-Revision-Date: 2018-10-03 18:50+0530\n"
+"Last-Translator: Weblizar <lizarweb@gmail.com>\n"
+"Language-Team: Eerik Anttila // ekiphet@gmail.com\n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/WL_ACL_LM.php:59
+msgid "Please provide a license key."
+msgstr ""
+
+#: admin/WL_ACL_Menu.php:6 admin/WL_ACL_Menu.php:9 includes/content.php:25
+#: wacl-update-checker.php:148
+#, fuzzy
+#| msgid "Admin Custom Login"
+msgid "Admin Custom Login Pro"
+msgstr "Mukautettu kirjautumissivu ylläpitäjille"
+
+#: admin/inc/admin_menu.php:11
+msgid "Thank you for choosing Admin Custom Login Pro Plugin"
+msgstr ""
+
+#: admin/inc/admin_menu.php:12
+msgid ""
+"Please activate this plugin with a license key. If you don’t have a license "
+"yet, you can purchase it from "
+msgstr ""
+
+#: admin/inc/admin_menu.php:13
+msgid "here"
+msgstr ""
+
+#: admin/inc/admin_menu.php:21
+msgid "Let’s get some work done!"
+msgstr ""
+
+#: admin/inc/admin_menu.php:22
+msgid "We have some useful links to get you started"
+msgstr ""
+
+#: admin/inc/admin_menu.php:34
+msgid "Get Your License Key"
+msgstr ""
+
+#: admin/inc/admin_menu.php:34
+msgid "Click Here"
+msgstr ""
+
+#: admin/inc/admin_menu.php:44
+msgid "License Key applied"
+msgstr ""
+
+#: admin/inc/admin_menu.php:45
+msgid "Click here to navigate to dashboard"
+msgstr ""
+
+#: admin/inc/admin_menu.php:49 admin/inc/admin_menu.php:68
+msgid "License Key"
+msgstr ""
+
+#: admin/inc/admin_menu.php:55
+msgid "Congratulation! Admin Custom Login Pro Plugin is activated."
+msgstr ""
+
+#: admin/inc/admin_menu.php:57
+msgid "Plugin Configuration Click Here"
+msgstr ""
+
+#: admin/inc/admin_menu.php:80
+msgid "Getting Started"
+msgstr ""
+
+#: admin/inc/admin_menu.php:81
+msgid "Video Tutorial"
+msgstr ""
+
+#: admin/inc/admin_menu.php:82
+msgid "More Products"
+msgstr ""
+
+#: admin/inc/admin_menu.php:83
+#, fuzzy
+#| msgid "Custom CSS"
+msgid "Customize your site"
+msgstr "Mukautettu CSS"
+
+#: admin/inc/admin_menu.php:86
+#, fuzzy
+#| msgid "Help And Support"
+msgid "Guides & Support"
+msgstr "Apu ja tuki"
+
+#: admin/inc/admin_menu.php:87
+#, fuzzy
+#| msgid "Plugin Recommendation"
+msgid "Plugin Demo"
+msgstr "Plugin-suositus"
+
+#: admin/inc/admin_menu.php:88
+msgid "Documentation guide"
+msgstr ""
+
+#: admin/inc/admin_menu.php:89
+msgid "Support forum"
+msgstr ""
+
+#: includes/content.php:56
+msgid "Powered By"
+msgstr "Tämän mahdollistaa"
+
+#: includes/content.php:58
+msgid "Weblizar"
+msgstr "Weblizar"
+
+#: includes/content.php:61
+msgid "Show Us Some Love (Rate Us)"
+msgstr "Näytä meille tukesi (Anna meille arvostelu)"
+
+#: includes/content.php:78 includes/dashboard/dashboard.php:92
+#: includes/dashboard/dashboard.php:106
+msgid "Dashboard"
+msgstr "Päävalikko"
+
+#: includes/content.php:79
+msgid "Application overview"
+msgstr "Yleiskatsaus"
+
+#: includes/content.php:88
+msgid "Background Design"
+msgstr "Taustan design"
+
+#: includes/content.php:89
+msgid "Modify Background design here"
+msgstr "Muuta taustan designia"
+
+#: includes/content.php:99
+msgid "Login form Setting"
+msgstr "Kirjautumislomakkeen asetukset"
+
+#: includes/content.php:100
+msgid "Modify Login design here"
+msgstr "Muuta kirjautumisen designia"
+
+#: includes/content.php:110 includes/login-attempt/attempt.php:24
+#, fuzzy
+#| msgid "Login form Setting"
+msgid "Login Retry Setting"
+msgstr "Kirjautumislomakkeen asetukset"
+
+#: includes/content.php:111
+msgid "Set Login Retry Attempts"
+msgstr ""
+
+#: includes/content.php:121
+msgid "Font Setting"
+msgstr "Fontin asetukset"
+
+#: includes/content.php:122
+msgid "Modify Login Form Style here"
+msgstr "Muuta kirjautumislomakkeen tyyliä"
+
+#: includes/content.php:132 includes/settings/page-settings.php:50
+msgid "Logo Settings"
+msgstr "Logon asetukset"
+
+#: includes/content.php:133
+msgid "Customize Logo Settings here"
+msgstr "Muokkaa logon asetuksia"
+
+#: includes/content.php:146 includes/login-token/login-token.php:24
+#, fuzzy
+#| msgid "Login Form Width"
+msgid "Login With Token"
+msgstr "Kirjautumislomakkeen leveys"
+
+#: includes/content.php:147
+msgid "Temproray Login Without Password"
+msgstr ""
+
+#: includes/content.php:160
+#, fuzzy
+#| msgid "Login Settings"
+msgid "Login Restrictions"
+msgstr "Sisäänkirjautumisen asetukset"
+
+#: includes/content.php:161
+msgid "Restrict Users"
+msgstr ""
+
+#: includes/content.php:173 includes/social/social.php:21
+msgid "Social Settings"
+msgstr "Sosiaalisen median painikkeet"
+
+#: includes/content.php:174
+msgid "Connect with your social profile"
+msgstr "Lisää sosiaalisen median profiilisi"
+
+#: includes/content.php:183 includes/social/social-login.php:14
+#: includes/social/social-login.php:129 includes/social/social-login.php:143
+#, fuzzy
+#| msgid "Social Settings"
+msgid "Social Login"
+msgstr "Sosiaalisen median painikkeet"
+
+#: includes/content.php:184
+#, fuzzy
+#| msgid "Connect with your social profile"
+msgid "Login with your social media accounts"
+msgstr "Lisää sosiaalisen median profiilisi"
+
+#: includes/content.php:194
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:117
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:131
+msgid "Google Captcha"
+msgstr ""
+
+#: includes/content.php:195
+msgid "Explore captcha"
+msgstr ""
+
+#: includes/content.php:205
+msgid "Export / Import"
+msgstr "Vie / Tuo"
+
+#: includes/content.php:206
+msgid "Export / Import Your Data"
+msgstr "Vie / Tuo tietosi"
+
+#: includes/content.php:215
+msgid "Recommendations"
+msgstr "Suositukset"
+
+#: includes/content.php:216
+msgid "Get More Free Useful Plugins"
+msgstr "Hanki lisää hyödyllisiä plugineita"
+
+#: includes/content.php:225 includes/help/help.php:15
+msgid "Help And Support"
+msgstr "Apu ja tuki"
+
+#: includes/content.php:226
+msgid "Ask your query"
+msgstr "Kysy kysymyksesi"
+
+#: includes/content.php:235 includes/offers.php:11
+msgid "Our Offers"
+msgstr ""
+
+#: includes/content.php:245
+#, fuzzy
+#| msgid "Rate Us"
+msgid "rate us"
+msgstr "Anna meille arvosana"
+
+#: includes/content.php:246
+msgid "If you like us"
+msgstr "Jos tykkäät meistä"
+
+#: includes/dashboard/dashboard.php:15
+msgid "Admin Custom Login Dashboard"
+msgstr "Admin Custom Login -paneeli"
+
+#: includes/dashboard/dashboard.php:27
+msgid "Admin Custom Login Status"
+msgstr "Admin Custom Loginin status"
+
+#: includes/dashboard/dashboard.php:33
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:83
+#: includes/login-attempt/attempt.php:49
+#: includes/login-restriction/login_restrictions.php:55
+#: includes/login-restriction/login_restrictions.php:134
+#: includes/login-restriction/login_restrictions.php:222
+#: includes/login-restriction/login_restrictions.php:320
+#: includes/login-token/safegeneratetoken.php:402
+#: includes/social/social-login.php:44 includes/social/social-login.php:76
+#: includes/social/social-login.php:102
+msgid "Disable"
+msgstr "Ota pois käytöstä"
+
+#: includes/dashboard/dashboard.php:36
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:80
+#: includes/login-attempt/attempt.php:46
+#: includes/login-restriction/login_restrictions.php:51
+#: includes/login-restriction/login_restrictions.php:130
+#: includes/login-restriction/login_restrictions.php:218
+#: includes/login-restriction/login_restrictions.php:316
+#: includes/social/social-login.php:40 includes/social/social-login.php:72
+#: includes/social/social-login.php:98
+msgid "Enable"
+msgstr "Aktivoi"
+
+#: includes/dashboard/dashboard.php:47
+msgid "View Login Page"
+msgstr "Tarkastele kirjautumissivua"
+
+#: includes/dashboard/dashboard.php:52
+msgid "Copy below link and open in another browser where you are not logged in"
+msgstr ""
+"Kopioi alhaalla oleva linkki ja avaa Incognito-tilassa tai toisessa "
+"selaimessa, jossa et ole kirjautunut sisään"
+
+#: includes/dashboard/dashboard.php:65 includes/help/rate.php:62
+#, fuzzy
+#| msgid "Rate Us"
+msgid "Donate Us"
+msgstr "Anna meille arvosana"
+
+#: includes/dashboard/dashboard.php:92 includes/design/background.php:368
+#: includes/design/text_and_color.php:599
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:117
+#: includes/login-form-setting/Login-form-background.php:807
+#: includes/settings/page-settings.php:168 includes/social/social-login.php:129
+#: includes/social/social.php:192
+msgid "Setting Save Successfully"
+msgstr "Asetus tallennettu onnistuneesti"
+
+#: includes/dashboard/dashboard.php:92 includes/dashboard/dashboard.php:106
+#: includes/design/background.php:180 includes/design/background.php:368
+#: includes/design/background.php:383 includes/design/text_and_color.php:599
+#: includes/design/text_and_color.php:614
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:117
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:131
+#: includes/login-attempt/attempt.php:106
+#: includes/login-attempt/attempt.php:120
+#: includes/login-attempt/attempt.php:135
+#: includes/login-attempt/attempt.php:150
+#: includes/login-form-setting/Login-form-background.php:359
+#: includes/login-form-setting/Login-form-background.php:807
+#: includes/login-form-setting/Login-form-background.php:821
+#: includes/login-restriction/login_restrictions.php:92
+#: includes/login-restriction/login_restrictions.php:106
+#: includes/login-restriction/login_restrictions.php:165
+#: includes/login-restriction/login_restrictions.php:179
+#: includes/login-restriction/login_restrictions.php:193
+#: includes/login-restriction/login_restrictions.php:262
+#: includes/login-restriction/login_restrictions.php:276
+#: includes/login-restriction/login_restrictions.php:290
+#: includes/login-restriction/login_restrictions.php:382
+#: includes/login-restriction/login_restrictions.php:396
+#: includes/login-token/login-token.php:143
+#: includes/login-token/login-token.php:157
+#: includes/login-token/login-token.php:200
+#: includes/settings/page-settings.php:84
+#: includes/settings/page-settings.php:168
+#: includes/settings/page-settings.php:182 includes/social/social-login.php:129
+#: includes/social/social-login.php:143 includes/social/social.php:192
+#: includes/social/social.php:206
+msgid "Close"
+msgstr "Sulje"
+
+#: includes/dashboard/dashboard.php:106 includes/design/background.php:383
+#: includes/design/text_and_color.php:614
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:131
+#: includes/login-form-setting/Login-form-background.php:821
+#: includes/login-restriction/login_restrictions.php:276
+#: includes/settings/page-settings.php:182 includes/social/social-login.php:143
+#: includes/social/social.php:206
+msgid "Setting Reset Successfully"
+msgstr "Asetus palautettu oletusarvoon onnistuneesti"
+
+#: includes/dashboard/dashboard.php:113 includes/design/background.php:391
+#: includes/design/text_and_color.php:622
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:138
+#: includes/login-attempt/attempt.php:157
+#: includes/login-attempt/attempt.php:158
+#: includes/login-form-setting/Login-form-background.php:828
+#: includes/login-restriction/login_restrictions.php:114
+#: includes/login-restriction/login_restrictions.php:201
+#: includes/login-restriction/login_restrictions.php:298
+#: includes/login-token/login-token.php:165
+#: includes/settings/page-settings.php:189 includes/social/social-login.php:150
+#: includes/social/social.php:213
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+#: includes/dashboard/dashboard.php:116 includes/design/background.php:394
+#: includes/design/text_and_color.php:625
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:141
+#: includes/login-attempt/attempt.php:161
+#: includes/login-form-setting/Login-form-background.php:831
+#: includes/login-restriction/login_restrictions.php:117
+#: includes/login-restriction/login_restrictions.php:204
+#: includes/login-restriction/login_restrictions.php:301
+#: includes/login-restriction/login_restrictions.php:408
+#: includes/login-token/login-token.php:169
+#: includes/settings/page-settings.php:192 includes/social/social-login.php:153
+#: includes/social/social.php:216
+msgid "Reset Default"
+msgstr "Palauta oletusarvoon"
+
+#: includes/design/background.php:91
+msgid "Background Settings"
+msgstr "Taustan asetukset"
+
+#: includes/design/background.php:103 includes/design/background.php:110
+#: includes/login-form-setting/Login-form-background.php:274
+msgid "Select Background"
+msgstr "Valitse tausta"
+
+#: includes/design/background.php:109
+msgid "No Background Selected"
+msgstr "Ei taustaa valittuna"
+
+#: includes/design/background.php:111
+#: includes/login-form-setting/Login-form-background.php:281
+msgid "Static Background Color"
+msgstr "Staattinen taustaväri"
+
+#: includes/design/background.php:112
+#: includes/login-form-setting/Login-form-background.php:282
+msgid "Static Background Image"
+msgstr "Staattinen taustakuva"
+
+#: includes/design/background.php:113
+msgid "Background SlideShow"
+msgstr "Kuvasarja-tausta"
+
+#: includes/design/background.php:131
+#: includes/login-form-setting/Login-form-background.php:298
+msgid "Background Color"
+msgstr "Taustaväri"
+
+#: includes/design/background.php:153 includes/design/background.php:172
+#: includes/login-form-setting/Login-form-background.php:335
+msgid "Background Image"
+msgstr "Taustakuva"
+
+#: includes/design/background.php:158
+#: includes/login-form-setting/Login-form-background.php:340
+#: includes/settings/page-settings.php:67
+msgid "No media selected!"
+msgstr "Ei mediaa valittuna!"
+
+#: includes/design/background.php:160
+#: includes/login-form-setting/Login-form-background.php:341
+#: includes/settings/page-settings.php:68
+msgid "Upload"
+msgstr "Lataa"
+
+#: includes/design/background.php:162
+#: includes/login-form-setting/Login-form-background.php:343
+#: includes/settings/page-settings.php:70
+msgid "Preview"
+msgstr "Esikatselu"
+
+#: includes/design/background.php:164
+#: includes/login-form-setting/Login-form-background.php:345
+msgid "Remove"
+msgstr "Poista"
+
+#: includes/design/background.php:196
+msgid "Cover or Strech"
+msgstr "Täytä tai venytä"
+
+#: includes/design/background.php:201 includes/design/text_and_color.php:244
+#: includes/design/text_and_color.php:536
+#: includes/login-form-setting/Login-form-background.php:536
+#: includes/login-form-setting/Login-form-background.php:655
+msgid "Yes"
+msgstr "Kyllä"
+
+#: includes/design/background.php:213
+#: includes/login-form-setting/Login-form-background.php:374
+msgid "Background Repeat"
+msgstr "Toista tausta"
+
+#: includes/design/background.php:219
+#: includes/login-form-setting/Login-form-background.php:380
+msgid "No Repeat"
+msgstr "Ei toistoa"
+
+#: includes/design/background.php:220
+#: includes/login-form-setting/Login-form-background.php:381
+msgid "Repeat"
+msgstr "Toista"
+
+#: includes/design/background.php:221
+#: includes/login-form-setting/Login-form-background.php:382
+msgid "Repeat Horizontally"
+msgstr "Toista vaakasuoraan"
+
+#: includes/design/background.php:222
+#: includes/login-form-setting/Login-form-background.php:383
+msgid "Repeat Vertically"
+msgstr "Toista pystysuoraan"
+
+#: includes/design/background.php:234
+#: includes/login-form-setting/Login-form-background.php:394
+msgid "Background Position"
+msgstr "Taustan sijainti"
+
+#: includes/design/background.php:240
+#: includes/login-form-setting/Login-form-background.php:400
+msgid "Left Top"
+msgstr "Vasen ylä"
+
+#: includes/design/background.php:241
+#: includes/login-form-setting/Login-form-background.php:401
+msgid "Left Center"
+msgstr "Vasen keski"
+
+#: includes/design/background.php:242
+#: includes/login-form-setting/Login-form-background.php:402
+msgid "Left Bottom"
+msgstr "Vasen ala"
+
+#: includes/design/background.php:243
+#: includes/login-form-setting/Login-form-background.php:403
+msgid "Right Top"
+msgstr "Oikea ylä"
+
+#: includes/design/background.php:244
+#: includes/login-form-setting/Login-form-background.php:404
+msgid "Right Center"
+msgstr "Oikea keski"
+
+#: includes/design/background.php:245
+#: includes/login-form-setting/Login-form-background.php:405
+msgid "Right Bottom"
+msgstr "Oikea ala"
+
+#: includes/design/background.php:246
+#: includes/login-form-setting/Login-form-background.php:406
+msgid "Center Top"
+msgstr "Keski ylä"
+
+#: includes/design/background.php:247
+#: includes/login-form-setting/Login-form-background.php:407
+msgid "Center Center"
+msgstr "Keskellä"
+
+#: includes/design/background.php:248
+#: includes/login-form-setting/Login-form-background.php:408
+msgid "Center Bottom"
+msgstr "Keski ala"
+
+#: includes/design/background.php:260
+msgid "Background Attachment"
+msgstr "Taustan kiinnitys"
+
+#: includes/design/background.php:266
+msgid "Fixed"
+msgstr "Kiinnitetty"
+
+#: includes/design/background.php:267
+msgid "Scroll"
+msgstr "Scroll"
+
+#: includes/design/background.php:268
+msgid "Inherit"
+msgstr "Inherit"
+
+#: includes/design/background.php:287 includes/design/background.php:309
+msgid "No. Of Background Slideshow"
+msgstr "Kuvasarjan kuvan numero"
+
+#: includes/design/background.php:293
+msgid "Select Number of Slide Show"
+msgstr "Valitse kuvasarjan numero"
+
+#: includes/design/background.php:294
+msgid "2"
+msgstr "2"
+
+#: includes/design/background.php:295
+msgid "3"
+msgstr "3"
+
+#: includes/design/background.php:296
+msgid "4"
+msgstr "4"
+
+#: includes/design/background.php:297
+msgid "5"
+msgstr "5"
+
+#: includes/design/background.php:298
+msgid "6"
+msgstr "6"
+
+#: includes/design/background.php:339
+msgid "Slider Animation"
+msgstr "Kuvasarjan animaatio"
+
+#: includes/design/background.php:346
+msgid "Slider Animation 1"
+msgstr "Kuvasarjan animaatio 1"
+
+#: includes/design/background.php:347
+msgid "Slider Animation 2"
+msgstr "Kuvasarjan animaatio 2"
+
+#: includes/design/background.php:348
+msgid "Slider Animation 3"
+msgstr "Kuvasarjan animaatio 3"
+
+#: includes/design/background.php:349
+msgid "Slider Animation 4"
+msgstr "Kuvasarjan animaatio 4"
+
+#: includes/design/background.php:368 includes/design/background.php:383
+msgid "Top Background"
+msgstr "Ylätausta"
+
+#: includes/design/text_and_color.php:89
+msgid "Text And Color Settings"
+msgstr "Tekstin ja värin asetukset"
+
+#: includes/design/text_and_color.php:102
+msgid "Headline Font Color"
+msgstr "Otsikon fontin väri"
+
+#: includes/design/text_and_color.php:118
+msgid "Input Font Color"
+msgstr "Syöttötekstien fontin väri"
+
+#: includes/design/text_and_color.php:134
+msgid "Link Color"
+msgstr "Linkkien väri"
+
+#: includes/design/text_and_color.php:150
+msgid "Button Color"
+msgstr "Painikkeen väri"
+
+#: includes/design/text_and_color.php:166
+msgid "Headline Font size"
+msgstr "Otsikon fonttikoko"
+
+#: includes/design/text_and_color.php:184
+msgid "Input Font Size"
+msgstr "Syöttötekstien fonttikoko"
+
+#: includes/design/text_and_color.php:202
+msgid "Link Font Size"
+msgstr "Linkkien fonttikoko"
+
+#: includes/design/text_and_color.php:220
+msgid "Button Font Size"
+msgstr "Painikkeen fonttikoko"
+
+#: includes/design/text_and_color.php:238
+msgid "Enable Link shadow?"
+msgstr "Aktivoi linkkien varjostus?"
+
+#: includes/design/text_and_color.php:247
+#: includes/design/text_and_color.php:539
+#: includes/login-form-setting/Login-form-background.php:539
+#: includes/login-form-setting/Login-form-background.php:656
+msgid "No"
+msgstr "Ei"
+
+#: includes/design/text_and_color.php:259
+msgid "Link Shadow Color"
+msgstr "Linkkien varjon väri"
+
+#: includes/design/text_and_color.php:275
+msgid "Google Font Token"
+msgstr ""
+
+#: includes/design/text_and_color.php:291
+msgid "Headline Font Style"
+msgstr "Otsikon fonttityyli"
+
+#: includes/design/text_and_color.php:352
+msgid "Input Font Style"
+msgstr "Syöttötekstien fonttityyli"
+
+#: includes/design/text_and_color.php:411
+msgid "Link Font Style"
+msgstr "Linkkien fonttityyli"
+
+#: includes/design/text_and_color.php:471
+msgid "Button Font Style"
+msgstr "Painikkeiden fonttityyli"
+
+#: includes/design/text_and_color.php:530
+msgid "Enable Input Box Icon?"
+msgstr "Aktivoi ikonit tekstikenttiin?"
+
+#: includes/design/text_and_color.php:550
+msgid "Icon For user Input Box"
+msgstr "Ikoni käyttäjätunnuksen tekstikenttään"
+
+#: includes/design/text_and_color.php:571
+msgid "Icon For Password Input Box"
+msgstr "Ikoni salasanan tekstikenttään"
+
+#: includes/design/text_and_color.php:599
+#: includes/design/text_and_color.php:614
+msgid "Text and Color"
+msgstr "Teksti ja väri"
+
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:14
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:44
+#, fuzzy
+#| msgid "Float Settings"
+msgid "Google Captcha Settings"
+msgstr "Kellumisen asetukset"
+
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:55
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:60
+msgid "Site Key"
+msgstr ""
+
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:64
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:69
+msgid "Secret Key"
+msgstr ""
+
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:74
+msgid "Captcha Display"
+msgstr ""
+
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:90
+msgid "Captcha Theme"
+msgstr ""
+
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:96
+#, fuzzy
+#| msgid "Right"
+msgid "Light"
+msgstr "Oikealla"
+
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:99
+msgid "Dark"
+msgstr ""
+
+#: includes/help/help.php:28
+msgid "View Support Docs or Open a Ticket"
+msgstr "Katso tukidokumentit tai avaa tukitiketti"
+
+#: includes/help/help.php:38 includes/help/rate.php:15
+#: includes/help/rate.php:39
+msgid "Rate Us"
+msgstr "Anna meille arvosana"
+
+#: includes/help/help.php:44
+msgid ""
+"If you are enjoying using our Admin Custom Login plugin and find it useful, "
+"then please consider writing a positive feedback. Your feedback will help us "
+"to encourage and support the plugins continued development and better user "
+"support."
+msgstr ""
+"Jos tykkäät meidän Admin Custom Login -pluginista ja pidät sitä "
+"hyödyllisenä, harkitse positiivisen palautteen kirjoittamista. Palautteesi "
+"auttaa meitä ylläpitämään kehittämiämme plugineita ja käyttäjätukea."
+
+#: includes/help/help.php:62
+msgid "Share Us Your Suggestion"
+msgstr "Jaa meille ehdotuksesi"
+
+#: includes/help/help.php:68
+msgid ""
+"If you have any suggestion or features in your mind then please share us. We "
+"will try our best to add them in this plugin."
+msgstr ""
+"Jos sinulla on ehdotuksia tai ominaisuuksia mielessä, jaa ne meidän "
+"kanssamme! Me yritämme parhaamme lisätä ne tähän pluginiin."
+
+#: includes/help/help.php:80
+msgid "Language Contribution"
+msgstr "Kielen kääntäminen"
+
+#: includes/help/help.php:85
+msgid "Translate this plugin into your language"
+msgstr "Käännä tämä plugin sinun kielellesi"
+
+#: includes/help/help.php:86
+msgid "Question : How to convert Plguin into My Language?"
+msgstr "Kysymys: Miten käännän tämän pluginin kielelleni?"
+
+#: includes/help/help.php:87
+msgid "here is solution"
+msgstr "tässä ratkaisu"
+
+#: includes/help/rate.php:29
+msgid ""
+"We need your feedback for improve our plugin functionality on WordPress. So, "
+"if you like our plugin then please rate us"
+msgstr ""
+"Tarvitsemme palautettasi, että voimme parantaa pluginimme toimivuutta "
+"WordPressissä. Jos siis tykkäät pluginistamme, anna meille arvosana"
+
+#: includes/import-export-setting/import_export.php:13
+msgid "Export Custom Login Data"
+msgstr "Vie mukautetut kirjautumistietosi"
+
+#: includes/import-export-setting/import_export.php:18
+msgid ""
+"Export the plugin settings for this site as a .json file. This allows you to "
+"easily import the configuration into another site."
+msgstr ""
+"Vie pluginin asetukset tälle sivulle .json-tiedostona. Tämän avulla voit "
+"helposti tuoda konfiguraation toiselle sivulle."
+
+#: includes/import-export-setting/import_export.php:23
+msgid "Export"
+msgstr ""
+
+#: includes/import-export-setting/import_export.php:37
+msgid "Import Custom Login Data"
+msgstr "Tuo mukautettu kirjautumissivu"
+
+#: includes/import-export-setting/import_export.php:42
+msgid ""
+"Import the plugin settings from a .json file. This file can be obtained by "
+"exporting the settings on another site using the form above."
+msgstr ""
+"Tuo pluginin asetukset .json-tiedostona. Tiedosto voidaan hakea viemällä "
+"asetukset toiselle sivulle yllä olevan lomakkeen avulla."
+
+#: includes/import-export-setting/import_export.php:50
+msgid "Import"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:36
+msgid ""
+"This Setting Prevents Unauthorized Users To invalid Login Attempts and "
+"Disable the login form for a while"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:54
+msgid "Maximum Login Attempts"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:59
+msgid "Maximum No Of Attempts"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:60
+msgid "Maximum Allowed login attempt by user with wrong credentials"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:65
+msgid "Time Duration "
+msgstr ""
+
+#: includes/login-attempt/attempt.php:70
+msgid "Time in minutes"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:71
+msgid "Halt user after maximum login attempts"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:72
+msgid "Time duration to halt user after maximum login attempts"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:73
+msgid "Enter numeric value e.g. 15"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:73
+msgid "Time duration 15 min"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:77
+#, fuzzy
+#| msgid "Login Form Opacity"
+msgid "Enable Login Form Key"
+msgstr "Kirjautumislomakkeen läpinäkymättömyys"
+
+#: includes/login-attempt/attempt.php:82
+msgid ""
+"This key remove the halt occured due to entering wrong username and password"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:83
+msgid "For admin use only"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:106
+#: includes/login-restriction/login_restrictions.php:165
+#: includes/login-restriction/login_restrictions.php:382
+#, fuzzy
+#| msgid "Login Settings"
+msgid "Login Attempts"
+msgstr "Sisäänkirjautumisen asetukset"
+
+#: includes/login-attempt/attempt.php:106
+#: includes/login-restriction/login_restrictions.php:92
+#: includes/login-restriction/login_restrictions.php:165
+#: includes/login-restriction/login_restrictions.php:262
+#: includes/login-restriction/login_restrictions.php:382
+#, fuzzy
+#| msgid "Setting Save Successfully"
+msgid "Setting Saved Successfully"
+msgstr "Asetus tallennettu onnistuneesti"
+
+#: includes/login-attempt/attempt.php:120
+#: includes/login-restriction/login_restrictions.php:106
+#: includes/login-restriction/login_restrictions.php:179
+#: includes/login-restriction/login_restrictions.php:396
+msgid "Login Attempt"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:120
+#: includes/login-restriction/login_restrictions.php:106
+#: includes/login-restriction/login_restrictions.php:179
+#: includes/login-restriction/login_restrictions.php:396
+#: includes/login-token/login-token.php:157
+#, fuzzy
+#| msgid "Setting Reset Successfully"
+msgid "Reset Successfully"
+msgstr "Asetus palautettu oletusarvoon onnistuneesti"
+
+#: includes/login-attempt/attempt.php:135
+msgid "Please Enter Valid Value"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:135
+#: includes/login-restriction/login_restrictions.php:193
+msgid "Example: 5"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:150
+msgid "Please Enter Valid Value of Time in Minutes"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:150
+msgid "Example: 15"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:190
+msgid "Login Settings"
+msgstr "Sisäänkirjautumisen asetukset"
+
+#: includes/login-form-setting/Login-form-background.php:202
+msgid "Login Form Position"
+msgstr "Kirjautumislomakkeen sijainti"
+
+#: includes/login-form-setting/Login-form-background.php:208
+msgid "Default"
+msgstr "Oletus"
+
+#: includes/login-form-setting/Login-form-background.php:209
+msgid "Floating"
+msgstr "Kelluva"
+
+#: includes/login-form-setting/Login-form-background.php:210
+msgid "Floating With Customization"
+msgstr "Kelluva muokkausvaihtoehdoilla"
+
+#: includes/login-form-setting/Login-form-background.php:221
+msgid "Float Settings"
+msgstr "Kellumisen asetukset"
+
+#: includes/login-form-setting/Login-form-background.php:227
+msgid "Left"
+msgstr "Vasemmalla"
+
+#: includes/login-form-setting/Login-form-background.php:230
+msgid "Center"
+msgstr "Keskellä"
+
+#: includes/login-form-setting/Login-form-background.php:233
+msgid "Right"
+msgstr "Oikealla"
+
+#: includes/login-form-setting/Login-form-background.php:243
+msgid "Floating With Customization Settings"
+msgstr "Kelluva muokkausvaihtoehdoilla"
+
+#: includes/login-form-setting/Login-form-background.php:264
+msgid "Note: This form position setting will be not responsive."
+msgstr "Huomaathan, että tämän lomakkeen sijaintiasetus ei ole responsiivinen."
+
+#: includes/login-form-setting/Login-form-background.php:280
+msgid "Select background"
+msgstr "Valitse tausta"
+
+#: includes/login-form-setting/Login-form-background.php:313
+msgid "Login Form Opacity"
+msgstr "Kirjautumislomakkeen läpinäkymättömyys"
+
+#: includes/login-form-setting/Login-form-background.php:353
+#: includes/settings/page-settings.php:78
+msgid "Login Background Image"
+msgstr "Sisäänkirjautumisen taustakuva"
+
+#: includes/login-form-setting/Login-form-background.php:420
+msgid "Background Effect"
+msgstr "Taustakuvan efekti"
+
+#: includes/login-form-setting/Login-form-background.php:426
+msgid "Select overlay effect"
+msgstr "Valitse päällysefekti"
+
+#: includes/login-form-setting/Login-form-background.php:427
+msgid "No Overlay Effect"
+msgstr "Ei päällysefektiä"
+
+#: includes/login-form-setting/Login-form-background.php:428
+msgid "Overlay Effect 1"
+msgstr "Päällysefekti 1"
+
+#: includes/login-form-setting/Login-form-background.php:429
+msgid "Overlay Effect 2"
+msgstr "Päällysefekti 2"
+
+#: includes/login-form-setting/Login-form-background.php:430
+msgid "Overlay Effect 3"
+msgstr "Päällysefekti 3"
+
+#: includes/login-form-setting/Login-form-background.php:443
+msgid "Login Form Width"
+msgstr "Kirjautumislomakkeen leveys"
+
+#: includes/login-form-setting/Login-form-background.php:460
+msgid "Border Color"
+msgstr "Reunuksen väri"
+
+#: includes/login-form-setting/Login-form-background.php:475
+msgid "Border Radius"
+msgstr "Reunuksen säde"
+
+#: includes/login-form-setting/Login-form-background.php:492
+msgid "Border Style"
+msgstr "Reunuksen tyyli"
+
+#: includes/login-form-setting/Login-form-background.php:498
+msgid "None"
+msgstr "Ei mitään"
+
+#: includes/login-form-setting/Login-form-background.php:499
+msgid "Solid"
+msgstr "Kiinteä"
+
+#: includes/login-form-setting/Login-form-background.php:500
+msgid "Dotted"
+msgstr "Täplikäs"
+
+#: includes/login-form-setting/Login-form-background.php:501
+msgid "Dashed"
+msgstr "Viivoitettu"
+
+#: includes/login-form-setting/Login-form-background.php:502
+msgid "Double"
+msgstr "Tupla"
+
+#: includes/login-form-setting/Login-form-background.php:513
+msgid "Border Thickness"
+msgstr "Reunuksen tiheys"
+
+#: includes/login-form-setting/Login-form-background.php:530
+msgid "Enable Form Shadow?"
+msgstr "Aktivoi lomakkeen varjo?"
+
+#: includes/login-form-setting/Login-form-background.php:550
+msgid "Form Shadow Color"
+msgstr "Lomakkeen varjon väri"
+
+#: includes/login-form-setting/Login-form-background.php:566
+msgid "Username or Email Field Label Text"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:571
+msgid "Type username or email field label text"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:582
+msgid "Type Username and Placeholder Text"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:587
+msgid "Type Username or Email"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:600
+msgid "Password Field Label Text"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:605
+msgid "Type password field label text"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:616
+msgid "Password Label and Placeholder Text"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:621
+#, fuzzy
+#| msgid "Password"
+msgid "Type Password"
+msgstr "Salasana"
+
+#: includes/login-form-setting/Login-form-background.php:633
+msgid "Log In Button Text"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:638
+msgid "Type log in button text"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:649
+msgid "Forcefully Redirect"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:663
+msgid "Redirect Force URL"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:664
+msgid ""
+"Enter the URL to user forcefully redirect to admin panel or another when if "
+"hit the site url."
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:675
+msgid "Redirect Users After Login (Not Work For Admin)"
+msgstr "Uudelleenohjaa muut kuin ylläpitäjät"
+
+#: includes/login-form-setting/Login-form-background.php:680
+msgid "Redirect URL"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:681
+msgid ""
+"Enter the URL to redirect users after login, Setting will not work for an "
+"administrator."
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:693
+msgid "Display Note To User Above Login Form"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:710
+msgid "Custom Error Message On Wrong Username & Password"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:727
+#, fuzzy
+#| msgid "Headline Font size"
+msgid "Message Font Size"
+msgstr "Otsikon fonttikoko"
+
+#: includes/login-form-setting/Login-form-background.php:745
+#, fuzzy
+#| msgid "Headline Font Color"
+msgid "Message Font Color"
+msgstr "Otsikon fontin väri"
+
+#: includes/login-form-setting/Login-form-background.php:762
+msgid "Tagline Message Display Below Login Form"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:782
+#: includes/login-form-setting/Login-form-background.php:787
+msgid "Custom CSS"
+msgstr "Mukautettu CSS"
+
+#: includes/login-form-setting/Login-form-background.php:789
+msgid "Enter any custom css you want to apply on login panel."
+msgstr "Kirjoita CSS, jonka haluat asettaa kirjautumispaneeliin."
+
+#: includes/login-form-setting/Login-form-background.php:790
+msgid "Note: Please Do Not Use"
+msgstr "Huom! Ethän käytä tätä"
+
+#: includes/login-form-setting/Login-form-background.php:790
+msgid "Tag With Custom CSS"
+msgstr "Merkitse mukautetulla CSS:llä"
+
+#: includes/login-form-setting/Login-form-background.php:807
+#: includes/login-form-setting/Login-form-background.php:821
+msgid "Login"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:17
+#: includes/login-restriction/login_restrictions.php:92
+#, fuzzy
+#| msgid "Login Settings"
+msgid "Login Restriction"
+msgstr "Sisäänkirjautumisen asetukset"
+
+#: includes/login-restriction/login_restrictions.php:27
+msgid "Restriction Using Role"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:28
+msgid "Restriction According to No of Users Login"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:29
+msgid "Restriction According to IP"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:30
+msgid "Restriction According to Users"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:39
+#, fuzzy
+#| msgid "Login Settings"
+msgid "Restriction Settings"
+msgstr "Sisäänkirjautumisen asetukset"
+
+#: includes/login-restriction/login_restrictions.php:44
+msgid ""
+"Restrict the users to login by user role. Select a role, e.g. Editor, and "
+"save it. Now, users with role Editor, will not able to login to wp-admin"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:60
+msgid "Select The Role"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:139
+msgid "Max No Of Users"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:143
+msgid ""
+"Restrict limited no of users to login wp admin panel. E.g. 4, can login the "
+"admin panel, please enter 4 and save. Now only 4 users can login to "
+"wordpress admin panel."
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:147
+msgid "Enter No Of Users"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:193
+msgid "Please Enter Valid Number Of Users"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:229
+msgid "Restrict Users To Access WP Admin Dashboard By IP Address"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:239
+msgid "IP Address"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:239
+msgid "Setting work on ip range"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:242
+msgid "Allowed IP address to access WP Admin dashboard"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:262
+#: includes/login-restriction/login_restrictions.php:276
+msgid "IP Restriction"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:290
+msgid "Please Enter Valid IP Address"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:290
+msgid "Example: 16.24.17.29"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:327
+msgid "All WordPress Users"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:331
+msgid ""
+"You can check users to ban for accessing WP admin dashboard. Only checked "
+"users will not be allowed for accessing WP dashboard"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:404
+msgid "Ban Users"
+msgstr ""
+
+#: includes/login-token/generatetoken.php:214
+#: includes/login-token/generatetoken.php:251
+#: includes/login-token/safegeneratetoken.php:251
+#: includes/login-token/safegeneratetoken.php:288
+msgid "Expired"
+msgstr ""
+
+#: includes/login-token/login-token.php:35
+msgid "Token List"
+msgstr ""
+
+#: includes/login-token/login-token.php:46
+msgid ""
+"Setting Provide A Feature to Non Existing Users To Gain Access Of Current "
+"Website With A Time Boundation"
+msgstr ""
+
+#: includes/login-token/login-token.php:53
+msgid "Email Id *"
+msgstr ""
+
+#: includes/login-token/login-token.php:58
+msgid "Email ID"
+msgstr ""
+
+#: includes/login-token/login-token.php:59
+msgid "Example"
+msgstr ""
+
+#: includes/login-token/login-token.php:63
+#: includes/login-token/login-token.php:68
+#, fuzzy
+#| msgid "User Name"
+msgid "First Name"
+msgstr "Käyttäjätunnus"
+
+#: includes/login-token/login-token.php:73
+#: includes/login-token/login-token.php:78
+#, fuzzy
+#| msgid "User Name"
+msgid "Last Name"
+msgstr "Käyttäjätunnus"
+
+#: includes/login-token/login-token.php:84
+msgid "Role"
+msgstr ""
+
+#: includes/login-token/login-token.php:103
+msgid "Expiry Time"
+msgstr ""
+
+#: includes/login-token/login-token.php:122
+#, fuzzy
+#| msgid "Custom CSS"
+msgid "Custom Date"
+msgstr "Mukautettu CSS"
+
+#: includes/login-token/login-token.php:143
+#: includes/login-token/login-token.php:200
+msgid "Token"
+msgstr ""
+
+#: includes/login-token/login-token.php:143
+#, fuzzy
+#| msgid "Setting Save Successfully"
+msgid "Generated Successfully"
+msgstr "Asetus tallennettu onnistuneesti"
+
+#: includes/login-token/login-token.php:157
+#, fuzzy
+#| msgid "Login Settings"
+msgid "Login Token"
+msgstr "Sisäänkirjautumisen asetukset"
+
+#: includes/login-token/login-token.php:200
+#, fuzzy
+#| msgid "Setting Save Successfully"
+msgid "Deleted Successfully"
+msgstr "Asetus tallennettu onnistuneesti"
+
+#: includes/login-token/login-token.php:213
+msgid "Edit Token"
+msgstr ""
+
+#: includes/login-token/safegeneratetoken.php:310
+msgid "Not yet logged in"
+msgstr ""
+
+#: includes/login-token/safegeneratetoken.php:321
+msgid "Super Admin"
+msgstr ""
+
+#: includes/login-token/safegeneratetoken.php:404
+msgid "Reactivate for one day"
+msgstr ""
+
+#: includes/login-token/safegeneratetoken.php:407
+msgid "Delete"
+msgstr ""
+
+#: includes/login-token/safegeneratetoken.php:408
+msgid "Edit"
+msgstr ""
+
+#: includes/login-token/safegeneratetoken.php:412
+msgid "Email login link"
+msgstr ""
+
+#: includes/login-token/safegeneratetoken.php:413
+msgid "Copy login link"
+msgstr ""
+
+#: includes/recommendations/recommendations.php:75
+#, php-format
+msgid "%s rating"
+msgstr "%s arvosana"
+
+#: includes/settings/page-settings.php:62
+#, fuzzy
+#| msgid "Logo "
+msgid "Logo Image"
+msgstr "Logo"
+
+#: includes/settings/page-settings.php:98
+#, fuzzy
+#| msgid "Logo Width"
+msgid "Logo Image Width"
+msgstr "Logon leveys"
+
+#: includes/settings/page-settings.php:115
+#, fuzzy
+#| msgid "Logo Height"
+msgid "Logo Image Height"
+msgstr "Logon korkeus"
+
+#: includes/settings/page-settings.php:132
+#, fuzzy
+#| msgid "Logo URL"
+msgid "Logo Link URL"
+msgstr "Logon URL"
+
+#: includes/settings/page-settings.php:137
+msgid "Logo URL"
+msgstr "Logon URL"
+
+#: includes/settings/page-settings.php:147
+#, fuzzy
+#| msgid "Logo URL Title"
+msgid "Logo Image Title"
+msgstr "Logon URL-otsikko"
+
+#: includes/settings/page-settings.php:152
+msgid "Logo URL Title"
+msgstr "Logon URL-otsikko"
+
+#: includes/settings/page-settings.php:168
+#: includes/settings/page-settings.php:182
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/social/social-login.php:27
+msgid "Note"
+msgstr ""
+
+#: includes/social/social-login.php:27
+msgid "Social Login will only work on top level domain(s)"
+msgstr ""
+
+#: includes/social/social-login.php:33
+msgid "Login with Facebook"
+msgstr ""
+
+#: includes/social/social-login.php:54
+msgid "Facebook Login needs HTTPS. You currently do not have SSL installed."
+msgstr ""
+
+#: includes/social/social-login.php:57
+msgid "Facebook App ID"
+msgstr ""
+
+#: includes/social/social-login.php:58
+msgid "Facebook App Secret"
+msgstr ""
+
+#: includes/social/social-login.php:59
+msgid "Facebook Redirect URL"
+msgstr ""
+
+#: includes/social/social-login.php:61
+msgid "Register your website with Facebook to get required Appid & Secret key"
+msgstr ""
+
+#: includes/social/social-login.php:61
+msgid "Get the facebook Appid & Secret key"
+msgstr ""
+
+#: includes/social/social-login.php:65
+msgid "Login with Google"
+msgstr ""
+
+#: includes/social/social-login.php:83
+msgid "Google Client ID"
+msgstr ""
+
+#: includes/social/social-login.php:84
+msgid "Google Client Secret"
+msgstr ""
+
+#: includes/social/social-login.php:85
+msgid "Google Redirect URL"
+msgstr ""
+
+#: includes/social/social-login.php:87
+msgid "Register your website with Google to get required Appid & Secret key"
+msgstr ""
+
+#: includes/social/social-login.php:87
+msgid "Get the Google Appid & Secret key"
+msgstr ""
+
+#: includes/social/social-login.php:91
+msgid "Login with Twitter"
+msgstr ""
+
+#: includes/social/social-login.php:109
+msgid "Twitter Consumer Key"
+msgstr ""
+
+#: includes/social/social-login.php:110
+msgid "Twitter Consumer Secret"
+msgstr ""
+
+#: includes/social/social-login.php:111
+msgid "Twitter OAUTH Callback Url"
+msgstr ""
+
+#: includes/social/social-login.php:113
+msgid ""
+"Register your website with Twitter to get required Consumer Key & Consumer "
+"Secret"
+msgstr ""
+
+#: includes/social/social-login.php:113
+msgid "Get the Consumer Key & Consumer Secret"
+msgstr ""
+
+#: includes/social/social.php:33
+msgid "Enable Social Icons"
+msgstr "Aktivoi sosiaalisen median ikonit"
+
+#: includes/social/social.php:39
+msgid "No Icon"
+msgstr "Ei ikonia"
+
+#: includes/social/social.php:40
+msgid "Inner"
+msgstr "Sisällä"
+
+#: includes/social/social.php:41
+msgid "Outer"
+msgstr "Ulkona"
+
+#: includes/social/social.php:42
+msgid "Both"
+msgstr "Molemmat"
+
+#: includes/social/social.php:53
+msgid "Social Media Icon Size"
+msgstr "Sosiaalisen median ikonien koko"
+
+#: includes/social/social.php:59
+msgid "Small"
+msgstr "Pieni"
+
+#: includes/social/social.php:62
+msgid "Medium"
+msgstr "Keskikokoinen"
+
+#: includes/social/social.php:65
+msgid "Large"
+msgstr "Suuri"
+
+#: includes/social/social.php:76
+msgid "Social Media Icon Layout"
+msgstr "Sosiaalisen median ikonien sijoittaminen"
+
+#: includes/social/social.php:82
+msgid "Rectangle"
+msgstr "Suorakulmio"
+
+#: includes/social/social.php:85
+msgid "Circle"
+msgstr "Ympyrä"
+
+#: includes/social/social.php:96
+msgid "Social Media Icon Color"
+msgstr "Ikonin väri"
+
+#: includes/social/social.php:111
+msgid "Social Media Icon Color On Hover"
+msgstr "Ikonin väri, kun hiiri viedään päälle"
+
+#: includes/social/social.php:126
+msgid "Social Media Icon Background Color"
+msgstr "Ikonin taustaväri"
+
+#: includes/social/social.php:141
+msgid "Social Media Background Color On Hover"
+msgstr "Ikonin taustaväri, kun hiiri viedään päälle"
+
+#: includes/social/social.php:156
+msgid "Social Profiles"
+msgstr "Sosiaalisen median profiilit"
+
+#: includes/social/social.php:161
+msgid "Enter your social profiles complete url here"
+msgstr "Pistä sosiaalisen median profiileittesi linkit tänne"
+
+#: includes/social/social.php:163
+msgid "Facebook"
+msgstr ""
+
+#: includes/social/social.php:164
+msgid "Twitter"
+msgstr ""
+
+#: includes/social/social.php:165
+msgid "Linkedin"
+msgstr ""
+
+#: includes/social/social.php:166
+msgid "Google Plus"
+msgstr ""
+
+#: includes/social/social.php:167
+msgid "Pinterest"
+msgstr ""
+
+#: includes/social/social.php:168
+msgid "Digg"
+msgstr ""
+
+#: includes/social/social.php:169
+msgid "Youtube"
+msgstr ""
+
+#: includes/social/social.php:170
+msgid "Flickr"
+msgstr ""
+
+#: includes/social/social.php:171
+msgid "Tumblr"
+msgstr ""
+
+#: includes/social/social.php:172
+msgid "Skype"
+msgstr ""
+
+#: includes/social/social.php:173
+msgid "Instagram"
+msgstr ""
+
+#: includes/social/social.php:174
+msgid "Telegram"
+msgstr ""
+
+#: includes/social/social.php:175
+msgid "Whatsapp"
+msgstr ""
+
+#: includes/social/social.php:192 includes/social/social.php:206
+msgid "Social"
+msgstr ""
+
+#: init.php:225
+msgid "You Are Blocked By Admin"
+msgstr ""
+
+#: init.php:262
+#, fuzzy
+#| msgid "Logo Settings"
+msgid "Settings"
+msgstr "Logon asetukset"
+
+#: init.php:410
+msgid "Find Us On Social Media"
+msgstr "Löydä meidät sosiaalisesta mediasta"
+
+#: init.php:800
+msgid "Please upload a valid .json file"
+msgstr "Tiedosto ei kelpaa (.json)"
+
+#: init.php:806
+msgid "Please upload a file to import"
+msgstr "Lataa tiedosto tuotavaksi"
+
+#: limit-login-attempts.php:40
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: You have reached authentification limit, you will be "
+"able to try again in %1$s."
+msgstr ""
+
+#: login-form-screen.php:441
+msgid "Oops, we ran into an issue! "
+msgstr ""
+
+#: wacl-update-checker.php:114
+#, php-format
+msgid "Weblizar WordPress Plugin ( %s ) "
+msgstr ""
+
+#: wacl-update-checker.php:126
+msgid " - "
+msgstr ""
+
+#: wacl-update-checker.php:130
+msgid "Weblizar Plugin Update Process"
+msgstr ""
+
+#: wacl-update-checker.php:131
+msgid "You can see the manual Update steps at our weblizar site"
+msgstr ""
+
+#: wacl-update-checker.php:132
+msgid ": <a target=\"_blank\" href=\""
+msgstr ""
+
+#: wacl-update-checker.php:133
+msgid "Weblizar WordPress Plugin "
+msgstr ""
+
+#: wacl-update-checker.php:136
+msgid ""
+"1. First, Please download the new version of Weblizar Premium Plugin Package "
+"from your weblizar account. Then Login with your user name and Password."
+msgstr ""
+
+#: wacl-update-checker.php:139
+#, fuzzy
+#| msgid "Login Form Position"
+msgid "Login For Download New Version"
+msgstr "Kirjautumislomakkeen sijainti"
+
+#: wacl-update-checker.php:142
+msgid "After Login you find this page"
+msgstr ""
+
+#: wacl-update-checker.php:144
+msgid ""
+"2. Upload the downloaded Plugin package in your site ( server ) using "
+"wordpress Plugin Uploader ( Go to Admin Dashboard =&gt; Plugins=&gt; Add New "
+"=&gt; Upload Plugin =&gt; Choose File and click on install button )."
+msgstr ""
+
+#: wacl-update-checker.php:145
+msgid ""
+"Otherwise you can use any FTP ( filezilla or bitwise ) and upload the Plugin "
+"zip package or unzip the Plugin package. After that go to Admin Dashboard "
+"=&gt; Plugins and click on active."
+msgstr ""
+
+#: wacl-update-checker.php:147
+msgid "Your Weblizar pro Plugin Activated Now"
+msgstr ""
+
+#: wacl-update-checker.php:148
+msgid "For more details to follow the Plugin documentation link "
+msgstr ""
+
+#: wacl-update-checker.php:149
+msgid "Thanks for purchasing our Premium Plugin"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Left Center"
+#~ msgid "Help Center"
+#~ msgstr "Vasen keski"
+
+#~ msgid "Password"
+#~ msgstr "Salasana"
+
+#~ msgid "Please rate us"
+#~ msgstr "Anna meille arvosana"
+
+#~ msgid "preview"
+#~ msgstr "Esikatselu"
+
+#~ msgid "Get More Free Wordpress Plguins From Weblizar"
+#~ msgstr "Hanki lisää ilmaisia Wordpress-plugineita Weblizarilta"
+
+#~ msgid "More Details"
+#~ msgstr "Lisätietoja"
+
+#~ msgid "Install Now"
+#~ msgstr "Asenna nyt"
+
+#~ msgid "Update Now"
+#~ msgstr "Päivitä nyt"
+
+#, fuzzy
+#~| msgid "By "
+#~ msgid "By"
+#~ msgstr "Tehnyt"
+
+#~ msgid "Premium Editions"
+#~ msgstr "Premium-versiot"
+
+#~ msgid "Visit Website"
+#~ msgstr "Vieraile sivustolla"
+
+#~ msgid "Last Updated:"
+#~ msgstr "Viimeksi päivitetty:"
+
+#~ msgid "<strong>Untested</strong> with your version of WordPress"
+#~ msgstr "<strong>Ei testattu</strong> sinun Wordpress-versiollasi."
+
+#~ msgid "Incompatible with your version of WordPress"
+#~ msgstr "Ei yhteensopiva Wordpress-versiosi kanssa"
+
+#~ msgid "Compatible with your version of WordPress"
+#~ msgstr "Yhteensopiva Wordpress-versiosi kanssa"
+
+#~ msgid "Kirjaudu"
+#~ msgstr "Kirjaudu"
+
+#~ msgid "Dashboard "
+#~ msgstr "Paneeli"

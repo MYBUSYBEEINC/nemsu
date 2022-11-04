@@ -1,0 +1,64 @@
+---Change Log---
+
+Admin Custom Login Pro 
+
+= 6.4 == [ 30-11-2021]
+* Fixed : activation Header issue.
+* tested up to php 8.0.0.
+
+= 6.3 == [ 03-12-2019]
+* Fixed : Facebook login issue
+
+= 6.2 == [ 08-11-2019]
+* tested with Wp 5.3
+* Fixed :Import/Export issue fixed.
+* Added : logo hide/show setting option.
+* Added : tagline text color setting option.
+* Added : tagline link color setting option.
+* Added : login button text color setting option.
+
+= 6.1 == [ 09-09-2019]
+* Added multiple IPs support for allowed IPs
+
+= 6.0 == [ 10-05-2019]
+* Added reCaptcha v3
+* Wp5.2 Compatible
+
+= 5.9 == [ 08-05-2019]
+* IP restriction issue fixed
+* Login preview option added
+* Social media link open new window option added
+* LatestFont Awesome 5.8.1 Updated
+* Compatible with php7
+* Minor issue fixed
+
+= 5.8 == [ 25-01-2019]
+* Updated HybridAuth package
+* Login retry issue in fixed
+
+= 5.7 == [ 24-10-2018]
+* Bug Fixed: ACL Login Message syntax not proper
+
+= 5.6 == [ 18-10-2018]
+* Bug Fixed : JS Syntax Error
+* Update: Forcefully Redirect Default Setting
+* Minify : Image Compressed
+
+= 5.5 == [ 03-10-2018]
+* Add Forcefully Redirect Setting - User forcefully redirect to admin panel or another when if hit the site url
+* Update language files
+
+ == 5.4 == [ 21-09-2018]
+1) Bug Fixed -  Remove admin notice at Add User dashboard
+
+ == 5.3 == [ 25-08-2018]
+1) Bug Fixes (Header already sent message)
+2) Message for users added, tag line below login form
+
+ == 5.0 == [ 1-08-2018]
+1) Bug Fixes (Social Login)
+2) Add Feature: Setting to update default Labels of login form (Username/Email, password and login )
+
+ == 5.0 == Release 
+1) Update notification issue fixed
+2) License activation option added

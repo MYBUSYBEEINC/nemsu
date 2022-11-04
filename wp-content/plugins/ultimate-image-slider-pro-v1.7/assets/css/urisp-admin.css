@@ -1,0 +1,195 @@
+.urisp-help-support .urisp-description {
+	font-size: 18px;
+}
+.urisp-setting-layout .card {
+	width: 107%;
+}
+.urisp-setting-layout .col-md-6 {
+	margin-left: -13px;
+	margin-right: 13px;
+}
+.urisp-image-entry {
+	background: #fff;
+	margin: 0 15px 15px 0;
+	padding: 10px;
+	width: 22.5%;
+	cursor: move;
+	float: left;
+	box-shadow: 0 0 6px rgba(0,0,0,.7);
+}
+.urisp-image-entry label {
+	margin-bottom: 0;
+	margin-top: .6rem;
+}
+.urisp-image-entry textarea, .urisp-image-entry input {
+	overflow: auto;
+	resize: vertical;
+	width: 100%;
+	margin: 5px 0px;
+}
+.urisp-image-entry img {
+	width: 100%;
+	height: 160px;
+    object-fit: cover;
+	display: block;
+	margin-bottom: 10px;
+}
+.urisp-image-entry .urisp-remove-image-btn {   
+	display: block;
+	float: right;
+	height: 20px;
+	margin-right: -20px;
+	margin-top: -20px;
+	outline: 0 none;
+	width: 20px;
+	color: #aa0000;
+	cursor: pointer;
+}
+.add-urisp-image {
+	text-align: center;
+	padding-top: 3.8%;
+	padding-bottom: 3.8%;
+	border: 5px dashed rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	box-shadow: 0 0 0px rgba(0,0,0,.7);
+}
+.add-urisp-image:hover {
+	border: 5px dashed #0074a2;
+	background: #0074a2;
+}
+.add-urisp-image:hover p {
+	color: #ffffff;
+}
+.add-urisp-image:hover .dashicons {
+	background: none repeat scroll 0 0 #ffffff;
+	color: #0074a2;
+}
+.add-urisp-image .dashicons {
+	background: none repeat scroll 0 0 rgba(153, 153, 153, 0.1);
+	border-radius: 50%;
+	color: #999;
+	content: "";
+	display: inline-block;
+	font: 400 74px/115px ;
+	height: 100px;
+	font-size:80px;
+	padding: 0;
+	line-height:110px;
+	text-align: center;
+	text-indent: -4px;
+	text-shadow: none;
+	top: 30%;
+	vertical-align: middle;
+	width: 100px;
+	z-index: 4;
+}
+.delete-urisp-image {
+	text-align: center;
+	padding-top: 3.8%;
+	padding-bottom: 3.8%;
+	border: 5px dashed rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	box-shadow: 0 0 0px rgba(0,0,0,.7);
+}
+.delete-urisp-image:hover {
+    border: 5px dashed #ff6961;
+    background: #ff6961;
+}
+.delete-urisp-image:hover p {
+	color: #ffffff;
+}
+.delete-urisp-image:hover .dashicons {
+	background: none repeat scroll 0 0 #ffffff;
+	color:#ff6961;
+}
+.delete-urisp-image .dashicons {
+	background: none repeat scroll 0 0 rgba(153, 153, 153, 0.1);
+	border-radius: 50%;
+	color: #999;
+	content: "";
+	display: inline-block;
+	height: 100px;
+	font-size: 66px;
+	padding: 0;
+	line-height: 100px;
+	text-shadow: none;
+	top: 30%;
+	vertical-align: middle;
+	width: 100px;
+	z-index: 4;
+}
+.urisp-setting-container {
+	padding-right: .75rem;
+	padding-left: .75rem;
+}
+.urisp-setting-container .row {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.urisp-setting-col {
+	padding: .22rem;
+}
+.urisp_setting_key, .urisp_setting_value {
+	font-size: .85rem;
+}
+.urisp_setting_key {
+	font-weight: 600;
+}
+.urisp-setting-helper {
+	color: #696969;
+	font-style: italic;
+    letter-spacing: .3px;
+	font-size: .8rem;
+}
+.urisp_setting_value .form-check-label {
+	margin-right: .85rem;
+	margin-left: .55rem;
+}
+.urisp_setting_value span.dashicons {
+	font-weight: 500;
+	font-size: 2rem;
+	width: 2rem;
+	height: 2rem;
+	margin-right: .85rem;
+	margin-left: -.4rem
+}
+.urisp_setting_value .form-check-inline, .urisp_setting_value .form-check-input {
+	margin-right: 0;
+}
+.urisp-setting-layout, .urisp_l1_width, .urisp_l1_height, .urisp_l3_max_height_fixed {
+	display: none;
+}
+.urisp-smooth-up {
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	bottom: 50px;
+	right: 250px;
+	text-indent: -9999px;
+	display: none;
+	background: url(../img/up.png);
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s; transition-duration: 0.4s;
+}
+@media (max-width:766px) {
+	.urisp-image-entry {
+		background: #fff;
+		margin: 0 15px 15px 0;
+		padding: 10px;
+		width: 39%;
+		cursor: move;
+		float: left;
+		box-shadow: 0 0 6px rgba(0,0,0,.7);
+	}
+}
+@media (max-width:460px) {
+	.urisp-image-entry {
+		background: #fff;
+		margin: 0 15px 15px 0;
+		padding: 10px;
+		width: 90%;
+		cursor: move;
+		float: left;
+		box-shadow: 0 0 6px rgba(0,0,0,.7);
+	}
+}

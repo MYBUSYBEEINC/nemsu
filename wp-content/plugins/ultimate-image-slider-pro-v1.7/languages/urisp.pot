@@ -1,0 +1,1283 @@
+# Copyright (C) 2019 Weblizar
+# This file is distributed under the same license as the Ultimate Image Slider Pro plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Image Slider Pro 1.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ultimate-image-slider-pro-v1.4\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-01T08:18:30+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.1.0\n"
+"X-Domain: urisp\n"
+
+#. Plugin Name of the plugin
+#: admin/inc/pages/help_support.php:9
+#: admin/inc/UISP_Slider_Admin.php:25
+msgid "Ultimate Image Slider Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://weblizar.com/plugins"
+msgstr ""
+
+#. Description of the plugin
+#: admin/inc/pages/help_support.php:15
+msgid "Ultimate Image Slider Pro comes with different slider layouts which can be used to create and display multiple sliders on your WordPress website."
+msgstr ""
+
+#. Author of the plugin
+msgid "Weblizar"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://weblizar.com"
+msgstr ""
+
+#: admin/inc/metaboxes/copy_shortcode.php:5
+msgid "Copy below shortcode in any Page/Post to publish your slider"
+msgstr ""
+
+#: admin/inc/metaboxes/do_shortcode.php:5
+msgid "Use below code in your theme to display the slider"
+msgstr ""
+
+#: admin/inc/metaboxes/images.php:20
+#: admin/inc/metaboxes/images.php:21
+#: admin/inc/metaboxes/images.php:38
+msgid "Enter slide title"
+msgstr ""
+
+#: admin/inc/metaboxes/images.php:22
+msgid "Enter slide title link"
+msgstr ""
+
+#: admin/inc/metaboxes/images.php:23
+#: admin/inc/metaboxes/images.php:38
+msgid "Enter slide link"
+msgstr ""
+
+#: admin/inc/metaboxes/images.php:24
+#: admin/inc/metaboxes/images.php:25
+#: admin/inc/metaboxes/images.php:38
+msgid "Enter slide description"
+msgstr ""
+
+#: admin/inc/metaboxes/images.php:27
+#: admin/inc/metaboxes/images.php:38
+msgid "Use Rich Text Editor"
+msgstr ""
+
+#: admin/inc/metaboxes/images.php:38
+msgid "Upload Image"
+msgstr ""
+
+#: admin/inc/metaboxes/images.php:38
+msgid "Select"
+msgstr ""
+
+#: admin/inc/metaboxes/images.php:40
+msgid "Add New Slide"
+msgstr ""
+
+#: admin/inc/metaboxes/images.php:42
+msgid "Are you sure to delete all the slides?"
+msgstr ""
+
+#: admin/inc/metaboxes/images.php:44
+msgid "Delete All Slides"
+msgstr ""
+
+#: admin/inc/metaboxes/images.php:52
+msgid "Rich Editor"
+msgstr ""
+
+#: admin/inc/metaboxes/images.php:65
+msgid "Continue"
+msgstr ""
+
+#: admin/inc/metaboxes/images.php:66
+msgid "Exit"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:358
+msgid "Slider Layout"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:365
+msgid "Layout 1"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:370
+msgid "Layout 2"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:375
+msgid "Layout 3"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:380
+msgid "Layout 4"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:389
+msgid "Display Slider Title"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:409
+msgid "Select Yes/No option to show/hide slide title above slider."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:421
+msgid "Configure Slider Layout 1 Settings For Slider Shortcode"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:432
+#: admin/inc/metaboxes/settings.php:1604
+msgid "Autoplay"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:452
+msgid "Select Yes/No option to enable/disable slider autoplay."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:460
+msgid "Autoplay Interval"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:470
+msgid "Set the delay/interval (in milliseconds) at which the autoplay will run. Default value is \"5000\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:478
+#: admin/inc/metaboxes/settings.php:1810
+msgid "Autoplay on Hover"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:486
+#: admin/inc/metaboxes/settings.php:1650
+msgid "Pause"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:493
+msgid "Stop"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:500
+#: admin/inc/metaboxes/settings.php:593
+#: admin/inc/metaboxes/settings.php:728
+#: admin/inc/metaboxes/settings.php:1763
+msgid "None"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:505
+msgid "Select whether the autoplay will be paused or stopped when the slider is hovered."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:513
+msgid "Full Screen"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:533
+msgid "Select whether the full-screen button is enabled."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:541
+msgid "Width"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:549
+#: admin/inc/metaboxes/settings.php:626
+#: admin/inc/metaboxes/settings.php:1791
+msgid "Fixed Value"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:556
+#: admin/inc/metaboxes/settings.php:633
+msgid "Percentage Value"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:566
+msgid "Set the width of the slide. Can be set to a fixed value, like \"900\" (indicating 900 pixels). Default value is \"500\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:576
+msgid "Set the width of the slide. Can be set to a percentage value, like \"100\". Default value is \"100\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:585
+msgid "Force Size"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:599
+msgid "Full Width"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:605
+msgid "Full Window"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:610
+msgid "Select whether the size of the slider will be forced to full width or full window. Default value is \"None\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:618
+msgid "Height"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:643
+msgid "Set the height of the slide. Can be set to a fixed value, like \"300\" (indicating 300 pixels). Default value is \"300\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:653
+msgid "Set the height of the slide. Can be set to a percentage value, like \"100\". Default value is \"100\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:662
+msgid "Auto Height"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:682
+msgid "Select Yes/No option to set if the height of the slider will be adjusted to the height of the selected slide."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:690
+#: admin/inc/metaboxes/settings.php:1759
+msgid "Fade"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:710
+msgid "Select Yes/No option to set if fade will be used."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:718
+msgid "Image Scale Mode"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:725
+msgid "Cover"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:726
+msgid "Contain"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:727
+msgid "Exact"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:733
+msgid "Set the scale mode of the main slide images. \"Cover\" will scale and crop the image so that it fills the entire slide. \"Contain\" will keep the entire image visible inside the slide. \"Exact\" will match the size of the image to the size of the slide. \"None\" will leave the image to its original size. Default value is \"Cover\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:741
+msgid "Slide Distance"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:751
+msgid "Set the distance between the slides. Default value is \"10\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:759
+msgid "Orientation"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:767
+#: admin/inc/metaboxes/settings.php:1760
+msgid "Horizontal"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:774
+#: admin/inc/metaboxes/settings.php:1761
+msgid "Vertical"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:779
+msgid "Select whether the slides will be arranged horizontally or vertically."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:787
+msgid "Navigation Buttons"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:807
+msgid "Select Yes/No option to add/remove navigation buttons below the slider."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:815
+msgid "Shuffle Slides"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:835
+msgid "Select Yes/No option to set if the slides will be shuffled."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:843
+#: admin/inc/metaboxes/settings.php:1443
+#: admin/inc/metaboxes/settings.php:1696
+msgid "Arrows"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:863
+#: admin/inc/metaboxes/settings.php:1463
+msgid "Select Yes/No option to set if the arrow buttons will be created."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:871
+#: admin/inc/metaboxes/settings.php:1525
+#: admin/inc/metaboxes/settings.php:2058
+#: admin/inc/metaboxes/settings.php:2837
+msgid "Open Link in New Tab"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:891
+#: admin/inc/metaboxes/settings.php:1545
+#: admin/inc/metaboxes/settings.php:2078
+#: admin/inc/metaboxes/settings.php:2857
+msgid "Select Yes/No option to set whether link opens in a new tab."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:903
+msgid "Thumbnail Type"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:911
+msgid "Image"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:918
+msgid "Text"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:923
+msgid "Select thumbnail type."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:931
+msgid "Thumbnail Arrows"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:951
+msgid "Select Yes/No option to set if the thumbnail arrows will be enabled."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:959
+msgid "Thumbnail Pointer"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:979
+msgid "Select Yes/No option to indicate if a pointer will be displayed for the selected thumbnail."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:987
+msgid "Thumbnail Pointer Color"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:997
+msgid "Choose color for thumbnail pointer."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1005
+msgid "Thumbnails Position"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1012
+#: admin/inc/metaboxes/settings.php:2645
+msgid "Top"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1013
+#: admin/inc/metaboxes/settings.php:2646
+msgid "Bottom"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1014
+#: admin/inc/metaboxes/settings.php:1236
+#: admin/inc/metaboxes/settings.php:2010
+#: admin/inc/metaboxes/settings.php:2045
+#: admin/inc/metaboxes/settings.php:2789
+#: admin/inc/metaboxes/settings.php:2824
+msgid "Right"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1015
+#: admin/inc/metaboxes/settings.php:1222
+#: admin/inc/metaboxes/settings.php:1996
+#: admin/inc/metaboxes/settings.php:2031
+#: admin/inc/metaboxes/settings.php:2775
+#: admin/inc/metaboxes/settings.php:2810
+msgid "Left"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1020
+msgid "Select the position of the thumbnail scroller. Default value is \"bottom\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1028
+msgid "Thumbnail Width"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1038
+msgid "Set the width of the thumbnail. Default value is \"100\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1046
+msgid "Thumbnail Height"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1056
+msgid "Set the height of the thumbnail. Default value is \"80\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1064
+#: admin/inc/metaboxes/settings.php:1489
+#: admin/inc/metaboxes/settings.php:1856
+#: admin/inc/metaboxes/settings.php:2677
+msgid "Title Link Color"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1074
+#: admin/inc/metaboxes/settings.php:1499
+#: admin/inc/metaboxes/settings.php:1866
+#: admin/inc/metaboxes/settings.php:2687
+msgid "Choose color for slide title link."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1082
+msgid "Layer Text Color"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1092
+msgid "Choose layer text color."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1100
+msgid "Layer Background Color"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1110
+msgid "Choose layer background color."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1118
+msgid "Layer Background Opacity"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1134
+msgid "Choose layer background opacity."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1142
+msgid "Layer Title Font Size"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1152
+msgid "Set the layer title font size. Default value is \"18\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1160
+msgid "Layer Text Font Size"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1170
+msgid "Set the layer text font size. Default value is \"14\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1178
+msgid "Thumbnail Title Font Size"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1188
+msgid "Set the thumbnail title font size. Default value is \"18\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1196
+msgid "Thumbnail Text Font Size"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1206
+msgid "Set the thumbnail text font size. Default value is \"14\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1214
+msgid "Layer Text Alignment"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1229
+#: admin/inc/metaboxes/settings.php:2003
+#: admin/inc/metaboxes/settings.php:2038
+#: admin/inc/metaboxes/settings.php:2782
+#: admin/inc/metaboxes/settings.php:2817
+msgid "Center"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1241
+msgid "Select layer text alignment."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1249
+msgid "Title Layer Position"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1256
+#: admin/inc/metaboxes/settings.php:1284
+msgid "Top Left"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1257
+#: admin/inc/metaboxes/settings.php:1285
+msgid "Top Center"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1258
+#: admin/inc/metaboxes/settings.php:1286
+msgid "Top Right"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1259
+#: admin/inc/metaboxes/settings.php:1287
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1260
+#: admin/inc/metaboxes/settings.php:1288
+msgid "Bottom Center"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1261
+#: admin/inc/metaboxes/settings.php:1289
+msgid "Bottom Right"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1262
+#: admin/inc/metaboxes/settings.php:1290
+msgid "Center Left"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1263
+#: admin/inc/metaboxes/settings.php:1291
+msgid "Center Right"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1264
+#: admin/inc/metaboxes/settings.php:1292
+msgid "Center Center"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1269
+msgid "Select title layer position."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1277
+msgid "Text Layer Position"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1297
+msgid "Select text layer position."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1305
+#: admin/inc/metaboxes/settings.php:1553
+#: admin/inc/metaboxes/settings.php:2086
+#: admin/inc/metaboxes/settings.php:2865
+msgid "Font Family"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1315
+#: admin/inc/metaboxes/settings.php:1563
+#: admin/inc/metaboxes/settings.php:2096
+#: admin/inc/metaboxes/settings.php:2875
+msgid "Select the font family."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1326
+#: admin/inc/metaboxes/settings.php:1571
+#: admin/inc/metaboxes/settings.php:2104
+#: admin/inc/metaboxes/settings.php:2886
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1336
+#: admin/inc/metaboxes/settings.php:1581
+#: admin/inc/metaboxes/settings.php:2114
+#: admin/inc/metaboxes/settings.php:2896
+msgid "Enter any custom css into textarea field you want to apply on this slider."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1338
+#: admin/inc/metaboxes/settings.php:1583
+#: admin/inc/metaboxes/settings.php:2116
+#: admin/inc/metaboxes/settings.php:2898
+msgid "Note: Please Do Not Use Style Tag With Custom CSS"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1351
+msgid "Configure Slider Layout 2 Settings For Slider Shortcode"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1359
+msgid "Show Thumbnails"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1379
+msgid "Select Yes/No option to show/hide thumbnails on start."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1387
+msgid "Show Toolbar"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1407
+msgid "Select Yes/No option to show/hide toolbar."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1415
+msgid "Show Counter"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1435
+msgid "Select Yes/No option to show/hide counter at the top left corner."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1471
+#: admin/inc/metaboxes/settings.php:1838
+#: admin/inc/metaboxes/settings.php:2659
+msgid "Title Color"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1481
+#: admin/inc/metaboxes/settings.php:1848
+#: admin/inc/metaboxes/settings.php:2669
+msgid "Choose color for slide title."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1507
+#: admin/inc/metaboxes/settings.php:1874
+#: admin/inc/metaboxes/settings.php:2695
+msgid "Description Color"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1517
+#: admin/inc/metaboxes/settings.php:1884
+#: admin/inc/metaboxes/settings.php:2705
+msgid "Choose color for slide description."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1596
+msgid "Configure Slider Layout 3 Settings For Slider Shortcode"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1624
+msgid "Select whether the slider should run automatically on load."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1632
+msgid "Speed"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1642
+msgid "Set the time which transition takes to complete. Default value is \"800\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1660
+msgid "Set the time a slide lasts. Default value is \"3000\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1668
+msgid "Adaptive Height"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1688
+msgid "Select whether the slider height should change on the fly according to the current slide."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1716
+msgid "Select whether the slider should have arrows."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1724
+msgid "Pager"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1744
+msgid "Select whether the slider should have pager."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1752
+msgid "Transition"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1762
+msgid "Kenburns"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1768
+msgid "Set the transition type to use."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1776
+msgid "Max Height"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1784
+msgid "Unset"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1801
+msgid "Set the height of the slide. Can be set to a fixed value in pixel, like \"500\""
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1830
+msgid "Select whether the slideshow should pause automatically on hover."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1892
+msgid "Pager Background Color"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1902
+msgid "Choose background color for pager."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1910
+#: admin/inc/metaboxes/settings.php:2713
+msgid "Caption Background Color"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1920
+#: admin/inc/metaboxes/settings.php:2723
+msgid "Choose background color for caption."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1928
+msgid "Caption Background Opacity"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1944
+msgid "Choose caption background opacity."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1952
+#: admin/inc/metaboxes/settings.php:2731
+msgid "Title Font Size"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1962
+msgid "Set the title font size. Default value is \"18\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1970
+#: admin/inc/metaboxes/settings.php:2749
+msgid "Text Font Size"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1980
+msgid "Set the text font size. Default value is \"14\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:1988
+#: admin/inc/metaboxes/settings.php:2767
+msgid "Title Alignment"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2015
+#: admin/inc/metaboxes/settings.php:2794
+msgid "Select title alignment."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2023
+#: admin/inc/metaboxes/settings.php:2802
+msgid "Text Alignment"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2050
+#: admin/inc/metaboxes/settings.php:2829
+msgid "Select text alignment."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2129
+msgid "Configure Slider Layout 4 Settings For Slider Shortcode"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2140
+msgid "Overlay"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2160
+msgid "Show fullscreen overlay."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2168
+msgid "Spinner"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2188
+msgid "Show loading spinner."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2196
+msgid "Navigation arrows"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2216
+msgid "Show navigation arrows."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2224
+msgid "Close button"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2244
+msgid "Show close button."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2252
+msgid "Swipe Close"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2272
+msgid "Swipe up or down to close gallery."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2280
+msgid "Close on Outside Click"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2300
+msgid "Close the lightbox when clicking outside."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2308
+msgid "Counter"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2328
+msgid "Show counter."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2336
+msgid "Image Preloading"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2356
+msgid "Image preloading."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2364
+msgid "Keyboard Navigation"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2384
+msgid "Enable keyboard navigation."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2392
+msgid "Loop"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2412
+msgid "Enable endless looping."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2420
+msgid "Width Ratio"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2436
+msgid "Set width ratio. Default value is 0.8."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2444
+msgid "Height Ratio"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2460
+msgid "Set height ratio. Default value is 0.9."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2468
+msgid "Scale Image to Ratio"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2488
+msgid "Scale the image up to the defined ratio size."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2496
+msgid "Disable Right Click"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2516
+msgid "Disable right click."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2524
+msgid "Double Tap Zoom"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2534
+msgid "Set double tab zoom. Default value is 2."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2542
+msgid "Max Zoom"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2552
+msgid "Set the max zoom. Default value is 10."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2564
+msgid "Animation Slide"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2584
+msgid "Whether to slide in new photos or not, disable to fade."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2592
+msgid "Animation Speed"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2602
+msgid "Set the animation speed in ms. Default value is \"250\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2610
+msgid "Caption"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2630
+msgid "Show image caption."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2638
+msgid "Caption Position"
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2651
+msgid "Set the caption position. Default value is \"bottom\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2741
+msgid "Set the title font size. Default value is \"16\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2759
+msgid "Set the text font size. Default value is \"13\"."
+msgstr ""
+
+#: admin/inc/metaboxes/settings.php:2906
+msgid "Back to top"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:10
+msgid "Thank you for choosing Ultimate Image Slider Pro Plugin"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:11
+msgid "Please activate this plugin with a purchase code. If you don’t have a purchase code yet, you can purchase it from "
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:12
+msgid "here"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:19
+msgid "Let’s get some work done!"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:20
+msgid "We have some useful links to get you started"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:31
+msgid "Get Your Purchase Code"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:31
+msgid "Click Here"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:38
+msgid "Purchase Code applied."
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:39
+msgid "Click here to navigate to dashboard"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:43
+#: admin/inc/pages/admin_menu.php:62
+msgid "Purchase Code"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:49
+msgid "Congratulation! Ultimate Image Slider Pro Plugin is activated."
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:51
+msgid "Plugin Configuration Click Here"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:67
+msgid "Activate"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:74
+#: admin/inc/pages/help_support.php:16
+msgid "Getting Started"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:75
+msgid "Video Tutorial"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:76
+msgid "More Products"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:77
+msgid "Help Center"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:80
+msgid "Guides & Support"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:81
+msgid "Demo"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:82
+msgid "Documentation guide"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:83
+msgid "Support forum"
+msgstr ""
+
+#: admin/inc/pages/admin_menu.php:88
+msgid "Change Log"
+msgstr ""
+
+#: admin/inc/pages/help_support.php:18
+msgid "Follow the steps below to create and display the slider:"
+msgstr ""
+
+#: admin/inc/pages/help_support.php:22
+msgid "1."
+msgstr ""
+
+#: admin/inc/pages/help_support.php:23
+msgid "Create new slider using the \"Add New Image Slider\" menu page."
+msgstr ""
+
+#: admin/inc/pages/help_support.php:26
+msgid "2."
+msgstr ""
+
+#: admin/inc/pages/help_support.php:27
+msgid "Add images to be shown in the slider."
+msgstr ""
+
+#: admin/inc/pages/help_support.php:30
+msgid "3."
+msgstr ""
+
+#: admin/inc/pages/help_support.php:31
+msgid "Select the layout and specify the settings specific to that layout."
+msgstr ""
+
+#: admin/inc/pages/help_support.php:34
+msgid "4."
+msgstr ""
+
+#: admin/inc/pages/help_support.php:35
+msgid "Copy the shortcode and use it in a page or post where you want to display the slider."
+msgstr ""
+
+#: admin/inc/UISP_LM.php:34
+msgid "Invalid code."
+msgstr ""
+
+#: admin/inc/UISP_LM.php:48
+msgid "Failed to query Envato API:"
+msgstr ""
+
+#: admin/inc/UISP_LM.php:53
+msgid "The purchase code was invalid."
+msgstr ""
+
+#: admin/inc/UISP_LM.php:56
+msgid "Failed to validate code due to an error: HTTP"
+msgstr ""
+
+#: admin/inc/UISP_LM.php:60
+msgid "The purchase code provided is for a different item."
+msgstr ""
+
+#: admin/inc/UISP_Slider_Admin.php:8
+msgid "Add Images"
+msgstr ""
+
+#: admin/inc/UISP_Slider_Admin.php:10
+msgid "Apply Settings On Ultimate Image Slider"
+msgstr ""
+
+#: admin/inc/UISP_Slider_Admin.php:12
+msgid "Copy Image Slider Shortcode"
+msgstr ""
+
+#: admin/inc/UISP_Slider_Admin.php:14
+msgid "Display Slider in your Theme"
+msgstr ""
+
+#: admin/inc/UISP_Slider_Admin.php:19
+msgid "Help and Support"
+msgstr ""
+
+#: admin/inc/UISP_Slider_Admin.php:22
+msgid "License"
+msgstr ""
+
+#: admin/inc/UISP_Slider_Admin.php:552
+msgid "Ultimate Image Slider Title"
+msgstr ""
+
+#: admin/inc/UISP_Slider_Admin.php:553
+msgid "Author"
+msgstr ""
+
+#: admin/inc/UISP_Slider_Admin.php:554
+msgid "Ultimate Image Slider Pro Shortcode"
+msgstr ""
+
+#: admin/inc/UISP_Slider_Admin.php:555
+msgid "Display Slider in Theme"
+msgstr ""
+
+#: admin/inc/UISP_Slider_Admin.php:556
+msgid "Date"
+msgstr ""
+
+#: includes/UISP_Helper.php:9
+#: includes/UISP_Helper.php:24
+msgid "1"
+msgstr ""
+
+#: includes/UISP_Helper.php:10
+#: includes/UISP_Helper.php:25
+msgid "0.9"
+msgstr ""
+
+#: includes/UISP_Helper.php:11
+#: includes/UISP_Helper.php:26
+msgid "0.8"
+msgstr ""
+
+#: includes/UISP_Helper.php:12
+#: includes/UISP_Helper.php:27
+msgid "0.7"
+msgstr ""
+
+#: includes/UISP_Helper.php:13
+#: includes/UISP_Helper.php:28
+msgid "0.6"
+msgstr ""
+
+#: includes/UISP_Helper.php:14
+#: includes/UISP_Helper.php:29
+msgid "0.5"
+msgstr ""
+
+#: includes/UISP_Helper.php:15
+#: includes/UISP_Helper.php:30
+msgid "0.4"
+msgstr ""
+
+#: includes/UISP_Helper.php:16
+#: includes/UISP_Helper.php:31
+msgid "0.3"
+msgstr ""
+
+#: includes/UISP_Helper.php:17
+#: includes/UISP_Helper.php:32
+msgid "0.2"
+msgstr ""
+
+#: includes/UISP_Helper.php:18
+#: includes/UISP_Helper.php:33
+msgid "0.1"
+msgstr ""
+
+#: public/inc/layouts/layout4.php:204
+msgid "Image not found, next image will be loaded"
+msgstr ""
+
+#: public/inc/UISP_Shortcode.php:33
+msgid "Layout is not set for this slider."
+msgstr ""
+
+#: public/inc/UISP_Shortcode.php:37
+msgid "Settings not found for this slider."
+msgstr ""
+
+#: public/inc/UISP_Shortcode.php:40
+msgid "Please provide a valid slider ID."
+msgstr ""
+
+#: public/inc/UISP_Slider.php:14
+msgctxt "General Name"
+msgid "Ultimate Image Slider Pro"
+msgstr ""
+
+#: public/inc/UISP_Slider.php:15
+msgctxt "Singular name"
+msgid "Ultimate Image Slider Pro"
+msgstr ""
+
+#: public/inc/UISP_Slider.php:16
+#: public/inc/UISP_Slider.php:17
+msgid "Add New Image Slider"
+msgstr ""
+
+#: public/inc/UISP_Slider.php:18
+msgid "Edit Image Slider"
+msgstr ""
+
+#: public/inc/UISP_Slider.php:19
+msgid "New Image Slider"
+msgstr ""
+
+#: public/inc/UISP_Slider.php:20
+msgid "View Image Slider"
+msgstr ""
+
+#: public/inc/UISP_Slider.php:21
+msgid "Search Image Slider"
+msgstr ""
+
+#: public/inc/UISP_Slider.php:22
+msgid "No Image Slider found"
+msgstr ""
+
+#: public/inc/UISP_Slider.php:23
+msgid "No Image Slider found in Trash"
+msgstr ""
+
+#: public/inc/UISP_Slider.php:24
+msgid "Parent Image Slider:"
+msgstr ""
+
+#: public/inc/UISP_Slider.php:25
+msgid "All Image Sliders"
+msgstr ""
+
+#: public/inc/UISP_Slider.php:26
+msgctxt "Menu Name"
+msgid "Ultimate Image Slider Pro"
+msgstr ""

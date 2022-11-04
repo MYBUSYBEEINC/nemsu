@@ -1,0 +1,6 @@
+{
+    "name": "acl/social-login",
+    "require": {
+    	"hybridauth/hybridauth" : "~3.0.0-rc.9"
+    }
+}

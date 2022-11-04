@@ -1,0 +1,4791 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-10-03 18:51+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/WL_ACL_LM.php:59
+msgid "Please provide a license key."
+msgstr ""
+
+#: admin/WL_ACL_Menu.php:6 admin/WL_ACL_Menu.php:9 includes/content.php:25
+#: wacl-update-checker.php:148
+#, fuzzy
+#| msgid "Admin Custom Login"
+msgid "Admin Custom Login Pro"
+msgstr "Personalizar Login de Administrador"
+
+#: admin/inc/admin_menu.php:11
+msgid "Thank you for choosing Admin Custom Login Pro Plugin"
+msgstr ""
+
+#: admin/inc/admin_menu.php:12
+msgid ""
+"Please activate this plugin with a license key. If you don’t have a license "
+"yet, you can purchase it from "
+msgstr ""
+
+#: admin/inc/admin_menu.php:13
+msgid "here"
+msgstr ""
+
+#: admin/inc/admin_menu.php:21
+msgid "Let’s get some work done!"
+msgstr ""
+
+#: admin/inc/admin_menu.php:22
+msgid "We have some useful links to get you started"
+msgstr ""
+
+#: admin/inc/admin_menu.php:34
+msgid "Get Your License Key"
+msgstr ""
+
+#: admin/inc/admin_menu.php:34
+#, fuzzy
+#| msgid "Flickr"
+msgid "Click Here"
+msgstr "Flickr"
+
+#: admin/inc/admin_menu.php:44
+msgid "License Key applied"
+msgstr ""
+
+#: admin/inc/admin_menu.php:45
+msgid "Click here to navigate to dashboard"
+msgstr ""
+
+#: admin/inc/admin_menu.php:49 admin/inc/admin_menu.php:68
+msgid "License Key"
+msgstr ""
+
+#: admin/inc/admin_menu.php:55
+msgid "Congratulation! Admin Custom Login Pro Plugin is activated."
+msgstr ""
+
+#: admin/inc/admin_menu.php:57
+msgid "Plugin Configuration Click Here"
+msgstr ""
+
+#: admin/inc/admin_menu.php:80
+#, fuzzy
+#| msgid "Setting Save Successfully"
+msgid "Getting Started"
+msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#: admin/inc/admin_menu.php:81
+msgid "Video Tutorial"
+msgstr ""
+
+#: admin/inc/admin_menu.php:82
+#, fuzzy
+#| msgid "Update Now"
+msgid "More Products"
+msgstr "Atualizar Agora"
+
+#: admin/inc/admin_menu.php:83
+#, fuzzy
+#| msgid "Custom CSS"
+msgid "Customize your site"
+msgstr "Personalizar CSS"
+
+#: admin/inc/admin_menu.php:86
+#, fuzzy
+#| msgid "Help And Support"
+msgid "Guides & Support"
+msgstr "Ajuda e Suporte"
+
+#: admin/inc/admin_menu.php:87
+#, fuzzy
+#| msgid "More Details"
+msgid "Plugin Demo"
+msgstr "Mais Detalhes"
+
+#: admin/inc/admin_menu.php:88
+#, fuzzy
+#| msgid "Recommendations"
+msgid "Documentation guide"
+msgstr "RecomendaÃ§Ãµes"
+
+#: admin/inc/admin_menu.php:89
+msgid "Support forum"
+msgstr ""
+
+#: includes/content.php:56
+msgid "Powered By"
+msgstr "Criado Por"
+
+#: includes/content.php:58
+msgid "Weblizar"
+msgstr "Weblizar"
+
+#: includes/content.php:61
+msgid "Show Us Some Love (Rate Us)"
+msgstr "Mostre-nos Algum Amor (Avalie-nos)"
+
+#: includes/content.php:78 includes/dashboard/dashboard.php:92
+#: includes/dashboard/dashboard.php:106
+msgid "Dashboard"
+msgstr "Painel de Controle"
+
+#: includes/content.php:79
+msgid "Application overview"
+msgstr "Resumo de aplicaÃ§Ãµes"
+
+#: includes/content.php:88
+msgid "Background Design"
+msgstr "Design de Fundo"
+
+#: includes/content.php:89
+msgid "Modify Background design here"
+msgstr "Modificar o design do fundo aqui"
+
+#: includes/content.php:99
+msgid "Login form Setting"
+msgstr "ConfiguraÃ§Ãµes do formulÃ¡rio de Login"
+
+#: includes/content.php:100
+msgid "Modify Login design here"
+msgstr "Modificar design do Login aqui"
+
+#: includes/content.php:110 includes/login-attempt/attempt.php:24
+#, fuzzy
+#| msgid "Login form Setting"
+msgid "Login Retry Setting"
+msgstr "ConfiguraÃ§Ãµes do formulÃ¡rio de Login"
+
+#: includes/content.php:111
+msgid "Set Login Retry Attempts"
+msgstr ""
+
+#: includes/content.php:121
+msgid "Font Setting"
+msgstr "ConfiguraÃ§Ãµes de Fonte"
+
+#: includes/content.php:122
+msgid "Modify Login Form Style here"
+msgstr "Modificar Estilo do FormulÃ¡rio de Login aqui"
+
+#: includes/content.php:132 includes/settings/page-settings.php:50
+msgid "Logo Settings"
+msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#: includes/content.php:133
+msgid "Customize Logo Settings here"
+msgstr "Personalize as ConfiguraÃ§Ãµes de Logotipo aqui"
+
+#: includes/content.php:146 includes/login-token/login-token.php:24
+#, fuzzy
+#| msgid "Login Form Width"
+msgid "Login With Token"
+msgstr "Largura do FormulÃ¡rio de Login"
+
+#: includes/content.php:147
+msgid "Temproray Login Without Password"
+msgstr ""
+
+#: includes/content.php:160
+#, fuzzy
+#| msgid "Login Settings"
+msgid "Login Restrictions"
+msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#: includes/content.php:161
+#, fuzzy
+#| msgid "Logo Settings"
+msgid "Restrict Users"
+msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#: includes/content.php:173 includes/social/social.php:21
+msgid "Social Settings"
+msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#: includes/content.php:174
+msgid "Connect with your social profile"
+msgstr "Conectar com seu perfil social"
+
+#: includes/content.php:183 includes/social/social-login.php:14
+#: includes/social/social-login.php:129 includes/social/social-login.php:143
+#, fuzzy
+#| msgid "Social "
+msgid "Social Login"
+msgstr "Social "
+
+#: includes/content.php:184
+#, fuzzy
+#| msgid "Connect with your social profile"
+msgid "Login with your social media accounts"
+msgstr "Conectar com seu perfil social"
+
+#: includes/content.php:194
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:117
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:131
+#, fuzzy
+#| msgid "Float Settings"
+msgid "Google Captcha"
+msgstr "ConfiguraÃ§Ãµes de FlutuaÃ§Ã£o"
+
+#: includes/content.php:195
+msgid "Explore captcha"
+msgstr ""
+
+#: includes/content.php:205
+msgid "Export / Import"
+msgstr "Exportar / Importar"
+
+#: includes/content.php:206
+msgid "Export / Import Your Data"
+msgstr "Exportar / Importar Seus Dados"
+
+#: includes/content.php:215
+msgid "Recommendations"
+msgstr "RecomendaÃ§Ãµes"
+
+#: includes/content.php:216
+msgid "Get More Free Useful Plugins"
+msgstr "Obter Mais Plugins Ãteis Gratuitos"
+
+#: includes/content.php:225 includes/help/help.php:15
+msgid "Help And Support"
+msgstr "Ajuda e Suporte"
+
+#: includes/content.php:226
+msgid "Ask your query"
+msgstr "FaÃ§a sua consulta"
+
+#: includes/content.php:235 includes/offers.php:11
+msgid "Our Offers"
+msgstr ""
+
+#: includes/content.php:245
+#, fuzzy
+#| msgid "Rate Us"
+msgid "rate us"
+msgstr "Classifique-nos"
+
+#: includes/content.php:246
+msgid "If you like us"
+msgstr "Se vocÃª gosta de nÃ³s"
+
+#: includes/dashboard/dashboard.php:15
+msgid "Admin Custom Login Dashboard"
+msgstr "Personalizar Painel de Controle do Login de Administrador"
+
+#: includes/dashboard/dashboard.php:27
+msgid "Admin Custom Login Status"
+msgstr "Estado do Admin Custom Login"
+
+#: includes/dashboard/dashboard.php:33
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:83
+#: includes/login-attempt/attempt.php:49
+#: includes/login-restriction/login_restrictions.php:55
+#: includes/login-restriction/login_restrictions.php:134
+#: includes/login-restriction/login_restrictions.php:222
+#: includes/login-restriction/login_restrictions.php:320
+#: includes/login-token/safegeneratetoken.php:402
+#: includes/social/social-login.php:44 includes/social/social-login.php:76
+#: includes/social/social-login.php:102
+msgid "Disable"
+msgstr "Desabilitado"
+
+#: includes/dashboard/dashboard.php:36
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:80
+#: includes/login-attempt/attempt.php:46
+#: includes/login-restriction/login_restrictions.php:51
+#: includes/login-restriction/login_restrictions.php:130
+#: includes/login-restriction/login_restrictions.php:218
+#: includes/login-restriction/login_restrictions.php:316
+#: includes/social/social-login.php:40 includes/social/social-login.php:72
+#: includes/social/social-login.php:98
+msgid "Enable"
+msgstr "Habilitado"
+
+#: includes/dashboard/dashboard.php:47
+msgid "View Login Page"
+msgstr "Visualizar PÃ¡gina de Login"
+
+#: includes/dashboard/dashboard.php:52
+msgid "Copy below link and open in another browser where you are not logged in"
+msgstr ""
+"Copiar link abaixo e abrir em outro navegador onde vocÃª nÃ£o estÃ¡ conectado"
+
+#: includes/dashboard/dashboard.php:65 includes/help/rate.php:62
+#, fuzzy
+#| msgid "Rate Us"
+msgid "Donate Us"
+msgstr "Classifique-nos"
+
+#: includes/dashboard/dashboard.php:92 includes/design/background.php:368
+#: includes/design/text_and_color.php:599
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:117
+#: includes/login-form-setting/Login-form-background.php:807
+#: includes/settings/page-settings.php:168 includes/social/social-login.php:129
+#: includes/social/social.php:192
+msgid "Setting Save Successfully"
+msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#: includes/dashboard/dashboard.php:92 includes/dashboard/dashboard.php:106
+#: includes/design/background.php:180 includes/design/background.php:368
+#: includes/design/background.php:383 includes/design/text_and_color.php:599
+#: includes/design/text_and_color.php:614
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:117
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:131
+#: includes/login-attempt/attempt.php:106
+#: includes/login-attempt/attempt.php:120
+#: includes/login-attempt/attempt.php:135
+#: includes/login-attempt/attempt.php:150
+#: includes/login-form-setting/Login-form-background.php:359
+#: includes/login-form-setting/Login-form-background.php:807
+#: includes/login-form-setting/Login-form-background.php:821
+#: includes/login-restriction/login_restrictions.php:92
+#: includes/login-restriction/login_restrictions.php:106
+#: includes/login-restriction/login_restrictions.php:165
+#: includes/login-restriction/login_restrictions.php:179
+#: includes/login-restriction/login_restrictions.php:193
+#: includes/login-restriction/login_restrictions.php:262
+#: includes/login-restriction/login_restrictions.php:276
+#: includes/login-restriction/login_restrictions.php:290
+#: includes/login-restriction/login_restrictions.php:382
+#: includes/login-restriction/login_restrictions.php:396
+#: includes/login-token/login-token.php:143
+#: includes/login-token/login-token.php:157
+#: includes/login-token/login-token.php:200
+#: includes/settings/page-settings.php:84
+#: includes/settings/page-settings.php:168
+#: includes/settings/page-settings.php:182 includes/social/social-login.php:129
+#: includes/social/social-login.php:143 includes/social/social.php:192
+#: includes/social/social.php:206
+msgid "Close"
+msgstr "Fechar"
+
+#: includes/dashboard/dashboard.php:106 includes/design/background.php:383
+#: includes/design/text_and_color.php:614
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:131
+#: includes/login-form-setting/Login-form-background.php:821
+#: includes/login-restriction/login_restrictions.php:276
+#: includes/settings/page-settings.php:182 includes/social/social-login.php:143
+#: includes/social/social.php:206
+msgid "Setting Reset Successfully"
+msgstr "ConfiguraÃ§Ãµes Restauradas com Sucesso"
+
+#: includes/dashboard/dashboard.php:113 includes/design/background.php:391
+#: includes/design/text_and_color.php:622
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:138
+#: includes/login-attempt/attempt.php:157
+#: includes/login-attempt/attempt.php:158
+#: includes/login-form-setting/Login-form-background.php:828
+#: includes/login-restriction/login_restrictions.php:114
+#: includes/login-restriction/login_restrictions.php:201
+#: includes/login-restriction/login_restrictions.php:298
+#: includes/login-token/login-token.php:165
+#: includes/settings/page-settings.php:189 includes/social/social-login.php:150
+#: includes/social/social.php:213
+msgid "Save Changes"
+msgstr "Salvar ConfiguraÃ§Ãµes"
+
+#: includes/dashboard/dashboard.php:116 includes/design/background.php:394
+#: includes/design/text_and_color.php:625
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:141
+#: includes/login-attempt/attempt.php:161
+#: includes/login-form-setting/Login-form-background.php:831
+#: includes/login-restriction/login_restrictions.php:117
+#: includes/login-restriction/login_restrictions.php:204
+#: includes/login-restriction/login_restrictions.php:301
+#: includes/login-restriction/login_restrictions.php:408
+#: includes/login-token/login-token.php:169
+#: includes/settings/page-settings.php:192 includes/social/social-login.php:153
+#: includes/social/social.php:216
+msgid "Reset Default"
+msgstr "Restaurar PadrÃµes"
+
+#: includes/design/background.php:91
+msgid "Background Settings"
+msgstr "ConfiguraÃ§Ãµes de Fundo"
+
+#: includes/design/background.php:103 includes/design/background.php:110
+#: includes/login-form-setting/Login-form-background.php:274
+msgid "Select Background"
+msgstr "Escolha um fundo"
+
+#: includes/design/background.php:109
+msgid "No Background Selected"
+msgstr "Nenhum fundo Selecionado"
+
+#: includes/design/background.php:111
+#: includes/login-form-setting/Login-form-background.php:281
+msgid "Static Background Color"
+msgstr "Cor de fundo estÃ¡tica"
+
+#: includes/design/background.php:112
+#: includes/login-form-setting/Login-form-background.php:282
+msgid "Static Background Image"
+msgstr "Imagem de Fundo"
+
+#: includes/design/background.php:113
+msgid "Background SlideShow"
+msgstr "Fundo em SlideShow"
+
+#: includes/design/background.php:131
+#: includes/login-form-setting/Login-form-background.php:298
+msgid "Background Color"
+msgstr "Cor de Fundo"
+
+#: includes/design/background.php:153 includes/design/background.php:172
+#: includes/login-form-setting/Login-form-background.php:335
+msgid "Background Image"
+msgstr "Imagem de Fundo"
+
+#: includes/design/background.php:158
+#: includes/login-form-setting/Login-form-background.php:340
+#: includes/settings/page-settings.php:67
+msgid "No media selected!"
+msgstr "Nenhuma mÃ­dia selecionada!"
+
+#: includes/design/background.php:160
+#: includes/login-form-setting/Login-form-background.php:341
+#: includes/settings/page-settings.php:68
+msgid "Upload"
+msgstr "Enviar"
+
+#: includes/design/background.php:162
+#: includes/login-form-setting/Login-form-background.php:343
+#: includes/settings/page-settings.php:70
+msgid "Preview"
+msgstr "PrÃ©-visualizar"
+
+#: includes/design/background.php:164
+#: includes/login-form-setting/Login-form-background.php:345
+msgid "Remove"
+msgstr "Remover"
+
+#: includes/design/background.php:196
+msgid "Cover or Strech"
+msgstr "Cobrir ou Esticar"
+
+#: includes/design/background.php:201 includes/design/text_and_color.php:244
+#: includes/design/text_and_color.php:536
+#: includes/login-form-setting/Login-form-background.php:536
+#: includes/login-form-setting/Login-form-background.php:655
+msgid "Yes"
+msgstr "Sim"
+
+#: includes/design/background.php:213
+#: includes/login-form-setting/Login-form-background.php:374
+msgid "Background Repeat"
+msgstr "Repetir Fundo"
+
+#: includes/design/background.php:219
+#: includes/login-form-setting/Login-form-background.php:380
+msgid "No Repeat"
+msgstr "NÃ£o Repetir"
+
+#: includes/design/background.php:220
+#: includes/login-form-setting/Login-form-background.php:381
+msgid "Repeat"
+msgstr "Repetir"
+
+#: includes/design/background.php:221
+#: includes/login-form-setting/Login-form-background.php:382
+msgid "Repeat Horizontally"
+msgstr "Repetir Horizontalmente"
+
+#: includes/design/background.php:222
+#: includes/login-form-setting/Login-form-background.php:383
+msgid "Repeat Vertically"
+msgstr "Repetir Verticalmente"
+
+#: includes/design/background.php:234
+#: includes/login-form-setting/Login-form-background.php:394
+msgid "Background Position"
+msgstr "PosiÃ§Ã£o do Fundo"
+
+#: includes/design/background.php:240
+#: includes/login-form-setting/Login-form-background.php:400
+msgid "Left Top"
+msgstr "Esquerda Topo"
+
+#: includes/design/background.php:241
+#: includes/login-form-setting/Login-form-background.php:401
+msgid "Left Center"
+msgstr "Esquerda Centro"
+
+#: includes/design/background.php:242
+#: includes/login-form-setting/Login-form-background.php:402
+msgid "Left Bottom"
+msgstr "Esquerda Inferior"
+
+#: includes/design/background.php:243
+#: includes/login-form-setting/Login-form-background.php:403
+msgid "Right Top"
+msgstr "Direita Topo"
+
+#: includes/design/background.php:244
+#: includes/login-form-setting/Login-form-background.php:404
+msgid "Right Center"
+msgstr "Direita Centro"
+
+#: includes/design/background.php:245
+#: includes/login-form-setting/Login-form-background.php:405
+msgid "Right Bottom"
+msgstr "Direita Inferior"
+
+#: includes/design/background.php:246
+#: includes/login-form-setting/Login-form-background.php:406
+msgid "Center Top"
+msgstr "Centro Topo"
+
+#: includes/design/background.php:247
+#: includes/login-form-setting/Login-form-background.php:407
+msgid "Center Center"
+msgstr "Centro Centro"
+
+#: includes/design/background.php:248
+#: includes/login-form-setting/Login-form-background.php:408
+msgid "Center Bottom"
+msgstr "Centro Inferior"
+
+#: includes/design/background.php:260
+msgid "Background Attachment"
+msgstr "Fundo Anexado"
+
+#: includes/design/background.php:266
+msgid "Fixed"
+msgstr "Fixo"
+
+#: includes/design/background.php:267
+msgid "Scroll"
+msgstr "Rolar"
+
+#: includes/design/background.php:268
+msgid "Inherit"
+msgstr "Herdar"
+
+#: includes/design/background.php:287 includes/design/background.php:309
+msgid "No. Of Background Slideshow"
+msgstr "Nenhum. Fundo em SlideShow"
+
+#: includes/design/background.php:293
+msgid "Select Number of Slide Show"
+msgstr "Selecione o NÃºmero de Slides"
+
+#: includes/design/background.php:294
+msgid "2"
+msgstr "2"
+
+#: includes/design/background.php:295
+msgid "3"
+msgstr "3"
+
+#: includes/design/background.php:296
+msgid "4"
+msgstr "4"
+
+#: includes/design/background.php:297
+msgid "5"
+msgstr "5"
+
+#: includes/design/background.php:298
+msgid "6"
+msgstr "6"
+
+#: includes/design/background.php:339
+msgid "Slider Animation"
+msgstr "AnimaÃ§Ã£o do Slide"
+
+#: includes/design/background.php:346
+msgid "Slider Animation 1"
+msgstr "Slide AnimaÃ§Ã£o 1"
+
+#: includes/design/background.php:347
+msgid "Slider Animation 2"
+msgstr "Slide AnimaÃ§Ã£o 2"
+
+#: includes/design/background.php:348
+msgid "Slider Animation 3"
+msgstr "Slide AnimaÃ§Ã£o 3"
+
+#: includes/design/background.php:349
+msgid "Slider Animation 4"
+msgstr "Slide AnimaÃ§Ã£o 4"
+
+#: includes/design/background.php:368 includes/design/background.php:383
+msgid "Top Background"
+msgstr "Fundo do Topo"
+
+#: includes/design/text_and_color.php:89
+msgid "Text And Color Settings"
+msgstr "ConfiguraÃ§Ãµes de Texto e Cores"
+
+#: includes/design/text_and_color.php:102
+msgid "Headline Font Color"
+msgstr "Cor da Fonte do TÃ­tulo"
+
+#: includes/design/text_and_color.php:118
+msgid "Input Font Color"
+msgstr "Cor da Fonte de Entrada"
+
+#: includes/design/text_and_color.php:134
+msgid "Link Color"
+msgstr "Cor do Link"
+
+#: includes/design/text_and_color.php:150
+msgid "Button Color"
+msgstr "Cor do BotÃ£o"
+
+#: includes/design/text_and_color.php:166
+msgid "Headline Font size"
+msgstr "Tamanho da Fonte do TÃ­tulo"
+
+#: includes/design/text_and_color.php:184
+msgid "Input Font Size"
+msgstr "Tamanho da Fonte de Entrada"
+
+#: includes/design/text_and_color.php:202
+msgid "Link Font Size"
+msgstr "Tamanho da Fonte do Link"
+
+#: includes/design/text_and_color.php:220
+msgid "Button Font Size"
+msgstr "Tamanho da Fonte do BotÃ£o"
+
+#: includes/design/text_and_color.php:238
+msgid "Enable Link shadow?"
+msgstr "Habilitar sombra nos Links?"
+
+#: includes/design/text_and_color.php:247
+#: includes/design/text_and_color.php:539
+#: includes/login-form-setting/Login-form-background.php:539
+#: includes/login-form-setting/Login-form-background.php:656
+msgid "No"
+msgstr "NÃ£o"
+
+#: includes/design/text_and_color.php:259
+msgid "Link Shadow Color"
+msgstr "Cor da Sombra do Link"
+
+#: includes/design/text_and_color.php:275
+msgid "Google Font Token"
+msgstr ""
+
+#: includes/design/text_and_color.php:291
+msgid "Headline Font Style"
+msgstr "Estilo da Fonte do TÃ­tulo"
+
+#: includes/design/text_and_color.php:352
+msgid "Input Font Style"
+msgstr "Estilo da Fonte de Entrada"
+
+#: includes/design/text_and_color.php:411
+msgid "Link Font Style"
+msgstr "Estilo da Fonte do Link"
+
+#: includes/design/text_and_color.php:471
+msgid "Button Font Style"
+msgstr "Estilo da Fonte do BotÃ£o"
+
+#: includes/design/text_and_color.php:530
+msgid "Enable Input Box Icon?"
+msgstr "Habilitar Ãcone na Caixa de Entrada?"
+
+#: includes/design/text_and_color.php:550
+msgid "Icon For user Input Box"
+msgstr "Ãcone para UsuÃ¡rio na Caixa de Entrada"
+
+#: includes/design/text_and_color.php:571
+msgid "Icon For Password Input Box"
+msgstr "Ãcone para Senha na Caixa de Entrada"
+
+#: includes/design/text_and_color.php:599
+#: includes/design/text_and_color.php:614
+msgid "Text and Color"
+msgstr "Texto e Cores"
+
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:14
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:44
+#, fuzzy
+#| msgid "Float Settings"
+msgid "Google Captcha Settings"
+msgstr "ConfiguraÃ§Ãµes de FlutuaÃ§Ã£o"
+
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:55
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:60
+#, fuzzy
+#| msgid "More Details"
+msgid "Site Key"
+msgstr "Mais Detalhes"
+
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:64
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:69
+msgid "Secret Key"
+msgstr ""
+
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:74
+#, fuzzy
+#| msgid "Float Settings"
+msgid "Captcha Display"
+msgstr "ConfiguraÃ§Ãµes de FlutuaÃ§Ã£o"
+
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:90
+#, fuzzy
+#| msgid "Float Settings"
+msgid "Captcha Theme"
+msgstr "ConfiguraÃ§Ãµes de FlutuaÃ§Ã£o"
+
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:96
+#, fuzzy
+#| msgid "Right"
+msgid "Light"
+msgstr "Direita"
+
+#: includes/googlecaptcha-settings/gcaptcha-settings.php:99
+msgid "Dark"
+msgstr ""
+
+#: includes/help/help.php:28
+msgid "View Support Docs or Open a Ticket"
+msgstr "Veja os Documentos de Apoio ou Abra um Ticket"
+
+#: includes/help/help.php:38 includes/help/rate.php:15
+#: includes/help/rate.php:39
+msgid "Rate Us"
+msgstr "Classifique-nos"
+
+#: includes/help/help.php:44
+msgid ""
+"If you are enjoying using our Admin Custom Login plugin and find it useful, "
+"then please consider writing a positive feedback. Your feedback will help us "
+"to encourage and support the plugins continued development and better user "
+"support."
+msgstr ""
+"Se vocÃª estÃ¡ desfrutando do nosso plugin de Login Personalizado do Admin e "
+"encontrÃ¡-lo Ãºtil, entÃ£o considere escrever um feedback positivo. Seu "
+"feedback nos ajudarÃ¡ a incentivar e apoiar o desenvolvimento contÃ­nuo dos "
+"plugins e melhor suporte ao usuÃ¡rio."
+
+#: includes/help/help.php:62
+msgid "Share Us Your Suggestion"
+msgstr "Partilhe a Sua SugestÃ£o"
+
+#: includes/help/help.php:68
+msgid ""
+"If you have any suggestion or features in your mind then please share us. We "
+"will try our best to add them in this plugin."
+msgstr ""
+"Se vocÃª tiver qualquer sugestÃ£o ou caracterÃ­sticas em sua mente, entÃ£o "
+"por favor compartilhe conosco. Vamos tentar o nosso melhor para adiciona-las "
+"Ã  este plugin."
+
+#: includes/help/help.php:80
+msgid "Language Contribution"
+msgstr "ContribuiÃ§Ã£o de Idioma"
+
+#: includes/help/help.php:85
+msgid "Translate this plugin into your language"
+msgstr "Traduzir este plug-in para o seu idioma"
+
+#: includes/help/help.php:86
+msgid "Question : How to convert Plguin into My Language?"
+msgstr "Pergunta: Como converter o Plugin para Meu Idioma?"
+
+#: includes/help/help.php:87
+msgid "here is solution"
+msgstr "aqui estÃ¡ a soluÃ§Ã£o"
+
+#: includes/help/rate.php:29
+msgid ""
+"We need your feedback for improve our plugin functionality on WordPress. So, "
+"if you like our plugin then please rate us"
+msgstr ""
+"Precisamos de seus comentÃ¡rios para melhorar nossa funcionalidade do plug-"
+"in no WordPress. EntÃ£o, se vocÃª gosta do nosso plug-in, por favor, avalie-"
+"nos"
+
+#: includes/import-export-setting/import_export.php:13
+msgid "Export Custom Login Data"
+msgstr "Exportar Dados de Entrada Personalizados"
+
+#: includes/import-export-setting/import_export.php:18
+msgid ""
+"Export the plugin settings for this site as a .json file. This allows you to "
+"easily import the configuration into another site."
+msgstr ""
+"Exportar as configuraÃ§Ãµes do plugin para este site como um arquivo .json. "
+"Isso permite que vocÃª importe facilmente as configuraÃ§Ãµes para outro site."
+
+#: includes/import-export-setting/import_export.php:23
+msgid "Export"
+msgstr "Ajuda e Suporte"
+
+#: includes/import-export-setting/import_export.php:37
+msgid "Import Custom Login Data"
+msgstr "Importar Dados de Entrada Personalizados"
+
+#: includes/import-export-setting/import_export.php:42
+msgid ""
+"Import the plugin settings from a .json file. This file can be obtained by "
+"exporting the settings on another site using the form above."
+msgstr ""
+"Importar as configuraÃ§Ãµes do plugin de um arquivo .json. Este arquivo pode "
+"ser obtido atravÃ©s da exportaÃ§Ã£o das configuraÃ§Ãµes em outro site usando "
+"o formulÃ¡rio acima."
+
+#: includes/import-export-setting/import_export.php:50
+msgid "Import"
+msgstr "Ajuda e Suporte"
+
+#: includes/login-attempt/attempt.php:36
+msgid ""
+"This Setting Prevents Unauthorized Users To invalid Login Attempts and "
+"Disable the login form for a while"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:54
+msgid "Maximum Login Attempts"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:59
+msgid "Maximum No Of Attempts"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:60
+msgid "Maximum Allowed login attempt by user with wrong credentials"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:65
+#, fuzzy
+#| msgid "Slider Animation"
+msgid "Time Duration "
+msgstr "AnimaÃ§Ã£o do Slide"
+
+#: includes/login-attempt/attempt.php:70
+msgid "Time in minutes"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:71
+msgid "Halt user after maximum login attempts"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:72
+msgid "Time duration to halt user after maximum login attempts"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:73
+msgid "Enter numeric value e.g. 15"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:73
+msgid "Time duration 15 min"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:77
+#, fuzzy
+#| msgid "Enable Custom Login"
+msgid "Enable Login Form Key"
+msgstr "Habilitar PersonalizaÃ§Ã£o de Login"
+
+#: includes/login-attempt/attempt.php:82
+msgid ""
+"This key remove the halt occured due to entering wrong username and password"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:83
+msgid "For admin use only"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:106
+#: includes/login-restriction/login_restrictions.php:165
+#: includes/login-restriction/login_restrictions.php:382
+#, fuzzy
+#| msgid "Login Settings"
+msgid "Login Attempts"
+msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#: includes/login-attempt/attempt.php:106
+#: includes/login-restriction/login_restrictions.php:92
+#: includes/login-restriction/login_restrictions.php:165
+#: includes/login-restriction/login_restrictions.php:262
+#: includes/login-restriction/login_restrictions.php:382
+#, fuzzy
+#| msgid "Setting Save Successfully"
+msgid "Setting Saved Successfully"
+msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#: includes/login-attempt/attempt.php:120
+#: includes/login-restriction/login_restrictions.php:106
+#: includes/login-restriction/login_restrictions.php:179
+#: includes/login-restriction/login_restrictions.php:396
+#, fuzzy
+#| msgid "Login "
+msgid "Login Attempt"
+msgstr "Entrar "
+
+#: includes/login-attempt/attempt.php:120
+#: includes/login-restriction/login_restrictions.php:106
+#: includes/login-restriction/login_restrictions.php:179
+#: includes/login-restriction/login_restrictions.php:396
+#: includes/login-token/login-token.php:157
+#, fuzzy
+#| msgid "Setting Save Successfully"
+msgid "Reset Successfully"
+msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#: includes/login-attempt/attempt.php:135
+#, fuzzy
+#| msgid "Please rate us "
+msgid "Please Enter Valid Value"
+msgstr "Por favor, classifique-nos "
+
+#: includes/login-attempt/attempt.php:135
+#: includes/login-restriction/login_restrictions.php:193
+msgid "Example: 5"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:150
+msgid "Please Enter Valid Value of Time in Minutes"
+msgstr ""
+
+#: includes/login-attempt/attempt.php:150
+msgid "Example: 15"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:190
+msgid "Login Settings"
+msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#: includes/login-form-setting/Login-form-background.php:202
+msgid "Login Form Position"
+msgstr "Largura do FormulÃ¡rio de Login"
+
+#: includes/login-form-setting/Login-form-background.php:208
+msgid "Default"
+msgstr "PadrÃ£o"
+
+#: includes/login-form-setting/Login-form-background.php:209
+msgid "Floating"
+msgstr "Flutuando"
+
+#: includes/login-form-setting/Login-form-background.php:210
+msgid "Floating With Customization"
+msgstr "Etiqueta com CSS Personalizado"
+
+#: includes/login-form-setting/Login-form-background.php:221
+msgid "Float Settings"
+msgstr "ConfiguraÃ§Ãµes de Fonte"
+
+#: includes/login-form-setting/Login-form-background.php:227
+msgid "Left"
+msgstr "Esquerda Topo"
+
+#: includes/login-form-setting/Login-form-background.php:230
+msgid "Center"
+msgstr "Centro Topo"
+
+#: includes/login-form-setting/Login-form-background.php:233
+msgid "Right"
+msgstr "Direita"
+
+#: includes/login-form-setting/Login-form-background.php:243
+msgid "Floating With Customization Settings"
+msgstr "Flutuando com ConfiguraÃ§Ãµes de PersonalizaÃ§Ã£o"
+
+#: includes/login-form-setting/Login-form-background.php:264
+msgid "Note: This form position setting will be not responsive."
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:280
+msgid "Select background"
+msgstr "Escolha um fundo"
+
+#: includes/login-form-setting/Login-form-background.php:313
+msgid "Login Form Opacity"
+msgstr "Largura do FormulÃ¡rio de Login"
+
+#: includes/login-form-setting/Login-form-background.php:353
+#: includes/settings/page-settings.php:78
+msgid "Login Background Image"
+msgstr "Imagem de Fundo"
+
+#: includes/login-form-setting/Login-form-background.php:420
+msgid "Background Effect"
+msgstr "Efeito de Fundo"
+
+#: includes/login-form-setting/Login-form-background.php:426
+msgid "Select overlay effect"
+msgstr "Selecione efeito de sobreposiÃ§Ã£o"
+
+#: includes/login-form-setting/Login-form-background.php:427
+msgid "No Overlay Effect"
+msgstr "Sem Efeito de SobreposiÃ§Ã£o"
+
+#: includes/login-form-setting/Login-form-background.php:428
+msgid "Overlay Effect 1"
+msgstr "Efeito de SobreposiÃ§Ã£o 1"
+
+#: includes/login-form-setting/Login-form-background.php:429
+msgid "Overlay Effect 2"
+msgstr "Efeito de SobreposiÃ§Ã£o 2"
+
+#: includes/login-form-setting/Login-form-background.php:430
+msgid "Overlay Effect 3"
+msgstr "Efeito de SobreposiÃ§Ã£o 3"
+
+#: includes/login-form-setting/Login-form-background.php:443
+msgid "Login Form Width"
+msgstr "Largura do FormulÃ¡rio de Login"
+
+#: includes/login-form-setting/Login-form-background.php:460
+msgid "Border Color"
+msgstr "Cor da Borda"
+
+#: includes/login-form-setting/Login-form-background.php:475
+msgid "Border Radius"
+msgstr "Borda Arredondada"
+
+#: includes/login-form-setting/Login-form-background.php:492
+msgid "Border Style"
+msgstr "Estilo da Borda"
+
+#: includes/login-form-setting/Login-form-background.php:498
+msgid "None"
+msgstr "Nenhum"
+
+#: includes/login-form-setting/Login-form-background.php:499
+msgid "Solid"
+msgstr "SÃ³lida"
+
+#: includes/login-form-setting/Login-form-background.php:500
+msgid "Dotted"
+msgstr "Pontilhada"
+
+#: includes/login-form-setting/Login-form-background.php:501
+msgid "Dashed"
+msgstr "Tracejada"
+
+#: includes/login-form-setting/Login-form-background.php:502
+msgid "Double"
+msgstr "Dupla"
+
+#: includes/login-form-setting/Login-form-background.php:513
+msgid "Border Thickness"
+msgstr "Espessura da Borda"
+
+#: includes/login-form-setting/Login-form-background.php:530
+msgid "Enable Form Shadow?"
+msgstr "Habilitar sobra do formulÃ¡rio?"
+
+#: includes/login-form-setting/Login-form-background.php:550
+msgid "Form Shadow Color"
+msgstr "Cor da Sombra do FormulÃ¡rio"
+
+#: includes/login-form-setting/Login-form-background.php:566
+#, fuzzy
+#| msgid "User Name"
+msgid "Username or Email Field Label Text"
+msgstr "Nome de UsuÃ¡rio"
+
+#: includes/login-form-setting/Login-form-background.php:571
+#, fuzzy
+#| msgid "Please rate us "
+msgid "Type username or email field label text"
+msgstr "Por favor, classifique-nos "
+
+#: includes/login-form-setting/Login-form-background.php:582
+msgid "Type Username and Placeholder Text"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:587
+#, fuzzy
+#| msgid "Please rate us "
+msgid "Type Username or Email"
+msgstr "Por favor, classifique-nos "
+
+#: includes/login-form-setting/Login-form-background.php:600
+msgid "Password Field Label Text"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:605
+msgid "Type password field label text"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:616
+msgid "Password Label and Placeholder Text"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:621
+#, fuzzy
+#| msgid "Password"
+msgid "Type Password"
+msgstr "Senha"
+
+#: includes/login-form-setting/Login-form-background.php:633
+#, fuzzy
+#| msgid "Button Color"
+msgid "Log In Button Text"
+msgstr "Cor do BotÃ£o"
+
+#: includes/login-form-setting/Login-form-background.php:638
+msgid "Type log in button text"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:649
+#, fuzzy
+#| msgid "Facebook"
+msgid "Forcefully Redirect"
+msgstr "Facebook"
+
+#: includes/login-form-setting/Login-form-background.php:663
+#, fuzzy
+#| msgid "Facebook"
+msgid "Redirect Force URL"
+msgstr "Facebook"
+
+#: includes/login-form-setting/Login-form-background.php:664
+msgid ""
+"Enter the URL to user forcefully redirect to admin panel or another when if "
+"hit the site url."
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:675
+msgid "Redirect Users After Login (Not Work For Admin)"
+msgstr ""
+"Redirecionar usuÃ¡rios apÃ³s o login (nÃ£o funciona para o administrador)"
+
+#: includes/login-form-setting/Login-form-background.php:680
+msgid "Redirect URL"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:681
+msgid ""
+"Enter the URL to redirect users after login, Setting will not work for an "
+"administrator."
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:693
+msgid "Display Note To User Above Login Form"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:710
+msgid "Custom Error Message On Wrong Username & Password"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:727
+#, fuzzy
+#| msgid "Link Font Size"
+msgid "Message Font Size"
+msgstr "Tamanho da Fonte do Link"
+
+#: includes/login-form-setting/Login-form-background.php:745
+#, fuzzy
+#| msgid "Headline Font Color"
+msgid "Message Font Color"
+msgstr "Cor da Fonte do TÃ­tulo"
+
+#: includes/login-form-setting/Login-form-background.php:762
+msgid "Tagline Message Display Below Login Form"
+msgstr ""
+
+#: includes/login-form-setting/Login-form-background.php:782
+#: includes/login-form-setting/Login-form-background.php:787
+msgid "Custom CSS"
+msgstr "Personalizar CSS"
+
+#: includes/login-form-setting/Login-form-background.php:789
+msgid "Enter any custom css you want to apply on login panel."
+msgstr ""
+"Digite qualquer css personalizado que vocÃª deseja aplicar no painel de "
+"entrada."
+
+#: includes/login-form-setting/Login-form-background.php:790
+msgid "Note: Please Do Not Use"
+msgstr "Nota: Por favor nÃ£o usar"
+
+#: includes/login-form-setting/Login-form-background.php:790
+msgid "Tag With Custom CSS"
+msgstr "Etiqueta com CSS Personalizado"
+
+#: includes/login-form-setting/Login-form-background.php:807
+#: includes/login-form-setting/Login-form-background.php:821
+msgid "Login"
+msgstr "Entrar"
+
+#: includes/login-restriction/login_restrictions.php:17
+#: includes/login-restriction/login_restrictions.php:92
+#, fuzzy
+#| msgid "Login Settings"
+msgid "Login Restriction"
+msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#: includes/login-restriction/login_restrictions.php:27
+msgid "Restriction Using Role"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:28
+msgid "Restriction According to No of Users Login"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:29
+msgid "Restriction According to IP"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:30
+msgid "Restriction According to Users"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:39
+#, fuzzy
+#| msgid "Logo Settings"
+msgid "Restriction Settings"
+msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#: includes/login-restriction/login_restrictions.php:44
+msgid ""
+"Restrict the users to login by user role. Select a role, e.g. Editor, and "
+"save it. Now, users with role Editor, will not able to login to wp-admin"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:60
+#, fuzzy
+#| msgid "Text and Color "
+msgid "Select The Role"
+msgstr "Texto e Cores "
+
+#: includes/login-restriction/login_restrictions.php:139
+msgid "Max No Of Users"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:143
+msgid ""
+"Restrict limited no of users to login wp admin panel. E.g. 4, can login the "
+"admin panel, please enter 4 and save. Now only 4 users can login to "
+"wordpress admin panel."
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:147
+#, fuzzy
+#| msgid "Pinterest"
+msgid "Enter No Of Users"
+msgstr "Pinterest"
+
+#: includes/login-restriction/login_restrictions.php:193
+#, fuzzy
+#| msgid "Please rate us "
+msgid "Please Enter Valid Number Of Users"
+msgstr "Por favor, classifique-nos "
+
+#: includes/login-restriction/login_restrictions.php:229
+msgid "Restrict Users To Access WP Admin Dashboard By IP Address"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:239
+msgid "IP Address"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:239
+#, fuzzy
+#| msgid "Logo Settings"
+msgid "Setting work on ip range"
+msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#: includes/login-restriction/login_restrictions.php:242
+msgid "Allowed IP address to access WP Admin dashboard"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:262
+#: includes/login-restriction/login_restrictions.php:276
+#, fuzzy
+#| msgid "Plugin Recommendation"
+msgid "IP Restriction"
+msgstr "RecomendaÃ§Ãµes do Plugin"
+
+#: includes/login-restriction/login_restrictions.php:290
+#, fuzzy
+#| msgid "Please rate us "
+msgid "Please Enter Valid IP Address"
+msgstr "Por favor, classifique-nos "
+
+#: includes/login-restriction/login_restrictions.php:290
+msgid "Example: 16.24.17.29"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:327
+#, fuzzy
+#| msgid "Reset Default"
+msgid "All WordPress Users"
+msgstr "Restaurar PadrÃµes"
+
+#: includes/login-restriction/login_restrictions.php:331
+msgid ""
+"You can check users to ban for accessing WP admin dashboard. Only checked "
+"users will not be allowed for accessing WP dashboard"
+msgstr ""
+
+#: includes/login-restriction/login_restrictions.php:404
+#, fuzzy
+#| msgid "Save Changes"
+msgid "Ban Users"
+msgstr "Salvar ConfiguraÃ§Ãµes"
+
+#: includes/login-token/generatetoken.php:214
+#: includes/login-token/generatetoken.php:251
+#: includes/login-token/safegeneratetoken.php:251
+#: includes/login-token/safegeneratetoken.php:288
+msgid "Expired"
+msgstr ""
+
+#: includes/login-token/login-token.php:35
+msgid "Token List"
+msgstr ""
+
+#: includes/login-token/login-token.php:46
+msgid ""
+"Setting Provide A Feature to Non Existing Users To Gain Access Of Current "
+"Website With A Time Boundation"
+msgstr ""
+
+#: includes/login-token/login-token.php:53
+msgid "Email Id *"
+msgstr ""
+
+#: includes/login-token/login-token.php:58
+msgid "Email ID"
+msgstr ""
+
+#: includes/login-token/login-token.php:59
+msgid "Example"
+msgstr ""
+
+#: includes/login-token/login-token.php:63
+#: includes/login-token/login-token.php:68
+#, fuzzy
+#| msgid "User Name"
+msgid "First Name"
+msgstr "Nome de UsuÃ¡rio"
+
+#: includes/login-token/login-token.php:73
+#: includes/login-token/login-token.php:78
+#, fuzzy
+#| msgid "User Name"
+msgid "Last Name"
+msgstr "Nome de UsuÃ¡rio"
+
+#: includes/login-token/login-token.php:84
+msgid "Role"
+msgstr ""
+
+#: includes/login-token/login-token.php:103
+msgid "Expiry Time"
+msgstr ""
+
+#: includes/login-token/login-token.php:122
+#, fuzzy
+#| msgid "Custom CSS"
+msgid "Custom Date"
+msgstr "Personalizar CSS"
+
+#: includes/login-token/login-token.php:143
+#: includes/login-token/login-token.php:200
+msgid "Token"
+msgstr ""
+
+#: includes/login-token/login-token.php:143
+#, fuzzy
+#| msgid "Setting Save Successfully"
+msgid "Generated Successfully"
+msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#: includes/login-token/login-token.php:157
+#, fuzzy
+#| msgid "Login "
+msgid "Login Token"
+msgstr "Entrar "
+
+#: includes/login-token/login-token.php:200
+#, fuzzy
+#| msgid "Setting Save Successfully"
+msgid "Deleted Successfully"
+msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#: includes/login-token/login-token.php:213
+msgid "Edit Token"
+msgstr ""
+
+#: includes/login-token/safegeneratetoken.php:310
+msgid "Not yet logged in"
+msgstr ""
+
+#: includes/login-token/safegeneratetoken.php:321
+msgid "Super Admin"
+msgstr ""
+
+#: includes/login-token/safegeneratetoken.php:404
+msgid "Reactivate for one day"
+msgstr ""
+
+#: includes/login-token/safegeneratetoken.php:407
+#, fuzzy
+#| msgid "Floating"
+msgid "Delete"
+msgstr "Flutuando"
+
+#: includes/login-token/safegeneratetoken.php:408
+msgid "Edit"
+msgstr ""
+
+#: includes/login-token/safegeneratetoken.php:412
+#, fuzzy
+#| msgid "Enable Custom Login"
+msgid "Email login link"
+msgstr "Habilitar PersonalizaÃ§Ã£o de Login"
+
+#: includes/login-token/safegeneratetoken.php:413
+msgid "Copy login link"
+msgstr ""
+
+#: includes/recommendations/recommendations.php:75
+#, php-format
+msgid "%s rating"
+msgstr "classificaÃ§Ã£o %s"
+
+#: includes/settings/page-settings.php:62
+#, fuzzy
+#| msgid "Logo "
+msgid "Logo Image"
+msgstr "Logotipo "
+
+#: includes/settings/page-settings.php:98
+#, fuzzy
+#| msgid "Logo "
+msgid "Logo Image Width"
+msgstr "Logotipo "
+
+#: includes/settings/page-settings.php:115
+#, fuzzy
+#| msgid "Logo "
+msgid "Logo Image Height"
+msgstr "Logotipo "
+
+#: includes/settings/page-settings.php:132
+#, fuzzy
+#| msgid "Logo URL"
+msgid "Logo Link URL"
+msgstr "URL do Logotipo"
+
+#: includes/settings/page-settings.php:137
+msgid "Logo URL"
+msgstr "URL do Logotipo"
+
+#: includes/settings/page-settings.php:147
+#, fuzzy
+#| msgid "Logo "
+msgid "Logo Image Title"
+msgstr "Logotipo "
+
+#: includes/settings/page-settings.php:152
+msgid "Logo URL Title"
+msgstr "TÃ­tulo da URL do Logotipo"
+
+#: includes/settings/page-settings.php:168
+#: includes/settings/page-settings.php:182
+msgid "Logo"
+msgstr "Logotipo"
+
+#: includes/social/social-login.php:27
+msgid "Note"
+msgstr ""
+
+#: includes/social/social-login.php:27
+msgid "Social Login will only work on top level domain(s)"
+msgstr ""
+
+#: includes/social/social-login.php:33
+msgid "Login with Facebook"
+msgstr ""
+
+#: includes/social/social-login.php:54
+msgid "Facebook Login needs HTTPS. You currently do not have SSL installed."
+msgstr ""
+
+#: includes/social/social-login.php:57
+#, fuzzy
+#| msgid "Facebook"
+msgid "Facebook App ID"
+msgstr "Facebook"
+
+#: includes/social/social-login.php:58
+#, fuzzy
+#| msgid "Facebook"
+msgid "Facebook App Secret"
+msgstr "Facebook"
+
+#: includes/social/social-login.php:59
+#, fuzzy
+#| msgid "Facebook"
+msgid "Facebook Redirect URL"
+msgstr "Facebook"
+
+#: includes/social/social-login.php:61
+msgid "Register your website with Facebook to get required Appid & Secret key"
+msgstr ""
+
+#: includes/social/social-login.php:61
+#, fuzzy
+#| msgid "Facebook"
+msgid "Get the facebook Appid & Secret key"
+msgstr "Facebook"
+
+#: includes/social/social-login.php:65
+msgid "Login with Google"
+msgstr ""
+
+#: includes/social/social-login.php:83
+msgid "Google Client ID"
+msgstr ""
+
+#: includes/social/social-login.php:84
+#, fuzzy
+#| msgid "Float Settings"
+msgid "Google Client Secret"
+msgstr "ConfiguraÃ§Ãµes de FlutuaÃ§Ã£o"
+
+#: includes/social/social-login.php:85
+msgid "Google Redirect URL"
+msgstr ""
+
+#: includes/social/social-login.php:87
+msgid "Register your website with Google to get required Appid & Secret key"
+msgstr ""
+
+#: includes/social/social-login.php:87
+msgid "Get the Google Appid & Secret key"
+msgstr ""
+
+#: includes/social/social-login.php:91
+msgid "Login with Twitter"
+msgstr ""
+
+#: includes/social/social-login.php:109
+msgid "Twitter Consumer Key"
+msgstr ""
+
+#: includes/social/social-login.php:110
+msgid "Twitter Consumer Secret"
+msgstr ""
+
+#: includes/social/social-login.php:111
+msgid "Twitter OAUTH Callback Url"
+msgstr ""
+
+#: includes/social/social-login.php:113
+msgid ""
+"Register your website with Twitter to get required Consumer Key & Consumer "
+"Secret"
+msgstr ""
+
+#: includes/social/social-login.php:113
+msgid "Get the Consumer Key & Consumer Secret"
+msgstr ""
+
+#: includes/social/social.php:33
+msgid "Enable Social Icons"
+msgstr "Habilitar Ãcones Sociais"
+
+#: includes/social/social.php:39
+msgid "No Icon"
+msgstr "Sem Ãcones"
+
+#: includes/social/social.php:40
+msgid "Inner"
+msgstr "Interno"
+
+#: includes/social/social.php:41
+msgid "Outer"
+msgstr "Externo"
+
+#: includes/social/social.php:42
+msgid "Both"
+msgstr "Ambos"
+
+#: includes/social/social.php:53
+msgid "Social Media Icon Size"
+msgstr "Tamanho do Ãcone Social"
+
+#: includes/social/social.php:59
+msgid "Small"
+msgstr "Pequeno"
+
+#: includes/social/social.php:62
+msgid "Medium"
+msgstr "MÃ©dio"
+
+#: includes/social/social.php:65
+msgid "Large"
+msgstr "Grande"
+
+#: includes/social/social.php:76
+msgid "Social Media Icon Layout"
+msgstr "Layout do Ãcone Social"
+
+#: includes/social/social.php:82
+msgid "Rectangle"
+msgstr "RetÃ¢ngulo"
+
+#: includes/social/social.php:85
+msgid "Circle"
+msgstr "CÃ­rculo"
+
+#: includes/social/social.php:96
+msgid "Social Media Icon Color"
+msgstr "Cor do Ãcone Social"
+
+#: includes/social/social.php:111
+msgid "Social Media Icon Color On Hover"
+msgstr "Cor do Ãcone Social Sobreposto"
+
+#: includes/social/social.php:126
+msgid "Social Media Icon Background Color"
+msgstr "Cor de Fundo do Ãcone Social"
+
+#: includes/social/social.php:141
+msgid "Social Media Background Color On Hover"
+msgstr "Cor de Fundo do Ãcone Social Sobreposto"
+
+#: includes/social/social.php:156
+msgid "Social Profiles"
+msgstr "Perfis Sociais"
+
+#: includes/social/social.php:161
+msgid "Enter your social profiles complete url here"
+msgstr "Entre com as url's completas dos seus perfis sociais"
+
+#: includes/social/social.php:163
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/social/social.php:164
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/social/social.php:165
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: includes/social/social.php:166
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: includes/social/social.php:167
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/social/social.php:168
+msgid "Digg"
+msgstr "Digg"
+
+#: includes/social/social.php:169
+msgid "Youtube"
+msgstr "Youtube"
+
+#: includes/social/social.php:170
+msgid "Flickr"
+msgstr "Flickr"
+
+#: includes/social/social.php:171
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: includes/social/social.php:172
+msgid "Skype"
+msgstr "Skype"
+
+#: includes/social/social.php:173
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/social/social.php:174
+msgid "Telegram"
+msgstr "Telegram"
+
+#: includes/social/social.php:175
+msgid "Whatsapp"
+msgstr "Whatsapp"
+
+#: includes/social/social.php:192 includes/social/social.php:206
+msgid "Social"
+msgstr "Social"
+
+#: init.php:225
+msgid "You Are Blocked By Admin"
+msgstr ""
+
+#: init.php:262
+#, fuzzy
+#| msgid "Logo Settings"
+msgid "Settings"
+msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#: init.php:410
+msgid "Find Us On Social Media"
+msgstr "Encontre-nos nas MÃ­dias Sociais"
+
+#: init.php:800
+msgid "Please upload a valid .json file"
+msgstr "Por favor, envie um arquivo .json vÃ¡lido"
+
+#: init.php:806
+msgid "Please upload a file to import"
+msgstr ""
+
+#: limit-login-attempts.php:40
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: You have reached authentification limit, you will be "
+"able to try again in %1$s."
+msgstr ""
+
+#: login-form-screen.php:441
+msgid "Oops, we ran into an issue! "
+msgstr ""
+
+#: wacl-update-checker.php:114
+#, php-format
+msgid "Weblizar WordPress Plugin ( %s ) "
+msgstr ""
+
+#: wacl-update-checker.php:126
+msgid " - "
+msgstr ""
+
+#: wacl-update-checker.php:130
+msgid "Weblizar Plugin Update Process"
+msgstr ""
+
+#: wacl-update-checker.php:131
+msgid "You can see the manual Update steps at our weblizar site"
+msgstr ""
+
+#: wacl-update-checker.php:132
+msgid ": <a target=\"_blank\" href=\""
+msgstr ""
+
+#: wacl-update-checker.php:133
+msgid "Weblizar WordPress Plugin "
+msgstr ""
+
+#: wacl-update-checker.php:136
+msgid ""
+"1. First, Please download the new version of Weblizar Premium Plugin Package "
+"from your weblizar account. Then Login with your user name and Password."
+msgstr ""
+
+#: wacl-update-checker.php:139
+#, fuzzy
+#| msgid "Login Form Position"
+msgid "Login For Download New Version"
+msgstr "Largura do FormulÃ¡rio de Login"
+
+#: wacl-update-checker.php:142
+msgid "After Login you find this page"
+msgstr ""
+
+#: wacl-update-checker.php:144
+msgid ""
+"2. Upload the downloaded Plugin package in your site ( server ) using "
+"wordpress Plugin Uploader ( Go to Admin Dashboard =&gt; Plugins=&gt; Add New "
+"=&gt; Upload Plugin =&gt; Choose File and click on install button )."
+msgstr ""
+
+#: wacl-update-checker.php:145
+msgid ""
+"Otherwise you can use any FTP ( filezilla or bitwise ) and upload the Plugin "
+"zip package or unzip the Plugin package. After that go to Admin Dashboard "
+"=&gt; Plugins and click on active."
+msgstr ""
+
+#: wacl-update-checker.php:147
+msgid "Your Weblizar pro Plugin Activated Now"
+msgstr ""
+
+#: wacl-update-checker.php:148
+msgid "For more details to follow the Plugin documentation link "
+msgstr ""
+
+#: wacl-update-checker.php:149
+msgid "Thanks for purchasing our Premium Plugin"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Right Center"
+#~ msgid "Help Center"
+#~ msgstr "Direita Centro"
+
+#~ msgid "Password"
+#~ msgstr "Senha"
+
+#~ msgid "User Name"
+#~ msgstr "Nome de UsuÃ¡rio"
+
+#~ msgid "Please rate us"
+#~ msgstr "Por favor, classifique-nos"
+
+#~ msgid "Logo Width"
+#~ msgstr "Largura do Logotipo"
+
+#~ msgid "Logo Height"
+#~ msgstr "Altura do Logotipo"
+
+#~ msgid "VKontakte"
+#~ msgstr "VKontakte"
+
+#, fuzzy
+#~| msgid "Select Background"
+#~ msgid "Select Nackground"
+#~ msgstr "Escolha um fundo"
+
+#~ msgid "No Repeat "
+#~ msgstr "NÃ£o Repetir"
+
+#~ msgid "Background Position "
+#~ msgstr "PosiÃ§Ã£o do Fundo "
+
+#~ msgid "Enable form shadow?"
+#~ msgstr "Habilitar sobra do formulÃ¡rio?"
+
+#, fuzzy
+#~| msgid "Redirect Users After Login (Not Work For Admin)"
+#~ msgid "Redirect Users other than Admin"
+#~ msgstr ""
+#~ "Redirecionar usuÃ¡rios apÃ³s o login (nÃ£o funciona para o administrador)"
+
+#~ msgid "Please rate us "
+#~ msgstr "Por favor, classifique-nos "
+
+#~ msgid "Dashboard "
+#~ msgstr "Painel de Controle "
+
+#~ msgid "Top Background "
+#~ msgstr "Fundo do Topo "
+
+#~ msgid "Text and Color "
+#~ msgstr "Texto e Cores "
+
+#~ msgid "Language Contribution "
+#~ msgstr "ContribuiÃ§Ã£o de Idioma "
+
+#~ msgid " Translate this plugin into your language"
+#~ msgstr " Traduzir este plug-in para o seu idioma"
+
+#~ msgid "Question : How to convert Plguin into My Language ?"
+#~ msgstr "Pergunta: Como converter o Plugin para Meu Idioma?"
+
+#~ msgid "Export Custom Login Data "
+#~ msgstr "Exportar Dados de Entrada Personalizados "
+
+#~ msgid "Import Custom Login Data "
+#~ msgstr "Importar Dados de Entrada Personalizados "
+
+#~ msgid "Plugin Recommendation"
+#~ msgstr "RecomendaÃ§Ãµes do Plugin"
+
+#~ msgid "Get More Free Wordpress Plguins From Weblizar"
+#~ msgstr "Obter Mais Plugins Wordpress Gratuitos de Weblizar"
+
+#~ msgid "More Details"
+#~ msgstr "Mais Detalhes"
+
+#~ msgid "Install Now"
+#~ msgstr "Instalar Agora"
+
+#~ msgid "Update Now"
+#~ msgstr "Atualizar Agora"
+
+#~ msgid "By "
+#~ msgstr "Por "
+
+#~ msgid "Premium Editions"
+#~ msgstr "EdiÃ§Ãµes Premium"
+
+#~ msgid "Visit Website"
+#~ msgstr "Visite o Site"
+
+#~ msgid "Last Updated:"
+#~ msgstr "Ãltima AtualizaÃ§Ã£o:"
+
+#~ msgid "<strong>Untested</strong> with your version of WordPress"
+#~ msgstr "<strong>NÃ£o testada</strong> com a sua versÃ£o do WordPress"
+
+#~ msgid "Incompatible with your version of WordPress"
+#~ msgstr "IncompatÃ­vel com a sua versÃ£o do WordPress"
+
+#~ msgid "Compatible with your version of WordPress"
+#~ msgstr "CompatÃ­vel com a sua versÃ£o do WordPress"
+
+#~ msgid "Logo "
+#~ msgstr "Logotipo "
+
+#~ msgid "google plus"
+#~ msgstr "Google Plus"
+
+#~ msgid "Social "
+#~ msgstr "Social "
+
+#, fuzzy
+#~| msgid "By "
+#~ msgid "By"
+#~ msgstr "Por "
+
+#, fuzzy
+#~| msgid "Remove"
+#~ msgid "URL removed"
+#~ msgstr "Remover"
+
+#, fuzzy
+#~| msgid "preview"
+#~ msgid "Overview"
+#~ msgstr "prÃ©-visualizar"
+
+#, fuzzy
+#~| msgid "Save Changes"
+#~ msgid "Change"
+#~ msgstr "Salvar ConfiguraÃ§Ãµes"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Appearance Saved Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Custom Css Saved"
+#~ msgstr "Personalizar CSS"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid " General Setting"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid " Details"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Custom Css"
+#~ msgstr "Personalizar CSS"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "General Setting"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Select Background"
+#~ msgid "Select color:"
+#~ msgstr "Escolha um fundo"
+
+#, fuzzy
+#~| msgid "Upload"
+#~ msgid "Upload logo:"
+#~ msgstr "Enviar"
+
+#, fuzzy
+#~| msgid "Logo Width"
+#~ msgid "Logo width"
+#~ msgstr "Largura do Logotipo"
+
+#, fuzzy
+#~| msgid "Logo Height"
+#~ msgid "Logo height"
+#~ msgstr "Altura do Logotipo"
+
+#, fuzzy
+#~| msgid "Select Background"
+#~ msgid "Select Icon"
+#~ msgstr "Escolha um fundo"
+
+#, fuzzy
+#~| msgid "Social "
+#~ msgid "Social Link 1"
+#~ msgstr "Social "
+
+#, fuzzy
+#~| msgid "Social "
+#~ msgid "Social Link 2"
+#~ msgstr "Social "
+
+#, fuzzy
+#~| msgid "Social "
+#~ msgid "Social Link 3"
+#~ msgstr "Social "
+
+#, fuzzy
+#~| msgid "Social "
+#~ msgid "Social Link 4"
+#~ msgstr "Social "
+
+#, fuzzy
+#~| msgid "Social "
+#~ msgid "Social Link 5"
+#~ msgstr "Social "
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "Details"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "User Name"
+#~ msgid "Service Name:"
+#~ msgstr "Nome de UsuÃ¡rio"
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Customer:"
+#~ msgstr "Personalizar CSS"
+
+#, fuzzy
+#~| msgid "Contact Us:"
+#~ msgid "Contact No.:"
+#~ msgstr "Contate-nos:"
+
+#, fuzzy
+#~| msgid "Update Now"
+#~ msgid "Update"
+#~ msgstr "Atualizar Agora"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Appointment Created Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Floating"
+#~ msgid "Updating"
+#~ msgstr "Flutuando"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Appointment Updated Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Setting Reset Successfully"
+#~ msgid "Appointment Delete Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Restauradas com Sucesso"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Mail Sent Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Status Updated Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Please rate us "
+#~ msgid "Please select/create one"
+#~ msgstr "Por favor, classifique-nos "
+
+#, fuzzy
+#~| msgid "User Name"
+#~ msgid "Customer Name"
+#~ msgstr "Nome de UsuÃ¡rio"
+
+#, fuzzy
+#~| msgid "Contact Us:"
+#~ msgid "Contact No"
+#~ msgstr "Contate-nos:"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Appointment Booked Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Customer"
+#~ msgstr "Personalizar CSS"
+
+#, fuzzy
+#~| msgid "Contact Us:"
+#~ msgid "Contact No."
+#~ msgstr "Contate-nos:"
+
+#, fuzzy
+#~| msgid "Admin Custom Login Status"
+#~ msgid "Appointment Status"
+#~ msgstr "Estado do Admin Custom Login"
+
+#, fuzzy
+#~| msgid "Select Background"
+#~ msgid "Select Status"
+#~ msgstr "Escolha um fundo"
+
+#, fuzzy
+#~| msgid "Repeat"
+#~ msgid "Repeat:"
+#~ msgstr "Repetir"
+
+#, fuzzy
+#~| msgid "Select overlay effect"
+#~ msgid "Select Staff"
+#~ msgstr "Selecione efeito de sobreposiÃ§Ã£o"
+
+#, fuzzy
+#~| msgid "User Name"
+#~ msgid "Customer Name:"
+#~ msgstr "Nome de UsuÃ¡rio"
+
+#, fuzzy
+#~| msgid "Skype"
+#~ msgid "Skype Id:"
+#~ msgstr "Skype"
+
+#, fuzzy
+#~| msgid "Social Profiles"
+#~ msgid "Special Notes"
+#~ msgstr "Perfis Sociais"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Customer Created Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Customer Update Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Setting Reset Successfully"
+#~ msgid "Customer Delete Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Restauradas com Sucesso"
+
+#, fuzzy
+#~| msgid "Admin Custom Login"
+#~ msgid "Add Customer"
+#~ msgstr "Personalizar Login de Administrador"
+
+#, fuzzy
+#~| msgid "Skype"
+#~ msgid "Skype Id"
+#~ msgstr "Skype"
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Customers"
+#~ msgstr "Personalizar CSS"
+
+#, fuzzy
+#~| msgid "Setting Reset Successfully"
+#~ msgid "Data Inserted Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Restauradas com Sucesso"
+
+#, fuzzy
+#~| msgid "Enable Social Icons"
+#~ msgid "Enable Email Checkbox"
+#~ msgstr "Habilitar Ãcones Sociais"
+
+#, fuzzy
+#~| msgid "Disable"
+#~ msgid "Variables"
+#~ msgstr "Desabilitado"
+
+#, fuzzy
+#~| msgid "User Name"
+#~ msgid "Name"
+#~ msgstr "Nome de UsuÃ¡rio"
+
+#, fuzzy
+#~| msgid "Repeat"
+#~ msgid "Repeat Day(s)"
+#~ msgstr "Repetir"
+
+#, fuzzy
+#~| msgid "Repeat"
+#~ msgid "Repeat Week(s)"
+#~ msgstr "Repetir"
+
+#, fuzzy
+#~| msgid "%s rating"
+#~ msgid "Creating"
+#~ msgstr "classificaÃ§Ã£o %s"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Holiday Created Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Update Now"
+#~ msgid "Update Holiday"
+#~ msgstr "Atualizar Agora"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Holiday Update Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Setting Reset Successfully"
+#~ msgid "Holiday Delete Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Restauradas com Sucesso"
+
+#, fuzzy
+#~| msgid "Solid"
+#~ msgid "Holiday"
+#~ msgstr "SÃ³lida"
+
+#, fuzzy
+#~| msgid "Select Background"
+#~ msgid "Select Icon:"
+#~ msgstr "Escolha um fundo"
+
+#, fuzzy
+#~| msgid "Headline Font Color"
+#~ msgid "Select Color:"
+#~ msgstr "Cor da Fonte do TÃ­tulo"
+
+#, fuzzy
+#~| msgid "Select Background"
+#~ msgid "Select Category"
+#~ msgstr "Escolha um fundo"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Category Created Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Setting Reset Successfully"
+#~ msgid "Category Deleted Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Restauradas com Sucesso"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Service Created Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Update Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Category Updated Successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Remove"
+#~ msgid "Removing"
+#~ msgstr "Remover"
+
+#, fuzzy
+#~| msgid "Float Settings"
+#~ msgid "Calendar Setting"
+#~ msgstr "ConfiguraÃ§Ãµes de FlutuaÃ§Ã£o"
+
+#, fuzzy
+#~| msgid "Remove"
+#~ msgid "Remove Plugin"
+#~ msgstr "Remover"
+
+#, fuzzy
+#~| msgid "Font Setting"
+#~ msgid "Currency Setting"
+#~ msgstr "ConfiguraÃ§Ãµes de Fonte"
+
+#, fuzzy
+#~| msgid "Text and Color "
+#~ msgid "Theme Color"
+#~ msgstr "Texto e Cores "
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Custom Slots"
+#~ msgstr "Personalizar CSS"
+
+#, fuzzy
+#~| msgid "User Name"
+#~ msgid "Bussiness Name"
+#~ msgstr "Nome de UsuÃ¡rio"
+
+#, fuzzy
+#~| msgid "Text and Color "
+#~ msgid "Time off Color"
+#~ msgstr "Texto e Cores "
+
+#, fuzzy
+#~| msgid "Link Font Style"
+#~ msgid "Font Style"
+#~ msgstr "Estilo da Fonte do Link"
+
+#, fuzzy
+#~| msgid "Please rate us "
+#~ msgid "Please Select date"
+#~ msgstr "Por favor, classifique-nos "
+
+#, fuzzy
+#~| msgid "Please rate us "
+#~ msgid "Please Wait"
+#~ msgstr "Por favor, classifique-nos "
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "3. Details"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "Please rate us "
+#~ msgid "Please Enter Username"
+#~ msgstr "Por favor, classifique-nos "
+
+#, fuzzy
+#~| msgid "Please rate us "
+#~ msgid "Please Enter First Name"
+#~ msgstr "Por favor, classifique-nos "
+
+#, fuzzy
+#~| msgid "None"
+#~ msgid "on"
+#~ msgstr "Nenhum"
+
+#, fuzzy
+#~| msgid "User Name"
+#~ msgid "Enter User Name"
+#~ msgstr "Nome de UsuÃ¡rio"
+
+#, fuzzy
+#~| msgid "User Name"
+#~ msgid "Enter Name"
+#~ msgstr "Nome de UsuÃ¡rio"
+
+#, fuzzy
+#~| msgid "Last Updated:"
+#~ msgid "Last Name :"
+#~ msgstr "Ãltima AtualizaÃ§Ã£o:"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Password :"
+#~ msgstr "Senha"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Enter Password"
+#~ msgstr "Senha"
+
+#, fuzzy
+#~| msgid "Skype"
+#~ msgid "Skype Id :"
+#~ msgstr "Skype"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Login Successfull"
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Rate Us"
+#~ msgid "Date :"
+#~ msgstr "Classifique-nos"
+
+#, fuzzy
+#~| msgid "Skype"
+#~ msgid "Skype Id.:"
+#~ msgstr "Skype"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "Service Detail"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "User Detail"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Invalid Password"
+#~ msgstr "Senha"
+
+#, fuzzy
+#~| msgid "Rate Us"
+#~ msgid "Rate it"
+#~ msgstr "Classifique-nos"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "Less Details"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "Shortcode settings"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Logo URL"
+#~ msgid "Home URL"
+#~ msgstr "URL do Logotipo"
+
+#, fuzzy
+#~| msgid "Upload"
+#~ msgid "Upload Plugin"
+#~ msgstr "Enviar"
+
+#, fuzzy
+#~| msgid "Install Now"
+#~ msgid "Installed"
+#~ msgstr "Instalar Agora"
+
+#, fuzzy
+#~| msgid "Update Now"
+#~ msgid "Update to v %s"
+#~ msgstr "Atualizar Agora"
+
+#, fuzzy
+#~| msgid "Help And Support"
+#~ msgid "Send to support"
+#~ msgstr "Ajuda e Suporte"
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Custom Code"
+#~ msgstr "Personalizar CSS"
+
+#, fuzzy
+#~| msgid "Login Settings"
+#~ msgid "Miscellaneous Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Login"
+
+#, fuzzy
+#~| msgid "Float Settings"
+#~ msgid "Default Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de FlutuaÃ§Ã£o"
+
+#, fuzzy
+#~| msgid "Export / Import"
+#~ msgid "Import / Export"
+#~ msgstr "Exportar / Importar"
+
+#, fuzzy
+#~| msgid "Login Settings"
+#~ msgid "Manage License Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Login"
+
+#, fuzzy
+#~| msgid "Setting Reset Successfully"
+#~ msgid "File %s edited successfully."
+#~ msgstr "ConfiguraÃ§Ãµes Restauradas com Sucesso"
+
+#, fuzzy
+#~| msgid "Recommendations"
+#~ msgid "Recommended"
+#~ msgstr "RecomendaÃ§Ãµes"
+
+#, fuzzy
+#~| msgid "None"
+#~ msgid "one"
+#~ msgstr "Nenhum"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgid "eighteen"
+#~ msgstr "Direita"
+
+#, fuzzy
+#~| msgid "Logo Height"
+#~ msgid "forty eight"
+#~ msgstr "Altura do Logotipo"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgid "eighty"
+#~ msgstr "Direita"
+
+#, fuzzy
+#~| msgid "Right Center"
+#~ msgid "eighty one"
+#~ msgstr "Direita Centro"
+
+#, fuzzy
+#~| msgid "Right Bottom"
+#~ msgid "eighty two"
+#~ msgstr "Direita Inferior"
+
+#, fuzzy
+#~| msgid "Right Top"
+#~ msgid "eighty four"
+#~ msgstr "Direita Topo"
+
+#, fuzzy
+#~| msgid "Logo Height"
+#~ msgid "eighty eight"
+#~ msgstr "Altura do Logotipo"
+
+#, fuzzy
+#~| msgid "Right Center"
+#~ msgid "eighty nine"
+#~ msgstr "Direita Centro"
+
+#, fuzzy
+#~| msgid "Please rate us "
+#~ msgid "Please enter the value."
+#~ msgstr "Por favor, classifique-nos "
+
+#, fuzzy
+#~| msgid "Top Background "
+#~ msgid "No packages found"
+#~ msgstr "Fundo do Topo "
+
+#, fuzzy
+#~| msgid "Login "
+#~ msgid "Login form"
+#~ msgstr "Entrar "
+
+#, fuzzy
+#~| msgid "Logo Settings"
+#~ msgid "Messages Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#, fuzzy
+#~| msgid "Enable Custom Login"
+#~ msgid "Enable time limit"
+#~ msgstr "Habilitar PersonalizaÃ§Ã£o de Login"
+
+#, fuzzy
+#~| msgid "Update Now"
+#~ msgid "update"
+#~ msgstr "Atualizar Agora"
+
+#, fuzzy
+#~| msgid "Install Now"
+#~ msgid "install"
+#~ msgstr "Instalar Agora"
+
+#, fuzzy
+#~| msgid "Save Changes"
+#~ msgid "Save changes"
+#~ msgstr "Salvar ConfiguraÃ§Ãµes"
+
+#, fuzzy
+#~| msgid "Solid"
+#~ msgid "Holidays"
+#~ msgstr "SÃ³lida"
+
+#, fuzzy
+#~| msgid "Link Color"
+#~ msgid "Color"
+#~ msgstr "Cor do Link"
+
+#, fuzzy
+#~| msgid "Button Color"
+#~ msgid "Designation Color"
+#~ msgstr "Cor do BotÃ£o"
+
+#, fuzzy
+#~| msgid "Disable"
+#~ msgid "Available"
+#~ msgstr "Desabilitado"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "Holiday Details"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Holiday added successfully."
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "User Name"
+#~ msgid "Username"
+#~ msgstr "Nome de UsuÃ¡rio"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "Staff Details"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Request added successfully."
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Logo Width"
+#~ msgid "Widget Width"
+#~ msgstr "Largura do Logotipo"
+
+#, fuzzy
+#~| msgid "Logo Height"
+#~ msgid "Widget Height"
+#~ msgstr "Altura do Logotipo"
+
+#, fuzzy
+#~| msgid "Rate Us"
+#~ msgid "Rate Us on "
+#~ msgstr "Classifique-nos"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "Shortcode Settings"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Incompatible with your version of WordPress"
+#~ msgid "Untested with your version of WordPress"
+#~ msgstr "IncompatÃ­vel com a sua versÃ£o do WordPress"
+
+#, fuzzy
+#~| msgid "Premium Editions"
+#~ msgid "Premium Themes"
+#~ msgstr "EdiÃ§Ãµes Premium"
+
+#, fuzzy
+#~| msgid "Premium Editions"
+#~ msgid "Premium Plugins"
+#~ msgstr "EdiÃ§Ãµes Premium"
+
+#, fuzzy
+#~| msgid "Save Changes"
+#~ msgid "View Changelog"
+#~ msgstr "Salvar ConfiguraÃ§Ãµes"
+
+#, fuzzy
+#~| msgid "Preview"
+#~ msgid "Previous"
+#~ msgstr "PrÃ©-visualizar"
+
+#, fuzzy
+#~| msgid "Logo URL Title"
+#~ msgid "No Title"
+#~ msgstr "TÃ­tulo da URL do Logotipo"
+
+#, fuzzy
+#~| msgid "Enter any custom css you want to apply on login panel."
+#~ msgid "Enter any custom css you want to apply."
+#~ msgstr ""
+#~ "Digite qualquer css personalizado que vocÃª deseja aplicar no painel de "
+#~ "entrada."
+
+#, fuzzy
+#~| msgid "Note: Please Do Not Use"
+#~ msgid "Please Do Not Use"
+#~ msgstr "Nota: Por favor nÃ£o usar"
+
+#, fuzzy
+#~| msgid "Background Color"
+#~ msgid "Image Background Color"
+#~ msgstr "Cor de Fundo"
+
+#, fuzzy
+#~| msgid "Input Font Color"
+#~ msgid "Description Font Color"
+#~ msgstr "Cor da Fonte de Entrada"
+
+#, fuzzy
+#~| msgid "Button Color"
+#~ msgid "Button Font Color"
+#~ msgstr "Cor do BotÃ£o"
+
+#, fuzzy
+#~| msgid "Button Font Style"
+#~ msgid "Button Title"
+#~ msgstr "Estilo da Fonte do BotÃ£o"
+
+#, fuzzy
+#~| msgid "Link Font Style"
+#~ msgid "Light Box Styles"
+#~ msgstr "Estilo da Fonte do Link"
+
+#, fuzzy
+#~| msgid "Enter any custom css you want to apply on login panel."
+#~ msgid "Enter any custom css you want to apply on this gallery"
+#~ msgstr ""
+#~ "Digite qualquer css personalizado que vocÃª deseja aplicar no painel de "
+#~ "entrada."
+
+#, fuzzy
+#~| msgid "Linkedin"
+#~ msgid "Link"
+#~ msgstr "Linkedin"
+
+#, fuzzy
+#~| msgid "preview"
+#~ msgid "%s reviews"
+#~ msgstr "prÃ©-visualizar"
+
+#, fuzzy
+#~| msgid "Contact Us:"
+#~ msgid "Contact Support"
+#~ msgstr "Contate-nos:"
+
+#, fuzzy
+#~| msgid "Contate-nos:"
+#~ msgid "Content"
+#~ msgstr "Contate-nos:"
+
+#, fuzzy
+#~| msgid "Login Settings"
+#~ msgid "plugin setting page"
+#~ msgstr "ConfiguraÃ§Ãµes de Login"
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Custom Forms"
+#~ msgstr "Personalizar CSS"
+
+#, fuzzy
+#~| msgid "Instagram"
+#~ msgid "Instagram Feed"
+#~ msgstr "Instagram"
+
+#, fuzzy
+#~| msgid "Instagram"
+#~ msgid "Follow on Instagram"
+#~ msgstr "Instagram"
+
+#, fuzzy
+#~| msgid "Button Color"
+#~ msgid "Button not working?"
+#~ msgstr "Cor do BotÃ£o"
+
+#, fuzzy
+#~| msgid "Background Image"
+#~ msgid "Padding around Images"
+#~ msgstr "Imagem de Fundo"
+
+#, fuzzy
+#~| msgid "here is solution"
+#~ msgid "Image Resolution"
+#~ msgstr "aqui estÃ¡ a soluÃ§Ã£o"
+
+#, fuzzy
+#~| msgid "Border Style"
+#~ msgid "Photo Hover Style"
+#~ msgstr "Estilo da Borda"
+
+#, fuzzy
+#~| msgid "Background Color"
+#~ msgid "Hover Background Color"
+#~ msgstr "Cor de Fundo"
+
+#, fuzzy
+#~| msgid "Text and Color "
+#~ msgid "Hover Text Color"
+#~ msgstr "Texto e Cores "
+
+#, fuzzy
+#~| msgid "Instagram"
+#~ msgid "Instagram Icon/Link"
+#~ msgstr "Instagram"
+
+#, fuzzy
+#~| msgid "Recommendations"
+#~ msgid "Like/Comment Icons"
+#~ msgstr "RecomendaÃ§Ãµes"
+
+#, fuzzy
+#~| msgid "Headline Font Color"
+#~ msgid "Header Text Color"
+#~ msgstr "Cor da Fonte do TÃ­tulo"
+
+#, fuzzy
+#~| msgid "Border Style"
+#~ msgid "Header Style"
+#~ msgstr "Estilo da Borda"
+
+#, fuzzy
+#~| msgid "Border Color"
+#~ msgid "Primary Color"
+#~ msgstr "Cor da Borda"
+
+#, fuzzy
+#~| msgid "Border Color"
+#~ msgid "Secondary Color"
+#~ msgstr "Cor da Borda"
+
+#, fuzzy
+#~| msgid "Text and Color "
+#~ msgid "Text Color"
+#~ msgstr "Texto e Cores "
+
+#, fuzzy
+#~| msgid "No Icon"
+#~ msgid "Show Icons"
+#~ msgstr "Sem Ãcones"
+
+#, fuzzy
+#~| msgid "Button Color"
+#~ msgid "Icon Color"
+#~ msgstr "Cor do BotÃ£o"
+
+#, fuzzy
+#~| msgid "Input Font Size"
+#~ msgid "Icon Size"
+#~ msgstr "Tamanho da Fonte de Entrada"
+
+#, fuzzy
+#~| msgid "Right Center"
+#~ msgid "Lightbox Comments"
+#~ msgstr "Direita Centro"
+
+#, fuzzy
+#~| msgid "Button Color"
+#~ msgid "Button Text Color"
+#~ msgstr "Cor do BotÃ£o"
+
+#, fuzzy
+#~| msgid "Slider Animation"
+#~ msgid "Moderation"
+#~ msgstr "AnimaÃ§Ã£o do Slide"
+
+#, fuzzy
+#~| msgid "Customize Logo Settings here"
+#~ msgid "Customize Options"
+#~ msgstr "Personalize as ConfiguraÃ§Ãµes de Logotipo aqui"
+
+#, fuzzy
+#~| msgid "Slider Animation"
+#~ msgid "Image Hover Animation"
+#~ msgstr "AnimaÃ§Ã£o do Slide"
+
+#, fuzzy
+#~| msgid "Border Color"
+#~ msgid "Hover Color"
+#~ msgstr "Cor da Borda"
+
+#, fuzzy
+#~| msgid "Button Font Style"
+#~ msgid "Caption Font Style"
+#~ msgstr "Estilo da Fonte do BotÃ£o"
+
+#, fuzzy
+#~| msgid "Link Font Style"
+#~ msgid "Lightbox Style"
+#~ msgstr "Estilo da Fonte do Link"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Data Save Successfully."
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Setting Reset Successfully"
+#~ msgid "Data Reset Successfully."
+#~ msgstr "ConfiguraÃ§Ãµes Restauradas com Sucesso"
+
+#, fuzzy
+#~| msgid "Setting Reset Successfully"
+#~ msgid "Selected Data Remove Successfully."
+#~ msgstr "ConfiguraÃ§Ãµes Restauradas com Sucesso"
+
+#, fuzzy
+#~| msgid "Setting Reset Successfully"
+#~ msgid "All Data Removed Successfully."
+#~ msgstr "ConfiguraÃ§Ãµes Restauradas com Sucesso"
+
+#, fuzzy
+#~| msgid "Setting Reset Successfully"
+#~ msgid "Mail sent Successfully."
+#~ msgstr "ConfiguraÃ§Ãµes Restauradas com Sucesso"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "General Settings"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Social Media Icon Size"
+#~ msgid "Social Media Options"
+#~ msgstr "Tamanho do Ãcone Social"
+
+#, fuzzy
+#~| msgid "Premium Editions"
+#~ msgid "Get Premium Version"
+#~ msgstr "EdiÃ§Ãµes Premium"
+
+#, fuzzy
+#~| msgid "  Login Preview"
+#~ msgid " Live Preview"
+#~ msgstr "  PrÃ©-visualizar Login"
+
+#, fuzzy
+#~| msgid "Background Settings"
+#~ msgid "Appearance Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Fundo"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "SEO Settings"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Font Setting"
+#~ msgid "Access Control Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Fonte"
+
+#, fuzzy
+#~| msgid "Logo "
+#~ msgid "Logo Text"
+#~ msgstr "Logotipo "
+
+#, fuzzy
+#~| msgid "Logo Height"
+#~ msgid "Logo Text "
+#~ msgstr "Altura do Logotipo"
+
+#, fuzzy
+#~| msgid "Logo Width"
+#~ msgid "Logo Width "
+#~ msgstr "Largura do Logotipo"
+
+#, fuzzy
+#~| msgid "Logo Height"
+#~ msgid "Logo Height "
+#~ msgstr "Altura do Logotipo"
+
+#, fuzzy
+#~| msgid "Upload"
+#~ msgid "Upload Image"
+#~ msgstr "Enviar"
+
+#, fuzzy
+#~| msgid "Background Color"
+#~ msgid "Change Background Color"
+#~ msgstr "Cor de Fundo"
+
+#, fuzzy
+#~| msgid "Button Color"
+#~ msgid "Button Link"
+#~ msgstr "Cor do BotÃ£o"
+
+#, fuzzy
+#~| msgid "Linkedin"
+#~ msgid "Link to Admin"
+#~ msgstr "Linkedin"
+
+#, fuzzy
+#~| msgid "Reset Default"
+#~ msgid "Restore Defaults"
+#~ msgstr "Restaurar PadrÃµes"
+
+#, fuzzy
+#~| msgid "Enable Social Icons"
+#~ msgid "Enable Search Robots"
+#~ msgstr "Habilitar Ãcones Sociais"
+
+#~ msgid "Disabled"
+#~ msgstr "Desabilitado"
+
+#, fuzzy
+#~| msgid "Enable"
+#~ msgid "Enabled"
+#~ msgstr "Habilitado"
+
+#, fuzzy
+#~| msgid "Text And Color Settings"
+#~ msgid "Skin Color Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Texto e Cores"
+
+#, fuzzy
+#~| msgid "Text And Color Settings"
+#~ msgid "Skin Color Selection Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Texto e Cores"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "Social Link And Icon Settings"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Social "
+#~ msgid "Social Icon "
+#~ msgstr "Social "
+
+#, fuzzy
+#~| msgid "Login form Setting"
+#~ msgid "Subscriber Form Settings"
+#~ msgstr "ConfiguraÃ§Ãµes do formulÃ¡rio de Login"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "Subscriber Email Settings"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Setting Reset Successfully"
+#~ msgid "Data Delete SuccessFully"
+#~ msgstr "ConfiguraÃ§Ãµes Restauradas com Sucesso"
+
+#, fuzzy
+#~| msgid "Setting Reset Successfully"
+#~ msgid "Your Selected Data Removed SuccessFully"
+#~ msgstr "ConfiguraÃ§Ãµes Restauradas com Sucesso"
+
+#, fuzzy
+#~| msgid "Center Top"
+#~ msgid "Counter Clock"
+#~ msgstr "Centro Topo"
+
+#, fuzzy
+#~| msgid "No Icon"
+#~ msgid "Icon"
+#~ msgstr "Sem Ãcones"
+
+#, fuzzy
+#~| msgid "Float Settings"
+#~ msgid "Footer Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de FlutuaÃ§Ã£o"
+
+#, fuzzy
+#~| msgid "Background Settings"
+#~ msgid "Advance Options Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Fundo"
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Custom CSS Editor"
+#~ msgstr "Personalizar CSS"
+
+#, fuzzy
+#~| msgid "Setting Reset Successfully"
+#~ msgid "All Data restored Successfully."
+#~ msgstr "ConfiguraÃ§Ãµes Restauradas com Sucesso"
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Theme Activate Successfully."
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Connect with your social profile"
+#~ msgid "Connect your visitors"
+#~ msgstr "Conectar com seu perfil social"
+
+#, fuzzy
+#~| msgid " Translate this plugin into your language"
+#~ msgid "Multilingual Translate Plugin In Any Language"
+#~ msgstr " Traduzir este plug-in para o seu idioma"
+
+#, fuzzy
+#~| msgid "Compatible with your version of WordPress"
+#~ msgid "Compatible With Most WordPress Theme"
+#~ msgstr "CompatÃ­vel com a sua versÃ£o do WordPress"
+
+#, fuzzy
+#~| msgid "Plugin Recommendation"
+#~ msgid "Complete Plugin Documentation"
+#~ msgstr "RecomendaÃ§Ãµes do Plugin"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "Check Detail"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "Subscriber Settings"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Reset Default"
+#~ msgid "Restore Defaults : "
+#~ msgstr "Restaurar PadrÃµes"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "Restored all settings"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Button Color"
+#~ msgid "Custom Color"
+#~ msgstr "Cor do BotÃ£o"
+
+#, fuzzy
+#~| msgid "Default"
+#~ msgid "Default Color"
+#~ msgstr "PadrÃ£o"
+
+#, fuzzy
+#~| msgid "Pinterest"
+#~ msgid "Litered"
+#~ msgstr "Pinterest"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "All Section Settings"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Headline Font size"
+#~ msgid "Headings Font Size ( H2 )"
+#~ msgstr "Tamanho da Fonte do TÃ­tulo"
+
+#, fuzzy
+#~| msgid "Headline Font size"
+#~ msgid "Sub Headings Font Size ( H4 )"
+#~ msgstr "Tamanho da Fonte do TÃ­tulo"
+
+#, fuzzy
+#~| msgid "Button Font Size"
+#~ msgid "description Font Size ( P )"
+#~ msgstr "Tamanho da Fonte do BotÃ£o"
+
+#, fuzzy
+#~| msgid "Social "
+#~ msgid "Social Media"
+#~ msgstr "Social "
+
+#, fuzzy
+#~| msgid "Enable Social Icons"
+#~ msgid "Social Icons"
+#~ msgstr "Habilitar Ãcones Sociais"
+
+#, fuzzy
+#~| msgid "Social "
+#~ msgid "Social Icon"
+#~ msgstr "Social "
+
+#, fuzzy
+#~| msgid "Flickr"
+#~ msgid "click here"
+#~ msgstr "Flickr"
+
+#, fuzzy
+#~| msgid "Social Media Icon Background Color"
+#~ msgid "Enter Social Icon and Background Color Here"
+#~ msgstr "Cor de Fundo do Ãcone Social"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "Subscribers Settings"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Button Color"
+#~ msgid "Button Hover Text Color"
+#~ msgstr "Cor do BotÃ£o"
+
+#, fuzzy
+#~| msgid "Static Background Color"
+#~ msgid "Button Hover Background Color"
+#~ msgstr "Cor de fundo estÃ¡tica"
+
+#, fuzzy
+#~| msgid "Login Settings"
+#~ msgid "Mad Mimi Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Login"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "MailChimp Settings"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Social Media Icon Color"
+#~ msgid "Social Media Promotion"
+#~ msgstr "Cor do Ãcone Social"
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Custom Color Schemes"
+#~ msgstr "Personalizar CSS"
+
+#, fuzzy
+#~| msgid "Premium Editions"
+#~ msgid "Premium Version"
+#~ msgstr "EdiÃ§Ãµes Premium"
+
+#, fuzzy
+#~| msgid "Floating With Customization Settings"
+#~ msgid "Page Animations Settings"
+#~ msgstr "Flutuando com ConfiguraÃ§Ãµes de PersonalizaÃ§Ã£o"
+
+#, fuzzy
+#~| msgid "Slider Animation"
+#~ msgid "Page In Animations"
+#~ msgstr "AnimaÃ§Ã£o do Slide"
+
+#, fuzzy
+#~| msgid "Slider Animation"
+#~ msgid "Page Out Animations"
+#~ msgstr "AnimaÃ§Ã£o do Slide"
+
+#, fuzzy
+#~| msgid "Slider Animation"
+#~ msgid "Page Animations"
+#~ msgstr "AnimaÃ§Ã£o do Slide"
+
+#, fuzzy
+#~| msgid "Login Settings"
+#~ msgid "Page Animation Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Login"
+
+#, fuzzy
+#~| msgid "Overlay Effect 1"
+#~ msgid "Effect 1"
+#~ msgstr "Efeito de SobreposiÃ§Ã£o 1"
+
+#, fuzzy
+#~| msgid "Overlay Effect 2"
+#~ msgid "Effect 2"
+#~ msgstr "Efeito de SobreposiÃ§Ã£o 2"
+
+#, fuzzy
+#~| msgid "Right Center"
+#~ msgid "Right to Left"
+#~ msgstr "Direita Centro"
+
+#, fuzzy
+#~| msgid "Left Bottom"
+#~ msgid "Top to Bottom"
+#~ msgstr "Esquerda Inferior"
+
+#, fuzzy
+#~| msgid "Border Color"
+#~ msgid "Image Hover Color"
+#~ msgstr "Cor da Borda"
+
+#, fuzzy
+#~| msgid "Enter any custom css you want to apply on login panel."
+#~ msgid "Enter any custom css you want to apply on this gallery."
+#~ msgstr ""
+#~ "Digite qualquer css personalizado que vocÃª deseja aplicar no painel de "
+#~ "entrada."
+
+#, fuzzy
+#~| msgid "Help And Support"
+#~ msgid "Help and Support"
+#~ msgstr "Ajuda e Suporte"
+
+#, fuzzy
+#~| msgid "Show Us Some Love (Rate Us)"
+#~ msgid "Show us some love, Rate Us"
+#~ msgstr "Mostre-nos Algum Amor (Avalie-nos)"
+
+#, fuzzy
+#~| msgid "Border Style"
+#~ msgid "Image Border Size"
+#~ msgstr "Estilo da Borda"
+
+#, fuzzy
+#~| msgid "Border Color"
+#~ msgid "Image Border Color"
+#~ msgstr "Cor da Borda"
+
+#, fuzzy
+#~| msgid "Customize Logo Settings here"
+#~ msgid "Configure Plugin Settings Here"
+#~ msgstr "Personalize as ConfiguraÃ§Ãµes de Logotipo aqui"
+
+#, fuzzy
+#~| msgid "Logo Settings"
+#~ msgid "Settings Tab"
+#~ msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#, fuzzy
+#~| msgid "Border Color"
+#~ msgid "Product Color"
+#~ msgstr "Cor da Borda"
+
+#, fuzzy
+#~| msgid "Logo Width"
+#~ msgid "Width"
+#~ msgstr "Largura do Logotipo"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgid "Height"
+#~ msgstr "Direita"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgid "Weight"
+#~ msgstr "Direita"
+
+#, fuzzy
+#~| msgid "2"
+#~ msgid "2G"
+#~ msgstr "2"
+
+#, fuzzy
+#~| msgid "3"
+#~ msgid "3G"
+#~ msgstr "3"
+
+#, fuzzy
+#~| msgid "4"
+#~ msgid "4G"
+#~ msgstr "4"
+
+#, fuzzy
+#~| msgid "Float Settings"
+#~ msgid "Product Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de FlutuaÃ§Ã£o"
+
+#, fuzzy
+#~| msgid "Float Settings"
+#~ msgid "Products Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de FlutuaÃ§Ã£o"
+
+#, fuzzy
+#~| msgid "Instagram"
+#~ msgid "Instagram Gallery"
+#~ msgstr "Instagram"
+
+#, fuzzy
+#~| msgid "Logo Settings"
+#~ msgid "Page/Post settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#, fuzzy
+#~| msgid "Float Settings"
+#~ msgid "Display Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de FlutuaÃ§Ã£o"
+
+#, fuzzy
+#~| msgid "Link Font Size"
+#~ msgid "Font size"
+#~ msgstr "Tamanho da Fonte do Link"
+
+#, fuzzy
+#~| msgid "Input Font Color"
+#~ msgid "Font Color"
+#~ msgstr "Cor da Fonte de Entrada"
+
+#, fuzzy
+#~| msgid "Select overlay effect"
+#~ msgid "Select Template"
+#~ msgstr "Selecione efeito de sobreposiÃ§Ã£o"
+
+#, fuzzy
+#~| msgid "Logo Settings"
+#~ msgid "Add settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#, fuzzy
+#~| msgid "Note: Please Do Not Use"
+#~ msgid "Note: Please Select Post Type ."
+#~ msgstr "Nota: Por favor nÃ£o usar"
+
+#, fuzzy
+#~| msgid "Note: Please Do Not Use"
+#~ msgid "Note: Please Select atleast one ."
+#~ msgstr "Nota: Por favor nÃ£o usar"
+
+#, fuzzy
+#~| msgid "Border Style"
+#~ msgid "Order By"
+#~ msgstr "Estilo da Borda"
+
+#, fuzzy
+#~| msgid "Slider Animation"
+#~ msgid "Slider Display Options"
+#~ msgstr "AnimaÃ§Ã£o do Slide"
+
+#, fuzzy
+#~| msgid "Link Shadow Color"
+#~ msgid "Sliding Arrow Color"
+#~ msgstr "Cor da Sombra do Link"
+
+#, fuzzy
+#~| msgid "Text and Color "
+#~ msgid "Font Text Color"
+#~ msgstr "Texto e Cores "
+
+#, fuzzy
+#~| msgid "Link Font Size"
+#~ msgid "Font Size"
+#~ msgstr "Tamanho da Fonte do Link"
+
+#, fuzzy
+#~| msgid "Link Color"
+#~ msgid "Link option"
+#~ msgstr "Cor do Link"
+
+#, fuzzy
+#~| msgid "Social Media Background Color On Hover"
+#~ msgid "BackgroundColor On Hover"
+#~ msgstr "Cor de Fundo do Ãcone Social Sobreposto"
+
+#, fuzzy
+#~| msgid "Social Media Icon Color On Hover"
+#~ msgid "Font Text Color On Hover"
+#~ msgstr "Cor do Ãcone Social Sobreposto"
+
+#, fuzzy
+#~| msgid "Border Style"
+#~ msgid "Border Size"
+#~ msgstr "Estilo da Borda"
+
+#, fuzzy
+#~| msgid "Border Style"
+#~ msgid "Featured Images Border Style"
+#~ msgstr "Estilo da Borda"
+
+#, fuzzy
+#~| msgid "Border Color"
+#~ msgid "Featured Images Border Color"
+#~ msgstr "Cor da Borda"
+
+#, fuzzy
+#~| msgid "Circle"
+#~ msgid "In Circle"
+#~ msgstr "CÃ­rculo"
+
+#, fuzzy
+#~| msgid "Logo Settings"
+#~ msgid "Coming Soon Mode Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "SEO Selection Settings"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Logo Settings"
+#~ msgid "Layout Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "Responsive Gallery Settings"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Login Form Opacity"
+#~ msgid "Hover Color Opacity"
+#~ msgstr "Opacidade do FormulÃ¡rio de Login"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "Gallery Settings"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Slider Animation"
+#~ msgid "Image Zoom Animation"
+#~ msgstr "AnimaÃ§Ã£o do Slide"
+
+#, fuzzy
+#~| msgid "Update Now"
+#~ msgid "Update Portfolio"
+#~ msgstr "Atualizar Agora"
+
+#, fuzzy
+#~| msgid "Instagram"
+#~ msgid "Instagram Gallery Pro"
+#~ msgstr "Instagram"
+
+#, fuzzy
+#~| msgid "Background Color"
+#~ msgid "Text Background Color"
+#~ msgstr "Cor de Fundo"
+
+#, fuzzy
+#~| msgid "Static Background Color"
+#~ msgid "Select Text Background Color"
+#~ msgstr "Cor de fundo estÃ¡tica"
+
+#, fuzzy
+#~| msgid "Last Updated:"
+#~ msgid "Automatic Updates"
+#~ msgstr "Ãltima AtualizaÃ§Ã£o:"
+
+#, fuzzy
+#~| msgid "Last Updated:"
+#~ msgid "Translation Updates"
+#~ msgstr "Ãltima AtualizaÃ§Ã£o:"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "Core E-mails"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "Update Now"
+#~ msgid "Updates Options"
+#~ msgstr "Atualizar Agora"
+
+#, fuzzy
+#~| msgid "Enable"
+#~ msgid "Enable Logs"
+#~ msgstr "Habilitado"
+
+#, fuzzy
+#~| msgid "Disable"
+#~ msgid "Disable Logging"
+#~ msgstr "Desabilitado"
+
+#, fuzzy
+#~| msgid "Disable"
+#~ msgid "Disable Tracking"
+#~ msgstr "Desabilitado"
+
+#, fuzzy
+#~| msgid "Reset Default"
+#~ msgid "Reset to Defaults"
+#~ msgstr "Restaurar PadrÃµes"
+
+#, fuzzy
+#~| msgid "Select background"
+#~ msgid "Select bulk action"
+#~ msgstr "Selecione um fundo"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "Show more details"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "Recommendations"
+#~ msgid "No comments"
+#~ msgstr "RecomendaÃ§Ãµes"
+
+#, fuzzy
+#~| msgid "Preview"
+#~ msgid "Previous page"
+#~ msgstr "PrÃ©-visualizar"
+
+#, fuzzy
+#~| msgid "Last Updated:"
+#~ msgid "Last page"
+#~ msgstr "Ãltima AtualizaÃ§Ã£o:"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "View details"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "Visit Website"
+#~ msgid "Visit plugin site"
+#~ msgstr "Visite o Site"
+
+#, fuzzy
+#~| msgid "Visit Website"
+#~ msgid "Visit Theme Site"
+#~ msgstr "Visite o Site"
+
+#, fuzzy
+#~| msgid "Slider Animation"
+#~ msgid "Slider Width"
+#~ msgstr "AnimaÃ§Ã£o do Slide"
+
+#, fuzzy
+#~| msgid "Slider Animation"
+#~ msgid "Slider Height"
+#~ msgstr "AnimaÃ§Ã£o do Slide"
+
+#, fuzzy
+#~| msgid "Slider Animation"
+#~ msgid "Slide Distance"
+#~ msgstr "AnimaÃ§Ã£o do Slide"
+
+#, fuzzy
+#~| msgid "Headline Font Color"
+#~ msgid "Slide Title Color"
+#~ msgstr "Cor da Fonte do TÃ­tulo"
+
+#, fuzzy
+#~| msgid "Static Background Color"
+#~ msgid "Slide Title Background Color"
+#~ msgstr "Cor de fundo estÃ¡tica"
+
+#, fuzzy
+#~| msgid "Social Media Icon Background Color"
+#~ msgid "Slide Description Background Color"
+#~ msgstr "Cor de Fundo do Ãcone Social"
+
+#, fuzzy
+#~| msgid "Button Color"
+#~ msgid "Navigation Color"
+#~ msgstr "Cor do BotÃ£o"
+
+#, fuzzy
+#~| msgid "Slider Animation"
+#~ msgid "Slide Transition"
+#~ msgstr "AnimaÃ§Ã£o do Slide"
+
+#, fuzzy
+#~| msgid "Enter any custom css you want to apply on login panel."
+#~ msgid "Select a transition effect you want to apply on slides"
+#~ msgstr ""
+#~ "Digite qualquer css personalizado que vocÃª deseja aplicar no painel de "
+#~ "entrada."
+
+#, fuzzy
+#~| msgid "Enter any custom css you want to apply on login panel."
+#~ msgid "Select a slide order you want to apply on slides"
+#~ msgstr ""
+#~ "Digite qualquer css personalizado que vocÃª deseja aplicar no painel de "
+#~ "entrada."
+
+#, fuzzy
+#~| msgid "Left Bottom"
+#~ msgid "Bottom"
+#~ msgstr "Esquerda Inferior"
+
+#, fuzzy
+#~| msgid "Border Color"
+#~ msgid "Border"
+#~ msgstr "Cor da Borda"
+
+#, fuzzy
+#~| msgid "Pinterest"
+#~ msgid "Pointer"
+#~ msgstr "Pinterest"
+
+#, fuzzy
+#~| msgid "Logo Width"
+#~ msgid "100% Width"
+#~ msgstr "Largura do Logotipo"
+
+#, fuzzy
+#~| msgid "Logo Width"
+#~ msgid "Full Width"
+#~ msgstr "Largura do Logotipo"
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Custom"
+#~ msgstr "Personalizar CSS"
+
+#, fuzzy
+#~| msgid "Logo Height"
+#~ msgid "Auto Height"
+#~ msgstr "Altura do Logotipo"
+
+#, fuzzy
+#~| msgid "Contate-nos:"
+#~ msgid "Contain"
+#~ msgstr "Contate-nos:"
+
+#, fuzzy
+#~| msgid "Headline Font Color"
+#~ msgid "Navigation Pointer Color"
+#~ msgstr "Cor da Fonte do TÃ­tulo"
+
+#, fuzzy
+#~| msgid "Background SlideShow"
+#~ msgid "Full Screen Slide Show"
+#~ msgstr "Fundo em SlideShow"
+
+#, fuzzy
+#~| msgid "Enter any custom css you want to apply on login panel."
+#~ msgid ""
+#~ "Enter any custom css you want to apply on this slider into textarea filed"
+#~ msgstr ""
+#~ "Digite qualquer css personalizado que vocÃª deseja aplicar no painel de "
+#~ "entrada."
+
+#, fuzzy
+#~| msgid "Slider Animation"
+#~ msgid "Slide Descriptions"
+#~ msgstr "AnimaÃ§Ã£o do Slide"
+
+#, fuzzy
+#~| msgid "Slider Animation"
+#~ msgid "Slide Description"
+#~ msgstr "AnimaÃ§Ã£o do Slide"
+
+#, fuzzy
+#~| msgid "Language Contribution "
+#~ msgid "Contributor"
+#~ msgstr "ContribuiÃ§Ã£o de Idioma "
+
+#, fuzzy
+#~| msgid "Language Contribution "
+#~ msgid "Manage options"
+#~ msgstr "ContribuiÃ§Ã£o de Idioma "
+
+#, fuzzy
+#~| msgid "Upload"
+#~ msgid "Upload files"
+#~ msgstr "Enviar"
+
+#, fuzzy
+#~| msgid "Dashboard"
+#~ msgid "Edit dashboard"
+#~ msgstr "Painel de Controle"
+
+#, fuzzy
+#~| msgid "Install Now"
+#~ msgid "Install plugins"
+#~ msgstr "Instalar Agora"
+
+#, fuzzy
+#~| msgid "Update Now"
+#~ msgid "Update themes"
+#~ msgstr "Atualizar Agora"
+
+#, fuzzy
+#~| msgid "Install Now"
+#~ msgid "Install themes"
+#~ msgstr "Instalar Agora"
+
+#, fuzzy
+#~| msgid "Update Now"
+#~ msgid "Update core"
+#~ msgstr "Atualizar Agora"
+
+#, fuzzy
+#~| msgid "Remove"
+#~ msgid "Remove users"
+#~ msgstr "Remover"
+
+#, fuzzy
+#~| msgid "User Name"
+#~ msgid "User ID"
+#~ msgstr "Nome de UsuÃ¡rio"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "User Profile Settings"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Login Settings"
+#~ msgid "Pin Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Login"
+
+#, fuzzy
+#~| msgid "  Login Preview"
+#~ msgid "Live Preview off"
+#~ msgstr "  PrÃ©-visualizar Login"
+
+#, fuzzy
+#~| msgid "Logo Settings"
+#~ msgid "Widget Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#, fuzzy
+#~| msgid "Pinterest"
+#~ msgid "[pinterest_feed]"
+#~ msgstr "Pinterest"
+
+#, fuzzy
+#~| msgid "Pinterest"
+#~ msgid "[pinterest_board]"
+#~ msgstr "Pinterest"
+
+#, fuzzy
+#~| msgid "Pinterest"
+#~ msgid "[pinterest_pins]"
+#~ msgstr "Pinterest"
+
+#, fuzzy
+#~| msgid "Pinterest"
+#~ msgid "Pinterest Feed Widget"
+#~ msgstr "Pinterest"
+
+#, fuzzy
+#~| msgid "Social Profiles"
+#~ msgid "Profile"
+#~ msgstr "Perfis Sociais"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "Profile Settings"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Float Settings"
+#~ msgid "Profile Stat Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de FlutuaÃ§Ã£o"
+
+#, fuzzy
+#~| msgid "Login Settings"
+#~ msgid "Pins Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Login"
+
+#, fuzzy
+#~| msgid "Disable"
+#~ msgid "Enable/Disable"
+#~ msgstr "Desabilitado"
+
+#, fuzzy
+#~| msgid "Font Setting"
+#~ msgid "Account Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Fonte"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Live API Password"
+#~ msgstr "Senha"
+
+#, fuzzy
+#~| msgid "User Name"
+#~ msgid "Brand Name"
+#~ msgstr "Nome de UsuÃ¡rio"
+
+#, fuzzy
+#~| msgid "Button Font Size"
+#~ msgid "Button Size"
+#~ msgstr "Tamanho da Fonte do BotÃ£o"
+
+#, fuzzy
+#~| msgid "Border Style"
+#~ msgid "Page Style"
+#~ msgstr "Estilo da Borda"
+
+#, fuzzy
+#~| msgid "Background Settings"
+#~ msgid "Advanced Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Fundo"
+
+#, fuzzy
+#~| msgid "Powered By"
+#~ msgid "Powered by Jetpack"
+#~ msgstr "Criado Por"
+
+#, fuzzy
+#~| msgid "Rate Us"
+#~ msgid "Rate %"
+#~ msgstr "Classifique-nos"
+
+#, fuzzy
+#~| msgid "Select Background"
+#~ msgid "Select one..."
+#~ msgstr "Escolha um fundo"
+
+#, fuzzy
+#~| msgid "Rate Us"
+#~ msgid "Rates"
+#~ msgstr "Classifique-nos"
+
+#, fuzzy
+#~| msgid "Logo Height"
+#~ msgid "Total Weight"
+#~ msgstr "Altura do Logotipo"
+
+#, fuzzy
+#~| msgid "Recommendations"
+#~ msgid "Item Dimensions"
+#~ msgstr "RecomendaÃ§Ãµes"
+
+#, fuzzy
+#~| msgid "Right Center"
+#~ msgid "Weight not entered"
+#~ msgstr "Direita Centro"
+
+#, fuzzy
+#~| msgid "No background Selected"
+#~ msgid "No packages selected"
+#~ msgstr "Nenhum fundo Selecionado"
+
+#, fuzzy
+#~| msgid "By "
+#~ msgid "Buy"
+#~ msgstr "Por "
+
+#, fuzzy
+#~| msgid "No media selected!"
+#~ msgid "All services selected"
+#~ msgstr "Nenhuma mÃ­dia selecionada!"
+
+#, fuzzy
+#~| msgid "Save Changes"
+#~ msgid "Saved Packages"
+#~ msgstr "Salvar ConfiguraÃ§Ãµes"
+
+#, fuzzy
+#~| msgid "No background Selected"
+#~ msgid "All packages selected"
+#~ msgstr "Nenhum fundo Selecionado"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "Save Settings"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Twitter"
+#~ msgid "Letter"
+#~ msgstr "Twitter"
+
+#, fuzzy
+#~| msgid "4"
+#~ msgid "A4"
+#~ msgstr "4"
+
+#, fuzzy
+#~| msgid "Please rate us "
+#~ msgid "Please choose a rate"
+#~ msgstr "Por favor, classifique-nos "
+
+#, fuzzy
+#~| msgid "Dotted"
+#~ msgid "Mayotte"
+#~ msgstr "Pontilhada"
+
+#, fuzzy
+#~| msgid "Center"
+#~ msgid "Corrientes"
+#~ msgstr "Centro"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "Morelos"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "Inherit"
+#~ msgid "Bheri"
+#~ msgstr "Herdar"
+
+#, fuzzy
+#~| msgid "Center"
+#~ msgid "Canterbury"
+#~ msgstr "Centro"
+
+#, fuzzy
+#~| msgid "Tumblr"
+#~ msgid "Tumbes"
+#~ msgstr "Tumblr"
+
+#, fuzzy
+#~| msgid "Telegram"
+#~ msgid "Teleorman"
+#~ msgstr "Telegram"
+
+#, fuzzy
+#~| msgid "Select Background"
+#~ msgid "Select none"
+#~ msgstr "Escolha um fundo"
+
+#, fuzzy
+#~| msgid "Install Now"
+#~ msgid "Free - Install now"
+#~ msgstr "Instalar Agora"
+
+#, fuzzy
+#~| msgid "User Name"
+#~ msgid "User"
+#~ msgstr "Nome de UsuÃ¡rio"
+
+#, fuzzy
+#~| msgid "Enable"
+#~ msgid "Enable reviews"
+#~ msgstr "Habilitado"
+
+#, fuzzy
+#~| msgid "Enter any custom css you want to apply on login panel."
+#~ msgid "Enter a coupon code to apply to this order."
+#~ msgstr ""
+#~ "Digite qualquer css personalizado que vocÃª deseja aplicar no painel de "
+#~ "entrada."
+
+#, fuzzy
+#~| msgid "Setting Save Successfully"
+#~ msgid "Attribute updated successfully"
+#~ msgstr "ConfiguraÃ§Ãµes Salvas com Sucesso"
+
+#, fuzzy
+#~| msgid "Admin Custom Login"
+#~ msgid "Custom ordering"
+#~ msgstr "Personalizar Login de Administrador"
+
+#, fuzzy
+#~| msgid "Border Style"
+#~ msgid "Order by"
+#~ msgstr "Estilo da Borda"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Lost password"
+#~ msgstr "Senha"
+
+#, fuzzy
+#~| msgid "Admin Custom Login"
+#~ msgid "Custom Link"
+#~ msgstr "Personalizar Login de Administrador"
+
+#, fuzzy
+#~| msgid "Float Settings"
+#~ msgid "Tax Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de FlutuaÃ§Ã£o"
+
+#, fuzzy
+#~| msgid "Background Settings"
+#~ msgid "Checkout Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Fundo"
+
+#, fuzzy
+#~| msgid "Social Settings"
+#~ msgid "Email Settings"
+#~ msgstr "ConfiguraÃ§Ãµes Sociais"
+
+#, fuzzy
+#~| msgid "Logo Settings"
+#~ msgid "API Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#, fuzzy
+#~| msgid "Export / Import"
+#~ msgid "Product Import"
+#~ msgstr "Exportar / Importar"
+
+#, fuzzy
+#~| msgid "Logo Settings"
+#~ msgid "WooCommerce settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#, fuzzy
+#~| msgid "Visit Website"
+#~ msgid "Visit Store"
+#~ msgstr "Visite o Site"
+
+#, fuzzy
+#~| msgid "preview"
+#~ msgid "Reviews"
+#~ msgstr "prÃ©-visualizar"
+
+#, fuzzy
+#~| msgid "Floating"
+#~ msgid "Sorting"
+#~ msgstr "Flutuando"
+
+#, fuzzy
+#~| msgid "Last Updated:"
+#~ msgid "Last name"
+#~ msgstr "Ãltima AtualizaÃ§Ã£o:"
+
+#, fuzzy
+#~| msgid "Remove"
+#~ msgid "Remove image"
+#~ msgstr "Remover"
+
+#, fuzzy
+#~| msgid "Enable Custom Login"
+#~ msgid "Enable auto-renew"
+#~ msgstr "Habilitar PersonalizaÃ§Ã£o de Login"
+
+#, fuzzy
+#~| msgid "Please upload a valid .json file"
+#~ msgid "Please upload or provide the link to a valid CSV file."
+#~ msgstr "Por favor, envie um arquivo .json vÃ¡lido"
+
+#, fuzzy
+#~| msgid "Button Font Size"
+#~ msgid "Button text"
+#~ msgstr "Tamanho da Fonte do BotÃ£o"
+
+#, fuzzy
+#~| msgid "Logo URL"
+#~ msgid "Download URL"
+#~ msgstr "URL do Logotipo"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "General Details"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "Border Style"
+#~ msgid "Order date:"
+#~ msgstr "Estilo da Borda"
+
+#, fuzzy
+#~| msgid "Border Radius"
+#~ msgid "Order status:"
+#~ msgstr "Borda Arredondada"
+
+#, fuzzy
+#~| msgid "Rate Us"
+#~ msgid "Rate name"
+#~ msgstr "Classifique-nos"
+
+#, fuzzy
+#~| msgid "Rate Us"
+#~ msgid "Rate code"
+#~ msgstr "Classifique-nos"
+
+#, fuzzy
+#~| msgid "Enable"
+#~ msgid "Taxable"
+#~ msgstr "Habilitado"
+
+#, fuzzy
+#~| msgid "Select Background"
+#~ msgid "Select Page"
+#~ msgstr "Escolha um fundo"
+
+#, fuzzy
+#~| msgid "Last Updated:"
+#~ msgid "Last order"
+#~ msgstr "Ãltima AtualizaÃ§Ã£o:"
+
+#, fuzzy
+#~| msgid "Border Radius"
+#~ msgid "orders"
+#~ msgstr "Borda Arredondada"
+
+#, fuzzy
+#~| msgid "Rate Us"
+#~ msgid "Rate"
+#~ msgstr "Classifique-nos"
+
+#, fuzzy
+#~| msgid "Logo"
+#~ msgid "Logout"
+#~ msgstr "Logotipo"
+
+#, fuzzy
+#~| msgid "Enable Custom Login"
+#~ msgid "Enable guest checkout"
+#~ msgstr "Habilitar PersonalizaÃ§Ã£o de Login"
+
+#, fuzzy
+#~| msgid "Border Color"
+#~ msgid "Base color"
+#~ msgstr "Cor da Borda"
+
+#, fuzzy
+#~| msgid "Background Color"
+#~ msgid "Background color"
+#~ msgstr "Cor de Fundo"
+
+#, fuzzy
+#~| msgid "Background Color"
+#~ msgid "Body background color"
+#~ msgstr "Cor de Fundo"
+
+#, fuzzy
+#~| msgid "Border Color"
+#~ msgid "Body text color"
+#~ msgstr "Cor da Borda"
+
+#, fuzzy
+#~| msgid "Enable"
+#~ msgid "Enable taxes"
+#~ msgstr "Habilitado"
+
+#, fuzzy
+#~| msgid "%s rating"
+#~ msgid "Average rating"
+#~ msgstr "classificaÃ§Ã£o %s"
+
+#, fuzzy
+#~| msgid "Enable Custom Login"
+#~ msgid "Enable stock management"
+#~ msgstr "Habilitar PersonalizaÃ§Ã£o de Login"
+
+#, fuzzy
+#~| msgid "Right Center"
+#~ msgid "Weight unit"
+#~ msgstr "Direita Centro"
+
+#, fuzzy
+#~| msgid "%s rating"
+#~ msgid "%s rates"
+#~ msgstr "classificaÃ§Ã£o %s"
+
+#, fuzzy
+#~| msgid "No media selected!"
+#~ msgid "No row(s) selected"
+#~ msgstr "Nenhuma mÃ­dia selecionada!"
+
+#, fuzzy
+#~| msgid "Save Changes"
+#~ msgid "Cancel changes"
+#~ msgstr "Salvar ConfiguraÃ§Ãµes"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "Key details"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "Last Updated:"
+#~ msgid "Customer updated"
+#~ msgstr "Ãltima AtualizaÃ§Ã£o:"
+
+#, fuzzy
+#~| msgid "Application overview"
+#~ msgid "Action event"
+#~ msgstr "Resumo de aplicaÃ§Ãµes"
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Custom topic"
+#~ msgstr "Personalizar CSS"
+
+#, fuzzy
+#~| msgid "Update Now"
+#~ msgid "Updated at"
+#~ msgstr "Atualizar Agora"
+
+#, fuzzy
+#~| msgid "Remove"
+#~ msgid "Remote get"
+#~ msgstr "Remover"
+
+#, fuzzy
+#~| msgid "Visit Website"
+#~ msgid "Visibility"
+#~ msgstr "Visite o Site"
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Custom:"
+#~ msgstr "Personalizar CSS"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "File details."
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "Admin Custom login Status"
+#~ msgid "Customer login name."
+#~ msgstr "Personalizar Status de Login do Administrador"
+
+#, fuzzy
+#~| msgid "Last Updated:"
+#~ msgid "Last name."
+#~ msgstr "Ãltima AtualizaÃ§Ã£o:"
+
+#, fuzzy
+#~| msgid "Border Radius"
+#~ msgid "Order status."
+#~ msgstr "Borda Arredondada"
+
+#, fuzzy
+#~| msgid "Logo Settings"
+#~ msgid "Settings."
+#~ msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#, fuzzy
+#~| msgid "Setting Reset Successfully"
+#~ msgid "Roles successfully reset"
+#~ msgstr "ConfiguraÃ§Ãµes Restauradas com Sucesso"
+
+#, fuzzy
+#~| msgid "Setting Reset Successfully"
+#~ msgid "Sessions successfully cleared"
+#~ msgstr "ConfiguraÃ§Ãµes Restauradas com Sucesso"
+
+#, fuzzy
+#~| msgid "Setting Reset Successfully"
+#~ msgid "Usage tracking settings successfully reset."
+#~ msgstr "ConfiguraÃ§Ãµes Restauradas com Sucesso"
+
+#, fuzzy
+#~| msgid "Border Style"
+#~ msgid "Order note."
+#~ msgstr "Estilo da Borda"
+
+#, fuzzy
+#~| msgid "Disabled"
+#~ msgid "API disabled!"
+#~ msgstr "Desabilitado"
+
+#, fuzzy
+#~| msgid "Border Style"
+#~ msgid "Order notes"
+#~ msgstr "Estilo da Borda"
+
+#, fuzzy
+#~| msgid "Please rate us "
+#~ msgid "Please rate the product."
+#~ msgstr "Por favor, classifique-nos "
+
+#, fuzzy
+#~| msgid "Last Updated:"
+#~ msgid "Cart updated."
+#~ msgstr "Ãltima AtualizaÃ§Ã£o:"
+
+#, fuzzy
+#~| msgid "Border Style"
+#~ msgid "Backordered"
+#~ msgstr "Estilo da Borda"
+
+#, fuzzy
+#~| msgid "Update Now"
+#~ msgid "Update category"
+#~ msgstr "Atualizar Agora"
+
+#, fuzzy
+#~| msgid "Update Now"
+#~ msgid "Update tag"
+#~ msgstr "Atualizar Agora"
+
+#, fuzzy
+#~| msgid "Update Now"
+#~ msgid "Update %s"
+#~ msgstr "Atualizar Agora"
+
+#, fuzzy
+#~| msgid "Slider Animation"
+#~ msgid "Orders navigation"
+#~ msgstr "AnimaÃ§Ã£o do Slide"
+
+#, fuzzy
+#~| msgid "Dashed"
+#~ msgid "Trashed"
+#~ msgstr "Tracejada"
+
+#, fuzzy
+#~| msgid "Update Now"
+#~ msgid "Updated"
+#~ msgstr "Atualizar Agora"
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Customer ID."
+#~ msgstr "Personalizar CSS"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "Your order details"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Customer note"
+#~ msgstr "Personalizar CSS"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Reset password"
+#~ msgstr "Senha"
+
+#, fuzzy
+#~| msgid "Enable form shadow?"
+#~ msgid "Enable for shipping methods"
+#~ msgstr "Habilitar sobra do formulÃ¡rio?"
+
+#, fuzzy
+#~| msgid "Enable form shadow?"
+#~ msgid "Enable PayPal sandbox"
+#~ msgstr "Habilitar sobra do formulÃ¡rio?"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "API password"
+#~ msgstr "Senha"
+
+#, fuzzy
+#~| msgid "Border Color"
+#~ msgid "Modal color"
+#~ msgstr "Cor da Borda"
+
+#, fuzzy
+#~| msgid "Select Background"
+#~ msgid "Selected countries"
+#~ msgstr "Escolha um fundo"
+
+#, fuzzy
+#~| msgid "Default"
+#~ msgid "Default sorting"
+#~ msgstr "PadrÃ£o"
+
+#, fuzzy
+#~| msgid "Select Background"
+#~ msgid "Select a category"
+#~ msgstr "Escolha um fundo"
+
+#, fuzzy
+#~| msgid "Select Number of Slide Show"
+#~ msgid "Number of reviews to show"
+#~ msgstr "Selecione o NÃºmero de Slides"
+
+#, fuzzy
+#~| msgid "Update Now"
+#~ msgid "Update totals"
+#~ msgstr "Atualizar Agora"
+
+#, fuzzy
+#~| msgid "User Name"
+#~ msgid "Username: %s"
+#~ msgstr "Nome de UsuÃ¡rio"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "Customer details"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Password change"
+#~ msgstr "Senha"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "New password"
+#~ msgstr "Senha"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "Order details"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "preview"
+#~ msgid "Add a review"
+#~ msgstr "prÃ©-visualizar"
+
+#, fuzzy
+#~| msgid "Background Attachment"
+#~ msgid "Import Attachments"
+#~ msgstr "Fundo Anexado"
+
+#, fuzzy
+#~| msgid "Logo Settings"
+#~ msgid "WP Editor Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#, fuzzy
+#~| msgid "No media selected!"
+#~ msgid "No File Selected"
+#~ msgstr "Nenhuma mÃ­dia selecionada!"
+
+#, fuzzy
+#~| msgid "Text And Color Settings"
+#~ msgid "Theme Editor Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Texto e Cores"
+
+#, fuzzy
+#~| msgid "Login form Setting"
+#~ msgid "Plugin Editor Settings"
+#~ msgstr "ConfiguraÃ§Ãµes do formulÃ¡rio de Login"
+
+#, fuzzy
+#~| msgid "Text And Color Settings"
+#~ msgid "Page/Post Editor Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Texto e Cores"
+
+#, fuzzy
+#~| msgid "Login Settings"
+#~ msgid "Main Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Login"
+
+#, fuzzy
+#~| msgid "Premium Editions"
+#~ msgid "Plugin Edit Links"
+#~ msgstr "EdiÃ§Ãµes Premium"
+
+#, fuzzy
+#~| msgid "Enable Custom Login"
+#~ msgid "Enable Logging:"
+#~ msgstr "Habilitar PersonalizaÃ§Ã£o de Login"
+
+#, fuzzy
+#~| msgid "Dashboard"
+#~ msgid "Blackboard"
+#~ msgstr "Painel de Controle"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgid "Night"
+#~ msgstr "Direita"
+
+#, fuzzy
+#~| msgid "Enable Link shadow?"
+#~ msgid "Enable Line Numbers:"
+#~ msgstr "Habilitar sombra nos Links?"
+
+#, fuzzy
+#~| msgid "Enable Link shadow?"
+#~ msgid "Enable Line Wrapping:"
+#~ msgstr "Habilitar sombra nos Links?"
+
+#, fuzzy
+#~| msgid "Input Font Size"
+#~ msgid "Indent Size"
+#~ msgstr "Tamanho da Fonte de Entrada"
+
+#, fuzzy
+#~| msgid "Input Font Size"
+#~ msgid "Indent Size:"
+#~ msgstr "Tamanho da Fonte de Entrada"
+
+#, fuzzy
+#~| msgid "Logo Height"
+#~ msgid "Editor Height"
+#~ msgstr "Altura do Logotipo"
+
+#, fuzzy
+#~| msgid "Logo Height"
+#~ msgid "Editor Height:"
+#~ msgstr "Altura do Logotipo"
+
+#, fuzzy
+#~| msgid "Upload"
+#~ msgid "File Upload"
+#~ msgstr "Enviar"
+
+#, fuzzy
+#~| msgid "Enable Custom Login"
+#~ msgid "Enable Creating Plugins:"
+#~ msgstr "Habilitar PersonalizaÃ§Ã£o de Login"
+
+#, fuzzy
+#~| msgid "Upload"
+#~ msgid "Upload Files"
+#~ msgstr "Enviar"
+
+#, fuzzy
+#~| msgid "Upload"
+#~ msgid "Upload File"
+#~ msgstr "Enviar"
+
+#, fuzzy
+#~| msgid "Update Now"
+#~ msgid "Update File"
+#~ msgstr "Atualizar Agora"
+
+#, fuzzy
+#~| msgid "User Name"
+#~ msgid "Theme Name"
+#~ msgstr "Nome de UsuÃ¡rio"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "Customer Details"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "Order Details"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "Last Updated:"
+#~ msgid "Last Status Update"
+#~ msgstr "Ãltima AtualizaÃ§Ã£o:"
+
+#, fuzzy
+#~| msgid "Border Style"
+#~ msgid "order deleted"
+#~ msgstr "Estilo da Borda"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgid "right"
+#~ msgstr "Direita"
+
+#, fuzzy
+#~| msgid "Border Style"
+#~ msgid "order page"
+#~ msgstr "Estilo da Borda"
+
+#, fuzzy
+#~| msgid "Border Color"
+#~ msgid "order history"
+#~ msgstr "Cor da Borda"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Lost Password"
+#~ msgstr "Senha"
+
+#, fuzzy
+#~| msgid "Logo Settings"
+#~ msgid "Order Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Logotipo"
+
+#, fuzzy
+#~| msgid "Float Settings"
+#~ msgid "Order Form Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de FlutuaÃ§Ã£o"
+
+#, fuzzy
+#~| msgid "Update Now"
+#~ msgid "Update Category"
+#~ msgstr "Atualizar Agora"
+
+#, fuzzy
+#~| msgid "Enable"
+#~ msgid "Main Table"
+#~ msgstr "Habilitado"
+
+#, fuzzy
+#~| msgid "Enable"
+#~ msgid "Table"
+#~ msgstr "Habilitado"
+
+#, fuzzy
+#~| msgid "Center Center"
+#~ msgid "Center Column All"
+#~ msgstr "Centro Centro"
+
+#, fuzzy
+#~| msgid "Default"
+#~ msgid "Default Prices"
+#~ msgstr "PadrÃ£o"
+
+#, fuzzy
+#~| msgid "Float Settings"
+#~ msgid "Gateways Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de FlutuaÃ§Ã£o"
+
+#, fuzzy
+#~| msgid "Login Settings"
+#~ msgid "Localization Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Login"
+
+#, fuzzy
+#~| msgid "Border Color"
+#~ msgid "Orders Form"
+#~ msgstr "Cor da Borda"
+
+#, fuzzy
+#~| msgid "Font Setting"
+#~ msgid "Orders Setting"
+#~ msgstr "ConfiguraÃ§Ãµes de Fonte"
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Custom Range"
+#~ msgstr "Personalizar CSS"
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Custom range"
+#~ msgstr "Personalizar CSS"
+
+#, fuzzy
+#~| msgid "Float Settings"
+#~ msgid "Global Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de FlutuaÃ§Ã£o"
+
+#, fuzzy
+#~| msgid "Float Settings"
+#~ msgid "Manage Global Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de FlutuaÃ§Ã£o"
+
+#, fuzzy
+#~| msgid "Background Settings"
+#~ msgid "Manage Order Settings"
+#~ msgstr "ConfiguraÃ§Ãµes de Fundo"
+
+#, fuzzy
+#~| msgid "Logo Height"
+#~ msgid "on right"
+#~ msgstr "Altura do Logotipo"
+
+#, fuzzy
+#~| msgid "Slider Animation"
+#~ msgid "no animation"
+#~ msgstr "AnimaÃ§Ã£o do Slide"
+
+#, fuzzy
+#~| msgid "Plugin Recommendation"
+#~ msgid "Plugin Version:"
+#~ msgstr "RecomendaÃ§Ãµes do Plugin"
+
+#, fuzzy
+#~| msgid "User Name"
+#~ msgid "SMTP Username"
+#~ msgstr "Nome de UsuÃ¡rio"
+
+#, fuzzy
+#~| msgid "Close"
+#~ msgid "Close Shop:"
+#~ msgstr "Fechar"
+
+#, fuzzy
+#~| msgid "Save Changes"
+#~ msgid "Delivery Charges:"
+#~ msgstr "Salvar ConfiguraÃ§Ãµes"
+
+#, fuzzy
+#~| msgid "Border Radius"
+#~ msgid "order status"
+#~ msgstr "Borda Arredondada"
+
+#, fuzzy
+#~| msgid "Small"
+#~ msgid "small"
+#~ msgstr "Pequeno"
+
+#, fuzzy
+#~| msgid "Large"
+#~ msgid "large"
+#~ msgstr "Grande"
+
+#, fuzzy
+#~| msgid "Medium"
+#~ msgid "medium"
+#~ msgstr "MÃ©dio"
+
+#, fuzzy
+#~| msgid "Social Profiles"
+#~ msgid "Special Offers"
+#~ msgstr "Perfis Sociais"
+
+#, fuzzy
+#~| msgid "Social "
+#~ msgid "Special Pizza"
+#~ msgstr "Social "
+
+#, fuzzy
+#~| msgid "More Details"
+#~ msgid "order details"
+#~ msgstr "Mais Detalhes"
+
+#, fuzzy
+#~| msgid "Update Now"
+#~ msgid "update order"
+#~ msgstr "Atualizar Agora"
+
+#, fuzzy
+#~| msgid "Save Changes"
+#~ msgid "Delivery Charges"
+#~ msgstr "Salvar ConfiguraÃ§Ãµes"
+
+#, fuzzy
+#~| msgid "Close"
+#~ msgid "closed"
+#~ msgstr "Fechar"
+
+#, fuzzy
+#~| msgid "Pinterest"
+#~ msgid "Plaintext"
+#~ msgstr "Pinterest"
+
+#, fuzzy
+#~| msgid "Right Center"
+#~ msgid "Height [Integer]"
+#~ msgstr "Direita Centro"
+
+#~ msgid "Nome de UsuÃ¡rio"
+#~ msgstr "Nome de UsuÃ¡rio"
+
+#~ msgid "nome de usuÃ¡rio"
+#~ msgstr "nome de usuÃ¡rio"
+
+#~ msgid "Senha"
+#~ msgstr "Senha"
+
+#~ msgid "senha"
+#~ msgstr "senha"
+
+#~ msgid "Login from Floating"
+#~ msgstr "Login Flutuante"
+
+#~ msgid "Open Your WP Login Page in a New Tab"
+#~ msgstr "Abrir Sua PÃ¡gina de WP Login em uma Nova Aba"

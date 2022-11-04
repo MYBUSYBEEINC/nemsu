@@ -1,0 +1,5066 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: appoinmnet-scheduler-weblizar\n"
+"POT-Creation-Date: 2018-10-11 19:09+0530\n"
+"PO-Revision-Date: 2019-12-05 07:58+0100\n"
+"Last-Translator: Weblizar <lizarweb@gmail.com>\n"
+"Language-Team: \n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-KeywordsList: _e;_;__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/WL_ASP_LM.php:59
+msgid "Please provide a license key."
+msgstr "Vennligst oppgi en lisensnøkkel."
+
+#: admin/WL_ASP_Menu.php:6 admin/WL_ASP_Menu.php:9 asp_update-checker.php:148 init.php:50 init.php:57
+msgid "Appointment Scheduler Pro"
+msgstr "Avtaleplanlegger Pro"
+
+#: admin/appearance.php:1 admin/appointment.php:1 admin/calendar.php:1 admin/coupon.php:1 admin/customer.php:1
+#: admin/email-notification.php:1 admin/locations.php:41 admin/safe_admin_appointment.php:122 admin/service.php:1 admin/setting.php:1
+#: admin/staff.php:1 shortcode/details.php:83
+msgid "Saving"
+msgstr "Besparende"
+
+#: admin/appearance.php:1 admin/appointment.php:1 admin/calendar.php:1 admin/coupon.php:1 admin/customer.php:1
+#: admin/email-notification.php:1 admin/location-ajax.php:568 admin/locations.php:51 admin/locations.php:177 admin/locations.php:410
+#: admin/safe_admin_appointment.php:133 admin/safe_admin_appointment.php:2071 admin/service.php:1 admin/setting.php:1
+#: admin/staff-holiday-fetch.php:38 admin/staff.php:1 shortcode/appointment.php:1 shortcode/safe.php:320
+msgid "Save"
+msgstr "Lagre"
+
+#: admin/appearance.php:1
+msgid "Appearance Saved Successfully"
+msgstr "Utseende lagret vellykket"
+
+#: admin/appearance.php:1
+msgid "Custom CSS Saved"
+msgstr "Tilpasset CSS lagret"
+
+#: admin/appearance.php:1 admin/main_page.php:1
+msgid "Appearance"
+msgstr "Utseende"
+
+#: admin/appearance.php:1 admin/setting.php:1
+msgid "General Setting"
+msgstr "Generell innstilling"
+
+#: admin/appearance.php:1 admin/appointment.php:1 admin/calendar.php:1 admin/calendar_service.php:1 admin/coupon.php:1
+#: admin/payment-fetch.php:1 admin/payment.php:1 admin/safe_admin_appointment.php:2122 admin/setting.php:1
+msgid "Service"
+msgstr "Service"
+
+#: admin/appearance.php:1 admin/holiday.php:492 shortcode/appointment.php:1 shortcode/details.php:159 shortcode/login.php:166
+#: shortcode/login.php:306 shortcode/login.php:358 shortcode/login.php:537 shortcode/login.php:793 shortcode/login.php:932
+#: shortcode/paypal-api/PaymentGateway.php:389 shortcode/paypal_redirect.php:534 shortcode/safe.php:2140
+#: shortcode/time-slot-calculate.php:95 shortcode/time-slot-calculate.php:963
+msgid "Time"
+msgstr "Tid"
+
+#: admin/appearance.php:1 shortcode/appointment.php:1 shortcode/details.php:163 shortcode/login.php:170 shortcode/login.php:310
+#: shortcode/login.php:362 shortcode/login.php:541 shortcode/login.php:797 shortcode/login.php:936
+#: shortcode/paypal-api/PaymentGateway.php:393 shortcode/paypal_redirect.php:538 shortcode/safe.php:2144
+#: shortcode/time-slot-calculate.php:99 shortcode/time-slot-calculate.php:967
+msgid "Details"
+msgstr "Detaljer"
+
+#: admin/appearance.php:1 shortcode/appointment.php:1 shortcode/details.php:167 shortcode/login.php:174 shortcode/login.php:314
+#: shortcode/login.php:366 shortcode/login.php:545 shortcode/login.php:801 shortcode/login.php:940
+#: shortcode/paypal-api/PaymentGateway.php:397 shortcode/paypal_redirect.php:542 shortcode/safe.php:2148
+#: shortcode/time-slot-calculate.php:103 shortcode/time-slot-calculate.php:971
+msgid "Confirm"
+msgstr "Bekrefte"
+
+#: admin/appearance.php:1 admin/payment.php:1 shortcode/appointment.php:1 shortcode/details.php:177 shortcode/login.php:183
+#: shortcode/login.php:323 shortcode/login.php:375 shortcode/login.php:554 shortcode/login.php:810 shortcode/login.php:949
+#: shortcode/paypal-api/PaymentGateway.php:407 shortcode/paypal_redirect.php:552 shortcode/safe.php:2159
+#: shortcode/time-slot-calculate.php:111 shortcode/time-slot-calculate.php:979
+msgid "Payment"
+msgstr "innbetaling"
+
+#: admin/appearance.php:1 shortcode/appointment.php:1 shortcode/details.php:182 shortcode/login.php:188 shortcode/login.php:328
+#: shortcode/login.php:380 shortcode/login.php:559 shortcode/login.php:815 shortcode/login.php:954
+#: shortcode/paypal-api/PaymentGateway.php:412 shortcode/paypal_redirect.php:557 shortcode/safe.php:2165
+#: shortcode/time-slot-calculate.php:116 shortcode/time-slot-calculate.php:984
+msgid "Done"
+msgstr "Ferdig"
+
+#: admin/appearance.php:1
+msgid "Custom Css"
+msgstr "Tilpasset Css"
+
+#: admin/appearance.php:1
+msgid "Select color:"
+msgstr "Velg farge:"
+
+#: admin/appearance.php:1
+msgid "Show form progress tracker:"
+msgstr "Vis skjemafremdriftssporing:"
+
+#: admin/appearance.php:1 admin/appointment.php:1 admin/safe_admin_appointment.php:400 admin/setting.php:1
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/appearance.php:1 admin/appointment.php:1 admin/holiday-fetch.php:106 admin/holiday.php:397
+#: admin/safe_admin_appointment.php:401 admin/setting.php:1
+msgid "No"
+msgstr "Nei"
+
+#: admin/appearance.php:1
+msgid "Show logo:"
+msgstr "Vis logo:"
+
+#: admin/appearance.php:1
+msgid "Upload logo:"
+msgstr "Last opp logo:"
+
+#: admin/appearance.php:1 admin/setting.php:1 admin/staff.php:1
+msgid "No media selected!"
+msgstr "Ingen media valgt!"
+
+#: admin/appearance.php:1
+msgid "Upload logo"
+msgstr "Last opp logo"
+
+#: admin/appearance.php:1
+msgid "Logo width"
+msgstr "Logo bredde"
+
+#: admin/appearance.php:1
+msgid "Logo height"
+msgstr "Logo høyde"
+
+#: admin/appearance.php:1
+msgid "Show Phone Number:"
+msgstr "Vis telefonnummer:"
+
+#: admin/appearance.php:1 admin/category-fetch.php:1 admin/locations.php:407 admin/service.php:1 admin/staff.php:1
+msgid "Select Icon"
+msgstr "Velg ikon"
+
+#: admin/appearance.php:1
+msgid "Show Email Address:"
+msgstr "Vis Epost adresse:"
+
+#: admin/appearance.php:1
+#, fuzzy
+#| msgid "Email Address:"
+msgid " Email Address:"
+msgstr "Epostadresse:"
+
+#: admin/appearance.php:1
+msgid "Social Link:"
+msgstr "Sosial lenke:"
+
+#: admin/appearance.php:1
+msgid "Social Link 1"
+msgstr "Sosial lenke 1"
+
+#: admin/appearance.php:1
+msgid "Social Link 2"
+msgstr "Sosial Link 2"
+
+#: admin/appearance.php:1
+msgid "Social Link 3"
+msgstr "Sosial Link 3"
+
+#: admin/appearance.php:1
+msgid "Social Link 4"
+msgstr "Sosial Link 4"
+
+#: admin/appearance.php:1
+msgid "Social Link 5"
+msgstr "Sosial Link 5"
+
+#: admin/appearance.php:1
+msgid "Tips:"
+msgstr "Tips:"
+
+#: admin/appearance.php:1
+msgid "Navigation Button Text :"
+msgstr "Navigasjonsknapp Tekst:"
+
+#: admin/appearance.php:1
+msgid "Back Navigation Button Text :"
+msgstr "Tilbake Navigasjonsknapp Tekst:"
+
+#: admin/appearance.php:1
+msgid "Forward Navigation Button Text :"
+msgstr "Forward Navigation Button Text:"
+
+#: admin/appearance.php:1
+msgid "Backward Navigation Button Text"
+msgstr "Bakover-navigasjonsknapptekst"
+
+#: admin/appearance.php:1
+msgid "Forward Navigation Button Text"
+msgstr "Framover Navigasjonsknapptekst"
+
+#: admin/appearance.php:1
+msgid "Payment confirm Message"
+msgstr "Betaling bekreft Melding"
+
+#: admin/appearance.php:1
+msgid "Custom Css Editor"
+msgstr "Tilpasset Css Editor"
+
+#: admin/appointment-fetch.php:1
+msgid "Member Name:"
+msgstr "Medlemsnavn:"
+
+#: admin/appointment-fetch.php:1 admin/appointment.php:1 admin/calendar.php:1 admin/calendar_staff.php:1
+#: admin/safe_admin_appointment.php:1974
+msgid "Select Staff"
+msgstr "Velg Personale"
+
+#: admin/appointment-fetch.php:1 admin/appointment.php:1 admin/calendar.php:1 admin/calendar_customer.php:1
+#: admin/calendar_service.php:1 admin/calendar_staff.php:1 admin/coupon-fetch.php:1 admin/coupon.php:1
+#: admin/safe_admin_appointment.php:1979 admin/safe_admin_appointment.php:1996 admin/safe_admin_appointment.php:2041
+#: admin/safe_admin_appointment.php:2050 admin/safe_admin_appointment.php:2066 admin/setting.php:1
+msgid "Please select one"
+msgstr "Vennligst velg en"
+
+#: admin/appointment-fetch.php:1 admin/appointment.php:1 admin/coupon-fetch.php:1 admin/coupon.php:1
+#: admin/safe_admin_appointment.php:1982 admin/service-ajax.php:1 admin/service.php:1
+msgid "Service Name:"
+msgstr "Tjenestenavn:"
+
+#: admin/appointment-fetch.php:1 admin/appointment.php:1 admin/safe_admin_appointment.php:1984
+msgid "-- Select a service --"
+msgstr "- Velg -"
+
+#: admin/appointment-fetch.php:1 admin/email-notification.php:1 admin/safe_admin_appointment.php:1999 admin/setting.php:1
+msgid "Date:"
+msgstr "Dato:"
+
+#: admin/appointment-fetch.php:1 admin/appointment.php:1 admin/calendar.php:1 admin/coupon-fetch.php:1 admin/coupon.php:1
+#: admin/customer-fetch.php:1 admin/customer.php:1 admin/email-notification.php:1 admin/holiday-fetch.php:71 admin/holiday.php:365
+#: admin/location-ajax.php:232 admin/location-ajax.php:243 admin/location-ajax.php:255 admin/location-ajax.php:262
+#: admin/location-ajax.php:270 admin/location-ajax.php:278 admin/location-ajax.php:286 admin/location-ajax.php:299
+#: admin/locations.php:405 admin/safe_admin_appointment.php:2001 admin/safe_admin_appointment.php:2008
+#: admin/safe_admin_appointment.php:2013 admin/safe_admin_appointment.php:2029 admin/service-ajax.php:1 admin/service.php:1
+#: admin/setting.php:1 admin/staff.php:1
+msgid "This field is required"
+msgstr "Dette feltet er obligatorisk"
+
+#: admin/appointment-fetch.php:1
+msgid "Start Period:"
+msgstr "Startperiode:"
+
+#: admin/appointment-fetch.php:1
+msgid "End Period:"
+msgstr "Sluttperiode:"
+
+#: admin/appointment-fetch.php:1 admin/appointment.php:1 admin/safe_admin_appointment.php:2016
+msgid "Customer:"
+msgstr "Kunde:"
+
+#: admin/appointment-fetch.php:1
+msgid "--- Select Customer ---"
+msgstr "--- Velg kunde ---"
+
+#: admin/appointment-fetch.php:1 admin/appointment.php:1 admin/safe_admin_appointment.php:2027
+msgid "Contact No.:"
+msgstr "Kontaktnummer.:"
+
+#: admin/appointment-fetch.php:1 admin/appointment.php:1 admin/safe_admin_appointment.php:2030 admin/service-ajax.php:1
+#: admin/service.php:1 admin/setting.php:1
+msgid "This field is required number"
+msgstr "Dette feltet er nødvendig nummer"
+
+#: admin/appointment-fetch.php:1 admin/appointment.php:1 admin/email-notification.php:1 admin/location-ajax.php:77
+#: admin/safe_admin_appointment.php:2033 admin/setting.php:1
+msgid "Status:"
+msgstr "Status:"
+
+#: admin/appointment-fetch.php:1 admin/appointment.php:1 admin/safe_admin_appointment.php:2035 admin/safe_admin_appointment.php:2046
+msgid "--- Select Status ---"
+msgstr "--- Velg Status ---"
+
+#: admin/appointment-fetch.php:1 admin/appointment.php:1 admin/calendar.php:1 admin/dashboard-ajax.php:52 admin/dashboard.php:1
+#: admin/safe_admin_appointment.php:2036 admin/safe_admin_appointment.php:2047 admin/setting.php:1 shortcode/safe.php:3166
+msgid "Approved"
+msgstr "godkjent"
+
+#: admin/appointment-fetch.php:1 admin/appointment.php:1 admin/calendar.php:1 admin/dashboard-ajax.php:65
+#: admin/dashboard-ajax.php:194 admin/dashboard-ajax.php:344 admin/dashboard-ajax.php:355 admin/dashboard.php:1
+#: admin/safe_admin_appointment.php:2037 admin/safe_admin_appointment.php:2048 admin/setting.php:1 shortcode/safe.php:3179
+#: shortcode/safe.php:3306 shortcode/safe.php:3448 shortcode/safe.php:3459
+msgid "Pending"
+msgstr "I påvente av"
+
+#: admin/appointment-fetch.php:1 admin/appointment.php:1 admin/coupon.php:1 admin/customer-fetch.php:1 admin/customer.php:1
+#: admin/dashboard-ajax.php:78 admin/dashboard.php:1 admin/holiday.php:131 admin/holiday.php:168 admin/holiday.php:454
+#: admin/holiday.php:477 admin/location-ajax.php:556 admin/location-ajax.php:564 admin/location-ajax.php:569 admin/locations.php:121
+#: admin/locations.php:411 admin/locations.php:428 admin/payment.php:1 admin/safe_admin_appointment.php:303
+#: admin/safe_admin_appointment.php:339 admin/safe_admin_appointment.php:2038 admin/safe_admin_appointment.php:2072
+#: admin/service-ajax.php:1 admin/service.php:1 admin/setting.php:1 admin/staff.php:1 shortcode/safe.php:3192
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: admin/appointment-fetch.php:1 admin/appointment.php:1 admin/calendar.php:1 admin/safe_admin_appointment.php:2039
+#: admin/setting.php:1
+msgid "Completed"
+msgstr "fullført"
+
+#: admin/appointment-fetch.php:1 admin/appointment.php:1 admin/safe_admin_appointment.php:2044
+msgid "Payment Status:"
+msgstr "Betalingsstatus:"
+
+#: admin/appointment-fetch.php:1 admin/appointment.php:1 admin/email-notification.php:1 admin/safe_admin_appointment.php:2053
+msgid "Location:"
+msgstr "Plassering:"
+
+#: admin/appointment-fetch.php:1 admin/appointment.php:1 admin/safe_admin_appointment.php:2055
+msgid "--- Select Location ---"
+msgstr "--- Velg sted ---"
+
+#: admin/appointment-fetch.php:1 admin/appointment.php:1 admin/calendar.php:1 admin/coupon.php:1 admin/customer-fetch.php:1
+#: admin/customer.php:1 admin/holiday.php:110 admin/locations.php:100 admin/locations.php:427 admin/safe_admin_appointment.php:280
+#: admin/service-ajax.php:1 admin/service.php:1 admin/staff-holiday-fetch.php:33 admin/staff.php:1
+msgid "Update"
+msgstr "Oppdater"
+
+#: admin/appointment-fetch.php:1
+msgid "Download"
+msgstr "nedlasting"
+
+#: admin/appointment.php:1 admin/safe_admin_appointment.php:137
+msgid "Appointment Created Successfully"
+msgstr "Avtale ble opprettet suksessivt"
+
+#: admin/appointment.php:1 admin/customer.php:1 admin/payment.php:1 admin/safe_admin_appointment.php:153
+msgid "No Customer Add"
+msgstr "Ingen kunde legg til"
+
+#: admin/appointment.php:1 admin/calendar.php:1 admin/coupon.php:1 admin/customer.php:1 admin/holiday.php:99 admin/locations.php:92
+#: admin/safe_admin_appointment.php:269 admin/service.php:1
+msgid "Updating"
+msgstr "oppdatering"
+
+#: admin/appointment.php:1 admin/calendar.php:1 admin/safe_admin_appointment.php:284
+msgid "Appointment Updated Successfully"
+msgstr "Avtale oppdatert vellykket"
+
+#: admin/appointment.php:1 admin/coupon.php:1 admin/customer.php:1 admin/holiday.php:124 admin/holiday.php:161
+#: admin/locations.php:114 admin/payment.php:1 admin/safe_admin_appointment.php:296 admin/safe_admin_appointment.php:332
+#: admin/safe_admin_appointment.php:394 admin/service.php:1 admin/setting.php:1 admin/staff.php:1
+msgid "Please Confirm"
+msgstr "Vennligst bekreft"
+
+#: admin/appointment.php:1 admin/safe_admin_appointment.php:298
+msgid "Are you sure to Delete Appointment"
+msgstr "Er du sikker på å slette avtale"
+
+#: admin/appointment.php:1 admin/coupon.php:1 admin/customer.php:1 admin/holiday.php:130 admin/holiday.php:167 admin/holiday.php:183
+#: admin/locations.php:120 admin/payment.php:1 admin/safe_admin_appointment.php:302 admin/safe_admin_appointment.php:338
+#: admin/safe_admin_appointment.php:350 admin/service.php:1 admin/staff.php:1
+msgid "Delete"
+msgstr "Slett"
+
+#: admin/appointment.php:1 admin/safe_admin_appointment.php:311
+msgid "Appointment Delete Successfully"
+msgstr "Avtale Slett vellykket"
+
+#: admin/appointment.php:1 admin/safe_admin_appointment.php:328
+msgid "Please Select At Least One Appointment To Delete"
+msgstr "Vennligst velg minst en avtale for å slette"
+
+#: admin/appointment.php:1 admin/safe_admin_appointment.php:334
+msgid "Are you sure to Delete Appointment?"
+msgstr "Er du sikker på å slette avtale?"
+
+#: admin/appointment.php:1 admin/coupon.php:1 admin/customer.php:1 admin/holiday.php:173 admin/payment.php:1
+#: admin/safe_admin_appointment.php:342 admin/service.php:1
+msgid "Deleting"
+msgstr "slette"
+
+#: admin/appointment.php:1 admin/safe_admin_appointment.php:351
+msgid "Approved Delete Successfully"
+msgstr "Godkjent sletting vellykket"
+
+#: admin/appointment.php:1 admin/safe_admin_appointment.php:396
+msgid "Status Updated. Do you want to send mail"
+msgstr "Status oppdatert. Ønsker du å sende e-post"
+
+#: admin/appointment.php:1 admin/email-notification.php:1 admin/safe_admin_appointment.php:412
+msgid "Mail Sent Successfully"
+msgstr "E-post sendes vellykket"
+
+#: admin/appointment.php:1 admin/safe_admin_appointment.php:418
+msgid "Status Updated Successfully"
+msgstr "Status oppdatert vellykket"
+
+#: admin/appointment.php:1 admin/main_page.php:1 admin/safe_admin_appointment.php:1955
+msgid "Appointments"
+msgstr "avtaler"
+
+#: admin/appointment.php:1 shortcode/safe.php:2984
+msgid "Download Reports"
+msgstr "Last ned rapporter"
+
+#: admin/appointment.php:1
+msgid "Download Report According To Date:"
+msgstr "Last ned rapport i henhold til dato:"
+
+#: admin/appointment.php:1
+msgid "Download Report According To Month:"
+msgstr "Last ned rapport i henhold til måned:"
+
+#: admin/appointment.php:1
+msgid "Download Report According To Year:"
+msgstr "Last ned rapport i henhold til år:"
+
+#: admin/appointment.php:1 admin/safe_admin_appointment.php:1957
+msgid "Download All"
+msgstr "Last ned alt"
+
+#: admin/appointment.php:1 admin/safe_admin_appointment.php:1960
+msgid " New Appoinment"
+msgstr "Ny avtale"
+
+#: admin/appointment.php:1 admin/safe_admin_appointment.php:1966
+msgid "New Appointment"
+msgstr "Ny avtale"
+
+#: admin/appointment.php:1 admin/safe_admin_appointment.php:1972 shortcode/safe.php:2990
+msgid "Staff Member Name:"
+msgstr "Ansattes navn:"
+
+#: admin/appointment.php:1
+msgid "Datfe:"
+msgstr "Dato:"
+
+#: admin/appointment.php:1 admin/safe_admin_appointment.php:2004
+msgid "Start Time:"
+msgstr "Starttid:"
+
+#: admin/appointment.php:1 admin/safe_admin_appointment.php:2009
+msgid "End Time:"
+msgstr "Sluttid:"
+
+#: admin/appointment.php:1 admin/calendar.php:1 admin/calendar_customer.php:1 admin/safe_admin_appointment.php:2018
+msgid "Select Customer"
+msgstr "Velg kunde"
+
+#: admin/appointment.php:1 admin/safe_admin_appointment.php:2024
+msgid "Please select/create one"
+msgstr "Vennligst velg / opprett en"
+
+#: admin/appointment.php:1 admin/safe_admin_appointment.php:2083
+msgid "Edit Appointment"
+msgstr "Rediger avtale"
+
+#: admin/appointment.php:1
+msgid "Id"
+msgstr "id"
+
+#: admin/appointment.php:1
+msgid "Date & Time"
+msgstr "Dato tid"
+
+#: admin/appointment.php:1 admin/payment.php:1 admin/staff.php:1 shortcode/appointment.php:1
+msgid "Staff"
+msgstr "Personale"
+
+#: admin/appointment.php:1 admin/calendar.php:1 admin/customer.php:1 admin/payment.php:1
+msgid "Customer"
+msgstr "Kunde"
+
+#: admin/appointment.php:1 admin/calendar.php:1 admin/dashboard-ajax.php:47 admin/dashboard-ajax.php:61 admin/dashboard-ajax.php:74
+#: admin/dashboard-ajax.php:87 admin/dashboard.php:1 admin/holiday.php:494 admin/payment-fetch.php:1 admin/payment.php:1
+#: admin/reminder_log.php:44 admin/safe_admin_appointment.php:2123 shortcode/safe.php:3161 shortcode/safe.php:3175
+#: shortcode/safe.php:3188 shortcode/safe.php:3201
+msgid "Status"
+msgstr "Status"
+
+#: admin/appointment.php:1 admin/safe_admin_appointment.php:2124
+msgid "Contact"
+msgstr "Kontakt"
+
+#: admin/appointment.php:1 admin/calendar.php:1 admin/locations.php:329 admin/main_page.php:1
+msgid "Location"
+msgstr "plassering"
+
+#: admin/appointment.php:1 admin/coupon.php:1 admin/customer.php:1 admin/holiday.php:495 admin/safe_admin_appointment.php:2125
+#: admin/staff.php:1
+msgid "Action"
+msgstr "Handling"
+
+#: admin/appointment.php:1 admin/coupon.php:1 admin/holiday.php:499 admin/payment.php:1 admin/safe_admin_appointment.php:2129
+#: admin/staff.php:1
+msgid " Delete"
+msgstr "Slett"
+
+#: admin/appt_details.php:3 admin/main_page.php:1
+msgid "Plugin Details"
+msgstr "Plugin Detaljer"
+
+#: admin/appt_details.php:6
+msgid "Plugin Shortcode"
+msgstr "Plugg inn Kort kode"
+
+#: admin/appt_details.php:8
+msgid ""
+"Appointment Scheduler Pro adds a booking system to WordPress, allowing customers to book and pay for appointments, service that "
+"needs to be scheduled by date and time"
+msgstr ""
+"Avtale Scheduler Pro legger til et bestillingssystem for WordPress, slik at kundene kan bestille og betale for avtaler, service "
+"som må planlegges etter dato og klokkeslett"
+
+#: admin/appt_details.php:8
+msgid "To insert Appointment Scheduler Pro into any post or page, use the shortcode"
+msgstr "For å sette inn Avtaleplanlegger Pro i et innlegg eller en side, bruk kortnummeret"
+
+#: admin/appt_details.php:10
+msgid ""
+"Complete and proper understandable documentation for installation and configuration system with visual and video tutorials guide. "
+"Click Here for Installation Guide "
+msgstr ""
+"Komplett og skikkelig forståelig dokumentasjon for installasjons- og konfigurasjonssystem med veiledning for visuell og "
+"videoopplæring. Klikk her for installasjonsveiledning"
+
+#: admin/appt_details.php:10
+msgid "Installation Guide"
+msgstr "Installasjonsveiledning"
+
+#: admin/calendar.php:1
+msgid "Appointment Booked Successfully"
+msgstr "Avtale bestilt suksessfullt"
+
+#: admin/calendar.php:1 admin/main_page.php:1
+msgid "Calendar"
+msgstr "Kalender"
+
+#: admin/calendar.php:1 admin/setting.php:1
+msgid "Cancelled"
+msgstr "avbrutt"
+
+#: admin/calendar.php:1
+msgid "Time off"
+msgstr "Fritid"
+
+#: admin/calendar.php:1
+msgid "All"
+msgstr "Alle"
+
+#: admin/calendar.php:1 admin/calendar_staff.php:1 shortcode/login.php:87 shortcode/login.php:458 shortcode/login.php:750
+msgid "Staff Member"
+msgstr "Betjeningen"
+
+#: admin/calendar.php:1 admin/holiday-fetch.php:97 admin/holiday.php:388 admin/holiday.php:491 admin/payment.php:1
+#: shortcode/appointment.php:1 shortcode/login.php:63 shortcode/login.php:429 shortcode/login.php:755 shortcode/safe.php:2196
+msgid "Date"
+msgstr "Dato"
+
+#: admin/calendar.php:1
+msgid "ALL"
+msgstr "ALLE"
+
+#: admin/calendar.php:1
+msgid "Fetch Data"
+msgstr "Hent data"
+
+#: admin/calendar.php:1
+msgid "Book an Appointment"
+msgstr "Avtale et møte"
+
+#: admin/calendar.php:1 admin/payment-fetch.php:1
+msgid "Customer Name"
+msgstr "Kundenavn"
+
+#: admin/calendar.php:1
+msgid "Please select"
+msgstr "Vennligst velg"
+
+#: admin/calendar.php:1 admin/calendar_service.php:1
+msgid "Select Service"
+msgstr "Velg Service"
+
+#: admin/calendar.php:1
+msgid "Contact No."
+msgstr "Kontaktnummer."
+
+#: admin/calendar.php:1
+msgid "Select Start Time"
+msgstr "Velg Starttid"
+
+#: admin/calendar.php:1
+msgid "Select End Time"
+msgstr "Velg sluttidspunkt"
+
+#: admin/calendar.php:1
+msgid "Appointment Status"
+msgstr "Utnevnelsesstatus"
+
+#: admin/calendar.php:1
+msgid "Select Status"
+msgstr "Velg Status"
+
+#: admin/calendar.php:1
+msgid "Payment Status"
+msgstr "Betalingsstatus"
+
+#: admin/calendar.php:1
+msgid "Select Location"
+msgstr "Velg plassering"
+
+#: admin/calendar.php:1 admin/holiday-fetch.php:104 admin/holiday.php:395 admin/holiday.php:493
+msgid "Repeat"
+msgstr "Gjenta"
+
+#: admin/calendar.php:1
+msgid "None"
+msgstr "Ingen"
+
+#: admin/calendar.php:1 admin/holiday-fetch.php:108 admin/holiday.php:399
+msgid "Daily"
+msgstr "Daglig"
+
+#: admin/calendar.php:1 admin/holiday-fetch.php:109 admin/holiday.php:400
+msgid "Weekly"
+msgstr "Ukentlig"
+
+#: admin/calendar.php:1 admin/holiday-fetch.php:111 admin/holiday.php:402
+msgid "Monthly"
+msgstr "Månedlig"
+
+#: admin/calendar.php:1
+msgid "Particular Dates"
+msgstr "Spesielle datoer"
+
+#: admin/calendar.php:1
+msgid "(Min = 1, Max = 99 Days)"
+msgstr "(Min = 1, Maks = 99 Dager)"
+
+#: admin/calendar.php:1
+msgid "Repeat Week(s):"
+msgstr "Gjenta uke (r):"
+
+#: admin/calendar.php:1
+msgid "(Min = 1, Max = 99 Weeks)"
+msgstr "(Min = 1, Maks = 99 uker)"
+
+#: admin/calendar.php:1
+msgid "Repeat Month(s):"
+msgstr "Gjenta måned (er):"
+
+#: admin/calendar.php:1
+msgid "(Min = 1, Max = 99 Months)"
+msgstr "(Min = 1, Maks = 99 Måneder)"
+
+#: admin/calendar.php:1
+msgid "Start Date:"
+msgstr "Startdato:"
+
+#: admin/calendar.php:1
+msgid "End Date:"
+msgstr "Sluttdato:"
+
+#: admin/calendar.php:1 admin/payment-fetch.php:1 admin/service.php:1
+msgid "Close"
+msgstr "Lukk"
+
+#: admin/calendar.php:1
+msgid "Update Appointment"
+msgstr "Oppdater avtalen"
+
+#: admin/calendar.php:1
+msgid "January"
+msgstr "januar"
+
+#: admin/calendar.php:1
+msgid "February"
+msgstr "februar"
+
+#: admin/calendar.php:1
+msgid "March"
+msgstr "mars"
+
+#: admin/calendar.php:1
+msgid "April"
+msgstr "april"
+
+#: admin/calendar.php:1
+msgid "May"
+msgstr "Kan"
+
+#: admin/calendar.php:1
+msgid "June"
+msgstr "juni"
+
+#: admin/calendar.php:1
+msgid "July"
+msgstr "juli"
+
+#: admin/calendar.php:1
+msgid "August"
+msgstr "august"
+
+#: admin/calendar.php:1
+msgid "September"
+msgstr "september"
+
+#: admin/calendar.php:1
+msgid "October"
+msgstr "oktober"
+
+#: admin/calendar.php:1
+msgid "November"
+msgstr "november"
+
+#: admin/calendar.php:1
+msgid "December"
+msgstr "desember"
+
+#: admin/calendar.php:1
+msgid "Jan"
+msgstr "jan"
+
+#: admin/calendar.php:1
+msgid "Feb"
+msgstr "februar"
+
+#: admin/calendar.php:1
+msgid "Mar"
+msgstr "mar"
+
+#: admin/calendar.php:1
+msgid "Apr"
+msgstr "april"
+
+#: admin/calendar.php:1
+msgid "Jun"
+msgstr "juni"
+
+#: admin/calendar.php:1
+msgid "Jul"
+msgstr "juli"
+
+#: admin/calendar.php:1
+msgid "Aug"
+msgstr "august"
+
+#: admin/calendar.php:1
+msgid "Sept"
+msgstr "september"
+
+#: admin/calendar.php:1
+msgid "Oct"
+msgstr "oktober"
+
+#: admin/calendar.php:1
+msgid "nov"
+msgstr "november"
+
+#: admin/calendar.php:1
+msgid "Dec"
+msgstr "desember"
+
+#: admin/calendar.php:1 admin/location-ajax.php:505 admin/setting.php:1 admin/staff.php:1
+msgid "Sunday"
+msgstr "søndag"
+
+#: admin/calendar.php:1 admin/location-ajax.php:317 admin/setting.php:1 admin/staff.php:1
+msgid "Monday"
+msgstr "mandag"
+
+#: admin/calendar.php:1 admin/location-ajax.php:347 admin/setting.php:1 admin/staff.php:1
+msgid "Tuesday"
+msgstr "tirsdag"
+
+#: admin/calendar.php:1 admin/location-ajax.php:377 admin/setting.php:1 admin/staff.php:1
+msgid "Wednesday"
+msgstr "onsdag"
+
+#: admin/calendar.php:1 admin/location-ajax.php:408 admin/setting.php:1 admin/staff.php:1
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: admin/calendar.php:1 admin/location-ajax.php:441 admin/setting.php:1 admin/staff.php:1
+msgid "Friday"
+msgstr "fredag"
+
+#: admin/calendar.php:1 admin/location-ajax.php:472 admin/setting.php:1 admin/staff.php:1
+msgid "Saturday"
+msgstr "lørdag"
+
+#: admin/calendar.php:1
+msgid "Sun"
+msgstr "Sol"
+
+#: admin/calendar.php:1
+msgid "Mon"
+msgstr "man"
+
+#: admin/calendar.php:1
+msgid "Tue"
+msgstr "ti"
+
+#: admin/calendar.php:1
+msgid "Wed"
+msgstr "Ons"
+
+#: admin/calendar.php:1
+msgid "Thus"
+msgstr "Dermed"
+
+#: admin/calendar.php:1
+msgid "Fri"
+msgstr "fr"
+
+#: admin/calendar.php:1
+msgid "Sat"
+msgstr "lør"
+
+#: admin/calendar.php:1 admin/dashboard-ajax.php:108 admin/dashboard.php:1 shortcode/safe.php:3222
+msgid "Today"
+msgstr "I dag"
+
+#: admin/calendar.php:1 admin/location-ajax.php:310 admin/setting.php:1 admin/staff.php:1
+msgid "Day"
+msgstr "Dag"
+
+#: admin/calendar.php:1 admin/setting.php:1
+msgid "Week"
+msgstr "Uke"
+
+#: admin/calendar.php:1 admin/setting.php:1
+msgid "Month"
+msgstr "Måned"
+
+#: admin/coupon-fetch.php:1 admin/coupon.php:1
+msgid "Coupon Code:"
+msgstr "Kupongkode:"
+
+#: admin/coupon-fetch.php:1 admin/coupon.php:1
+msgid "Add Coupon"
+msgstr "Legg til kupong"
+
+#: admin/coupon-fetch.php:1
+msgid "No. of Total Time Used:"
+msgstr "Antall samlet tid brukt:"
+
+#: admin/coupon-fetch.php:1 admin/coupon.php:1
+msgid "Please Enter Positive Number"
+msgstr "Vennligst skriv inn positivt nummer"
+
+#: admin/coupon-fetch.php:1 admin/coupon.php:1 admin/staff.php:1
+msgid "This field required number"
+msgstr "Dette feltet kreves nummer"
+
+#: admin/coupon-fetch.php:1 admin/coupon.php:1
+msgid "No. of Per Person Used:"
+msgstr "Antall per person brukt:"
+
+#: admin/coupon-fetch.php:1 admin/coupon.php:1
+msgid "Discount:"
+msgstr "Rabatt:"
+
+#: admin/coupon-fetch.php:1 admin/coupon.php:1
+msgid "Discount Type:"
+msgstr "Rabattype:"
+
+#: admin/coupon-fetch.php:1 admin/coupon.php:1
+msgid "-- Select Discount Type --"
+msgstr "- Velg rabattype -"
+
+#: admin/coupon-fetch.php:1 admin/coupon.php:1
+msgid "Flat Discount"
+msgstr "Flat rabatt"
+
+#: admin/coupon-fetch.php:1 admin/coupon.php:1
+msgid "Percent Discount"
+msgstr "Prosent rabatt"
+
+#: admin/coupon-fetch.php:1 admin/coupon.php:1
+msgid "Starting Date:"
+msgstr "Startdato:"
+
+#: admin/coupon-fetch.php:1 admin/coupon.php:1
+msgid "Ending Date:"
+msgstr "Sluttdato:"
+
+#: admin/coupon.php:1
+msgid "No. of per person cannot be greater than No. of time used"
+msgstr "Antall personer per person kan ikke være større enn antall benyttet tid"
+
+#: admin/coupon.php:1
+msgid "Coupon Created Successfully"
+msgstr "Kupong opprettet suksessfullt"
+
+#: admin/coupon.php:1
+msgid "Coupon Update Successfully"
+msgstr "Kupongoppdatering vellykket"
+
+#: admin/coupon.php:1
+msgid "Are you sure to Delete Coupon"
+msgstr "Er du sikker på å slette kupongen"
+
+#: admin/coupon.php:1
+msgid "Coupon Delete Successfully"
+msgstr "Kupong slett vellykket"
+
+#: admin/coupon.php:1
+msgid "Please Select Atleast One Coupon To Delete"
+msgstr "Vennligst velg Atleast One Coupon To Delete"
+
+#: admin/coupon.php:1
+msgid "Coupon"
+msgstr "kupong"
+
+#: admin/coupon.php:1
+msgid " Add Coupon"
+msgstr "Legg til kupong"
+
+#: admin/coupon.php:1
+msgid "Code"
+msgstr "Kode"
+
+#: admin/coupon.php:1
+msgid "Discount"
+msgstr "Rabatt"
+
+#: admin/coupon.php:1 admin/payment.php:1
+msgid "Type"
+msgstr "Type"
+
+#: admin/coupon.php:1
+msgid "Per Person Can Use"
+msgstr "Per person kan bruke"
+
+#: admin/coupon.php:1
+msgid "No. Of Time Used:"
+msgstr "Antall tid brukt:"
+
+#: admin/coupon.php:1 admin/holiday-fetch.php:144 admin/holiday.php:435
+msgid "Start Date"
+msgstr "Startdato:"
+
+#: admin/coupon.php:1
+msgid "Expire Date"
+msgstr "Utløpsdato"
+
+#: admin/coupon.php:1
+msgid "No. of Total Time Used: "
+msgstr "Antall samlet tid brukt:"
+
+#: admin/coupon.php:1
+msgid "Please Enter positive number"
+msgstr "Vennligst skriv inn positivt nummer"
+
+#: admin/coupon.php:1
+msgid "Please Enter Positive Number "
+msgstr "Vennligst skriv inn positivt nummer"
+
+#: admin/coupon.php:1
+msgid "Edit Coupon"
+msgstr "Rediger kupong"
+
+#: admin/customer-fetch.php:1 admin/customer.php:1
+msgid "Customer First Name:"
+msgstr "Kundens fornavn:"
+
+#: admin/customer-fetch.php:1 admin/customer.php:1
+msgid "Customer Last Name:"
+msgstr "Kundens etternavn:"
+
+#: admin/customer-fetch.php:1
+msgid "User Name:"
+msgstr "Brukernavn:"
+
+#: admin/customer-fetch.php:1 admin/customer.php:1
+msgid "Password:"
+msgstr "Passord:"
+
+#: admin/customer-fetch.php:1 admin/customer.php:1 admin/location-ajax.php:251 admin/staff.php:1
+msgid "Phone No:"
+msgstr "Telefonnr:"
+
+#: admin/customer-fetch.php:1 admin/customer.php:1 admin/staff.php:1
+msgid "Email Id:"
+msgstr "E-post:"
+
+#: admin/customer-fetch.php:1 admin/customer.php:1 admin/setting.php:1
+msgid "Invalid email"
+msgstr "Ugyldig epost"
+
+#: admin/customer-fetch.php:1 admin/customer.php:1 admin/staff.php:1
+msgid "Skype Id:"
+msgstr "Skype ID:"
+
+#: admin/customer-fetch.php:1 admin/customer.php:1
+msgid "Special Notes"
+msgstr "Spesielle notater"
+
+#: admin/customer-fetch.php:1 admin/payment-fetch.php:1
+msgid "Print"
+msgstr "Skrive ut"
+
+#: admin/customer.php:1
+msgid "Customer Created Successfully"
+msgstr "Kunden er opprettet suksessfullt"
+
+#: admin/customer.php:1
+msgid "Customer Update Successfully"
+msgstr "Kundeoppdatering vellykket"
+
+#: admin/customer.php:1
+msgid "Are you sure to Delete Customer"
+msgstr "Er du sikker på å slette kunde"
+
+#: admin/customer.php:1
+msgid "Customer Delete Successfully"
+msgstr "Kunde slette vellykket"
+
+#: admin/customer.php:1
+msgid "Please Select At Least One Customer To Delete"
+msgstr "Vennligst velg minst én kunde for å slette"
+
+#: admin/customer.php:1
+msgid " Add Customer"
+msgstr "Legg til kunde"
+
+#: admin/customer.php:1 admin/payment.php:1
+msgid "Print All"
+msgstr "Skriv ut alle"
+
+#: admin/customer.php:1
+msgid "Add Customer"
+msgstr "Legg til kunde"
+
+#: admin/customer.php:1
+msgid "Edit Customer"
+msgstr "Rediger kunde"
+
+#: admin/customer.php:1 shortcode/details.php:215
+msgid "First Name"
+msgstr "Fornavn"
+
+#: admin/customer.php:1 shortcode/details.php:219
+msgid "Last Name"
+msgstr "Etternavn"
+
+#: admin/customer.php:1 shortcode/details.php:227
+msgid "Phone"
+msgstr "telefon"
+
+#: admin/customer.php:1 shortcode/details.php:231 shortcode/login.php:74 shortcode/login.php:443 shortcode/login.php:771
+msgid "Skype Id"
+msgstr "Skype ID"
+
+#: admin/customer.php:1 shortcode/details.php:211 shortcode/details.php:251
+msgid "Email"
+msgstr "e-post"
+
+#: admin/customer.php:1 shortcode/details.php:235
+msgid "Notes"
+msgstr "Merknader"
+
+#: admin/dashboard-ajax.php:44 admin/dashboard.php:1 shortcode/safe.php:3158
+msgid "Appointment Reports"
+msgstr "Utnevnelsesrapporter"
+
+#: admin/dashboard-ajax.php:54 admin/dashboard.php:1 shortcode/safe.php:3168
+msgid "Approved Report"
+msgstr "Godkjent rapport"
+
+#: admin/dashboard-ajax.php:67 admin/dashboard.php:1 shortcode/safe.php:3181
+msgid "Pending Report"
+msgstr "Venter på rapport"
+
+#: admin/dashboard-ajax.php:80 admin/dashboard.php:1 shortcode/safe.php:3194
+msgid "Cancel Report"
+msgstr "Avbryt rapport"
+
+#: admin/dashboard-ajax.php:92 admin/dashboard.php:1 shortcode/safe.php:3206
+msgid "Complete"
+msgstr "Fullstendig"
+
+#: admin/dashboard-ajax.php:94 admin/dashboard.php:1 shortcode/safe.php:3208
+msgid "Complete Report"
+msgstr "Komplett rapport"
+
+#: admin/dashboard-ajax.php:101 admin/dashboard-ajax.php:117 admin/dashboard-ajax.php:131 admin/dashboard.php:1
+#: shortcode/safe.php:3215 shortcode/safe.php:3231 shortcode/safe.php:3245
+msgid "Appointments Details"
+msgstr "Avtaledetaljer"
+
+#: admin/dashboard-ajax.php:110 admin/dashboard.php:1 shortcode/safe.php:3224
+msgid "Todays Appointments"
+msgstr "Dagens avtaler"
+
+#: admin/dashboard-ajax.php:122 admin/dashboard.php:1 shortcode/safe.php:3236
+msgid "Tommorrow"
+msgstr "I morgen"
+
+#: admin/dashboard-ajax.php:124 admin/dashboard.php:1 shortcode/safe.php:3238
+msgid "Tommorrows Appointments"
+msgstr "Morgendagens avtaler"
+
+#: admin/dashboard-ajax.php:143 admin/dashboard.php:1 shortcode/safe.php:3257
+msgid "This Week"
+msgstr "Denne uka"
+
+#: admin/dashboard-ajax.php:145 admin/dashboard.php:1 shortcode/safe.php:3259
+msgid "This Week Appointments"
+msgstr "Denne ukaavtalen"
+
+#: admin/dashboard-ajax.php:152 admin/dashboard.php:1 shortcode/safe.php:3266
+#, fuzzy
+#| msgid "Appointments Details"
+msgid " Appointments Details"
+msgstr "Avtaledetaljer"
+
+#: admin/dashboard-ajax.php:160 admin/dashboard.php:1 shortcode/safe.php:3274
+msgid "This Month"
+msgstr "Denne måneden"
+
+#: admin/dashboard-ajax.php:162 admin/dashboard.php:1 shortcode/safe.php:3276
+msgid "This Month Appointments"
+msgstr "Denne måneden avtaler"
+
+#: admin/dashboard-ajax.php:174 admin/dashboard.php:1 shortcode/safe.php:3286
+msgid "Overall Report"
+msgstr "Samlet rapport"
+
+#: admin/dashboard-ajax.php:179 admin/dashboard-ajax.php:288 admin/dashboard.php:1 shortcode/safe.php:3291 shortcode/safe.php:3392
+msgid "Total Customer"
+msgstr "Total kunde"
+
+#: admin/dashboard-ajax.php:180 admin/dashboard-ajax.php:289 admin/dashboard-ajax.php:300 admin/dashboard.php:1
+#: shortcode/safe.php:3292 shortcode/safe.php:3393 shortcode/safe.php:3404
+msgid "Regular"
+msgstr "Regelmessig"
+
+#: admin/dashboard-ajax.php:193 admin/dashboard-ajax.php:343 admin/dashboard.php:1 shortcode/safe.php:3305 shortcode/safe.php:3447
+msgid "Pending Payment"
+msgstr "Venter på betaling"
+
+#: admin/dashboard-ajax.php:208 admin/dashboard-ajax.php:370 admin/dashboard.php:1 admin/main_page.php:1 shortcode/safe.php:3320
+#: shortcode/safe.php:3474
+msgid "Coupons"
+msgstr "kuponger"
+
+#: admin/dashboard-ajax.php:209 admin/dashboard-ajax.php:316 admin/dashboard-ajax.php:327 admin/dashboard-ajax.php:371
+#: admin/dashboard-ajax.php:393 admin/dashboard.php:1 shortcode/safe.php:3321 shortcode/safe.php:3420 shortcode/safe.php:3431
+#: shortcode/safe.php:3475 shortcode/safe.php:3497
+msgid "Mostly Used"
+msgstr "Mest brukt"
+
+#: admin/dashboard-ajax.php:238 admin/dashboard-ajax.php:408 admin/dashboard.php:1 shortcode/safe.php:3346 shortcode/safe.php:3512
+msgid "Received Payment"
+msgstr "Mottatt betaling"
+
+#: admin/dashboard-ajax.php:239 admin/dashboard-ajax.php:409 admin/dashboard-ajax.php:420 admin/dashboard.php:1
+#: shortcode/safe.php:3347 shortcode/safe.php:3513 shortcode/safe.php:3524
+msgid "Received"
+msgstr "Mottatt"
+
+#: admin/dashboard-ajax.php:257 admin/dashboard.php:1 shortcode/safe.php:3361
+msgid "This Month Report"
+msgstr "Denne månedsrapporten"
+
+#: admin/dashboard-ajax.php:261 admin/dashboard.php:1 shortcode/safe.php:3365
+msgid "Active Staff"
+msgstr "Aktivt personale"
+
+#: admin/dashboard-ajax.php:262 admin/dashboard-ajax.php:274 admin/dashboard.php:1 shortcode/safe.php:3366 shortcode/safe.php:3378
+msgid "Working"
+msgstr "Arbeider"
+
+#: admin/dashboard-ajax.php:279 admin/dashboard-ajax.php:306 admin/dashboard-ajax.php:333 admin/dashboard-ajax.php:361
+#: admin/dashboard-ajax.php:399 admin/dashboard-ajax.php:424 admin/dashboard.php:1 shortcode/safe.php:3383 shortcode/safe.php:3410
+#: shortcode/safe.php:3437 shortcode/safe.php:3465 shortcode/safe.php:3503 shortcode/safe.php:3528
+msgid "Total"
+msgstr "Total"
+
+#: admin/dashboard-ajax.php:315 admin/dashboard.php:1 shortcode/safe.php:3419
+msgid "Active Services"
+msgstr "Aktive tjenester"
+
+#: admin/dashboard.php:1 admin/main_page.php:1 shortcode/safe.php:3155
+msgid "Dashboard"
+msgstr "dashbord"
+
+#: admin/email-notification.php:1
+msgid "Save Notification Checkbox"
+msgstr "Lagre varslingsboks"
+
+#: admin/email-notification.php:1 admin/main_page.php:1
+msgid "Email Notification"
+msgstr "E-postvarsling"
+
+#: admin/email-notification.php:1 admin/setting.php:1
+msgid "Enable"
+msgstr "Aktiver"
+
+#: admin/email-notification.php:1
+msgid "Email Type"
+msgstr "E-posttype"
+
+#: admin/email-notification.php:1
+msgid "SELECT MAIL"
+msgstr "VELG MAIL"
+
+#: admin/email-notification.php:1
+msgid "WP Mail"
+msgstr "WP Mail"
+
+#: admin/email-notification.php:1
+msgid "PHP Mail"
+msgstr "PHP Mail"
+
+#: admin/email-notification.php:1
+msgid "SMTP Mail"
+msgstr "SMTP Mail"
+
+#: admin/email-notification.php:1 admin/setting.php:1
+msgid "Email-Id"
+msgstr "E-post"
+
+#: admin/email-notification.php:1
+msgid "Host Name"
+msgstr "Vertsnavn"
+
+#: admin/email-notification.php:1
+msgid "Port No."
+msgstr "Port nr"
+
+#: admin/email-notification.php:1 shortcode/details.php:223 shortcode/details.php:255
+msgid "Password"
+msgstr "Passord"
+
+#: admin/email-notification.php:1
+msgid "Customer Notification"
+msgstr "Kundevarsling"
+
+#: admin/email-notification.php:1
+msgid "Notification to customer about pending appointment"
+msgstr "Varsel til kunden om ventende avtale"
+
+#: admin/email-notification.php:1
+msgid "Subject:"
+msgstr "Emne:"
+
+#: admin/email-notification.php:1
+msgid "Message:"
+msgstr "Budskap:"
+
+#: admin/email-notification.php:1
+msgid "Send Test Mail"
+msgstr "Send testpost"
+
+#: admin/email-notification.php:1
+msgid "Enter Receivers Email:"
+msgstr "Angi mottakerens e-postadresse:"
+
+#: admin/email-notification.php:1
+msgid "Please Enter An E-mail"
+msgstr "Vennligst skriv inn en e-post"
+
+#: admin/email-notification.php:1
+msgid "Send"
+msgstr "Sende"
+
+#: admin/email-notification.php:1 admin/setting.php:1
+msgid "Variables"
+msgstr "variabler"
+
+#: admin/email-notification.php:1 admin/setting.php:1
+msgid "Codes"
+msgstr "koder"
+
+#: admin/email-notification.php:1 admin/setting.php:1
+msgid "Service:"
+msgstr "Service:"
+
+#: admin/email-notification.php:1 admin/setting.php:1
+msgid "Staff:"
+msgstr "Personale:"
+
+#: admin/email-notification.php:1 admin/setting.php:1
+msgid "Time:"
+msgstr "Tid:"
+
+#: admin/email-notification.php:1 admin/setting.php:1
+msgid "Client name:"
+msgstr "Klientens navn:"
+
+#: admin/email-notification.php:1 admin/setting.php:1
+msgid "Client email:"
+msgstr "Kunde e-post:"
+
+#: admin/email-notification.php:1 admin/setting.php:1
+msgid "Admin Name:"
+msgstr "Administratornavn:"
+
+#: admin/email-notification.php:1 admin/setting.php:1
+msgid "Blog Name:"
+msgstr "Bloggnavn:"
+
+#: admin/email-notification.php:1 admin/setting.php:1
+msgid "Site URL:"
+msgstr "Nettstedadresse:"
+
+#: admin/email-notification.php:1
+msgid "Notification to customer about Approved appointment"
+msgstr "Varsel til kunden om Godkjent avtale"
+
+#: admin/email-notification.php:1
+msgid "Notification to Customer about Cancel appointment"
+msgstr "Varsel til kunden om Avbestillingsavtale"
+
+#: admin/email-notification.php:1
+msgid "Staff Notification"
+msgstr "Personalemelding"
+
+#: admin/email-notification.php:1
+msgid "Notification to Staff about Pending appointment"
+msgstr "Varsel til ansatte om ventende avtale"
+
+#: admin/email-notification.php:1
+msgid "Notification to Staff about Approved appointment"
+msgstr "Varsel til ansatte om godkjent avtale"
+
+#: admin/email-notification.php:1
+msgid "Notification to Staff about Cancel appointment"
+msgstr "Varsel til ansatte om Avbestillingsavtale"
+
+#: admin/email-notification.php:1
+msgid "Admin Notification"
+msgstr "Administrasjonsvarsling"
+
+#: admin/email-notification.php:1
+msgid "Notification to admin about pending appointment"
+msgstr "Varsling til admin om ventende avtale"
+
+#: admin/email-notification.php:1
+msgid "Notification to admin about Approved appointment"
+msgstr "Varsling til admin om Godkjent avtale"
+
+#: admin/email-notification.php:1
+#, fuzzy
+#| msgid "Notification to admin about Cancel appointment"
+msgid " Notification to admin about Cancel appointment"
+msgstr "Varsling til admin om Avbryt avtale"
+
+#: admin/holiday-fetch.php:62
+msgid "All Day Time Off"
+msgstr "Alle Dag Tid Av"
+
+#: admin/holiday-fetch.php:69 admin/holiday.php:363 admin/holiday.php:490 admin/setting.php:1 shortcode/login.php:59
+#: shortcode/login.php:121 shortcode/login.php:425 shortcode/login.php:492 shortcode/login.php:738 shortcode/login.php:766
+msgid "Name"
+msgstr "Navn"
+
+#: admin/holiday-fetch.php:77 admin/holiday.php:371 admin/location-ajax.php:311 admin/setting.php:1 admin/staff.php:1
+msgid "Start Time"
+msgstr "Starttid"
+
+#: admin/holiday-fetch.php:88 admin/holiday.php:379 admin/location-ajax.php:312 admin/setting.php:1 admin/staff.php:1
+msgid "End Time"
+msgstr "Sluttid"
+
+#: admin/holiday-fetch.php:107 admin/holiday.php:398
+msgid "Particular Date(s)"
+msgstr "Særlig dato (er)"
+
+#: admin/holiday-fetch.php:110 admin/holiday.php:401
+msgid "Bi-Weekly"
+msgstr "Annenhver uke"
+
+#: admin/holiday-fetch.php:117 admin/holiday.php:408
+msgid "Repeat Day(s)"
+msgstr "Gjentatt dag (er)"
+
+#: admin/holiday-fetch.php:124 admin/holiday.php:415
+msgid "Repeat Week(s)"
+msgstr "Gjenta uke (r)"
+
+#: admin/holiday-fetch.php:131 admin/holiday.php:422
+msgid "Repeat Bi-Week(s)"
+msgstr "Gjenta Bi-Uke (e)"
+
+#: admin/holiday-fetch.php:138 admin/holiday.php:429
+msgid "Repeat Month(s)"
+msgstr "Gjenta måned (er)"
+
+#: admin/holiday-fetch.php:150 admin/holiday.php:440
+msgid "End Date"
+msgstr "Sluttdato"
+
+#: admin/holiday-fetch.php:155 admin/holiday.php:446
+msgid "Note"
+msgstr "Merk"
+
+#: admin/holiday-json.php:95 admin/holiday.php:29
+msgid "No Holiday Add"
+msgstr "Ingen Ferie Legg til"
+
+#: admin/holiday.php:45
+msgid "Creating"
+msgstr "Opprette"
+
+#: admin/holiday.php:58 admin/holiday.php:453
+msgid "Create Holiday"
+msgstr "Lag ferie"
+
+#: admin/holiday.php:59
+msgid "Holiday Created Successfully"
+msgstr "Ferie skapte suksessfullt"
+
+#: admin/holiday.php:111
+msgid "Holiday Update Successfully"
+msgstr "Holiday Update Successfully"
+
+#: admin/holiday.php:126 admin/holiday.php:163
+msgid "Are you sure to Delete Holiday"
+msgstr "Er du sikker på å slette ferie"
+
+#: admin/holiday.php:139
+msgid "Delete Successfully"
+msgstr "Slett vellykket"
+
+#: admin/holiday.php:157
+msgid "Please Select Atleast One Holiday To Delete"
+msgstr "Vennligst velg  I det minste  En ferie Å slette"
+
+#: admin/holiday.php:184
+msgid "Holiday Delete Successfully"
+msgstr "Holiday Slett vellykket"
+
+#: admin/holiday.php:336 admin/main_page.php:1
+msgid "Holiday"
+msgstr "ferie"
+
+#: admin/holiday.php:338
+#, fuzzy
+#| msgid "Add Holiday"
+msgid " Add Holiday"
+msgstr "Legg til ferie"
+
+#: admin/holiday.php:348
+msgid "Add Holiday"
+msgstr "Legg til ferie"
+
+#: admin/holiday.php:356
+msgid "All Day Off"
+msgstr "Alle Dag Av"
+
+#: admin/holiday.php:468 admin/holiday.php:476
+msgid "Update Holiday"
+msgstr "Oppdater ferie"
+
+#: admin/inc/admin_menu.php:11
+msgid "Thank you for choosing Appointment Scheduler Pro Plugin"
+msgstr "Takk for at du valgte Appointment Scheduler Pro Plugin"
+
+#: admin/inc/admin_menu.php:12
+msgid "Please activate this plugin with a license key. If you don’t have a license yet, you can purchase it from "
+msgstr "Aktiver dette pluginet med en lisensnøkkel. Hvis du ikke har en lisens ennå, kan du kjøpe den fra"
+
+#: admin/inc/admin_menu.php:13
+msgid "here"
+msgstr "her"
+
+#: admin/inc/admin_menu.php:21
+msgid "Let’s get some work done!"
+msgstr "La oss få noe arbeid gjort!"
+
+#: admin/inc/admin_menu.php:22
+msgid "We have some useful links to get you started"
+msgstr "Vi har noen nyttige lenker for å komme i gang"
+
+#: admin/inc/admin_menu.php:34
+msgid "Get Your License Key"
+msgstr "Få lisensnøkkelen din"
+
+#: admin/inc/admin_menu.php:34
+msgid "Click Here"
+msgstr "Klikk her"
+
+#: admin/inc/admin_menu.php:44
+msgid "License Key applied"
+msgstr "Lisensnøkkel brukt"
+
+#: admin/inc/admin_menu.php:45
+msgid "Click here to navigate to dashboard"
+msgstr "Klikk her for å navigere til dashbordet"
+
+#: admin/inc/admin_menu.php:49 admin/inc/admin_menu.php:68
+msgid "License Key"
+msgstr "Lisensnøkkel"
+
+#: admin/inc/admin_menu.php:55
+msgid "Congratulation! Appointment Scheduler Pro Plugin is activated."
+msgstr "Vi gratulerer! Avtaleplanlegger Pro-plugin er aktivert."
+
+#: admin/inc/admin_menu.php:57
+msgid "Plugin Configuration Click Here"
+msgstr "Plugin Configuration Klikk her"
+
+#: admin/inc/admin_menu.php:80
+msgid "Getting Started"
+msgstr "Starter"
+
+#: admin/inc/admin_menu.php:81
+msgid "Video Tutorial"
+msgstr "Videoopplæring"
+
+#: admin/inc/admin_menu.php:82
+msgid "More Products"
+msgstr "Flere produkter"
+
+#: admin/inc/admin_menu.php:83
+msgid "Customize your site"
+msgstr "Tilpass nettstedet ditt"
+
+#: admin/inc/admin_menu.php:86
+msgid "Guides & Support"
+msgstr "Guider og støtte"
+
+#: admin/inc/admin_menu.php:87
+msgid "Plugin Demo"
+msgstr ""
+
+#: admin/inc/admin_menu.php:88
+msgid "Documentation Guide"
+msgstr "Dokumentasjonsveiledning"
+
+#: admin/inc/admin_menu.php:89
+msgid "Support forum"
+msgstr "Støtteforum"
+
+#: admin/location-ajax.php:89
+msgid "Close/Vacation Message:"
+msgstr "Lukk / Feriemelding:"
+
+#: admin/location-ajax.php:157
+msgid "Services:"
+msgstr "Tjenester:"
+
+#: admin/location-ajax.php:219 admin/staff.php:1
+msgid "You must select at least 1 service"
+msgstr "Du må velge minst 1 tjeneste"
+
+#: admin/location-ajax.php:228
+msgid "Business Name:"
+msgstr "Firmanavn:"
+
+#: admin/location-ajax.php:239
+msgid "Tag Line:"
+msgstr "Taglinje:"
+
+#: admin/location-ajax.php:248
+msgid "Contact Detail:"
+msgstr "Kontaktinformasjon:"
+
+#: admin/location-ajax.php:258
+msgid "Email Address:"
+msgstr "Epostadresse:"
+
+#: admin/location-ajax.php:266
+msgid "Fax No:"
+msgstr "Faksnummer:"
+
+#: admin/location-ajax.php:274
+msgid "Blog URL:"
+msgstr "Blogg-URL:"
+
+#: admin/location-ajax.php:282
+msgid "Postal Code:"
+msgstr "Postnummer:"
+
+#: admin/location-ajax.php:295
+msgid "Address:"
+msgstr "Adresse:"
+
+#: admin/location-ajax.php:304
+msgid "Operating Hours:"
+msgstr "Driftstimer:"
+
+#: admin/locations.php:53
+msgid "Location Created Successfully"
+msgstr "Plassering opprettet suksessfullt"
+
+#: admin/locations.php:102
+msgid "Location Updated Successfully"
+msgstr "Sted Oppdatert Vellykket"
+
+#: admin/locations.php:116
+msgid "Are you sure to Delete Location"
+msgstr "Er du sikker på å slette plassering"
+
+#: admin/locations.php:129
+msgid "Location Deleted Successfully"
+msgstr "Sted slettet vellykket"
+
+#: admin/locations.php:179
+msgid "Saved Successfully"
+msgstr "Lagret"
+
+#: admin/locations.php:336
+msgid "Location Name"
+msgstr "Stedsnavn"
+
+#: admin/locations.php:386 admin/locations.php:393 admin/locations.php:397
+#, fuzzy
+#| msgid "Add Location"
+msgid " Add Location"
+msgstr "Legg til plassering"
+
+#: admin/main_page.php:1 admin/service-ajax.php:1 admin/service.php:1 admin/staff.php:1 shortcode/appointment.php:1
+#: shortcode/details.php:155 shortcode/login.php:162 shortcode/login.php:302 shortcode/login.php:354 shortcode/login.php:533
+#: shortcode/login.php:789 shortcode/login.php:928 shortcode/paypal-api/PaymentGateway.php:385 shortcode/paypal_redirect.php:530
+#: shortcode/safe.php:2136 shortcode/safe.php:2174 shortcode/time-slot-calculate.php:91 shortcode/time-slot-calculate.php:959
+msgid "Services"
+msgstr "Tjenester"
+
+#: admin/main_page.php:1
+msgid "Staff Members"
+msgstr "Ansatte"
+
+#: admin/main_page.php:1
+msgid "Customers"
+msgstr "kunder"
+
+#: admin/main_page.php:1
+msgid "Payments"
+msgstr "betalinger"
+
+#: admin/main_page.php:1
+msgid "Reminders Log"
+msgstr "Påminnelser Logg"
+
+#: admin/main_page.php:1 admin/setting.php:1
+msgid "Settings"
+msgstr "innstillinger"
+
+#: admin/payment-fetch.php:1 admin/payment.php:1
+msgid "Customer Email"
+msgstr "Kundens e-postadresse"
+
+#: admin/payment-fetch.php:1
+msgid "Payment Type"
+msgstr "Betalings type"
+
+#: admin/payment-fetch.php:1
+msgid "Booking Date"
+msgstr "Bestillingsdato"
+
+#: admin/payment-fetch.php:1
+msgid "Staff Name"
+msgstr "Navn på ansatte"
+
+#: admin/payment-fetch.php:1
+msgid "Coupon Code Applied"
+msgstr "Kupongkode anvendt"
+
+#: admin/payment-fetch.php:1
+msgid "Amount After Discount"
+msgstr "Beløp etter rabatt"
+
+#: admin/payment-fetch.php:1
+msgid "Service Amount"
+msgstr "Servicebeløp"
+
+#: admin/payment.php:1
+msgid "Delete Confirm"
+msgstr "Slett Bekreft"
+
+#: admin/payment.php:1
+msgid "Are you sure to Delete Payment?"
+msgstr "Er du sikker på å slette betalingen?"
+
+#: admin/payment.php:1
+msgid "Payment Delete Successfully"
+msgstr "Betaling Slett vellykket"
+
+#: admin/payment.php:1
+msgid "Please Select Atleast One Payment To Delete"
+msgstr "Vennligst velg Atleast One Payment to Delete"
+
+#: admin/payment.php:1
+msgid "Amount"
+msgstr "Beløp"
+
+#: admin/payment.php:1
+msgid "Detail"
+msgstr "Detalj"
+
+#: admin/reminder_log-json.php:23
+msgid "No Reminder Log Found"
+msgstr "Ingen påminnelseslogg funnet"
+
+#: admin/reminder_log.php:30
+msgid "Reminder Logs"
+msgstr "Påminnelseslogger"
+
+#: admin/reminder_log.php:39
+msgid "Appointment Id"
+msgstr "Avtale ID"
+
+#: admin/reminder_log.php:40 admin/safe_admin_appointment.php:2121
+msgid "Client Name"
+msgstr "Klientens navn"
+
+#: admin/reminder_log.php:41
+msgid "Client Email"
+msgstr "Klient e-post"
+
+#: admin/reminder_log.php:42
+msgid "Retries"
+msgstr "forsøk"
+
+#: admin/reminder_log.php:43
+msgid "Date and Time"
+msgstr "Dato og tid"
+
+#: admin/safe_admin_appointment.php:2118
+msgid "Booking Id"
+msgstr "Bestillings-ID"
+
+#: admin/safe_admin_appointment.php:2119
+msgid "Appoinment Date"
+msgstr "Avtaledato"
+
+#: admin/safe_admin_appointment.php:2120 shortcode/safe.php:2192
+msgid "Employee"
+msgstr "Ansatt"
+
+#: admin/service-ajax.php:1
+msgid "Duration:"
+msgstr "Varighet:"
+
+#: admin/service-ajax.php:1
+msgid "Padding Time:before"
+msgstr "Padding Time: før"
+
+#: admin/service-ajax.php:1
+msgid "Padding Time:after"
+msgstr "Padding Time: etter"
+
+#: admin/service-ajax.php:1 admin/service.php:1
+msgid "Service Type:"
+msgstr "Tjenestetype:"
+
+#: admin/service-ajax.php:1 admin/service.php:1
+msgid "Price:"
+msgstr "Pris:"
+
+#: admin/service-ajax.php:1 admin/service.php:1
+msgid "Category:"
+msgstr "Kategori:"
+
+#: admin/service-ajax.php:1 admin/staff.php:1
+msgid "Info/Message:"
+msgstr "Info / melding:"
+
+#: admin/service-ajax.php:1 admin/service.php:1
+msgid "Select Icon:"
+msgstr "Velg ikon:"
+
+#: admin/service-ajax.php:1 admin/service.php:1
+msgid "Select Color:"
+msgstr "Velg Farge:"
+
+#: admin/service-ajax.php:1 admin/service.php:1
+msgid "Duration (in minutes):"
+msgstr "Varighet (i minutter):"
+
+#: admin/service-ajax.php:1 admin/service.php:1
+msgid "Padding Time Before</br>(in minutes):"
+msgstr "Padding Time Før </ br> (i minutter):"
+
+#: admin/service-ajax.php:1 admin/service.php:1
+msgid "Padding Time After</br>(in minutes):"
+msgstr "Padding Time Etter </ br> (i minutter):"
+
+#: admin/service-ajax.php:1
+msgid "Select Service Type"
+msgstr "Velg Service Type"
+
+#: admin/service-ajax.php:1 admin/service.php:1
+msgid "Free Service"
+msgstr "Gratis service"
+
+#: admin/service-ajax.php:1
+msgid "Paid Service"
+msgstr "Betaltjeneste"
+
+#: admin/service-ajax.php:1
+msgid "Please select duration unit"
+msgstr "Vennligst velg varighet enhet"
+
+#: admin/service-ajax.php:1 admin/service.php:1
+msgid "Capacity:"
+msgstr "Kapasitet:"
+
+#: admin/service-ajax.php:1
+msgid "Select Category"
+msgstr "Velg kategori"
+
+#: admin/service-ajax.php:1 admin/service.php:1
+msgid "Please select Category"
+msgstr "Vennligst velg kategori"
+
+#: admin/service-ajax.php:1 admin/service.php:1 admin/staff.php:1
+msgid "Info / Message:"
+msgstr "Info / melding:"
+
+#: admin/service.php:1
+msgid "Category Created Successfully"
+msgstr "Kategori opprettet suksessivt"
+
+#: admin/service.php:1
+msgid "Are you sure to Delete Category"
+msgstr "Er du sikker på å slette kategori"
+
+#: admin/service.php:1
+msgid "Category Deleted Successfully"
+msgstr "Kategori slettet vellykket"
+
+#: admin/service.php:1
+msgid "Service Created Successfully"
+msgstr "Tjenesten ble opprettet suksessivt"
+
+#: admin/service.php:1
+msgid "please Confirm"
+msgstr "Vennligst bekreft"
+
+#: admin/service.php:1
+msgid "Are you sure to Delete Services"
+msgstr "Er du sikker på å slette tjenester"
+
+#: admin/service.php:1
+msgid "Update Successfully"
+msgstr "Oppdater suksessfullt"
+
+#: admin/service.php:1
+msgid "Select options"
+msgstr "Velg alternativer"
+
+#: admin/service.php:1
+msgid "updating"
+msgstr "oppdatering"
+
+#: admin/service.php:1
+msgid "Category Updated Successfully"
+msgstr "Kategori Oppdatert Vellykket"
+
+#: admin/service.php:1
+#, fuzzy
+#| msgid "Add Services"
+msgid " Add Services"
+msgstr "Legg til tjenester"
+
+#: admin/service.php:1
+msgid "Category List"
+msgstr "Kategori Liste"
+
+#: admin/service.php:1
+#, fuzzy
+#| msgid "Add Category"
+msgid " Add Category"
+msgstr "Legg til kategori"
+
+#: admin/service.php:1
+msgid "Add Service"
+msgstr "Legg til tjeneste"
+
+#: admin/service.php:1
+msgid "Select Service Type:"
+msgstr "Velg Service Type:"
+
+#: admin/service.php:1
+msgid "Paid service"
+msgstr "Betalt tjeneste"
+
+#: admin/service.php:1
+msgid "Please select Service Type"
+msgstr "Vennligst velg tjenestetype"
+
+#: admin/setting.php:1
+msgid "Settings Saved"
+msgstr "instillinger lagret"
+
+#: admin/setting.php:1
+msgid "Are you sure to REMOVE PLUGIN?"
+msgstr "Er du sikker på å fjerne PLUGIN?"
+
+#: admin/setting.php:1
+msgid "Remove"
+msgstr "Fjerne"
+
+#: admin/setting.php:1
+msgid "Removing"
+msgstr "fjerne"
+
+#: admin/setting.php:1
+msgid "Connected"
+msgstr "Tilkoblet"
+
+#: admin/setting.php:1
+msgid "Google DSync Done"
+msgstr "Google DSync Ferdig"
+
+#: admin/setting.php:1
+msgid "Business Info "
+msgstr "Bedriftsinformasjon"
+
+#: admin/setting.php:1
+msgid "Business Hours"
+msgstr "Arbeidstid"
+
+#: admin/setting.php:1
+msgid "Payment Setting"
+msgstr "Betalingsinnstilling"
+
+#: admin/setting.php:1
+msgid "Calendar Setting"
+msgstr "Kalenderinnstilling"
+
+#: admin/setting.php:1
+msgid "Calendar Sync"
+msgstr "Kalendersynkronisering"
+
+#: admin/setting.php:1
+msgid "Cancel Appointment"
+msgstr "Avbryt Avtale"
+
+#: admin/setting.php:1
+msgid "Reminder Setting"
+msgstr "Påminnelsesinnstilling"
+
+#: admin/setting.php:1
+msgid "Staff Dashboard"
+msgstr "Personale Dashboard"
+
+#: admin/setting.php:1
+msgid "Client Dashboard"
+msgstr "Klient dashbord"
+
+#: admin/setting.php:1
+msgid "Remove Plugin"
+msgstr "Fjern plugin"
+
+#: admin/setting.php:1
+msgid "Date Format"
+msgstr "Datoformat"
+
+#: admin/setting.php:1
+msgid "Time Format"
+msgstr "Tidsformat"
+
+#: admin/setting.php:1
+msgid "Click Here To Change"
+msgstr "Klikk her for å endre"
+
+#: admin/setting.php:1
+msgid "Currency Setting"
+msgstr "Valutainnstilling"
+
+#: admin/setting.php:1
+msgid "Select Currency"
+msgstr "Velg Valuta"
+
+#: admin/setting.php:1
+msgid "Please select Currency"
+msgstr "Vennligst velg Valuta"
+
+#: admin/setting.php:1
+msgid "Theme Color"
+msgstr "Tema farge"
+
+#: admin/setting.php:1
+msgid "Show Time Slots by"
+msgstr "Vis tidspor fra"
+
+#: admin/setting.php:1
+msgid "Select Time Slots"
+msgstr "Velg tidsluker"
+
+#: admin/setting.php:1
+msgid "Custom Slots"
+msgstr "Tilpassede spor"
+
+#: admin/setting.php:1
+msgid "Time Slots (in minutes):"
+msgstr "Time Slots (i minutter):"
+
+#: admin/setting.php:1
+msgid "Show Service Duration to User According to :"
+msgstr "Vis tjenestetid til bruker i henhold til:"
+
+#: admin/setting.php:1 shortcode/appointment.php:1 shortcode/safe.php:2176 shortcode/staff_filter.php:4
+msgid "Select"
+msgstr "Velg"
+
+#: admin/setting.php:1
+msgid "Service Duration"
+msgstr "Tjenestetid"
+
+#: admin/setting.php:1
+msgid "Service Duration & Padding Time(before)"
+msgstr "Tjenestetid og stoppetid (før)"
+
+#: admin/setting.php:1
+msgid "Disable Time Slots Acoording to Appointment Status"
+msgstr "Deaktiver tidsluker som samsvarer med ansettelsesstatus"
+
+#: admin/setting.php:1
+msgid "Disable Time Slots For Pending Appointment Status"
+msgstr "Deaktiver tidsluker for ventende ansettelsesstatus"
+
+#: admin/setting.php:1
+msgid "Business Profile"
+msgstr "Bedriftsprofil"
+
+#: admin/setting.php:1
+msgid "Business Name"
+msgstr "Firmanavn"
+
+#: admin/setting.php:1
+msgid "Business Owner"
+msgstr "Bedriftseier"
+
+#: admin/setting.php:1
+msgid "Phone No"
+msgstr "Telefonnr"
+
+#: admin/setting.php:1
+msgid "Fax No"
+msgstr "Faksnr"
+
+#: admin/setting.php:1
+msgid "Blog Url"
+msgstr "Blog-url"
+
+#: admin/setting.php:1
+msgid "Postel Code"
+msgstr "postnummer"
+
+#: admin/setting.php:1
+msgid "This field is number"
+msgstr "Dette feltet er nummer"
+
+#: admin/setting.php:1
+msgid "Business Address"
+msgstr "Forretningsadresse"
+
+#: admin/setting.php:1
+msgid "Accept Payment"
+msgstr "Godta betaling"
+
+#: admin/setting.php:1
+msgid "Cash Payment"
+msgstr "Kontant betaling"
+
+#: admin/setting.php:1
+msgid "Disabled"
+msgstr "Funksjonshemmet"
+
+#: admin/setting.php:1
+msgid "PayPal"
+msgstr "PayPal"
+
+#: admin/setting.php:1
+msgid "PayPal Standard Checkout"
+msgstr "PayPal Standard Checkout"
+
+#: admin/setting.php:1
+msgid "Instruction"
+msgstr "Instruksjon"
+
+#: admin/setting.php:1
+msgid "Payment mode Instructions:"
+msgstr "Betalingsmodus Instruksjoner:"
+
+#: admin/setting.php:1
+msgid "In"
+msgstr "I"
+
+#: admin/setting.php:1
+msgid "Direct Paypal Mode"
+msgstr "Direkte Paypal-modus"
+
+#: admin/setting.php:1
+msgid "the url rediection will be directly to the paypal account."
+msgstr "URL-redieksjonen vil være direkte til paypal-kontoen."
+
+#: admin/setting.php:1
+msgid "Sandbox Mode"
+msgstr "sandkasse modus"
+
+#: admin/setting.php:1
+msgid "the url rediection will be in Sandbox mode to the paypal account...for testing purpose"
+msgstr "Url-redieksjonen vil være i Sandbox-modus til PayPal-kontoen ... for testing formål"
+
+#: admin/setting.php:1 shortcode/login.php:60 shortcode/login.php:426 shortcode/login.php:767
+msgid "Email Id"
+msgstr "E-post"
+
+#: admin/setting.php:1
+msgid "Paypal Payment Currency"
+msgstr "Paypal Betalingsvaluta"
+
+#: admin/setting.php:1
+msgid "Please select one "
+msgstr "Vennligst velg en"
+
+#: admin/setting.php:1
+msgid "Paypal Payment Mode"
+msgstr "Paypal Betalingsmåte"
+
+#: admin/setting.php:1
+msgid "Razorpay"
+msgstr "Razorpay"
+
+#: admin/setting.php:1
+msgid "Razorpay Standard Checkout"
+msgstr "Razorpay Standard Checkout"
+
+#: admin/setting.php:1
+msgid "API keys that can be generated through"
+msgstr "API-nøkler som kan genereres gjennom"
+
+#: admin/setting.php:1
+msgid "Razorpay dashboard"
+msgstr "Razorpay dashboard"
+
+#: admin/setting.php:1
+msgid "Test the"
+msgstr "Test"
+
+#: admin/setting.php:1
+msgid "Demo Razorpay Payment"
+msgstr "Demo Razorpay Betaling"
+
+#: admin/setting.php:1
+msgid "API Key"
+msgstr "API-nøkkel"
+
+#: admin/setting.php:1 appointment-scheduler-pro-widget.php:258
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: admin/setting.php:1
+msgid "Razorpay Theme Color"
+msgstr "Razorpay tema farge"
+
+#: admin/setting.php:1
+msgid "Razorpay Logo"
+msgstr "Razorpay Logo"
+
+#: admin/setting.php:1 admin/staff.php:1
+msgid "Upload"
+msgstr "Laste opp"
+
+#: admin/setting.php:1
+msgid "Calendar Themes"
+msgstr "Kalender Temaer"
+
+#: admin/setting.php:1
+msgid "Theme 01"
+msgstr "Tema 01"
+
+#: admin/setting.php:1
+msgid "Theme 02"
+msgstr "Tema 02"
+
+#: admin/setting.php:1
+msgid "DD-MM-YYYY"
+msgstr "DD-MM-ÅÅÅÅ"
+
+#: admin/setting.php:1
+msgid "MM-DD-YYYY"
+msgstr "MM-DD-ÅÅÅÅ"
+
+#: admin/setting.php:1
+msgid "YYYY-MM-DD"
+msgstr "ÅÅÅÅ-MM-DD"
+
+#: admin/setting.php:1
+msgid "12 Hour Time"
+msgstr "12 timers tid"
+
+#: admin/setting.php:1
+msgid "24 Hour Time"
+msgstr "24-timers tid"
+
+#: admin/setting.php:1
+msgid "Calendar View"
+msgstr "Kalendervisning"
+
+#: admin/setting.php:1
+msgid "Calendar First Days"
+msgstr "Kalender første dager"
+
+#: admin/setting.php:1
+msgid "Appointment Status Color"
+msgstr "Avtale Status Farge"
+
+#: admin/setting.php:1
+msgid "Time off Color"
+msgstr "Tid av farge"
+
+#: admin/setting.php:1
+msgid "Font Style"
+msgstr "Fontstil"
+
+#: admin/setting.php:1
+msgid "Cancel Appoinment"
+msgstr "Avbryt Appoinment"
+
+#: admin/setting.php:1
+msgid "Staff Location"
+msgstr "Personale Beliggenhet"
+
+#: admin/setting.php:1
+msgid "Show Location Tab"
+msgstr "Vis stedfanen"
+
+#: admin/setting.php:1
+msgid "Permission To Add & Edit Location"
+msgstr "Tillatelse til å legge til og redigere plassering"
+
+#: admin/setting.php:1
+msgid "Staff Calendar"
+msgstr "Personale kalender"
+
+#: admin/setting.php:1
+msgid "Show Calendar Tab"
+msgstr "Vis kalenderfanen"
+
+#: admin/setting.php:1
+msgid "Permission To Add & Edit Calendar"
+msgstr "Tillatelse til å legge til og redigere kalender"
+
+#: admin/setting.php:1
+msgid "Staff Service"
+msgstr "Personale Service"
+
+#: admin/setting.php:1
+msgid "Show Service Tab"
+msgstr "Vis service fanen"
+
+#: admin/setting.php:1
+msgid "Permission To Add & Edit Service"
+msgstr "Tillatelse til å legge til og redigere tjeneste"
+
+#: admin/setting.php:1
+msgid "Staff Profile"
+msgstr "Personaleprofil"
+
+#: admin/setting.php:1
+msgid "Show Profile Tab"
+msgstr "Vis profilfanen"
+
+#: admin/setting.php:1
+msgid "Permission To Add & Edit Profile"
+msgstr "Tillatelse til å legge til og redigere profil"
+
+#: admin/setting.php:1
+msgid "Staff Appointment"
+msgstr "Personaleavtale"
+
+#: admin/setting.php:1
+msgid "Show Appointment Tab"
+msgstr "Vis avtale-fanen"
+
+#: admin/setting.php:1
+msgid "Permission To Add & Edit Appointment"
+msgstr "Tillatelse til å legge til og redigere avtale"
+
+#: admin/setting.php:1
+msgid "Client Appointment"
+msgstr "Klientavtale"
+
+#: admin/setting.php:1
+msgid "Show Client Appointments"
+msgstr "Vis klientavtaler"
+
+#: admin/setting.php:1
+msgid "Google Calendar Syncronization Settings"
+msgstr "Innstillinger for Google Kalender Synkronisering"
+
+#: admin/setting.php:1
+msgid "Google E-mail"
+msgstr "Google Email"
+
+#: admin/setting.php:1
+msgid "Google Calendar Client ID"
+msgstr "Google Kalender-klient-ID"
+
+#: admin/setting.php:1
+msgid "Google Calendar Client Secret Key"
+msgstr "Google Kalender-klientens hemmelige nøkkel"
+
+#: admin/setting.php:1
+msgid "Redirect URIs"
+msgstr "Omadresser URIer"
+
+#: admin/setting.php:1
+msgid "Two Way Sync"
+msgstr "Toveis synkronisering"
+
+#: admin/setting.php:1
+msgid "Google Calendar Status"
+msgstr "Google Kalender-status"
+
+#: admin/setting.php:1
+msgid "On"
+msgstr "På"
+
+#: admin/setting.php:1
+msgid "Off"
+msgstr "Av"
+
+#: admin/setting.php:1
+msgid "Link with google"
+msgstr "Link med google"
+
+#: admin/setting.php:1
+msgid "Customer Backup"
+msgstr "Kundebackup"
+
+#: admin/setting.php:1
+msgid "Services Backup "
+msgstr "Tjenester Sikkerhetskopiering"
+
+#: admin/setting.php:1
+msgid "Payments  Backup "
+msgstr "Betaling Backup"
+
+#: admin/setting.php:1
+msgid "Appoinment Backup"
+msgstr "Appoinment Backup"
+
+#: admin/setting.php:1
+msgid "Staff Backup"
+msgstr "Personale sikkerhetskopiering"
+
+#: admin/setting.php:1
+msgid "Coupons Backup"
+msgstr "Kuponger Backup"
+
+#: admin/setting.php:1
+msgid "Remove Appointment Scheduler Pro Plugin"
+msgstr "Fjern Avtale Planlegger Pro Plugin"
+
+#: admin/setting.php:1
+msgid ""
+"This operation wiil delete all Appointment Scheduler Pro data &amp; settings. If you continue, You will not be able to retrieve or "
+"restore your appointments entries."
+msgstr ""
+"Denne operasjonen vil slette alle Avtaleplanlegger Pro data & amp; innstillinger. Hvis du fortsetter, vil du ikke kunne hente "
+"eller gjenopprette oppføringene dine."
+
+#: admin/setting.php:1
+#, fuzzy
+#| msgid "REMOVE PLUGIN"
+msgid " REMOVE PLUGIN"
+msgstr "प्लगइन हटायें"
+
+#: admin/staff-holiday-fetch.php:16 admin/staff.php:1
+msgid "Single Day"
+msgstr "En dag"
+
+#: admin/staff-holiday-fetch.php:20 admin/staff.php:1
+msgid "Multiple Day"
+msgstr "Flere dager"
+
+#: admin/staff-holiday-fetch.php:24 admin/staff.php:1
+msgid "Choose Date"
+msgstr "Velg dato"
+
+#: admin/staff-holiday-fetch.php:29 admin/staff.php:1
+msgid "Choose Start Date"
+msgstr "Velg Startdato"
+
+#: admin/staff-holiday-fetch.php:41 admin/staff.php:1
+msgid "Reset"
+msgstr "tilbakestille"
+
+#: admin/staff.php:1
+msgid "Staff Created Successfully"
+msgstr "Personalet ble opprettet suksessivt"
+
+#: admin/staff.php:1
+msgid "Staff Edited Successfully"
+msgstr "Personale redigerte vellykket"
+
+#: admin/staff.php:1
+msgid "Staff Service Saved Successfully"
+msgstr "Personale Service lagret vellykket"
+
+#: admin/staff.php:1
+msgid "Schedule saved Successfully"
+msgstr "Planlegg lagret vellykket"
+
+#: admin/staff.php:1
+msgid "Days off saved Successfully"
+msgstr "Dager utenfor lagret vellykket"
+
+#: admin/staff.php:1
+msgid "Are you sure to Delete Staff"
+msgstr "Er du sikker på å slette personalet"
+
+#: admin/staff.php:1
+msgid "Staff Deleted Successfully"
+msgstr "Personalet slettet vellykket"
+
+#: admin/staff.php:1
+msgid "Staff Holiday Add Successfully"
+msgstr "Personaleferie legges til suksess"
+
+#: admin/staff.php:1
+msgid "Staff Holiday Update Successfully"
+msgstr "Personaleferie oppdateres vellykket"
+
+#: admin/staff.php:1
+msgid "Are you sure to Delete Staff Holiday"
+msgstr "Er du sikker på å slette Staff Holiday"
+
+#: admin/staff.php:1
+msgid "Staff Holiday Deleted Successfully"
+msgstr "Personaleferie slettet vellykket"
+
+#: admin/staff.php:1
+msgid "Edit Staff holiday"
+msgstr "Rediger Personaleferie"
+
+#: admin/staff.php:1
+#, fuzzy
+#| msgid "Add Member"
+msgid " Add Member"
+msgstr "Legg til medlem"
+
+#: admin/staff.php:1
+msgid "Basic Detail"
+msgstr "Grunnleggende detalj"
+
+#: admin/staff.php:1
+msgid "Member Full Name:"
+msgstr "Medlem Fullt navn:"
+
+#: admin/staff.php:1
+msgid "Member Pics:"
+msgstr "Medlemsbilder:"
+
+#: admin/staff.php:1
+msgid "Email:"
+msgstr "e-post:"
+
+#: admin/staff.php:1
+msgid "Invalid Email"
+msgstr "Ugyldig epost"
+
+#: admin/staff.php:1
+msgid "Skype-ID:"
+msgstr "Skype ID:"
+
+#: admin/staff.php:1
+msgid "Member Name: "
+msgstr "Medlemsnavn:"
+
+#: admin/staff.php:1
+msgid "Prices"
+msgstr "prisene"
+
+#: admin/staff.php:1
+msgid "Capacity"
+msgstr "Kapasitet"
+
+#: admin/staff.php:1
+#, fuzzy
+#| msgid "Click here to Refresh"
+msgid " Click here to Refresh"
+msgstr "Klikk her for å oppdatere"
+
+#: admin/staff.php:1
+msgid "Schedule"
+msgstr "Rute"
+
+#: admin/staff.php:1
+msgid "Break Start Time"
+msgstr "Break Starttid"
+
+#: admin/staff.php:1
+msgid "Break End Time"
+msgstr "Bryt sluttid"
+
+#: admin/staff.php:1
+msgid "Day Off"
+msgstr "Fridag"
+
+#: admin/staff.php:1
+msgid "Staff Holiday"
+msgstr "Personaleferie"
+
+#: admin/staff.php:1
+msgid "Holiday CSV"
+msgstr "Holiday CSV"
+
+#: admin/staff.php:1
+msgid "This field is Required"
+msgstr "Dette feltet er obligatorisk"
+
+#: admin/staff.php:1
+msgid "Choose End Date"
+msgstr "Velg sluttdato"
+
+#: admin/staff.php:1
+msgid "Single Leave"
+msgstr "Enkelt opphold"
+
+#: admin/staff.php:1
+msgid "Multiple Leave Start"
+msgstr "Flere permisjoner"
+
+#: admin/staff.php:1
+msgid "Multiple Leave End"
+msgstr "Flere permisjoner"
+
+#: appointment-scheduler-pro-widget.php:13
+msgid "Display Appointment Schedules in any widget area."
+msgstr "Vis avtaleplaner i hvilket som helst widgetområde."
+
+#: appointment-scheduler-pro-widget.php:219
+msgid "Widget Title"
+msgstr "Widget Tittel"
+
+#: appointment-scheduler-pro-widget.php:226
+msgid "Show Business Details"
+msgstr "Vis bedriftsdetaljer"
+
+#: appointment-scheduler-pro-widget.php:244
+msgid "Select Staff Schedule to Show:"
+msgstr "Velg medarbeiderplan for å vise:"
+
+#: appointment-scheduler-pro-widget.php:265
+msgid "Button Text"
+msgstr "Knapptekst"
+
+#: appointment-scheduler-pro-widget.php:272
+msgid "Button Link"
+msgstr "Knappelink"
+
+#: asp_update-checker.php:113
+#, php-format
+msgid "Weblizar WordPress Plugin ( %s ) "
+msgstr "Weblizar WordPress Plugin (%s)"
+
+#: asp_update-checker.php:126
+msgid " - "
+msgstr ""
+
+#: asp_update-checker.php:130
+msgid "Weblizar Plugin Update Process"
+msgstr "Weblizar Plugin Update Process"
+
+#: asp_update-checker.php:131
+msgid "You can see the manual Update steps at our weblizar site"
+msgstr "Du kan se de manuelle oppdateringstrinnene på weblizar-nettstedet vårt"
+
+#: asp_update-checker.php:132
+msgid ": <a target=\"_blank\" href=\""
+msgstr ""
+
+#: asp_update-checker.php:133
+msgid "Weblizar WordPress Plugin "
+msgstr "Weblizar WordPress Plugin"
+
+#: asp_update-checker.php:136
+msgid ""
+"1. First, Please download the new version of Weblizar Premium Plugin Package from your weblizar account. Then Login with your user "
+"name and Password."
+msgstr ""
+"1. Først, last ned den nye versjonen av Weblizar Premium Plugin Package fra din weblizar-konto. Deretter Logg inn med brukernavnet "
+"og passordet ditt."
+
+#: asp_update-checker.php:139
+msgid "Login For Download New Version"
+msgstr "Logg inn for å laste ned ny versjon"
+
+#: asp_update-checker.php:142
+msgid "After Login you find this page"
+msgstr "Etter innlogging finner du denne siden"
+
+#: asp_update-checker.php:144
+msgid ""
+"2. Upload the downloaded Plugin package in your site ( server ) using wordpress Plugin Uploader ( Go to Admin Dashboard =&gt; "
+"Plugins=&gt; Add New =&gt; Upload Plugin =&gt; Choose File and click on install button )."
+msgstr ""
+"2. Last opp den nedlastede pluginpakken på nettstedet ditt (server) ved hjelp av wordpress Plugin Uploader (Gå til Admin Dashboard "
+"= & gt; Plugins = & gt; Add New = & gt; Last opp Plugin = & gt; Velg fil og klikk på installasjonsknappen)."
+
+#: asp_update-checker.php:145
+msgid ""
+"Otherwise you can use any FTP ( filezilla or bitwise ) and upload the Plugin zip package or unzip the Plugin package. After that "
+"go to Admin Dashboard =&gt; Plugins and click on active."
+msgstr ""
+"Ellers kan du bruke hvilken som helst FTP (filezilla eller bitwise) og laste opp Plugin zip-pakken eller pakke ut pluginpakken. "
+"Deretter går du til Admin Dashboard = & gt; Plugins og klikk på aktiv."
+
+#: asp_update-checker.php:147
+msgid "Your Weblizar Pro Plugin Activated Now"
+msgstr "Din Weblizar Pro Plugin aktivert nå"
+
+#: asp_update-checker.php:148
+msgid "For more details to follow the Plugin documentation link "
+msgstr "For flere detaljer, følg Plugin-dokumentasjonen"
+
+#: asp_update-checker.php:149
+msgid "Thanks for purchasing our Premium Plugin"
+msgstr "Takk for at du kjøpte vår Premium Plugin"
+
+#: init.php:58
+msgid "License"
+msgstr "Tillatelse"
+
+#: init.php:257 init.php:264 init.php:279 init.php:286
+msgid "Please Update The Payment Settings"
+msgstr "Oppdater betalingsinnstillingene"
+
+#: init.php:495
+msgid "Every Hour"
+msgstr "Hver time"
+
+#: shortcode/apply_coupon.php:17
+msgid "Please Enter Coupon Code"
+msgstr "Vennligst oppgi kupongkode"
+
+#: shortcode/apply_coupon.php:102
+msgid "Coupon Session Expired"
+msgstr "Kupongsesjon utløpt"
+
+#: shortcode/apply_coupon.php:109
+msgid "Your Coupon Usage limit is Over"
+msgstr "Kupongbrukegrensen er Over"
+
+#: shortcode/apply_coupon.php:115
+msgid "Coupon limit is over"
+msgstr "Kuponggrensen er over"
+
+#: shortcode/apply_coupon.php:126
+msgid "Invalid Coupon Code"
+msgstr "Ugyldig kupongkode"
+
+#: shortcode/appointment.php:1 shortcode/safe.php:101
+msgid "Please Select Service"
+msgstr "Vennligst velg tjeneste"
+
+#: shortcode/appointment.php:1 shortcode/safe.php:107
+msgid "Please Select Staff"
+msgstr "Vennligst velg Personale"
+
+#: shortcode/appointment.php:1 shortcode/safe.php:113
+msgid "Please Select date"
+msgstr "Vennligst velg dato"
+
+#: shortcode/appointment.php:1 shortcode/paypal-api/PaymentGateway.php:45 shortcode/paypal-api/PaymentGateway.php:53
+#: shortcode/paypal-api/PaymentGateway.php:69 shortcode/paypal-api/PaymentGateway.php:77 shortcode/paypal-api/PaymentGateway.php:125
+#: shortcode/paypal-api/PaymentGateway.php:182 shortcode/safe.php:126 shortcode/safe.php:174 shortcode/safe.php:204
+msgid "Please Wait"
+msgstr "Vennligst vent"
+
+#: shortcode/appointment.php:1 shortcode/details.php:284 shortcode/login.php:292 shortcode/login.php:663 shortcode/login.php:915
+#: shortcode/paypal-api/PaymentGateway.php:506 shortcode/safe.php:135 shortcode/safe.php:213 shortcode/safe.php:361
+#: shortcode/safe.php:2213 shortcode/time-slot-calculate.php:950
+msgid "Next"
+msgstr "neste"
+
+#: shortcode/appointment.php:1 shortcode/safe.php:193 shortcode/safe.php:226
+msgid "Please Select Appointment Time"
+msgstr "Vennligst velg avtaletid"
+
+#: shortcode/appointment.php:1 shortcode/safe.php:251
+msgid "Please Login To Your Account"
+msgstr "Vennligst logg inn på kontoen din"
+
+#: shortcode/appointment.php:1 shortcode/safe.php:310
+msgid "please Wait"
+msgstr "Vennligst vent"
+
+#: shortcode/appointment.php:1 shortcode/safe.php:1023
+msgid "Payment Successfull"
+msgstr "Betaling Vellykket"
+
+#: shortcode/appointment.php:1
+msgid "Your Profile is incomplete. Please contact to admin and ask him to complete the profile"
+msgstr "Profilen din er ufullstendig. Ta kontakt med admin og be ham om å fullføre profilen"
+
+#: shortcode/appointment.php:1 shortcode/safe.php:2197
+msgid "Select date"
+msgstr "Velg dato"
+
+#: shortcode/appointment.php:1 shortcode/safe.php:2197
+msgid "eg"
+msgstr "f.eks"
+
+#: shortcode/appointment.php:1 shortcode/safe.php:2308
+msgid "Booking Done"
+msgstr "Booking ferdig"
+
+#: shortcode/appointment.php:1 shortcode/safe.php:2310
+msgid "Thank You! Your Booking Is Complete."
+msgstr "Takk skal du ha! Din bestilling er fullført."
+
+#: shortcode/appointment.php:1 shortcode/safe.php:2320
+msgid "Sorry! Your appointment was not successfull"
+msgstr "Beklager! Avtalen din var ikke vellykket"
+
+#: shortcode/appointment.php:1 shortcode/safe.php:2332
+msgid "Payment received and your appointment has been confirmed"
+msgstr "Betaling mottatt og avtalen din er bekreftet"
+
+#: shortcode/appointment.php:1 shortcode/safe.php:2333
+msgid "Thank you scheduling appointment with us"
+msgstr "Takk planlegger avtale med oss"
+
+#: shortcode/appointment.php:1 shortcode/safe.php:2337
+msgid "Book New Appointment"
+msgstr "Bestill ny avtale"
+
+#: shortcode/details.php:55
+msgid "Please Enter Username"
+msgstr "Vennligst skriv inn brukernavn"
+
+#: shortcode/details.php:59
+msgid "Please Enter First Name"
+msgstr "Vennligst skriv inn fornavn"
+
+#: shortcode/details.php:63
+msgid "Please Enter Last Name"
+msgstr "Vennligst skriv inn etternavn"
+
+#: shortcode/details.php:67 shortcode/details.php:124
+msgid "Please Enter Password"
+msgstr "Skriv inn passord"
+
+#: shortcode/details.php:71
+msgid "Please Enter Contact Number"
+msgstr "Vennligst skriv inn kontaktnummer"
+
+#: shortcode/details.php:75
+msgid "Please Enter Email Address"
+msgstr "Vennligst skriv inn e-postadresse"
+
+#: shortcode/details.php:90 shortcode/details.php:241
+msgid "Register"
+msgstr "Registrere"
+
+#: shortcode/details.php:120
+msgid "Please Enter Email"
+msgstr "Vennligst skriv inn e-post"
+
+#: shortcode/details.php:129
+msgid "Loading"
+msgstr "Laster"
+
+#: shortcode/details.php:137 shortcode/details.php:259
+msgid "Login"
+msgstr "Logg Inn"
+
+#: shortcode/details.php:188
+msgid "You are about to request an appointment for"
+msgstr "Du er i ferd med å be om en avtale for"
+
+#: shortcode/details.php:188 shortcode/time-slot-calculate.php:150
+msgid "by"
+msgstr "av"
+
+#: shortcode/details.php:188
+msgid "at"
+msgstr "på"
+
+#: shortcode/details.php:188 shortcode/time-slot-calculate.php:161
+msgid "on"
+msgstr "på"
+
+#: shortcode/details.php:195
+msgid "Price for the"
+msgstr "Pris for"
+
+#: shortcode/details.php:195
+msgid "is"
+msgstr "er"
+
+#: shortcode/details.php:198
+msgid "New User"
+msgstr "Ny bruker"
+
+#: shortcode/details.php:199
+msgid "Existing User"
+msgstr "Eksisterende bruker"
+
+#: shortcode/details.php:207 shortcode/login.php:58 shortcode/login.php:424 shortcode/login.php:765
+msgid "Username"
+msgstr "Brukernavn"
+
+#: shortcode/details.php:208
+msgid "Enter Usename"
+msgstr "Skriv inn brukernavn"
+
+#: shortcode/details.php:212
+msgid "Enter Email Address"
+msgstr "Skriv inn e-post adresse"
+
+#: shortcode/details.php:216
+msgid "Enter Name"
+msgstr "Skriv inn navn"
+
+#: shortcode/details.php:220
+msgid "Enter Last Name"
+msgstr "Skriv inn etternavn"
+
+#: shortcode/details.php:224 shortcode/details.php:256
+msgid "Enter Password"
+msgstr "Oppgi passord"
+
+#: shortcode/details.php:232
+msgid "Enter Skype Id"
+msgstr "Skriv inn Skype-ID"
+
+#: shortcode/details.php:236
+msgid "Enter Notes"
+msgstr "Skriv inn notater"
+
+#: shortcode/details.php:252
+msgid "Enter Email"
+msgstr "Skriv inn e-post"
+
+#: shortcode/details.php:260
+msgid "Forget Password"
+msgstr "Glemt passord"
+
+#: shortcode/details.php:283 shortcode/login.php:291 shortcode/login.php:662 shortcode/login.php:914
+#: shortcode/time-slot-calculate.php:949
+msgid "Back"
+msgstr "Tilbake"
+
+#: shortcode/login.php:56
+msgid "Login Successfull"
+msgstr "Logg inn Vellykket"
+
+#: shortcode/login.php:64 shortcode/login.php:430 shortcode/login.php:756
+msgid "Appointment Time"
+msgstr "Tidspunkt for avtale"
+
+#: shortcode/login.php:72 shortcode/login.php:441 shortcode/login.php:769
+msgid "Contact No"
+msgstr "kontaktnummer"
+
+#: shortcode/login.php:122 shortcode/login.php:493 shortcode/login.php:739
+msgid "Price"
+msgstr "Pris"
+
+#: shortcode/login.php:129 shortcode/login.php:132 shortcode/login.php:500 shortcode/login.php:503 shortcode/login.php:718
+#: shortcode/login.php:722
+msgid "Duration"
+msgstr "Varighet"
+
+#: shortcode/login.php:129 shortcode/login.php:132 shortcode/login.php:136 shortcode/login.php:500 shortcode/login.php:503
+#: shortcode/login.php:507 shortcode/login.php:718 shortcode/login.php:722 shortcode/login.php:740
+#: shortcode/time-slot-calculate.php:142 shortcode/time-slot-calculate.php:146
+msgid "minutes"
+msgstr "minutter"
+
+#: shortcode/login.php:195 shortcode/login.php:566 shortcode/login.php:822
+msgid "Service Detail"
+msgstr "Servicedetaljer"
+
+#: shortcode/login.php:204 shortcode/login.php:575 shortcode/login.php:831
+msgid "User Detail"
+msgstr "Brukerdetaljer"
+
+#: shortcode/login.php:273 shortcode/login.php:644 shortcode/login.php:896
+msgid "Do you want to confirm Appointment"
+msgstr "Vil du bekrefte avtale"
+
+#: shortcode/login.php:298
+msgid "Invalid Password"
+msgstr "Ugyldig passord"
+
+#: shortcode/login.php:334
+msgid "You have entered invalid Password"
+msgstr "Du har oppgitt ugyldig passord"
+
+#: shortcode/login.php:334
+msgid "Please Try Again"
+msgstr "Vær så snill, prøv på nytt"
+
+#: shortcode/login.php:334 shortcode/login.php:386 shortcode/login.php:960 shortcode/time-slot-calculate.php:991
+msgid "Thank You"
+msgstr "Takk skal du ha"
+
+#: shortcode/login.php:343 shortcode/login.php:395 shortcode/login.php:969
+msgid "Try Again"
+msgstr "Prøv igjen"
+
+#: shortcode/login.php:350 shortcode/login.php:386
+msgid "Email Does Not Exist"
+msgstr "E-post finnes ikke"
+
+#: shortcode/login.php:386
+msgid "Please Register Your Account"
+msgstr "Vennligst registrer kontoen din"
+
+#: shortcode/login.php:891
+msgid "Do you want to confirm payment"
+msgstr "Ønsker du å bekrefte betalingen"
+
+#: shortcode/login.php:924
+msgid "Email Already Registered."
+msgstr "E-post allerede registrert."
+
+#: shortcode/login.php:960
+msgid "The Email You Entered is already registered with us"
+msgstr "E-posten du skrev inn er allerede registrert hos oss"
+
+#: shortcode/login.php:960
+msgid "Please Login Your Account"
+msgstr "Vennligst logg inn kontoen din"
+
+#: shortcode/paypal-api/PaymentGateway.php:228
+msgid "Please Select Payment Method"
+msgstr "Vennligst velg Betalingsmåte"
+
+#: shortcode/paypal-api/PaymentGateway.php:421
+msgid "Apply Coupon"
+msgstr "Bruk kupong"
+
+#: shortcode/paypal-api/PaymentGateway.php:429
+msgid "Please tell us how you would like to pay"
+msgstr "Fortell oss hvordan du vil betale"
+
+#: shortcode/paypal-api/PaymentGateway.php:436
+msgid "I will pay Cash"
+msgstr "Jeg vil betale kontant"
+
+#: shortcode/paypal-api/PaymentGateway.php:449
+msgid "I will pay Razorpay"
+msgstr "Jeg vil betale Razorpay"
+
+#: shortcode/paypal-api/PaymentGateway.php:461
+msgid "I will pay now with PayPal"
+msgstr "Jeg betaler nå med PayPal"
+
+#: shortcode/paypal-api/PaymentGateway.php:469
+msgid "No Payment Option is Enable. Please Contact To Administrator"
+msgstr "Ingen betalingsalternativ er aktivert. Ta kontakt med administrator"
+
+#: shortcode/paypal-api/PaymentGateway.php:507
+msgid "Pay With Paypal"
+msgstr "Betal med Paypal"
+
+#: shortcode/paypal-api/PaymentGateway.php:508
+msgid "Pay With Razorpay"
+msgstr "Betal med Razorpay"
+
+#: shortcode/paypal_redirect.php:576
+msgid "Thank You! Your Booking Is Complete"
+msgstr "Takk skal du ha! Din bestilling er fullført"
+
+#: shortcode/time-slot-calculate.php:125
+msgid "Available time slots for"
+msgstr "Tilgjengelige tidsluker for"
+
+#: shortcode/time-slot-calculate.php:991
+msgid "is not Available on"
+msgstr "er ikke tilgjengelig på"
+
+#: shortcode/time-slot-calculate.php:1002
+msgid "Try Another"
+msgstr "Prøv en annen"
+
+#~ msgid "Saveing"
+#~ msgstr "Saveing"
+
+#~ msgid "Last Name : :"
+#~ msgstr "अंतिम नाम"
+
+#~ msgid "User Name"
+#~ msgstr "यूज़र नेम"
+
+#~ msgid "Please upload a valid .json file"
+#~ msgstr "कृपया केवल जैसन फ़ाइल अपलोड करें!"
+
+#~ msgid "Please upload a file to import"
+#~ msgstr "कृपया इम्पोर्ट के लिए फाइल अपलोड करे"
+
+#~ msgid "Login Settings"
+#~ msgstr "लॉगिन सेटिंग्स"
+
+#~ msgid "Default"
+#~ msgstr "डीफाल्ट"
+
+#~ msgid "Floating"
+#~ msgstr "घूमता हुआ"
+
+#~ msgid "Floating With Customization"
+#~ msgstr "कस्टोमाईज़ेसन  के साथ घूमता हुआ"
+
+#~ msgid "Float Settings"
+#~ msgstr "फ्लोट सेटिंग्स"
+
+#~ msgid "Left"
+#~ msgstr "बाया"
+
+#~ msgid "Center"
+#~ msgstr "केंद्र"
+
+#~ msgid "Right"
+#~ msgstr "दाया"
+
+#~ msgid "Floating With Customization Settings"
+#~ msgstr "कस्टोमाईज़ेसन  के साथ घूमता हुआ"
+
+#~ msgid "Note: This form position setting will be not responsive."
+#~ msgstr "नोट: इस फॉर्म की पोजीशन रेसपोनसिव नही होगी"
+
+#~ msgid "Select Background"
+#~ msgstr "पृष्ठभूमि चयन करें"
+
+#~ msgid "Select background"
+#~ msgstr "चयन करें पृष्ठभूमि"
+
+#~ msgid "Static Background Color"
+#~ msgstr "स्थिर पृष्ठभूमि का रंग"
+
+#~ msgid "Static Background Image"
+#~ msgstr "स्थिर पृष्ठभूमि छवि"
+
+#~ msgid "Background Color"
+#~ msgstr "पृष्ठभूमि का रंग "
+
+#~ msgid "Login Form Opacity"
+#~ msgstr "पर्चा अपारदर्शिता लॉगिन"
+
+#~ msgid "Background Image"
+#~ msgstr "पृष्ठभूमि छवि"
+
+#~ msgid "preview"
+#~ msgstr "पूर्व दर्शन"
+
+#~ msgid "Login Background Image"
+#~ msgstr "लॉगिन पृष्ठभूमि छवि"
+
+#~ msgid "Background Repeat"
+#~ msgstr "पृष्ठभूमि दोहरान"
+
+#~ msgid "Repeat Horizontally"
+#~ msgstr "क्षैतिज दोहराएँ"
+
+#~ msgid "Repeat Vertically"
+#~ msgstr "लंबवत दोहराएँ"
+
+#~ msgid "Background Position "
+#~ msgstr "पृष्ठभूमि स्थिति"
+
+#~ msgid "Left Top"
+#~ msgstr "बाएँ शीर्ष"
+
+#~ msgid "Left Center"
+#~ msgstr "बायां केंद्र"
+
+#~ msgid "Left Bottom"
+#~ msgstr "बायां नीचे"
+
+#~ msgid "Right Top"
+#~ msgstr "दांया शीर्ष"
+
+#~ msgid "Right Center"
+#~ msgstr "दायें केंद्र"
+
+#~ msgid "Right Bottom"
+#~ msgstr "दांया नीचे"
+
+#~ msgid "Center Top"
+#~ msgstr "केंद्र शीर्ष"
+
+#~ msgid "Center Center"
+#~ msgstr "केंद्र"
+
+#~ msgid "Center Bottom"
+#~ msgstr "केंद्र निचला"
+
+#~ msgid "Background Effect"
+#~ msgstr "पृष्ठभूमि प्रभाव"
+
+#~ msgid "Select overlay effect"
+#~ msgstr "ओवरले प्रभाव का चयन करें"
+
+#~ msgid "No Overlay Effect"
+#~ msgstr "कोई ओवरले प्रभाव नहीं"
+
+#~ msgid "Overlay Effect 1"
+#~ msgstr "ओवरले प्रभाव 1"
+
+#~ msgid "Overlay Effect 2"
+#~ msgstr "ओवरले प्रभाव 2"
+
+#~ msgid "Overlay Effect 3"
+#~ msgstr "ओवरले प्रभाव 3"
+
+#~ msgid "Login Form Width"
+#~ msgstr "लॉगिन"
+
+#~ msgid "Border Color"
+#~ msgstr "सीमा रंग"
+
+#~ msgid "Border Radius"
+#~ msgstr "सीमा त्रिज्या"
+
+#~ msgid "Border Style"
+#~ msgstr "झालर की शैली"
+
+#~ msgid "Solid"
+#~ msgstr "ठोस"
+
+#~ msgid "Dotted"
+#~ msgstr "बिंदुओं से अंकित"
+
+#~ msgid "Dashed"
+#~ msgstr "मिश्रण"
+
+#~ msgid "Double"
+#~ msgstr "दोहरा"
+
+#~ msgid "Border Thickness"
+#~ msgstr "सीमा की मोटाई"
+
+#~ msgid "Enable form shadow?"
+#~ msgstr "फार्म छाया सक्षम करें?"
+
+#~ msgid "Form Shadow Color"
+#~ msgstr "छाया रंग रूप"
+
+#~ msgid "Enter any custom css you want to apply on login panel."
+#~ msgstr "कोई भी  कस्टम सी एस  एस डाले जो आप लॉग इन पैनल पर लगाना चाहते है"
+
+#~ msgid "Note: Please Do Not Use"
+#~ msgstr "नोट: किरपिया प्रयोग न करे"
+
+#~ msgid "Tag With Custom CSS"
+#~ msgstr "कस्टम सी एस  एस के साथ स्टाइल टैग परयोग न करे"
+
+#~ msgid "Login "
+#~ msgstr "लॉगिन"
+
+#~ msgid "Save Changes"
+#~ msgstr "परिवर्तनों को सुरक्षित करें"
+
+#~ msgid "Reset Default"
+#~ msgstr "पुनः तैयार करना"
+
+#~ msgid "Admin Custom Login"
+#~ msgstr "व्यवस्थापक कस्टम लॉगिन"
+
+#~ msgid "Powered By"
+#~ msgstr "द्वारा संचालित"
+
+#~ msgid "Weblizar"
+#~ msgstr "वेब्लिज़र"
+
+#~ msgid "Show Us Some Love (Rate Us)"
+#~ msgstr "आपका सहयोग दे(रैट दे)"
+
+#~ msgid "Application overview"
+#~ msgstr "आवेदन सिंहावलोकन"
+
+#~ msgid "Background Design"
+#~ msgstr "पृष्ठभूमि डिजाइन"
+
+#~ msgid "Modify Background design here"
+#~ msgstr "यहाँ पृष्ठभूमि डिजाइन सुधारे"
+
+#~ msgid "Login form Setting"
+#~ msgstr "प्रवेश फार्म की स्थापना"
+
+#~ msgid "Modify Login design here"
+#~ msgstr "यहां लॉग इन डिजाइन सुधारे"
+
+#~ msgid "Font Setting"
+#~ msgstr "फ़ॉन्ट सेटिंग"
+
+#~ msgid "Modify Login Form Style here"
+#~ msgstr "यहां लॉगिन फार्म शैली सुधारे"
+
+#~ msgid "Logo Settings"
+#~ msgstr "लोगो सेटिंग्स"
+
+#~ msgid "Customize Logo Settings here"
+#~ msgstr "यहाँ लोगो सेटिंग्स को अनुकूलित"
+
+#~ msgid "Social Settings"
+#~ msgstr "सामाजिक व्यवस्था"
+
+#~ msgid "Connect with your social profile"
+#~ msgstr "अपने सामाजिक प्रोफाइल के साथ कनेक्ट"
+
+#~ msgid "Export / Import"
+#~ msgstr "इम्पोर्ट/एक्सपोर्ट"
+
+#~ msgid "Export / Import Your Data"
+#~ msgstr "इम्पोर्ट/एक्सपोर्ट आपका डाटा"
+
+#~ msgid "Recommendations"
+#~ msgstr "सिफारिश"
+
+#~ msgid "Get More Free Useful Plugins"
+#~ msgstr "अन्य महत्वपूर्ण प्लगिन"
+
+#~ msgid "Help And Support"
+#~ msgstr "मदद और समर्थन"
+
+#~ msgid "Ask your query"
+#~ msgstr "आपकी क्वेरी से पूछो"
+
+#~ msgid "If you like us"
+#~ msgstr "यदि आप हमें पसंद करते हो तो"
+
+#~ msgid "Admin Custom Login Dashboard"
+#~ msgstr "व्यवस्थापक कस्टम लॉगिन डैशबोर्ड"
+
+#~ msgid "Admin Custom Login Status"
+#~ msgstr "व्यवस्थापक कस्टम लॉगिन स्टेटस"
+
+#~ msgid "Disable"
+#~ msgstr "असक्षम"
+
+#~ msgid "View Login Page"
+#~ msgstr "देखें लॉगिन पृष्ठ"
+
+#~ msgid "Copy below link and open in another browser where you are not logged in"
+#~ msgstr "नीचे दिये हुए लिंक को कॉपी करे और पेस्ट करे दुसरे ब्राउज़र में जहाँ आप लॉग इन ना हो"
+
+#~ msgid "Background Settings"
+#~ msgstr "पृष्ठभूमि सेटिंग"
+
+#~ msgid "No background Selected"
+#~ msgstr "कोई चयनित पृष्ठभूमि नहीं"
+
+#~ msgid "Background SlideShow"
+#~ msgstr "पृष्ठभूमि स्लाइड शो"
+
+#~ msgid "Preview"
+#~ msgstr "पूर्वावलोकन"
+
+#~ msgid "Cover or Strech"
+#~ msgstr "आवरण"
+
+#~ msgid "Background Attachment"
+#~ msgstr "पृष्ठभूमि संलग्न"
+
+#~ msgid "Fixed"
+#~ msgstr "स्थिर"
+
+#~ msgid "Scroll"
+#~ msgstr "लपेटा हुआ"
+
+#~ msgid "Inherit"
+#~ msgstr "विरासत में पाना"
+
+#~ msgid "No. Of Background Slideshow"
+#~ msgstr "पृष्ठभूमि स्लाइड शो की संख्या"
+
+#~ msgid "Select Number of Slide Show"
+#~ msgstr "स्लाइड शो के नंबर का चयन"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "Slider Animation"
+#~ msgstr "स्लाइडर एनिमेशन"
+
+#~ msgid "Slider Animation 1"
+#~ msgstr "स्लाइडर एनिमेशन 1"
+
+#~ msgid "Slider Animation 2"
+#~ msgstr "स्लाइडर एनिमेशन 2"
+
+#~ msgid "Slider Animation 3"
+#~ msgstr "स्लाइडर एनिमेशन 3"
+
+#~ msgid "Slider Animation 4"
+#~ msgstr "स्लाइडर एनिमेशन 4"
+
+#~ msgid "Top Background "
+#~ msgstr "पृष्ठभूमि का रंग"
+
+#~ msgid "Text And Color Settings"
+#~ msgstr "पाठ और रंग सेटिंग्स"
+
+#~ msgid "Headline Font Color"
+#~ msgstr "शीर्षक फ़ॉन्ट रंग"
+
+#~ msgid "Input Font Color"
+#~ msgstr "इनपुट फ़ॉन्ट रंग"
+
+#~ msgid "Link Color"
+#~ msgstr "लिंक रंग"
+
+#~ msgid "Headline Font size"
+#~ msgstr "शीर्षक फ़ॉन्ट आकार"
+
+#~ msgid "Input Font Size"
+#~ msgstr "इनपुट फ़ॉन्ट का आकार"
+
+#~ msgid "Link Font Size"
+#~ msgstr "लिंक फ़ॉन्ट का आकार"
+
+#~ msgid "Button Font Size"
+#~ msgstr "बटन फ़ॉन्ट का आकार"
+
+#~ msgid "Enable Link shadow?"
+#~ msgstr "लिंक छाया सक्षम करें?"
+
+#~ msgid "Link Shadow Color"
+#~ msgstr "लिंक छाया रंग"
+
+#~ msgid "Headline Font Style"
+#~ msgstr "शीर्षक फ़ॉन्ट शैली"
+
+#~ msgid "Input Font Style"
+#~ msgstr "इनपुट फ़ॉन्ट शैली"
+
+#~ msgid "Link Font Style"
+#~ msgstr "लिंक फ़ॉन्ट शैली"
+
+#~ msgid "Button Font Style"
+#~ msgstr "बटन फ़ॉन्ट शैली"
+
+#~ msgid "Enable Input Box Icon?"
+#~ msgstr "इनपुट बॉक्स चिह्न सक्षम करें?"
+
+#~ msgid "Icon For user Input Box"
+#~ msgstr "उपयोगकर्ता इनपुट बॉक्स के लिए चिह्न"
+
+#~ msgid "Icon For Password Input Box"
+#~ msgstr "पासवर्ड इनपुट बॉक्स के लिए चिह्न"
+
+#~ msgid "Text and Color "
+#~ msgstr "पाठ और रंग"
+
+#~ msgid "View Support Docs or Open a Ticket"
+#~ msgstr "समर्थन डॉक्स देखें या एक टिकट को खोलने"
+
+#~ msgid "Rate Us"
+#~ msgstr "प्रवाह दर"
+
+#~ msgid ""
+#~ "If you are enjoying using our Admin Custom Login plugin and find it useful, then please consider writing a positive feedback. "
+#~ "Your feedback will help us to encourage and support the plugins continued development and better user support."
+#~ msgstr "अगर आपको प्लगइन अच्छा लगा हो तो फीडबैक दे. आपका फीडबैक हमें उत्साहित करेगे  नये प्रोडक्ट बनाने के लिए इससे हम और अच्छा सपोर्ट दे पाएंगे"
+
+#~ msgid "Share Us Your Suggestion"
+#~ msgstr "हमें आपके सुझाव साझा करें"
+
+#~ msgid "If you have any suggestion or features in your mind then please share us. We will try our best to add them in this plugin."
+#~ msgstr "अगर आपके पास कोई सुझाव हो तो  हमें बताये .हम उससे प्लगइन में शामिल करेंगे"
+
+#~ msgid "Language Contribution "
+#~ msgstr "भाषा योगदान"
+
+#~ msgid "Translate this plugin into your language"
+#~ msgstr "प्लगइन को आपकी भाषा में बदले"
+
+#~ msgid "Question : How to convert Plguin into My Language ?"
+#~ msgstr "प्रश्न: प्लगइन को अपनी भाषा में कैसे बदले"
+
+#~ msgid "here is solution"
+#~ msgstr "यहाँ समाधान है"
+
+#~ msgid "We need your feedback for improve our plugin functionality on WordPress. So, if you like our plugin then please rate us"
+#~ msgstr "प्लगइन को अच्छा बनाने के लिए हमें आपके सुझाव की जरूरत है"
+
+#~ msgid "Export Custom Login Data "
+#~ msgstr "कस्टम लॉगिन  का डाटा एक्सपोर्ट करे"
+
+#~ msgid ""
+#~ "Export the plugin settings for this site as a .json file. This allows you to easily import the configuration into another site."
+#~ msgstr "एक्सपोर्ट करे प्लगइन सेटिंग को जैसन फाइल के रूप में . इससे आप इसे आसानी से अलग साईट में  परयोग कर सकते है"
+
+#~ msgid "Import Custom Login Data "
+#~ msgstr "कस्टम लॉगिन  का डाटा इम्पोर्ट  करे"
+
+#~ msgid ""
+#~ "Import the plugin settings from a .json file. This file can be obtained by exporting the settings on another site using the "
+#~ "form above."
+#~ msgstr "इम्पोर्ट करे प्लगइन सेटिंग को जैसन फाइल से.इसे आसानी से प्राप्त किया जा सकता एक्सपोर्ट करके दूसरी साईट में "
+
+#~ msgid "Plugin Recommendation"
+#~ msgstr "प्लगइन सिफारिस"
+
+#~ msgid "Get More Free Wordpress Plguins From Weblizar"
+#~ msgstr "वेब्लिज़ार के प्लगइन प्राप्त करे"
+
+#~ msgid "Install Now"
+#~ msgstr "इनस्टॉल करे"
+
+#~ msgid "Update Now"
+#~ msgstr "अपडेट करे"
+
+#~ msgid "By "
+#~ msgstr "से"
+
+#~ msgid "Premium Editions"
+#~ msgstr "प्रीमियम एडिसन"
+
+#~ msgid "Visit Website"
+#~ msgstr "वेबसाइट देखे"
+
+#~ msgid "Last Updated:"
+#~ msgstr "पिछली  बार अपडेट"
+
+#~ msgid "<strong>Untested</strong> with your version of WordPress"
+#~ msgstr "आपके वर्शन के साथ अनटेस्टेड"
+
+#~ msgid "Incompatible with your version of WordPress"
+#~ msgstr "आपके वर्शन के साथ  सहायक नही"
+
+#~ msgid "Compatible with your version of WordPress"
+#~ msgstr "आपके वर्शन के साथ  सहायक है"
+
+#~ msgid "Logo"
+#~ msgstr "लोगो"
+
+#~ msgid "Logo Width"
+#~ msgstr "लोगो चौड़ाई"
+
+#~ msgid "Logo Height"
+#~ msgstr "लोगो ऊँचाई"
+
+#~ msgid "Logo URL"
+#~ msgstr "लोगो URL"
+
+#~ msgid "Logo URL Title"
+#~ msgstr "लोगो URL शीर्षक"
+
+#~ msgid "Logo "
+#~ msgstr "लोगो"
+
+#~ msgid "Enable Social Icons"
+#~ msgstr "सामाजिक आइकन सक्रिय"
+
+#~ msgid "No Icon"
+#~ msgstr "कोई चिह्न"
+
+#~ msgid "Inner"
+#~ msgstr "आंतरिक"
+
+#~ msgid "Outer"
+#~ msgstr "आउटर"
+
+#~ msgid "Both"
+#~ msgstr "दोनो"
+
+#~ msgid "Social Media Icon Size"
+#~ msgstr "सामाजिक मीडिया चिह्न का आकार"
+
+#~ msgid "Small"
+#~ msgstr "छोटा"
+
+#~ msgid "Medium"
+#~ msgstr "मध्यम"
+
+#~ msgid "Large"
+#~ msgstr "बडा"
+
+#~ msgid "Social Media Icon Layout"
+#~ msgstr "सामाजिक मीडिया चिह्न लेआउट"
+
+#~ msgid "Rectangle"
+#~ msgstr "आयत"
+
+#~ msgid "Circle"
+#~ msgstr "गोला"
+
+#~ msgid "Social Media Icon Color"
+#~ msgstr "सामाजिक मीडिया आइकन रंग"
+
+#~ msgid "Social Media Icon Color On Hover"
+#~ msgstr "सामाजिक मीडिया आइकन रंग हॉवर पर "
+
+#~ msgid "Social Media Icon Background Color"
+#~ msgstr "सामाजिक मीडिया चिह्न पृष्ठभूमि रंग"
+
+#~ msgid "Social Media Background Color On Hover"
+#~ msgstr "सामाजिक मीडिया पृष्ठभूमि रंग हॉवर पर"
+
+#~ msgid "Enter your social profiles complete url here"
+#~ msgstr "यहाँ अपने सामाजिक प्रोफाइल पूरा URL दर्ज करें"
+
+#~ msgid "Facebook"
+#~ msgstr "फेसबुक"
+
+#~ msgid "Twitter"
+#~ msgstr "ट्विटर"
+
+#~ msgid "Linkedin"
+#~ msgstr "लिंकेडीन"
+
+#~ msgid "google plus"
+#~ msgstr "गूगल  प्लस "
+
+#~ msgid "Pinterest"
+#~ msgstr "पिंट्रेस्ट "
+
+#~ msgid "Digg"
+#~ msgstr "डिग"
+
+#~ msgid "Youtube"
+#~ msgstr "यूटूब"
+
+#~ msgid "Flickr"
+#~ msgstr "फिलिकर"
+
+#~ msgid "Tumblr"
+#~ msgstr "टमबलर"
+
+#~ msgid "VKontakte"
+#~ msgstr "वीकोनटेकट"
+
+#~ msgid "Skype"
+#~ msgstr "स्काइप"
+
+#~ msgid "Instagram"
+#~ msgstr "इन्स्ताग्राम"
+
+#~ msgid "Social "
+#~ msgstr "सामाजिक"
+
+#~ msgid "Login from Floating"
+#~ msgstr "फ्लोटिंग से लॉगिन"
+
+#~ msgid "Admin Custom login Status"
+#~ msgstr "व्यवस्थापक कस्टम लॉगिन स्थिति"
+
+#~ msgid "Enable Custom Login"
+#~ msgstr "कस्टम लॉगिन सक्षम"
+
+#~ msgid " Login Preview"
+#~ msgstr "लॉगिन पूर्वावलोकन"
+
+#~ msgid "Open Your WP Login Page in a New Tab"
+#~ msgstr "एक नए टैब में अपने WP लॉगिन पृष्ठ खोलें"
+
+#~ msgid "Background Noise"
+#~ msgstr "पृष्ठभूमि शोर"
+
+#~ msgid "Noise"
+#~ msgstr "शोर"
+
+#~ msgid "Overlay Effect"
+#~ msgstr "ओवरले प्रभाव"
+
+#~ msgid "Full-Screen YouTube Background"
+#~ msgstr "पूर्ण स्क्रीन यूट्यूब पृष्ठभूमि"
+
+#~ msgid "Youtube Video Url"
+#~ msgstr "YouTube वीडियो URL"
+
+#~ msgid "Top video url"
+#~ msgstr "शीर्ष वीडियो URL"
+
+#~ msgid "Need Help"
+#~ msgstr "कोई मदद चाहिए"
+
+#~ msgid "Display Facebook Page Live Stream & Fans"
+#~ msgstr "फेसबुक पेज लाइव स्ट्रीम और प्रशंसक प्रदर्शित"
+
+#~ msgid "Facebook Page URL"
+#~ msgstr "फेसबुक पेज यूआरएल"
+
+#~ msgid "Widget Color Scheme"
+#~ msgstr "विजेट रंग योजना"
+
+#~ msgid "Show Widget Header"
+#~ msgstr "विजेट हैडर दिखाएँ "
+
+#~ msgid "Show Faces"
+#~ msgstr "चेहरे दिखाएँ"
+
+#~ msgid "Show Live Stream"
+#~ msgstr "लाइव स्ट्रीम दिखाएँ"
+
+#~ msgid "Widget Height"
+#~ msgstr "विजेट लंबाई"
+
+#~ msgid "Facebook App ID"
+#~ msgstr "फेसबुक एप्लिकेशन आईडी"
+
+#~ msgid "Required"
+#~ msgstr "आवश्यक"
+
+#~ msgid "Get Your Facebook App. Id"
+#~ msgstr "आपका फेसबुक एप्लिकेशन प्राप्त करें"
+
+#~ msgid "Shortcode Settings"
+#~ msgstr "लघु कोड सेटिंग्स"
+
+#~ msgid "Light Color Theme"
+#~ msgstr "हल्के रंग थीम"
+
+#~ msgid "Dark Color Theme"
+#~ msgstr "काले रंग की थीम"
+
+#~ msgid "Get Your Own Facebook APP Id"
+#~ msgstr "अपनी खुद फेसबुक एपीपी आईडी प्राप्त करें"
+
+#~ msgid "Settings successfully saved. Reloading page for generating preview below."
+#~ msgstr "सेटिंग्स सफलतापूर्वक बना दी गई है। नीचे पूर्वावलोकन पैदा करने के लिए पेज को पुन: लोड किया जा रहा है।"
+
+#~ msgid "Thank you for scheduling appointment with us.<br>A confirmation mail will be forward to you soon after admin approval."
+#~ msgstr "हमारे साथ नियुक्ति का समय निर्धारण करने के लिए धन्यवाद। एक संपुष्टि मेल व्यवस्थापक अनुमोदन के बाद जल्द ही आपको भेजा जाएगा।"
+
+#~ msgid "Select any service."
+#~ msgstr "कोइ सेवा चुनें"
+
+#~ msgid "Invalid name."
+#~ msgstr "अमान्य नाम"
+
+#~ msgid "Invalid Email."
+#~ msgstr "अमान्य ईमेल"
+
+#~ msgid "Phone required."
+#~ msgstr "फोन नंबर देना आवश्यक है"
+
+#~ msgid "Invalid phone number."
+#~ msgstr "अमान्य फ़ोन नंबर"
+
+#~ msgid "Schedule New Appointment"
+#~ msgstr "नई नियुक्ति बनायें"
+
+#~ msgid "Thank you for scheduling appointment with us. A confirmation mail will be sent to you soon after admin approval."
+#~ msgstr "हमारे साथ नियुक्ति का समय निर्धारण करने के लिए धन्यवाद। एक संपुष्टि मेल व्यवस्थापक अनुमोदन के बाद जल्द ही आपको भेजा जाएगा।"
+
+#~ msgid "to book another appointment."
+#~ msgstr "एक और नियुक्ति बुक करने के लिए."
+
+#~ msgid "Select Date & Service"
+#~ msgstr "तिथि एवं सेवा का चयन करें"
+
+#~ msgid "Loading..."
+#~ msgstr "लोड हो रहा है..."
+
+#~ msgid "Select Time & Fill Out Form"
+#~ msgstr "समय का चयन करें और प्रपत्र भरें"
+
+#~ msgid "Sorry! No time available today."
+#~ msgstr "क्षमा करें! आज कोई समय उपलब्ध नहीं है।"
+
+#~ msgid "Available Time For"
+#~ msgstr "समय का चयन इस सेवा के लिए"
+
+#~ msgid "Eg: 1234567890"
+#~ msgstr "उदाहरण के लिए: 1234567890"
+
+#~ msgid "Book Now"
+#~ msgstr "अब नियुक्ति करें"
+
+#~ msgid "Scheduling your appointment please wait..."
+#~ msgstr "नई नियुक्ति बन रही है, प्रतीक्षा करें..."
+
+#~ msgid "Booked"
+#~ msgstr "नियुक्ति"
+
+#~ msgid "Invalid Name"
+#~ msgstr "अमान्य नाम"
+
+#~ msgid "Thank you for scheduling appointment with us. A confirmation mail will be forward to you soon after admin approval."
+#~ msgstr "हमारे साथ नियुक्ति का समय निर्धारण करने के लिए धन्यवाद। एक संपुष्टि मेल व्यवस्थापक अनुमोदन के बाद जल्द ही आपको भेजा जाएगा।"
+
+#~ msgid "Sorry! Today's all appointments has been booked."
+#~ msgstr "क्षमा करें! आज सभी नियुक्तियों को बुक किया जा चुका है।"
+
+#~ msgid "Appointment Calendar"
+#~ msgstr "नियुक्ति कैलेंडर"
+
+#~ msgid "Manage Appointments"
+#~ msgstr "नियुक्ति प्रबंधन"
+
+#~ msgid "Notification Settings"
+#~ msgstr "अधिसूचना सेटिंग"
+
+#~ msgid "Get Premium Version"
+#~ msgstr "प्रीमियम संस्करण प्राप्त करें"
+
+#~ msgid "Appointment Calendar Plugin has been successfully removed. It can be re-activated from the "
+#~ msgstr "नियुक्ति कैलेंडर प्लगइन सफलतापूर्वक हटा दिया गया है। आप इसे फिर से सक्रिय कर सकते हैं"
+
+#~ msgid ""
+#~ "Warning! Appointment Calendar data & settings, including appointment entries will be deleted. This cannot be undone. OK to "
+#~ "delete, CANCEL to stop"
+#~ msgstr ""
+#~ "चेतावनी! नियुक्ति कैलेंडर डेटा और नियुक्ति प्रविष्टियों सहित सेटिंग्स, नष्ट कर दिया जाएगा. यह पूर्ववत प्राप्त नहीं किया जा सकता है. इसको रोकने के लिए "
+#~ "रद्द करें।"
+
+#~ msgid "Eg : 1234567890"
+#~ msgstr "उदाहरण के लिए: 1234567890"
+
+#~ msgid "Scheduling appointment please wait..."
+#~ msgstr "नई नियुक्ति बन रही है, प्रतीक्षा करें..."
+
+#~ msgid "Booked By"
+#~ msgstr "नियुक्ति द्वारा"
+
+#~ msgid "Name cannot be blank."
+#~ msgstr "नाम रिक्त नहीं हो सकता"
+
+#~ msgid "Email cannot be blank."
+#~ msgstr "ईमेल खाली नहीं हो सकता"
+
+#~ msgid "Invalid email."
+#~ msgstr "अमान्य ईमेल"
+
+#~ msgid "Phone cannot be blank."
+#~ msgstr "फोन खाली नहीं हो सकता"
+
+#~ msgid "Thank you, appointment has been scheduled. Confirmation mail sent to the client."
+#~ msgstr "धन्यवाद! आपकी नियुक्ति निर्धारित की जा चुकी है।"
+
+#~ msgid "Setect Date & Service"
+#~ msgstr "तिथि एवं सेवा का चयन करें"
+
+#~ msgid "Select any service"
+#~ msgstr "किसी सेवा का चयन करें"
+
+#~ msgid "Appointment Calendar Plugin"
+#~ msgstr "नियुक्ति कैलेंडर प्लगइन "
+
+#~ msgid "Manage Appointment(s)"
+#~ msgstr "नियुक्ति प्रबंधन"
+
+#~ msgid "Apporved Appointments"
+#~ msgstr "स्वीकृत नियुक्तियाँ"
+
+#~ msgid "Filter Appointments"
+#~ msgstr "नियुक्ति फ़िल्टर"
+
+#~ msgid "Filter Appointment(s)"
+#~ msgstr "नियुक्ति फ़िल्टर"
+
+#~ msgid "No."
+#~ msgstr "संख्या"
+
+#~ msgid "Select All Appointments"
+#~ msgstr "सभी नियुक्तियों का चयन करें"
+
+#~ msgid "View"
+#~ msgstr "देखें"
+
+#~ msgid "Click to select"
+#~ msgstr "चयन करने के लिए चुनें"
+
+#~ msgid "Do you want to delete selected appointments?"
+#~ msgstr "क्या आप यह नियुक्ति हटाना चाहते हैं?"
+
+#~ msgid "Manage Notification Settings"
+#~ msgstr "अधिसूचना सेटिंग प्रबंधित करें"
+
+#~ msgid "ON/OFF Notification"
+#~ msgstr " शुरू / बंद अधिसूचना"
+
+#~ msgid "Select Type"
+#~ msgstr "प्रकार चुनें"
+
+#~ msgid "Notification Type"
+#~ msgstr "अधिसूचना प्रकार"
+
+#~ msgid "WP Mail Details"
+#~ msgstr "WP मेल विवरण"
+
+#~ msgid "Admin Email"
+#~ msgstr "व्यवस्थापक ईमेल"
+
+#~ msgid "PHPMail Details"
+#~ msgstr "PHP मेल विवरण"
+
+#~ msgid "SMTP Mail Details"
+#~ msgstr "SMTP मेल विवरण"
+
+#~ msgid "SMTP Port Number"
+#~ msgstr "पोर्ट संख्या"
+
+#~ msgid "Admin SMTP Email"
+#~ msgstr "व्यवस्थापक SMTP ईमेल"
+
+#~ msgid "Admin SMTP Email Password"
+#~ msgstr "व्यवस्थापक SMTP ईमेल पासवर्ड"
+
+#~ msgid "Select email type"
+#~ msgstr "ईमेल प्रकार चुनें"
+
+#~ msgid "Enter wp email"
+#~ msgstr "Wp ईमेल दर्ज करें"
+
+#~ msgid "Enter php email"
+#~ msgstr "Php ईमेल दर्ज करें"
+
+#~ msgid "Invalid port number."
+#~ msgstr "अमान्य पोर्ट संख्या"
+
+#~ msgid "Enter password"
+#~ msgstr "पासवर्ड दर्ज करें "
+
+#~ msgid "Service Duration.<br>Enter Numeric Value.<br>Eg: 5, 10, 15, 30, 60"
+#~ msgstr "सेवा अवधि<br>अंको में हो<br>उदहरण: 5, 10, 15, 30, 60"
+
+#~ msgid "Duration Unit"
+#~ msgstr "अवधि इकाई"
+
+#~ msgid "Minute(s)"
+#~ msgstr "मिनट"
+
+#~ msgid "Cost"
+#~ msgstr "मूल्य"
+
+#~ msgid "Service Cost<br>Enter Numeric Value<br> Eg: 5 , 10, 25, 50, 100, 150"
+#~ msgstr "सेवा शुल्क<br>अंको में हो<br>उदहरण: 5 , 10, 25, 50, 100, 150"
+
+#~ msgid "Availability"
+#~ msgstr "उपलब्धता"
+
+#~ msgid "Select Service Availability"
+#~ msgstr "सेवा की उपलब्धता का चयन करें"
+
+#~ msgid "Service Availability"
+#~ msgstr "सेवा की उपलब्धता"
+
+#~ msgid "Category"
+#~ msgstr "श्रेणी"
+
+#~ msgid "Service Category"
+#~ msgstr "सेवा श्रेणी"
+
+#~ msgid "Create"
+#~ msgstr "बनायें"
+
+#~ msgid "New service successfully created."
+#~ msgstr "नई सेवा सफलतापूर्वक बना दि गयी है।"
+
+#~ msgid "Service successfully updated."
+#~ msgstr "सेवा सफलतापूर्वक नवीनतम बना दि गयी है।"
+
+#~ msgid "Description  cannot be blank."
+#~ msgstr "विवरण खाली नहीं हो सकता"
+
+#~ msgid "Duration cannot be blank."
+#~ msgstr "अवधि खाली नहीं हो सकता"
+
+#~ msgid "Invalid Duration."
+#~ msgstr "अमान्य अवधि"
+
+#~ msgid "Duration will be in multiple of 5, like as: 5, 10, 15, 20, 25."
+#~ msgstr "अवधि 5 के गुणांक में हो, उदहरण: 5, 10, 15, 20, 25"
+
+#~ msgid "Cost cannot be blank."
+#~ msgstr "मूल्य खाली नहीं हो सकता"
+
+#~ msgid "Invalid cost."
+#~ msgstr "अमान्य मूल्य"
+
+#~ msgid "Select availability."
+#~ msgstr "उपलब्धता का चयन करें"
+
+#~ msgid "Manage Settings"
+#~ msgstr "सेटिंग्स प्रबंधन"
+
+#~ msgid "Calendar Slot Time"
+#~ msgstr "कैलेंडर स्लॉट समय"
+
+#~ msgid "Select Time"
+#~ msgstr "समय चुनें"
+
+#~ msgid "15 Minute"
+#~ msgstr "15 मिनट"
+
+#~ msgid "30 Minute"
+#~ msgstr "30 मिनट"
+
+#~ msgid "60 Minute"
+#~ msgstr "60 मिनट"
+
+#~ msgid "Calendar Time Slot"
+#~ msgstr "कैलेंडर के स्लॉट का समय"
+
+#~ msgid "Day Start Time"
+#~ msgstr "दिन का प्रारम्भिक समय"
+
+#~ msgid "Calendar Day Start Time"
+#~ msgstr "कैलेंडर के दिन प्रारम्भ होने का समय है"
+
+#~ msgid "Calendar Day End Time"
+#~ msgstr "कैलेंडर के दिन की समाप्ति का समय"
+
+#~ msgid "Select View"
+#~ msgstr "प्रकार चुनें"
+
+#~ msgid "Calendar First Day"
+#~ msgstr "कैलेंडर का प्रथम दिवस"
+
+#~ msgid "Select Start Day"
+#~ msgstr "प्रारम्भ दिन चुनें"
+
+#~ msgid "Booking Time Slot"
+#~ msgstr "कैलेंडर के स्लॉट का समय"
+
+#~ msgid "10 Minutes"
+#~ msgstr "10 मिनट"
+
+#~ msgid "15 Minutes"
+#~ msgstr "15 मिनट"
+
+#~ msgid "20 Minutes"
+#~ msgstr "20 मिनट"
+
+#~ msgid "25 Minutes"
+#~ msgstr "25 मिनट"
+
+#~ msgid "30 Minutes"
+#~ msgstr "30 मिनट"
+
+#~ msgid "35 Minutes"
+#~ msgstr "35 मिनट"
+
+#~ msgid "40 Minutes"
+#~ msgstr "40 मिनट"
+
+#~ msgid "45 Minutes"
+#~ msgstr "45 मिनट"
+
+#~ msgid "60 Minutes (1 Hour)"
+#~ msgstr "60 मिनट (1 घंटा)"
+
+#~ msgid "75 Minutes"
+#~ msgstr "75 मिनट"
+
+#~ msgid "90 Minutes"
+#~ msgstr "90 मिनट"
+
+#~ msgid "120 Minutes (2 Hour)"
+#~ msgstr "120 मिनट (2 घंटे)"
+
+#~ msgid "150 Minutes"
+#~ msgstr "150 मिनट"
+
+#~ msgid "180 Minutes (3 Hour)"
+#~ msgstr "180 मिनट (3 घंटे)"
+
+#~ msgid "210 Minutes"
+#~ msgstr "210 मिनट"
+
+#~ msgid "240 Minutes (4 Hour)"
+#~ msgstr "240 मिनट (4 घंटे)"
+
+#~ msgid "270 Minutes"
+#~ msgstr "270 मिनट"
+
+#~ msgid "300 Minutes (5 Hour)"
+#~ msgstr "300 मिनट (5 घंटे)"
+
+#~ msgid "Select slot time."
+#~ msgstr "स्लॉट समय चुनें"
+
+#~ msgid "Select start time."
+#~ msgstr "प्रारम्भ समय चुनें"
+
+#~ msgid "Select end time."
+#~ msgstr "समाप्ति समय चुनें"
+
+#~ msgid "Select calendar view."
+#~ msgstr "कैलेंडर रुप चुनें"
+
+#~ msgid "Select calendar start day."
+#~ msgstr "कैलेंडर का प्रारंभ दिन चुनें"
+
+#~ msgid "ON"
+#~ msgstr "चालू"
+
+#~ msgid "OFF"
+#~ msgstr "बंद"
+
+#~ msgid "WP Email"
+#~ msgstr "WP ईमेल"
+
+#~ msgid "PHP Email"
+#~ msgstr "PHP ईमेल"
+
+#~ msgid "Notification settings successfully updated."
+#~ msgstr "अधिसूचना सेटिंग सफलतापूर्वक नवीनतम हो चुकी है।"
+
+#~ msgid "Rename Category"
+#~ msgstr "श्रेणी का नाम बदलें"
+
+#~ msgid "Rename"
+#~ msgstr "नाम परिवर्तन करें"
+
+#~ msgid "Do you want to delete this Category?"
+#~ msgstr "क्या आप यह श्रेणी हटाना चाहते हैं?"
+
+#~ msgid "Do you want to delete this service?"
+#~ msgstr "क्या आप ये सेवा हटाना चाहते हैं?"
+
+#~ msgid "Add New Service to this Category"
+#~ msgstr "इस श्रेणी में नई सेवा जोंडे़"
+
+#~ msgid "+ Add New Service to this Category"
+#~ msgstr "इस श्रेणी में नई सेवा जोंडे"
+
+#~ msgid "Create New Service Category"
+#~ msgstr "सेवा की नई श्रेणी बनायें"
+
+#~ msgid "Service Category name "
+#~ msgstr "सेवा श्रेणी का नाम"
+
+#~ msgid "Create Category"
+#~ msgstr "श्रेणी बनायें"
+
+#~ msgid "Group name cannot be blank."
+#~ msgstr "समूह का नाम खाली नहीं हो सकता."
+
+#~ msgid "Category name cannot be blank."
+#~ msgstr "श्रेणी का नाम खाली नहीं हो सकता"
+
+#~ msgid "Invalid category name."
+#~ msgstr "अमान्य श्रेणी नाम"
+
+#~ msgid "Not Available."
+#~ msgstr "उपलब्ध नहीं"
+
+#~ msgid "Calendar Start Day"
+#~ msgstr "कैलेंडर का प्रारंभ दिन"
+
+#~ msgid "Settings successfully updated"
+#~ msgstr "सेटिंग सफलतापूर्वक नवीनतम बना दी गई है।"
+
+#~ msgid "Select All"
+#~ msgstr "सभी को चुनें"
+
+#~ msgid "Do you want to delete this time off?"
+#~ msgstr "क्या आप यह टाईम आफ हटाना चाहते हैं?"
+
+#~ msgid "Do you want to delete all Time Off"
+#~ msgstr "क्या आप सभी टाईम आफ हटाना चाहते हैं?"
+
+#~ msgid "Create Time Off"
+#~ msgstr "टाईम आफ बनायें"
+
+#~ msgid "Time-off successfully added."
+#~ msgstr "टाईम आफ बना दिया गया है।"
+
+#~ msgid "Time-off successfully deleted."
+#~ msgstr "टाईम आफ हटा दिया गया है।"
+
+#~ msgid "Selected Time-off successfully deleted."
+#~ msgstr "चुने हुए टाईम आफ हटा दिये गये हैं।"
+
+#~ msgid "No time-off selected to delete."
+#~ msgstr "कोई टाईम आफ हटाने के लिये नहीं चुना गया।"
+
+#~ msgid "This field required."
+#~ msgstr "यह देना आवश्यक है."
+
+#~ msgid "Start-time and End-time cant be equal."
+#~ msgstr "प्रारंभ समय, अंत समय के बराबर नहीं हो सकता"
+
+#~ msgid "Start-time must be smaller then End-time."
+#~ msgstr "प्रारंभ समय अंत समय से छोटा होना चाहिए"
+
+#~ msgid "End-time must be bigger then Start-time."
+#~ msgstr "अंत समय, प्रारंभ समय से बड़ा होगा"
+
+#~ msgid "Update Appointment(s)"
+#~ msgstr "नियुक्ति नवीनीकरण"
+
+#~ msgid "Appointment Start Time"
+#~ msgstr "नियुक्ति का प्रारंभिक  "
+
+#~ msgid "Appointment End Time"
+#~ msgstr "नियुक्ति का अंतिम समय"
+
+#~ msgid "Appointment Description"
+#~ msgstr "नियुक्ति विवरण"
+
+#~ msgid "Appointment By"
+#~ msgstr "नियुक्ति बनाने वाला"
+
+#~ msgid "Admin"
+#~ msgstr "व्यवस्थापक"
+
+#~ msgid "User"
+#~ msgstr "उपयोगकर्ता"
+
+#~ msgid "Appointment Booked By"
+#~ msgstr "नियुक्ति बनाने वाला"
+
+#~ msgid "Email field cannot be blank."
+#~ msgstr "ईमेल खाली नहीं हो सकता"
+
+#~ msgid "Invalid email address."
+#~ msgstr "अमान्य ईमेल पते"
+
+#~ msgid "Phone field cannot be blank."
+#~ msgstr "फोन खाली नहीं हो सकता"
+
+#~ msgid "Invalid Phone number."
+#~ msgstr "अमान्य फ़ोन नंबर"
+
+#~ msgid "Start Time  cannot be blank."
+#~ msgstr "राज्य रिक्त नहीं हो सकता"
+
+#~ msgid "End Time cannot be blank."
+#~ msgstr "समाप्ति समय रिक्त नहीं हो सकता."
+
+#~ msgid "Start Date cannot be blank."
+#~ msgstr "राज्य रिक्त नहीं हो सकता"
+
+#~ msgid "Appointment successfully updated."
+#~ msgstr "नियुक्ति को सफलतापूर्वक नवीनतम बना दिया गया है।"
+
+#~ msgid "View Appointment(s)"
+#~ msgstr "नियुक्ति देखें"
+
+#~ msgid "Appointment Key"
+#~ msgstr "नियुक्ति कुंजी"
+
+#~ msgid "Update Time Off"
+#~ msgstr "टाईम आफ नवीनतम बनायें"
+
+#~ msgid "Time-off successfully updated."
+#~ msgstr "टाईम आफ सफलतापूर्वक नवीनतम बना दिया गया है।"
+
+#~ msgid "Shedule New Appointment"
+#~ msgstr "नई नियुक्ति बनायें"
+
+#~ msgid "Smtp Post Number"
+#~ msgstr "SMTP पोर्ट संख्या"
+
+#~ msgid "Invalid gruop name"
+#~ msgstr "अमान्य समूह नाम"
+
+#~ msgid "Gruop name cannot be blank."
+#~ msgstr "समूह का नाम खाली नहीं हो सकता"
+
+#~ msgid "Star Time"
+#~ msgstr "प्रारम्भ होन का समय:"
+
+#~ msgid ""
+#~ "<strong>Appointment Calendar Lite</strong> is a simple but effective plugin which enables you to take appointments on your "
+#~ "wordpress blog."
+#~ msgstr "<strong>नियुक्ति कैलेंडर एक सरल लेकिन प्रभावी प्लगइन जो आपको अपने वर्डप्रैस ब्लॉग पर नियुक्तियों को लेने के लिए सक्षम बनाता है। </strong>"
+
+#~ msgid "If you are a consultant/doctor/lawyer etc, you can harness the power of appointment calendar."
+#~ msgstr "यदि आप एक परामर्शदाता चिकित्सक, वकील आदि हैं, तो आप नियुक्ति कैलेंडर की शक्ति का दोहन कर सकते हैं।"
+
+#~ msgid "Simply unzip and upload appointment-calendar directory to /wp-content/plugins/ directory and activate the plugin."
+#~ msgstr "बस खोलें और नियुक्ति कैलेंडर प्रीमियम प्लगइन को /wp-content/plugins/ डयरेक्ट्री में अपलोड करें और प्लगइन को सक्रिय करें।"
+
+#~ msgid "Appointment Calendar shortcode for Mobile Devices:"
+#~ msgstr "मोबाइल उपकरणों के लिए नियुक्ति कैलेंडर शोर्टकोड"
+
+#~ msgid "That's it, you can now start taking appointments on your wordpress site."
+#~ msgstr "यह ठीक है, अब आप अपने वर्डप्रैस साइट पर नियुक्तियों लेने शुरू कर सकते हैं।"
+
+#~ msgid "<strong>WordPress Forum Support:</strong>"
+#~ msgstr "<strong>वर्डप्रेस फोरम सहायता:</strong>"
+
+#~ msgid "WordPress Forum Support"
+#~ msgstr "वर्डप्रेस फोरम सहायता"
+
+#~ msgid "HERE"
+#~ msgstr "यहाँ जायें"
+
+#~ msgid "Documentation For Appointment Calendar Plugin"
+#~ msgstr "नियुक्ति कैलेंडर प्लगइन के लिए प्रलेखन"
+
+#~ msgid "AppointZilla : Appointment Scheduling Plugin For Wordpress"
+#~ msgstr "आपोंईटजिला: वर्डप्रैस के लिए नियुक्ति निर्धारण प्लगइन"
+
+#~ msgid "AppointZilla"
+#~ msgstr "आपोंईटजिला"
+
+#~ msgid "Minute(S)"
+#~ msgstr "मिनट"
+
+#, fuzzy
+#~ msgid "Repeat Bi-Weeks(s)"
+#~ msgstr "दोहरान हफ्तें"
+
+#~ msgid "Invalid field value."
+#~ msgstr "अमान्य तथ्य"
+
+#~ msgid "Invalid value."
+#~ msgstr "अमान्य तथ्य."
+
+#, fuzzy
+#~ msgid "Step-1. Select Time & Service"
+#~ msgstr "चरण 1-. दिनांक और सेवा का चयन करें"
+
+#~ msgid "Your Appointment Date:"
+#~ msgstr "आपकी नियुक्ति की दिनांक:"
+
+#~ msgid "Loading Staff..."
+#~ msgstr "कर्मचारी लोड हो रहें हैं ..."
+
+#~ msgid "Step-3. Fill Up Your`s Details"
+#~ msgstr "चयण-3. ग्राहक विवरण भरें"
+
+#, fuzzy
+#~ msgid "Sorry! Your appointment not successful."
+#~ msgstr "माफ करना कोई नियुक्तियां नहीं हैं।"
+
+#, fuzzy
+#~ msgid "Sorry! Appointment can't be booked for past dates."
+#~ msgstr "क्षमा करें! आज सभी नियुक्तियों को बुक किया जा चुका है।"
+
+#~ msgid "Appointment Calendar Premium Powered By:"
+#~ msgstr "नियुक्ति कैलेंडर प्रीमियम द्वारा संचालित:"
+
+#~ msgid "Appointment Scheduling Plugin For Wordpress"
+#~ msgstr "आपोंईटजिला: वर्डप्रैस के लिए नियुक्ति निर्धारण प्लगइन"
+
+#~ msgid "Your Appointments"
+#~ msgstr "आपकी नियुक्तियाँ"
+
+#~ msgid "Client"
+#~ msgstr "ग्राहक"
+
+#, fuzzy
+#~ msgid "Capacity Per Time Slot:"
+#~ msgstr "कैलेंडर के स्लॉट का समय."
+
+#, fuzzy
+#~ msgid "Sorry! Today all appointments has been booked with this service."
+#~ msgstr "क्षमा करें! आज सभी नियुक्तियों को बुक किया जा चुका है।"
+
+#~ msgid "Sorry! Today business is closed."
+#~ msgstr "क्षमा करें! आज व्यापार बंद है।"
+
+#, fuzzy
+#~ msgid "Sorry! Today this staff not available or business close."
+#~ msgstr "क्षमा करें! आज व्यापार बंद है।"
+
+#~ msgid "Invalid Start Time. Start Time should be less than End Time."
+#~ msgstr "अमान्य प्रारंभ समय. शुरू करने का समय समाप्ति समय कम से कम होना चाहिए."
+
+#~ msgid "End Time: "
+#~ msgstr "समाप्त होन का समय:"
+
+#~ msgid "Invalid End Time. End Time should be greater than Start Time."
+#~ msgstr "अमान्य समाप्ति समय. समाप्ति समय प्रारंभ समय से अधिक होना चाहिए."
+
+#~ msgid "Invalid time range."
+#~ msgstr "अमान्य समय सीमा"
+
+#~ msgid "Repeat Days required"
+#~ msgstr "दिनों की दोहरान संख्या डालें"
+
+#~ msgid "Repeat Weeks required."
+#~ msgstr "हफ्तों की दोहरान संख्या डालें"
+
+#~ msgid "Repeat Months required."
+#~ msgstr "महीनों की दोहरान संख्या डालें"
+
+#, fuzzy
+#~ msgid "Invalid Date! Start-Date should be less than End-Date."
+#~ msgstr "अमान्य प्रारंभ समय. शुरू करने का समय समाप्ति समय कम से कम होना चाहिए."
+
+#~ msgid "Client name cannot be blank."
+#~ msgstr "क्लाइंट का नाम खाली नहीं हो सकता."
+
+#~ msgid "Filter Appointments By Staff"
+#~ msgstr "कर्मचारियों द्वारा नियुक्ति फ़िल्टर:"
+
+#~ msgid "Add New Appointment"
+#~ msgstr "नई नियुक्ति जोड़ें"
+
+#~ msgid "Recurring Appointments"
+#~ msgstr "पुनरावर्ती नियुक्तियाँ"
+
+#~ msgid "Apply"
+#~ msgstr "लागू करें"
+
+#~ msgid "Appointments (No Staff Assigned)"
+#~ msgstr "नियुक्ति (कोई कर्मचारी नियुक्त नहीं)"
+
+#, fuzzy
+#~ msgid "Step-1. Select Date & Service"
+#~ msgstr "चरण 1-. दिनांक और सेवा का चयन करें"
+
+#, fuzzy
+#~ msgid "Step-2. Select Service Time & Repeat"
+#~ msgstr "चरण-2.सेवा समय और दोहरान का चयन करें"
+
+#~ msgid "Sorry! No Time Available Today."
+#~ msgstr "क्षमा करें! आज कोई समय उपलब्ध नहीं है।"
+
+#~ msgid "Invalid Date"
+#~ msgstr "अमान्य दिनांक"
+
+#~ msgid "Admin can create appointments at any time."
+#~ msgstr "व्यवस्थापक नियुक्तियाँ किसी भी समय बना सकता है।"
+
+#~ msgid "Step-3. Fill Up Client Details"
+#~ msgstr "चयण-3. ग्राहक विवरण भरें"
+
+#~ msgid "Sheduling Apoointment, Please wait..."
+#~ msgstr "नई नियुक्ति बन रही है, प्रतीक्षा करें..."
+
+#~ msgid "Step-4. Appointment has been scheduled."
+#~ msgstr "चरण-4. आपको नियुक्त किया जा चुका है।"
+
+#, fuzzy
+#~ msgid "Client Name :"
+#~ msgstr "ग्राहक नाम"
+
+#~ msgid "Special Note"
+#~ msgstr "विशेष निर्देश"
+
+#, fuzzy
+#~ msgid "Appointment History"
+#~ msgstr "नियुक्ति बनाने वाला"
+
+#~ msgid "Do you want to delete this client"
+#~ msgstr "क्या आप यह ग्राहक हटाना चाहते हैं?"
+
+#~ msgid "First"
+#~ msgstr "प्रथम"
+
+#~ msgid "Last"
+#~ msgstr "अंतिम"
+
+#, fuzzy
+#~ msgid "Sorry no Client(s)."
+#~ msgstr "माफ करना कोई ग्राहक नहीं है।"
+
+#~ msgid "Client successfully deleted."
+#~ msgstr "ग्राहक हटा दिया गया है।"
+
+#~ msgid "Seleted client(s) successfully deleted."
+#~ msgstr "चुने हुए ग्राहक सफलतापूर्वक हटा दिये गये हैं।"
+
+#~ msgid "No client(s) selected to delete."
+#~ msgstr "कोई ग्राहक हटाने के लिये नहीं चुना गया।"
+
+#~ msgid "Manage Client"
+#~ msgstr "ग्राहक प्रबंधन"
+
+#~ msgid "Client Name."
+#~ msgstr "ग्राहक नाम"
+
+#~ msgid "Client Email."
+#~ msgstr "ग्राहक ईमेल"
+
+#~ msgid "Phone Number."
+#~ msgstr "फोन नंबर"
+
+#~ msgid "Client Note."
+#~ msgstr "ग्राहक र्निदेश"
+
+#, fuzzy
+#~ msgid "Client Details"
+#~ msgstr "ग्राहक ईमेल"
+
+#, fuzzy
+#~ msgid "Client Detailed Appointment History"
+#~ msgstr "रद्द नियुक्तियाँ"
+
+#, fuzzy
+#~ msgid "All Appointment History"
+#~ msgstr "सभी नियुक्तियाँ"
+
+#~ msgid "Appointment Creation Date"
+#~ msgstr "नियुक्ति निर्माण तिथि"
+
+#~ msgid "Repeat Type"
+#~ msgstr "दोहरान प्रकार"
+
+#, fuzzy
+#~ msgid "No Appointment For This Client"
+#~ msgstr "नियुक्ति का समय"
+
+#~ msgid "is alredy existing."
+#~ msgstr "पहले से उपस्थित है।"
+
+#~ msgid "New client successfully added."
+#~ msgstr "नया ग्राहक सफलतार्पूक जोड़ दिया गया है।"
+
+#~ msgid "Client details successfully updated."
+#~ msgstr "ग्राहक विवरण सफलतापूर्वक नवीनतम बना दिया गया है।"
+
+#~ msgid "is alredy existing Client email."
+#~ msgstr "पहले से उपस्थित है।"
+
+#~ msgid "invalid  value."
+#~ msgstr "अमान्य तथ्य"
+
+#~ msgid "Phone Number cannot be blank."
+#~ msgstr "फोन खाली नहीं हो सकता."
+
+#, fuzzy
+#~ msgid "Unpaid`s  Appointments"
+#~ msgstr "आज की नियुक्तियाँ"
+
+#~ msgid "Appointment successfully deleted."
+#~ msgstr "नियुक्ति को सफलतापूर्वक हटा दिया गया है।"
+
+#~ msgid "Selected Appointment(s) successfully deleted."
+#~ msgstr "चुने हुए नियुक्तियों को सफलतापूर्वक हटा दिया गया है।"
+
+#~ msgid "No Appointment(s) selected to delete."
+#~ msgstr "कोई नियुक्ति हटाने के लिये नहीं चुना गया।"
+
+#, fuzzy
+#~ msgid "Service Duration<br>Enter Numeric Value In Multiple Of 5<br>Eg: 15, 30, 60"
+#~ msgstr "अवधि 5 के गुणांक में हो, उदहरण: 5, 10, 15, 20, 25"
+
+#~ msgid "Assign Staff(s)"
+#~ msgstr "स्टाफ जोडे़"
+
+#~ msgid "Use CTRL to Select Multiple Staff(s)"
+#~ msgstr "CTRL को दबाकर ज्यादा स्टाफ जोंडे़"
+
+#, fuzzy
+#~ msgid "Assign Staff(s) To This Service<br>Use CTRL To Select Multiple Staffs"
+#~ msgstr "CTRL को दबाकर ज्यादा स्टाफ को इस सेवा से जोंडे़"
+
+#~ msgid "New service added successfully."
+#~ msgstr "टाईम आफ हटा दिया गया है।"
+
+#, fuzzy
+#~ msgid "Capacity cannot be blank."
+#~ msgstr "शहर खाली नहीं हो सकता."
+
+#, fuzzy
+#~ msgid "Invalid capacity."
+#~ msgstr "अमान्य मूल्य"
+
+#, fuzzy
+#~ msgid "Percentage ammount cannot be blank."
+#~ msgstr "क्लाइंट का नाम खाली नहीं हो सकता."
+
+#~ msgid "Assign any staff."
+#~ msgstr "कोई भी स्टाफ जोंडे़"
+
+#~ msgid "Manage Staff"
+#~ msgstr "कर्मचारी प्रबंधन"
+
+#~ msgid "Staff Name."
+#~ msgstr "कर्मचारी का नाम"
+
+#~ msgid "Staff Email."
+#~ msgstr "कर्मचारी का ईमेल"
+
+#~ msgid "Experience"
+#~ msgstr "अनुभव "
+
+#~ msgid "Staff Experience(In year)."
+#~ msgstr "कर्मचारी अनुभव (वर्ष में)"
+
+#~ msgid "Group Name"
+#~ msgstr "समूह का नाम"
+
+#~ msgid "Select Staff Group"
+#~ msgstr "कर्मचारी की समूह का चयन करें"
+
+#~ msgid "Staff Group Name."
+#~ msgstr "कर्मचारी की समूह का नाम"
+
+#~ msgid "Staff Address."
+#~ msgstr "कर्मचारी का पता"
+
+#~ msgid "City"
+#~ msgstr "शहर"
+
+#~ msgid "Staff City."
+#~ msgstr "कर्मचारी का शहर"
+
+#~ msgid "Use CTRL to Select Multiple Service(s)"
+#~ msgstr "CTRL को दबाकर ज्यादा सेवांए जोंडे़"
+
+#~ msgid "Assign Staff(s) To This Service.&lt;br&gt;Use CTRL To Select Multiple Staffs"
+#~ msgstr "CTRL को दबाकर ज्यादा स्टाफ को इस सेवा से जोंडे़"
+
+#, fuzzy
+#~ msgid "Year(s)"
+#~ msgstr "वर्ष"
+
+#~ msgid "Group name"
+#~ msgstr "समूह का नाम"
+
+#~ msgid "is alredy exist."
+#~ msgstr "पहले से उपस्थित है।"
+
+#~ msgid "New Staff"
+#~ msgstr "नया कर्मचारी"
+
+#~ msgid "is successfully added."
+#~ msgstr "सफलतापूर्वक बना दिया गया है।"
+
+#~ msgid "Staff details successfully updated."
+#~ msgstr "कर्मचारी विवरण सफलतापूर्वक नवीनतम बना दिया गया है।"
+
+#~ msgid "Staff name cannot be blank."
+#~ msgstr "कर्मचारी रिक्त नहीं हो सकता"
+
+#~ msgid "Invalid  value."
+#~ msgstr "अमान्य तथ्य"
+
+#~ msgid "Select any group."
+#~ msgstr "कोई समूह चुनें"
+
+#~ msgid "Assign any service."
+#~ msgstr "कोई भी सेवा जोंडे़"
+
+#, fuzzy
+#~ msgid "Do you want to delete this transaction"
+#~ msgstr "क्या आप यह ग्राहक हटाना चाहते हैं?"
+
+#, fuzzy
+#~ msgid "Do you want to delete these transaction"
+#~ msgstr "क्या आप यह नियुक्तियाँ हटाना चाहते हैं?"
+
+#, fuzzy
+#~ msgid "Transaction successfully deleted."
+#~ msgstr "टाईम आफ हटा दिया गया है।"
+
+#, fuzzy
+#~ msgid "Selected transaction successfully deleted."
+#~ msgstr "चुने हुए टाईम आफ हटा दिये गये हैं।"
+
+#, fuzzy
+#~ msgid "No transaction(s) selected to delete."
+#~ msgstr "कोई ग्राहक हटाने के लिये नहीं चुना गया।"
+
+#~ msgid "name"
+#~ msgstr "नाम"
+
+#~ msgid "Service category successfully renamed"
+#~ msgstr "सेवा श्रेणी सफलतापूर्वक हटा दि गयी है।"
+
+#~ msgid "Invalid group name."
+#~ msgstr "अमान्य समूह नाम"
+
+#~ msgid "Service category successfully deleted."
+#~ msgstr "सेवा श्रेणी सफलतापूर्वक हटा दि गयी है।"
+
+#~ msgid "invalid Category name."
+#~ msgstr "अमान्य श्रेणी नाम."
+
+#~ msgid "Admin Settings"
+#~ msgstr "व्यवस्थापक सेटिंग्स"
+
+#~ msgid "Settings Panel Allows Admin To Manage Following Settings"
+#~ msgstr "सेटिंग्स पैनल व्यवस्थापक को निम्न सेटिंग का प्रबन्धन प्रदान करता है।"
+
+#~ msgid "Setup 'Business Profile'"
+#~ msgstr "व्यापार रूपरेखा का प्रबन्धन करें"
+
+#~ msgid "Manage 'Business Working Hours'"
+#~ msgstr "व्यापार के घटों का प्रबन्धन करें"
+
+#, fuzzy
+#~ msgid "Manage 'Staff Hours'"
+#~ msgstr "कर्मचारी प्रबंधन"
+
+#~ msgid "Manage 'Calendar Settings'"
+#~ msgstr "कैलेंडर सेटिंग्स का प्रबंधन"
+
+#~ msgid "Manage 'Aministrator Settings'"
+#~ msgstr "व्यवस्थापक सेटिंग प्रबंधित करें"
+
+#~ msgid "Manage 'Notification Settings'"
+#~ msgstr "अधिसूचना सेटिंग का प्रबन्धन"
+
+#~ msgid "Customize 'Notification Message'"
+#~ msgstr "खुद अधिसूचना सूचना बनायें"
+
+#~ msgid "Sync Appointments With 'Google Calendar'"
+#~ msgstr "गूगल कैलेंडर के साथ नियुक्ति तुल्यकालित करें"
+
+#~ msgid "Rename Group"
+#~ msgstr "समूह का नाम परिवर्तन करें"
+
+#~ msgid "Do you want to delete this Group"
+#~ msgstr "क्या आप ये समूह हटाना चाहते हैं?"
+
+#~ msgid "Delete Group"
+#~ msgstr "समूह हटायें"
+
+#~ msgid "Do you want to delete this Staff"
+#~ msgstr "क्या आप यह कर्मचारी हटाना चाहते हैं?"
+
+#~ msgid "Add New Staff to this Group"
+#~ msgstr "+ इस समूह में नया कर्मचारी जोंडे़"
+
+#~ msgid "+ Add New Staff to this Group"
+#~ msgstr "+ इस समूह में नया कर्मचारी जोंडे़"
+
+#~ msgid "Create New Staff Group"
+#~ msgstr "नयी कर्मचारी समूह बनायें"
+
+#~ msgid "Staff Group name"
+#~ msgstr "स्टाफ़ समूह का नाम"
+
+#~ msgid "Create Group"
+#~ msgstr "समूह बनायें"
+
+#~ msgid "New staff group successfully created."
+#~ msgstr "नई कर्मचारी समूह सफलतापूर्वक बना दि गयी है।"
+
+#~ msgid "Staff group successfully renamed."
+#~ msgstr "कर्मचारी समूह का नाम सफलतापूर्वक बदल दिया गया है।"
+
+#~ msgid "Staff group successfully deleted."
+#~ msgstr "कर्मचारी समूह सफलतापूर्वक हटा दिया गया है।"
+
+#~ msgid "Staff successfully deleted."
+#~ msgstr "कर्मचारी सफलतापूर्वक  हटा दिया गया है।"
+
+#~ msgid "To insert Appointment Calendar Premium Button into any post or page, use the shortcode:"
+#~ msgstr "किसी भी पोस्ट या पृष्ठ में नियुक्ति कैलेंडर प्रीमियम बटन डालने के लिए इस शोर्टकोड का उपयोग करें:"
+
+#, fuzzy
+#~ msgid "AppointZilla Documentation"
+#~ msgstr "आपोंईटजिला"
+
+#~ msgid "Particular Day"
+#~ msgstr "विशेष तिथियाँ"
+
+#, fuzzy
+#~ msgid "Repeat Week`s"
+#~ msgstr "दोहरान हफ्तें"
+
+#, fuzzy
+#~ msgid "Repeat Day`s"
+#~ msgstr "दोहरान दिन"
+
+#, fuzzy
+#~ msgid "Repeat Bi-week`s"
+#~ msgstr "दोहरान हफ्तें"
+
+#, fuzzy
+#~ msgid "Updating Appoitnment..."
+#~ msgstr "नियुक्ति नवीनीकरण"
+
+#, fuzzy
+#~ msgid "Update TimeOff"
+#~ msgstr "टाईम आफ नवीनतम बनायें"
+
+#, fuzzy
+#~ msgid "Updating Time Off..."
+#~ msgstr "टाईम आफ नवीनतम बनायें"
+
+#, fuzzy
+#~ msgid "Start-date must be smaller then End-date."
+#~ msgstr "प्रारंभ समय अंत समय से छोटा होना चाहिए"
+
+#, fuzzy
+#~ msgid "End-date must be bigger then Start-date."
+#~ msgstr "अंत समय, प्रारंभ समय से बड़ा होगा"
+
+#~ msgid "Service Name."
+#~ msgstr "सेवा का नाम"
+
+#~ msgid "staff Name."
+#~ msgstr "स्टाफ़ का नाम"
+
+#~ msgid "Appointment Date."
+#~ msgstr "नियुक्ति की तारीख"
+
+#~ msgid "Appointment Repeat On/OFF."
+#~ msgstr "नियुक्ति दोहरान चालू/बंद\" "
+
+#~ msgid "Appointment Repeat Type."
+#~ msgstr "नियुक्ति दोहरान प्रकार"
+
+#~ msgid "Appointment Repeat Start Date."
+#~ msgstr "नियुक्ति दोहरान प्रारंभिक तिथि"
+
+#~ msgid "Appointment Repeat End Date."
+#~ msgstr "नियुक्ति दोहरान अंतिम तिथि"
+
+#~ msgid "Appointment Booked By User/Admin."
+#~ msgstr "नियुक्ति किस के द्वारा की गई? (व्यवस्थापक या ग्राहक)"
+
+#~ msgid "Appointment Status."
+#~ msgstr "नियुक्ति स्थिति"
+
+#~ msgid "Edit"
+#~ msgstr "संपादित करें"
+
+#~ msgid "Admin settings sucessfully saved."
+#~ msgstr "व्यवस्थापक सेटिंग्स सफलतापूर्वक बना दी गई है।"
+
+#~ msgid "Language"
+#~ msgstr "भाषा"
+
+#~ msgid "Time Zone"
+#~ msgstr "समय क्षेत्र"
+
+#~ msgid "Currency"
+#~ msgstr "मुद्रा"
+
+#~ msgid "Business Hours successfully updated."
+#~ msgstr "व्यापार के घंटो को सफलतापूर्वक नवीनतम बना दिया गया है।"
+
+#~ msgid "Monday's Start-time and End-time can't be equal"
+#~ msgstr "सोमवार का प्रारंभ समय, अंत समय के बराबर नहीं हो सकता"
+
+#~ msgid "Monday's Start-time must be smaller then End-time"
+#~ msgstr "सोमवार का प्रारंभ समय अंत समय से छोटा होना चाहिए। "
+
+#~ msgid "Monday's End-time must be bigger then Start-time"
+#~ msgstr "सोमवार का अंत समय, प्रारंभ समय से बड़ा होगा"
+
+#~ msgid "Tuesday's Start-time and End-time can't be equal"
+#~ msgstr "मंगलवार का प्रारंभ समय, अंत समय के बराबर नहीं हो सकता"
+
+#~ msgid "Tuesday's Start-time must be smaller then End-time"
+#~ msgstr "मंगलवार का प्रारंभ समय अंत समय से छोटा होना चाहिए।"
+
+#~ msgid "Tuesday's End-time must be bigger then Start-time"
+#~ msgstr "मंगलवार का अंत समय, प्रारंभ समय से बड़ा होगा"
+
+#~ msgid "Wednesday's Start-time and End-time can't be equal"
+#~ msgstr "बुधवार का प्रारंभ समय, अंत समय के बराबर नहीं हो सकता"
+
+#~ msgid "Wednesday's Start-time must be smaller then End-time"
+#~ msgstr "बुधलवार का प्रारंभ समय अंत समय से छोटा होना चाहिए।"
+
+#~ msgid "Wednesday's End-time must be bigger then Start-time"
+#~ msgstr "बुधवार का अंत समय, प्रारंभ समय से बड़ा होगा"
+
+#~ msgid "Thursday's Start-time and End-time can't be equal"
+#~ msgstr "गुरुवार का प्रारंभ समय, अंत समय के बराबर नहीं हो सकता"
+
+#~ msgid "Thursday's Start-time must be smaller then End-time"
+#~ msgstr "गुरुवार का प्रारंभ समय अंत समय से छोटा होना चाहिए।"
+
+#~ msgid "Thursday's End-time must be bigger then Start-time"
+#~ msgstr "गुरुवार का अंत समय, प्रारंभ समय से बड़ा होगा"
+
+#~ msgid "Friday's Start-time and End-time can't be equal"
+#~ msgstr "शुक्रवार का प्रारंभ समय, अंत समय के बराबर नहीं हो सकता"
+
+#~ msgid "Friday's Start-time must be smaller then End-time"
+#~ msgstr "शुक्रवार का प्रारंभ समय अंत समय से छोटा होना चाहिए।"
+
+#~ msgid "Friday's End-time must be bigger then Start-time"
+#~ msgstr "शुक्रवार का अंत समय, प्रारंभ समय से बड़ा होगा"
+
+#~ msgid "Saturday's Start-time and End-time can't be equal"
+#~ msgstr "शनिवार का प्रारंभ समय, अंत समय के बराबर नहीं हो सकता"
+
+#~ msgid "Saturday's Start-time must be smaller then End-time"
+#~ msgstr "शनिवार का प्रारंभ समय, अंत समय के बराबर नहीं हो सकता"
+
+#~ msgid "Saturday's End-time must be bigger then Start-time"
+#~ msgstr "शनिवार का अंत समय, प्रारंभ समय बड़ा होगा"
+
+#~ msgid "Sunday's Start-time and End-time can't be equal"
+#~ msgstr "रविवार का प्रारंभ समय, अंत समय के बराबर नहीं हो सकता"
+
+#~ msgid "Sunday's Start-time must be smaller then End-time"
+#~ msgstr "रविवार का प्रारंभ समय अंत समय से छोटा होना चाहिए।"
+
+#~ msgid "Sunday's End-time must be bigger then Start-time"
+#~ msgstr "रविवार का अंत समय, प्रारंभ समय बड़ा होगा"
+
+#~ msgid "ERROR! Check Monday's Working Hours"
+#~ msgstr "त्रुटि सोमवार के काम के घंटे की जाँच करें"
+
+#~ msgid "ERROR! Check Tuesday's Working Hours"
+#~ msgstr "त्रुटि मंगलवार के काम के घंटे की जाँच करें"
+
+#~ msgid "ERROR! Check Wednesday's Working Hours"
+#~ msgstr "त्रुटि बुधवार के काम के घंटे की जाँच करें"
+
+#~ msgid "ERROR! Check Thursday's Working Hours"
+#~ msgstr "त्रुटि गुरुवार काम के घंटे की जाँच करें"
+
+#~ msgid "ERROR! Check Friday's Working Hours"
+#~ msgstr "त्रुटि शुक्रवार के काम के घंटे की जाँच करें"
+
+#~ msgid "ERROR! Check Saturday's Working Hours"
+#~ msgstr "त्रुटि शनिवार के काम के घंटे की जाँच करें"
+
+#~ msgid "ERROR! Check Sunday's Working Hours"
+#~ msgstr "त्रुटि रविवार के काम के घंटे की जाँच करें"
+
+#~ msgid "Owner"
+#~ msgstr "मालिक"
+
+#~ msgid "Fax"
+#~ msgstr "फैक्स"
+
+#~ msgid "Website"
+#~ msgstr "वेबसाइट"
+
+#~ msgid "Setup Business Profile"
+#~ msgstr "व्यापार रूपरेखा तैयार करे"
+
+#~ msgid "Business  Name."
+#~ msgstr "व्यापार नाम"
+
+#~ msgid "Owner Name."
+#~ msgstr "मालिक का नाम"
+
+#~ msgid "Address."
+#~ msgstr "पता"
+
+#~ msgid "City."
+#~ msgstr "शहर"
+
+#~ msgid "State."
+#~ msgstr "राज्य"
+
+#~ msgid "Fax Number."
+#~ msgstr "फैक्स संख्या"
+
+#~ msgid "Email."
+#~ msgstr "ईमेल"
+
+#~ msgid "Business Website URL."
+#~ msgstr "बिजनैस वेबसाइट यूआरएल"
+
+#~ msgid "Business profile successfully created."
+#~ msgstr "व्यापार प्रोफ़ाइल सफलतापूर्वक बना दिया गया है।"
+
+#~ msgid "Business profile successfully updated."
+#~ msgstr "व्यापार प्रोफ़ाइल सफलतापूर्वक नवीनतम कर दिया है।"
+
+#~ msgid "No updates made."
+#~ msgstr "कुछ नवीनतम नहीं किया गया।"
+
+#~ msgid "Business name cannot be blank."
+#~ msgstr "व्यापार नाम रिक्त नहीं हो सकता."
+
+#~ msgid "Owner name cannot be blank."
+#~ msgstr "मालिक का नाम खाली नहीं हो सकता."
+
+#~ msgid "Address cannot be blank."
+#~ msgstr "पता खाली नहीं हो सकता."
+
+#~ msgid "City cannot be blank."
+#~ msgstr "शहर खाली नहीं हो सकता."
+
+#~ msgid "State cannot be blank."
+#~ msgstr "राज्य रिक्त नहीं हो सकता."
+
+#, fuzzy
+#~ msgid "Postal code cannot be blank."
+#~ msgstr "मूल्य खाली नहीं हो सकता."
+
+#~ msgid "Calendar settings sucessfully saved."
+#~ msgstr "कैलेंडर सेटिंग्स सफलतापूर्वक बना दी गई है।"
+
+#, fuzzy
+#~ msgid "Allow Google Calendar Sync"
+#~ msgstr "गूगल कैलेंडर सिंक"
+
+#~ msgid "Manage Admin Settings"
+#~ msgstr "व्यवस्थापक सेटिंग प्रबंधित करें"
+
+#~ msgid "Your Living Country."
+#~ msgstr "आप जिस देश में रहते हो"
+
+#~ msgid "Your Country's Language."
+#~ msgstr "आपके देश की भाषा."
+
+#~ msgid "Your Country's Time Zone."
+#~ msgstr "आपके देश का समय क्षेत्र"
+
+#~ msgid "Your Country's Currency."
+#~ msgstr "आपके देश की मुद्रा"
+
+#~ msgid "Select End Time."
+#~ msgstr "अंत समय चुनें"
+
+#~ msgid "Manage Calendar Settings"
+#~ msgstr "कैलेंडर सेटिंग्स का प्रबंधन"
+
+#~ msgid "Enable Notification."
+#~ msgstr "अधिसूचना चालू करें"
+
+#~ msgid "Notification Type."
+#~ msgstr "अधिसूचना टाइप"
+
+#~ msgid "Host Name Like eg: smtp.gmail.com, smtp.yahoo.com."
+#~ msgstr "होस्ट नाम, उदाहरण के लिए: smtp.gmail.com, smtp.yahoo.com"
+
+#~ msgid "Smtp Port Number Like eg: Gmail & Yahoo Port Number = 465."
+#~ msgstr "SMTP पोर्ट संख्या, उदाहरण: जीमेल और याहू की पोर्ट संख्या = 465."
+
+#, fuzzy
+#~ msgid "Select payment gateway."
+#~ msgstr "कोइ समय चुनें"
+
+#, fuzzy
+#~ msgid "Select Reminder Frequency"
+#~ msgstr "के लिए समय का चयन करें"
+
+#, fuzzy
+#~ msgid "You can use these Tags in message subject & body"
+#~ msgstr "आप संदेश के मुख्य भाग में इन टैग का उपयोग कर सकते हैं।"
+
+#~ msgid "Appointment Note"
+#~ msgstr "नियुक्ति विशेष निर्देश"
+
+#~ msgid "Blog Name"
+#~ msgstr "ब्लॉग नाम"
+
+#, fuzzy
+#~ msgid "Select reminder type."
+#~ msgstr "कैलेंडर रुप"
+
+#~ msgid "Notify Client On New Appointment"
+#~ msgstr "नई नियुक्ति पर ग्राहक को सूचित करें"
+
+#~ msgid "Subject"
+#~ msgstr "विषय"
+
+#~ msgid "Body"
+#~ msgstr "संदेश"
+
+#~ msgid "You can use these Tags in message body"
+#~ msgstr "आप संदेश के मुख्य भाग में इन टैग का उपयोग कर सकते हैं।"
+
+#~ msgid "Client Phone"
+#~ msgstr "ग्राहक फोन"
+
+#~ msgid "Client Special Instruction"
+#~ msgstr "ग्राहक विशेष निर्देश"
+
+#~ msgid "Notify Admin On New Appointment"
+#~ msgstr "नई नियुक्ति पर व्यवस्थापक को सूचित करें"
+
+#~ msgid "Notify Client On New Appointment Message sucessfully updated."
+#~ msgstr "नई नियुक्ति पर ग्राहक के संदेश को सफलतापूर्वक नवीनतम बना दिया गया है।"
+
+#~ msgid "Notify Admin On New Appointment Message sucessfully updated."
+#~ msgstr "नई नियुक्ति पर व्यवस्थापक के संदेश को सफलतापूर्वक नवीनतम बना दिया गया है।"
+
+#~ msgid "Notify Client On Approve/Cancel Appointment Message sucessfully updated."
+#~ msgstr "नियुक्ति स्वीकार या रद्द करने पर ग्राहक के संदेश को सफलतापूर्वक नवीनतम बना दिया गया है।"
+
+#, fuzzy
+#~ msgid "Reminder settings successfully saved"
+#~ msgstr "व्यवस्थापक सेटिंग्स सफलतापूर्वक बना दी गई है।"
+
+#, fuzzy
+#~ msgid "Reminder setting successfully updated"
+#~ msgstr "गूगल कैलेंडर सेटिंग सफलतापूर्वक नवीनतम बना दी गई है।"
+
+#, fuzzy
+#~ msgid "Staff hours suceccfully saved."
+#~ msgstr "कर्मचारी समूह का नाम सफलतापूर्वक बदल दिया गया है।"
+
+#, fuzzy
+#~ msgid "Loading staff hours..."
+#~ msgstr "कर्मचारी लोड हो रहें हैं ..."
+
+#, fuzzy
+#~ msgid "Staff hours suceccfully updated."
+#~ msgstr "कर्मचारी विवरण सफलतापूर्वक नवीनतम बना दिया गया है।"
+
+#~ msgid "Schedule An Appointment"
+#~ msgstr "नई नियुक्ति बनायें"
+
+#~ msgid "with"
+#~ msgstr "के साथ"
+
+#~ msgid "Sorry! Today`s all appointments has been booked."
+#~ msgstr "क्षमा करें! आज सभी नियुक्तियों को बुक किया जा चुका है।"
+
+#~ msgid "Support & Help"
+#~ msgstr "समर्थन और मदद"
+
+#~ msgid "Duration Unit."
+#~ msgstr "अवधि इकाई"
+
+#~ msgid "Experience cannot be blank."
+#~ msgstr "अनुभव खाली नहीं हो सकता"
+
+#~ msgid "Zipcode"
+#~ msgstr "डाक संख्या"
+
+#~ msgid "Zip Number."
+#~ msgstr "डाक संख्या"
+
+#~ msgid "Zipcode cannot be blank."
+#~ msgstr "ज़िपकोड खाली नहीं हो सकता."
+
+#~ msgid "Website cannot be blank."
+#~ msgstr "वेबसाइट खाली नहीं हो सकती।"
+
+#~ msgid "Invalid url."
+#~ msgstr "अमान्य यूआरएल."
+
+#~ msgid "Invalid blog url."
+#~ msgstr "अमान्य ब्लॉग यूआरएल."
+
+#~ msgid "Google Email Password"
+#~ msgstr "गूगल ईमेल पासवर्ड"
+
+#~ msgid "Manage Google Calendar"
+#~ msgstr "गूगल कैलेंडर का प्रबंधन"
+
+#~ msgid "Time Zone "
+#~ msgstr "समय क्षेत्र"
+
+#~ msgid "Google calendar setting successfully saved"
+#~ msgstr "गूगल कैलेंडर सेटिंग सफलतापूर्वक बना दी गई है।"
+
+#~ msgid "Google email cannot be blank."
+#~ msgstr "ईमेल खाली नहीं हो सकता."
+
+#~ msgid "invalid google email."
+#~ msgstr "अमान्य गूगल ईमेल."
+
+#~ msgid "Google email password cannot be blank."
+#~ msgstr "ईमेल खाली नहीं हो सकता."
+
+#~ msgid "Calendar View."
+#~ msgstr "कैलेंडर रुप"
+
+#~ msgid "Calendar First Day."
+#~ msgstr "कैलेंडर का प्रथम दिवस."
+
+#~ msgid "Appointment Created On"
+#~ msgstr "नियुक्ति बनने की तारीख"
+
+#~ msgid "Staff category successfully deleted."
+#~ msgstr "कर्मचारी श्रेणी सफलतापूर्वक हटा दि गयी है।"
+
+#~ msgid "Do you want to delete this Clients"
+#~ msgstr "क्या आप यह ग्राहक हटाना चाहते हैं?"
+
+#, fuzzy
+#~ msgid "All Day Event"
+#~ msgstr "पूरे दिन का टाईम आफ"
