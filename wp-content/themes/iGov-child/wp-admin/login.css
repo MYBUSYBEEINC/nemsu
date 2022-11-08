@@ -1,0 +1,73 @@
+body {
+	background: #f4f4f6;
+}
+#login {
+	width: 100%;
+	padding-top: 0;
+}
+.login h1 a {
+    background-image: url(https://staging1.beecr8tive.net/bmb/wp-content/uploads/2022/05/HeaderAnnexCGovWebsite-1.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 200px;
+    padding: 50px 0;
+    background-position: center center;
+    width: 41%;
+    background-size: 40%;
+}
+
+@media only screen and (max-width: 1024px){ .login h1 a {background-size: 53%;}}
+@media only screen and (max-width: 768px){ .login h1 a {background-size: 70%;}}
+@media only screen and (max-width: 425px){ .login h1 a {background-size: 73%; width: 70%;}}
+@media only screen and (max-width: 375px){ .login h1 a {background-size: 85%;}}
+
+#login_error,
+#login form,
+#login p {
+	width: 320px;
+	margin: 0 auto !important;
+	background: none;
+	box-shadow: none;
+}
+#login h1 {
+	background: #fff;
+	border-bottom: 1px solid #e3e4e8;
+	margin-bottom: 40px;
+	/* width: 200px; */
+}
+.login * {
+    margin: 0;
+    /*padding: 0;*/
+}
+.login form .input, .login form input[type=checkbox], .login input[type=text] {
+	background: #fbfbfb;
+    box-shadow: none;
+    background-color: #fff;
+}
+.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large {
+	background-color: #2E427E;
+	border: 1px solid #2E427E;
+	box-shadow: none;
+	height: 43px;
+	padding: 0 46px;
+	font-weight: bold;
+	
+	-webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+.wp-core-ui .button-group.button-large .button:hover,
+.wp-core-ui .button.button-large:hover {
+	background: #4a5fbb;
+    color: #ffffff;
+    border: 1px solid #4a5fbb;
+    
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+#login a:hover {
+	color: #148c9d;
+}
