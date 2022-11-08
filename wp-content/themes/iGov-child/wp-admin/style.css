@@ -9,8 +9,8 @@ body#tinymce.wp-editor {
 
 
 /* HIDE MENU */
-#menu-posts, #menu-comments, #menu-appearance, #menu-plugins, #menu-users, #menu-tools, #menu-settings, #toplevel_page_loginwp-settings, 
+/* #menu-posts, #menu-comments, #menu-appearance, #menu-plugins, #menu-users, #menu-tools, #menu-settings, #toplevel_page_loginwp-settings, 
 #toplevel_page_edit-post_type-acf-field-group, #toplevel_page_cptui_main_menu, #toplevel_page_members,
 #dashboard_right_now, #dashboard_activity, #dashboard_quick_press, #dashboard_primary {
     display: none;
-}
+} */
