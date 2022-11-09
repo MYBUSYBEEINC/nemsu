@@ -5,3 +5,53 @@
  * Text Domain: 
  * */
  
+ .acf-button{
+    font-size: 14px !important;
+    background: rgb(14, 192, 227) !important;
+    float: right;
+    border-bottom: none !important;
+    margin-right: 20px;
+}
+
+.acf-field{
+    border: none !important;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+
+  /* Style the buttons inside the tab */
+  .tab button {
+    background: #c1dcef !important;
+    border-radius: 3;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: rgb(11, 0, 0);
+    
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: rgb(52, 11, 239);
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }

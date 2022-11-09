@@ -38,6 +38,9 @@ word-break: keep-all!important;
 hyphens: none!important;
 }
 
+label{
+    font-size: 14px;
+}
 
 .fl { float: left; }
 .fr { float: right; }
