@@ -27,23 +27,10 @@ acf_form_head();
     <link rel="pingback" href="<?php echo esc_url( get_bloginfo( 'pingback_url' ) ); ?>">
     <script src="https://kit.fontawesome.com/7fddb8c633.js" crossorigin="anonymous"></script>
 
-  
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
-    <script  type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
-
     <!--[if lt IE 9]>
     <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js?ver=3.7.0"></script>
     <![endif]-->
     
-    <script type="text/javascript" id="gwt-pst">
-        (function(d, eId) {
-        var js, gjs = d.getElementById(eId);
-        js = d.createElement('script'); js.id = 'gwt-pst-jsdk';
-        js.src = "<?php echo get_stylesheet_directory_uri(); ?>/js/gwtpst.js?"+new Date().getTime();
-        gjs.parentNode.insertBefore(js, gjs);
-        }(document, 'gwt-pst'));
-    </script>
 	<?php wp_head(); ?>
 </head>
 
@@ -62,39 +49,59 @@ acf_form_head();
 		<div class="topbar-wrapper">
 			<div class="topbar-container">
 				<div class="topbar-fl">
-				    <?php wp_nav_menu(
-						array(
-							'theme_location' => 'primary',
-							'menu_class'     => 'nav-menu',
-							'menu_id'        => 'primary-menu',
-						)
-					); ?>
+					<img class="school-logo" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/277525637_3113550885536569_8640785450851110724_n-1.png" alt="">
+					<div class="school-name">
+						<h1>NEMSU</h1>
+						<h4>School Management System</h4>
+					</div>
 				</div>
-
-				<div class="topbar-fr">
-					<?php get_search_form(); ?>
-					<!--<button type="button" class="a11y-toggle-contrast toggle-contrast" id="is_normal_contrast" aria-pressed="false"><span class="offscreen"><i class="fa fa-universal-access fa-2x" aria-hidden="true"></i></span><span class="aticon aticon-adjust" aria-hidden="true"></span></button>-->
+				<div class="topbar-fln">
+					<div class="topnav">
+						<div class="title-branch">
+						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt="">	
+						<h2>Welcome to <b>NEMSU</b> School Management System</h2>
+						</div>
+						<?php get_search_form(); ?>
+						<div class="notifications">
+						<i class="far fa-bell"></i>
+						<i class="fas fa-user-circle"></i>
+						</div>	
+							
+						
+						</div>
 				</div>
 				<div class="clear"></div>
+				<div class="sidenav">
+					<ul>
+						<li>
+							<a href="http://" target="_blank" rel="noopener noreferrer">Nav 1</a>
+						</li>
+						<li>
+							<a href="http://" target="_blank" rel="noopener noreferrer">Nav 2</a>
+						</li>
+						<li>
+							<a href="http://" target="_blank" rel="noopener noreferrer">Nav 3</a>
+						</li>
+						<li>
+							<a href="http://" target="_blank" rel="noopener noreferrer">Nav 4</a>
+						</li>
+						<li>
+							<a href="http://" target="_blank" rel="noopener noreferrer">Nav 5</a>
+						</li>
+						<li>
+							<a href="http://" target="_blank" rel="noopener noreferrer">Nav 6</a>
+						</li>
+						<li>
+							<a href="http://" target="_blank" rel="noopener noreferrer">Nav 7</a>
+						</li>
+						
+					</ul>
+				</div>
+				<!-- <div class="clear"></div> -->
+				
 			</div>
+			
 		</div>
-		
-		<div class="auxmenu-wrapper">
-			<div class="auxmenu-container">
-			    <div class="web-logo fl">
-			        
-			    </div>
-                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Auxiliary Menu') ) : ?><?php endif; ?>
-                <div class="web-pst fr">
-			        <div class="web-pst-container">
-    			        <div id="pst-container">
-                            <div>Philippine Standard Time:</div>
-                            <div id="pst-time"></div>
-                        </div>
-			        </div>
-			    </div>
-                <div class="clear"></div>
-			</div>
-		</div>
+
 		
 		<div id="main" class="site-main">
