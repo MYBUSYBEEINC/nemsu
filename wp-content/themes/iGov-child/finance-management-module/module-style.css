@@ -1,7 +1,28 @@
 /* Supported CSS Name:  Module Stylesheet
  *
  * Template:    Style Per Module
- * Author:     
+ * Author:  Ernesto M odarbe Jr   
  * Text Domain: 
  * */
- 
+
+
+body{
+    background-color:#F5F5F5;
+}
+.site {
+    background-color: #F5F5F5 !important;
+    /* border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%; */
+}.site {  max-width: unset; }
+
+.form-control{
+    background-color:#F5F5F5;
+    border: 0;
+}
+
+.finance-amount{
+    float: right;
+}

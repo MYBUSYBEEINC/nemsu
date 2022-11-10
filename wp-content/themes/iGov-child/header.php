@@ -78,10 +78,7 @@ acf_form_head();
 							</a>
 						</li>
 						<li>
-							<a href="#">
-							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
-							<span>Finance</span>
-							</a>
+							<a href="<?= get_site_url()?>/finance-dashboard" rel="noopener noreferrer"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br><span>Finance</span></a>
 						</li>
 						<li>
 							<a href="#">
