@@ -86,7 +86,7 @@ acf_form_head();
 							<a href="http://" target="_blank" rel="noopener noreferrer">Nav 4</a>
 						</li>
 						<li>
-							<a href="http://" target="_blank" rel="noopener noreferrer">Nav 5</a>
+							<a href="<?= get_site_url()?>/finance-dashboard" rel="noopener noreferrer">Finance</a>
 						</li>
 						<li>
 							<a href="http://" target="_blank" rel="noopener noreferrer">Nav 6</a>
