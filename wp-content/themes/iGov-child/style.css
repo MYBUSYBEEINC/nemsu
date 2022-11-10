@@ -11,13 +11,13 @@ Text Domain:  iGov-child
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,800;1,400;1,800&display=swap');
 /************************************ My  Responsive Core ******************************/
 
 @import url("responsive-css/style.css");
 @import url("students-management-module/module-style.css");
 @import url("system-management-module/module-style.css");
-@import url("report-module/module-style.css");
+@import url("reports-module/module-style.css");
 @import url("finance-management-module/module-style.css");
 @import url("enrollment-management-module/module-style.css");
 @import url("course-scheduling-management-module/module-style.css");
@@ -37,7 +37,12 @@ word-break: keep-all!important;
 -ms-hyphens: none!important;
 hyphens: none!important;
 }
-
+ul {
+    list-style: none;
+}
+a  {
+    text-decoration: none;
+}
 
 .fl { float: left; }
 .fr { float: right; }
@@ -49,103 +54,111 @@ font-family: 'Lato', sans-serif;
 color: #464646;
 font-weight: 700;
 }
+.site {
+    max-width: unset;
+}
 /* HEADER */
-.topbar-fl {
-    float:left;
+.topnav  {
+    width: 100%;
+    position: fixed;
+    background: #346af8;
+    z-index: 1;
+    height: 70px;
 }
-.topbar-fln {
-    /* float:right */
+  .logos-homepage {
+    display: flex;
+    padding: 5px 10px 0 5px;
+    float: left;
+  }
+  .notifications {
+    padding: 12px 0;
 }
-
-.topbar-container {
-    background: #346af8
+.notifications i {
+    font-size: 30px;
+    margin-right: 40px;
+  }
+  .flex {
+    display: flex;
 }
-.topbar-fl {
+.flex-jc {
     display:flex;
-    padding: 10px 30px;
+    justify-content: space-between;
+    align-items: center;
 }
-.school-logo {
+.white {
+    background:#fff;
+    margin-left: 15px;
+}
+.welcome h2 {
+    padding: 6px 0;
+}
+  input[type="search"] {
+    border: none;
+    background: #F3F6F9;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+  }
+  .school-logo {
     object-fit: contain;
-}
-.school-name {
-    display:inline-block;
-    
-}
+    width: 60px;
+    margin-right: 5px;
+  }
+  .welcome h2 {
+      display: inline-block;
+      font-family: Roboto;
+      font-weight: 300;
+      font-size: 18px;
+    }
 .school-name h1 {
-    font-family: 'Montserrat';
-    font-style: italic;
+    font-family: Montserrat;
     font-weight: 800;
+    font-style: italic;
     font-size: 37px;
     color: #fff;
-    /* line-height: 3px; */
-}
-.school-name h4{
-    font-family: 'Montserrat', sans-serif;
+  }
+.school-name h4 {
+    font-family: Montserrat;
+    font-weight: 800;
     font-style: italic;
     font-size: 9.5px;
-    color: #fff;
     line-height: 0;
+    color: #fff;
 }
-.topnav {
-    display: flex;
-    background: #fff;
-    /* padding: 10px; */
-    align-items: center;
-    justify-content: space-between;
-  }
-  .title-branch {
-    display: flex;
-    align-items: center;
-  }
-.topnav h2 {
-    font-family: 'Roboto';
-    font-weight: 300;
-    font-size: 24px;
-    /* color: #fff; */
-    margin-right: 20px;
+.sidenav  {
+    width: 15em;
+    height: 100vh;
+    position: fixed;
+    background: #346af8;
+    overflow: scroll;
 }
-.topnav input[type="search"] {
-    border: none;
-    border-radius: 12px;
-    padding: 8px;
-    background: #F3F6F9B2;
-  }
-  .topnav i {
-    font-size: 25px;
-    background: #fff;
-    border-radius: 50%;
-    padding: 7px;
-    /* float:  right; */
-  }
-.sidenav {
-    float:left;
-}
-  .sidenav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.sidenav ul {
+     padding: 0;
+     margin: 0;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 100px;
+     margin-bottom: 50px;
 }
 .sidenav li {
-    margin-bottom: 0px;
-    padding: 5px 20px;
-    background: #346af8;
-    /* width: 228px; */
+    width: 100%;
     text-align: center;
+    padding: 5px 20px;
 }
 .sidenav a {
-    border-radius: 10px;
-    width: 228px;
-    display: inline-block;
-    text-align: center;
-    height: 100px;
-    line-height: 97px;
     color: #fff;
-    background: #4178f8;
+    background: #6796f9;
+    border-radius: 10px;
+    height: 107px;
+    display: block;
 }
-.sidenav a:hover {
-    background-color: #fff;
-    padding: 10x 20px;
-    color: #346af8;
+.sidenav::-webkit-scrollbar {
+    width: 0px;
+}
+.site-main{
+    margin-left: 15rem;
+    padding: 5rem 1rem 1rem 1rem;
 }
 .breadcrumbs{
     padding: 23px 0px 5px 0px;
@@ -161,3 +174,7 @@ footer {
 .copyright-wrapper {
     text-align: center;
   }
+/* RESPONSIVE */
+@media only screen and (min-width: 1367px) {
+ 
+}
