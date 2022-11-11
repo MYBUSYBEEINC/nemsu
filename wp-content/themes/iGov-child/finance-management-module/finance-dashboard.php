@@ -25,8 +25,8 @@ get_header(); ?>
         <div class="row mt-3">
             <?php
                 query_posts(array(    
-                    'posts_per_page' => -1,
-                    // 'orderby' => 'DESC',
+                    'posts_per_page' => 5,
+                    'orderby' => 'ASC',
                     'post_type' => array(
                     'finance_dashboard')));
                 if ( have_posts() ) :
@@ -43,9 +43,9 @@ get_header(); ?>
                 <?php
                 the_content();
                 endwhile; endif;
-                ?>
+            ?>
         </div>
-        <div class="row">
+        <div class="row mb-3">
             <div class="col-lg-12 col-md-12 mb-3">
                 <div class="ps-5 pt-3 pb-3 bg-white">
                     <h3>Finance Chart</h3>
@@ -58,6 +58,76 @@ get_header(); ?>
                     <canvas height="60vh" id="myChart"></canvas>
                 </div>
             </div>
+        </div>
+
+        <div class="row">
+
+        <?php
+            $i = 1;
+
+            while($i <= 3) {
+            echo 
+                "
+                <div class='col-2 '>
+                <div class='d-flex bg-white p-2 rounded'>
+                    <div class='flex-shrink-0'>
+                        <img src='...' alt=''>
+                    </div>
+                    <div class='flex-grow-1 ms-3'>
+                    Lifetime Income
+                    <h6>$40,728</h6>
+                    </div>
+                </div>
+            </div>
+            ";
+            $i++;
+            }
+        ?>
+
+            
+        </div>
+
+        <div class="row mt-3">
+            <?php
+                $titleHead1 = array("View Daily Collection Deposit", "Set Collection Date", "Enter Adjustments", 
+                "Accept Collection","Enter Group Adjustments");
+
+                foreach ($titleHead1 as $value1) {
+                echo " 
+                    <div class='col'>
+                        <div class='card border-0 text-bg-white mt-3 mb-3 rounded'>
+                            <div class='card-body'>
+                                <h5 class='card-title text-center'>$value1</h5>
+                                <p class='card-text'>
+                                Eum eu prima vitae deterruisset. Vel et accumsan salutandi forensibus, ut est esse posse 5
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                ";
+                }
+            ?>
+        </div>
+        <div class="row mb-3">
+            <?php
+                $titleHead2 = array("Print Subsidiary Ledge","Print Admission Slip"
+            ,"Approve Scholarship or Grant","Set Teller OR Num. Range","View Student Outstanding Balance");
+
+                foreach ($titleHead2 as $value1) {
+                echo " 
+                    <div class='col'>
+                        <div class='card border-0 text-bg-white mt-3 mb-3 rounded'>
+                            <div class='card-body'>
+                                <h5 class='card-title text-center'>$value1</h5>
+                                <p class='card-text'>
+                                Eum eu prima vitae deterruisset. Vel et accumsan salutandi forensibus, ut est esse posse 5
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                ";
+                }
+            ?>
         </div>
     </div>
 
@@ -82,7 +152,7 @@ get_header(); ?>
             const data = {
                 labels: labels,
                 datasets: [{
-                label: 'My First dataset',
+                label: 'Statistic',
                 backgroundColor: '#0C25B2',
                 borderColor: '#0C25B2',
                 data: [0, 10, 5, 2, 20, 30, 45, 34, 67, 66, 78, 99, 87],

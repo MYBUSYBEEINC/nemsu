@@ -14,7 +14,7 @@
     ?>
 
     <style>
-        .form-control{
+        /* .form-control{
             background-color:#F5F5F5;
             border: 0;
         }
@@ -59,7 +59,7 @@
             text-decoration: none;
             float: right;
             margin-right: 17px;
-        }
+        } */
         
     </style>
   </head>
@@ -81,6 +81,23 @@
                         <div class="card-body">
                             <!-- <div class="row">
                                 <div class="col-lg-12 col-md-12"> -->
+                                <!-- <php
+                                query_posts(array(
+                                'post_type' => 'your-posttype',
+                                'posts_per_page' => 3,
+                                'meta_key' => 'your-custom-field-name',
+                                'meta_value' => 'your-field-value'
+                                ));
+                                if ( have_posts() ) : ?>
+                                <ul>
+                                <php while ( have_posts() ) : the_post(); ?>
+                                <li>
+                                <a href="<php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
+                                </li>
+                                <php endwhile; ?>
+                                </ul>
+                                <php endif; wp_reset_query(); ?> -->
+
                                     <?php 
                                         function generateRandomString($length) {
                                             $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -97,6 +114,8 @@
                                             'post_id'       => 'new_post',
                                             'field_groups'  => array(
                                                 'group_636b9c9460f69',          // Test Group Field
+
+                                                // 'field_key' => 'acf-field_636b68bc9fa7c'
                                             ),
                                             'new_post'      => array(
                                                 'post_title'    =>  $token,
