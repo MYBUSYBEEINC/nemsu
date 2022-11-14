@@ -72,7 +72,7 @@ acf_form_head();
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a href="<?= get_site_url()?>/course-schedule-proposal" rel="noopener noreferrer">
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
 							<span>Course Scheduling</span>
 							</a>
