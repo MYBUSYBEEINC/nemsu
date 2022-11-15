@@ -33,7 +33,10 @@
     color: rgb(11, 0, 0);
     
   }
-  
+  .input-field{
+    border: none;
+  }
+
 
 .project-tab {
     padding: 2%;
