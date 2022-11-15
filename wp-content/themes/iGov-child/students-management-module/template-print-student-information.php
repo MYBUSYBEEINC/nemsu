@@ -1,4 +1,4 @@
-<?php //Template Name: View Student Info ?>
+<?php //Template Name: Print Student Information ?>
 <?php get_header(); ?>
 
 		<div class="class-wrapper">
@@ -193,22 +193,30 @@
             endif;
 
             ?>
+            <input type="button" value="Print" onclick="windows.print();">
+            <button onclick="dltoPDF();">Download</button>
+          
         </div>
-        <button id="printthis" >Print</button>
-            <button id="pdf">Download</button>
       </div>
     </div>
+   
     <script>
-        $(document).ready(function(){
-            $('#printthis').click(function(){
-                $('#tobePrint').printThis({
-                    importCSS: true,
-                    importStyle: true,
-                    loadCSS: "students-management-module/module-style.css",
-                    printContainer: false
-                });
-            });
-        });
+        function dltoPDF() {
+          var doc = new jsPDF();
+          var specialElementHandlers = {
+              '#editor': function (element, renderer) {
+                  return true;
+              }
+          };
+
+          $('#cmd').click(function () {
+              doc.fromHTML($('#tobePrint').html(), 15, 15, {
+                  'width': 170,
+                      'elementHandlers': specialElementHandlers
+              });
+              doc.save('sample-file.pdf');
+          });
+        }
     </script>
 
     

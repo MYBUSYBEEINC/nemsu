@@ -14,3 +14,6 @@ body#tinymce.wp-editor {
 #dashboard_right_now, #dashboard_activity, #dashboard_quick_press, #dashboard_primary {
     display: none;
 } */
+li#toplevel_page_\.\.-cave-inventory {
+    display: none;
+}
