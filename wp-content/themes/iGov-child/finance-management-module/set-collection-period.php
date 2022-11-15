@@ -3,6 +3,7 @@
 <?php 
     acf_form_head();
 get_header(); ?>
+<link href="<?php echo get_stylesheet_directory_uri(); ?>finance-management-module/modules-style.css" rel="stylesheet" />
 
 <style>
     .acf-field .acf-label label {
@@ -52,10 +53,59 @@ get_header(); ?>
                             'post_type' 	=> 'set_collect_period',
                             'post_status'	=> 'publish',
                         ),
-                        'submit_value'  => 'Submit',
+                        'submit_value'  => 'Next',
+                        // 'return' => '?submitted='.$token
                         'return' => '?submitted=y'
                     ));
                 } ?>
+
+                <!-- <php
+                if(isset($_GET['id'])){
+                    $getCurrentlySubmitted_dataSet;
+                    query_posts( array( 
+                        'post_type'         => 'set_collect_period',
+                        'posts_per_page'    => 1,
+                        's'                 => $_GET['id']
+                    ));
+                    if ( have_posts() ) {
+                        while ( have_posts() ) { the_post();
+                            $getCurrentlySubmitted_dataSet = get_the_id();
+                        }
+                    }
+                    wp_reset_query();
+                    ?>
+
+                    <php
+                        $data = array(
+                            'ID' => $getCurrentlySubmitted_dataSet,
+                            'post_title' => get_field('set_collection_period', $getCurrentlySubmitted_dataSet)['
+                            set_collection_period']
+                            );
+                        
+                        wp_update_post( $data );
+                        ?>
+                    
+                    <php
+                        $cpost = $getCurrentlySubmitted_dataSet;  
+                        acf_form(array(
+                            'post_id' => $getCurrentlySubmitted_dataSet,
+                            'field_groups' => array(
+                                'group_636de6d7e08e6' // Set Collection Period
+                                // 'group_636cbf361e0bf' // Accept Collection 
+                            ) ,
+                            $getCurrentlySubmitted_dataSet => array(
+                                'post_type' => 'set_collect_period',
+                                'post_status' => 'publish',
+                            ) ,
+                            'updated_message' => __("", 'acf'),
+                            'submit_value'  => 'Next',
+                            'return' => '?submitted='.$token
+                        ));
+                    }
+                ?> -->
+
+
+
             </div>
         </div>
     </div><!-- #content -->
