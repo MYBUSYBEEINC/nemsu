@@ -52,6 +52,8 @@ acf_form_head();
 		<div class="navbar-wrapper">
 			<div class="navbar-container">
 				<div class="sidenav">
+					asjdkgasjhdgasjhdgsajhdg
+					<?php echo get_the_id(); ?>
 					<ul>
 						<li>
 							<a href="#">
@@ -65,20 +67,20 @@ acf_form_head();
 							<span>Students</span>
 							</a>
 						</li>
-						<li>
-							<a href="#">
+						<li <?php if(get_the_id() == 239){ echo 'class="active"'; }?> >
+							<a href="<?= get_site_url()?>/enrollment">
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
 							<span>Enrollment</span>
 							</a>
 						</li>
-						<li>
-							<a href="<?= get_site_url()?>/course-schedule-proposal" rel="noopener noreferrer">
+						<li <?php if(get_the_id() == 39){ echo 'class="active"'; }?> >
+							<a href="<?= get_site_url()?>/course-schedule-proposal">
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
 							<span>Course Scheduling</span>
 							</a>
 						</li>
-						<li>
-							<a href="<?= get_site_url()?>/finance-dashboard" rel="noopener noreferrer"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br><span>Finance</span></a>
+						<li <?php if(get_the_id() == 41){ echo 'class="active"'; }?> >
+							<a href="<?= get_site_url()?>/finance-dashboard"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br><span>Finance</span></a>
 						</li>
 						<li>
 							<a href="#">
@@ -86,7 +88,7 @@ acf_form_head();
 							<span>Reports</span>
 							</a>
 						</li>
-						<li>
+						<li <?php if(get_the_id() == 393){ echo 'class="active"'; }?> >
 							<a href="<?php echo site_url().'/system/'; ?>">
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
 							<span>System</span>

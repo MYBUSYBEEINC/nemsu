@@ -108,7 +108,7 @@
                                 </td>
                                 <td class="actions">
                                     <a href="<?php echo get_the_permalink(); ?>"><i class="fas fa-eye"></i></a>
-                                    <a href="<?php echo get_the_permalink(); ?>"><i class="fas fa-edit"></i></a> 
+                                    <a href="<?php echo get_the_permalink().'/?edit='.get_the_id(); ?>"><i class="fas fa-edit"></i></a> 
                                     <a href="<?php echo site_url().'/system/departments-details-management/?delete='.get_the_id(); ?>"><i class="fas fa-trash-alt"></i></a>
                                 </td>
                             </tr>

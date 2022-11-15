@@ -153,6 +153,13 @@ font-weight: 700;
     height: 107px;
     display: block;
 }
+
+.sidenav li.active a {
+    color: #6796f9;
+    background: #fff;
+}
+
+
 .sidenav::-webkit-scrollbar {
     width: 0px;
 }

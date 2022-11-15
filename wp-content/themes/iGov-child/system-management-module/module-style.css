@@ -108,14 +108,20 @@
     padding-right: 0!important;
 }
 
+.single-department .navbar-wrapper,
+.single-academic_level .navbar-wrapper,
 .page-template-system-management-module .navbar-wrapper {
 	background: #DCE8FF;
 }
 
+.single-department .site-main,
+.single-academic_level .site-main,
 .page-template-system-management-module .site-main {
 	margin-left: 14rem;
 }
 
+.single-department .sidenav,
+.single-academic_level .sidenav,
 .page-template-system-management-module .sidenav {
 	width: 14em;
 }
@@ -141,6 +147,13 @@
 	border-left: none!important;
 }
 
+.single-department .acf-container,
+.single-academic_level .acf-container {
+    margin-bottom: 45px;
+}
+
+.single-department input, .single-department textarea, 
+.single-academic_level input, .single-academic_level textarea,
 .page-template-system-management-module .acf-container .acf-field input,
 .page-template-system-management-module .acf-container .acf-field textarea {
     background: #F9F9F9;
@@ -189,6 +202,14 @@
 }
 
 
+
+
+
+
+/* SINGLE */
+.sngl-info {
+    margin-top: 35px;
+}
 
 
 
