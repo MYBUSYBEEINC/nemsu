@@ -225,7 +225,6 @@ get_header(); ?>
                                                     endwhile; endif;
                                                     ?>
                                                 </table>
-
                                             </div>
                                         </div>
                                     </div>

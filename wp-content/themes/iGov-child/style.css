@@ -25,7 +25,7 @@ Text Domain:  iGov-child
 -------------------------------------------------------------- */
 
 body {
-font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
 line-height: 1.5;
 font-size: 15px;
 color: #0B0B0C;
@@ -50,7 +50,7 @@ a  {
 div,h1,h2,h3,h4,h5,h6 { margin: 0; padding: 0;}
 
 h1,h2,h3,h4,h5,h6 {
-font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
 color: #464646;
 font-weight: 700;
 }
@@ -164,7 +164,7 @@ font-weight: 700;
     padding: 23px 0px 5px 0px;
     /* text-transform: UPPERCASE; */
     letter-spacing: -0.10px;
-    font-family: Lato, sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     color: #687276;
 }
