@@ -1,5 +1,5 @@
 <?php //Template Name: Set Collection date?>
-<link href="<?php echo get_stylesheet_directory_uri(); ?>finance-management-module/module-style.css" rel="stylesheet" />
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/finance-management-module/modules-style.css" rel="stylesheet" />
 <?php 
     acf_form_head();
 get_header(); ?>
