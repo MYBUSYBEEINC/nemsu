@@ -1,4 +1,4 @@
-<?php //Template Name: Enrollment Guidance Result?>
+<?php //Template Name: Enrollment Admission to College?>
 <?php 
     get_template_part('scripts.php');
     acf_form_head();
@@ -29,7 +29,7 @@
     
     <a href="../"><< Back</a>
     
-    <h4 class="title text-uppercase mt-4 mb-4">Guidance Result</h4>
+    <h4 class="title text-uppercase mt-4 mb-4">Admission to College</h4>
 
     <div class="card">
         <div class="card-body">
@@ -68,9 +68,8 @@
 <script>
     $(document).ready(function() {
         $(`
-            <div class="form-group ml-4">
-                <button type="button" class="btn btn-success mr-2">Examinee</button>
-                <button type="button" class="btn btn-primary">Interview</button>
+            <div class="form-group mr-3 text-right">
+                <button type="button" class="btn btn-warning">Course Change</button>
             </div>
         `).insertBefore( ".acf-form-submit" );
     });
