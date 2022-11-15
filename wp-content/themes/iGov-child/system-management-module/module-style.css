@@ -1,7 +1,267 @@
 /* Supported CSS Name:  Module Stylesheet
- *
- * Template:    Style Per Module
- * Author:     
- * Text Domain: 
- * */
- 
+*
+* Template:    Style Per Module
+* Author:     
+* Text Domain: 
+*
+*/
+
+
+.align-right {
+	text-align: right;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.margin-b-25 {
+	margin-bottom: 25px;
+}
+
+.padding-15 {
+	padding: 15px;
+}
+
+.padding-55-15 {
+    padding: 55px 15px;
+}
+
+.padding-lr-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.border-radius-5 {
+	border-radius: 5px;
+}
+
+.bg-white {
+	background: #fff;
+}
+
+#alert-container .alert-success {
+    color: #155724!important;
+    background-color: #d4edda!important;
+    border-color: #c3e6cb!important;
+}
+
+#alert-container .alert-danger {
+    color: #721c24!important;
+    background-color: #f8d7da!important;
+    border-color: #f5c6cb!important;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+.page-template-template-system-dashboard #page .navbar-wrapper{
+    background: #346af8;
+}
+
+.page-template-template-system-dashboard #page .navbar-wrapper .class-container {
+    height: 80vh;
+}
+
+.page-template-template-system-dashboard #page .template-dashboard {
+    margin-top: 70px;
+}
+
+.page-template-template-system-dashboard #page .template-dashboard a.disabled {
+    filter: grayscale(0.9);
+    pointer-events: none;
+}
+
+.page-template-template-system-dashboard #page .template-dashboard a img {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.page-template-template-system-dashboard #page .template-dashboard a:hover img,
+.page-template-template-system-dashboard #page .template-dashboard a:active img,
+.page-template-template-system-dashboard #page .template-dashboard a:focus img {
+    transform: scale(1.3);
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.page-template-template-system-dashboard #page .template-dashboard .each-card {
+    border-radius: 10px;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.page-template-template-system-dashboard #page .template-dashboard .each-card .each-card-container {
+    color: #fff;
+    background: #6796f9;
+}
+
+
+.page-template-system-management-module.modal-open {
+    max-width: 100%;
+    overflow: hidden!important;
+    padding-right: 0!important;
+}
+
+.page-template-system-management-module .navbar-wrapper {
+	background: #DCE8FF;
+}
+
+.page-template-system-management-module .site-main {
+	margin-left: 14rem;
+}
+
+.page-template-system-management-module .sidenav {
+	width: 14em;
+}
+
+.page-template-system-management-module .page-title-container {
+	margin-bottom: 35px;
+}
+
+.page-template-system-management-module #dept-details-mgmt_filter label {
+	margin-right: 8px;
+}
+
+.page-template-system-management-module .acf-container {
+	margin-right: -16px;
+	margin-left: -16px;
+
+}
+
+.page-template-system-management-module .acf-container .acf-fields > .acf-field {
+	padding-top: 0;
+
+	border: none;
+	border-left: none!important;
+}
+
+.page-template-system-management-module .acf-container .acf-field input,
+.page-template-system-management-module .acf-container .acf-field textarea {
+    background: #F9F9F9;
+    border: 1px solid #CED4DA;
+}
+
+.page-template-system-management-module table tbody .actions a {
+	margin: 0 3px;
+}
+
+.wp-picker-container {
+	position: inherit!important;
+}
+
+.wp-picker-container.wp-picker-active {
+	width: 100%;
+}
+
+.wp-picker-input-wrap {
+    width: calc(100% - 110px);
+}
+.wp-picker-input-wrap label {
+    width: calc(100% - 60px);
+}
+.wp-picker-input-wrap label input {
+    width: 100%!important;
+}
+
+.wp-picker-container .wp-color-result.button {
+	min-height: 31px;
+	border-color: unset;
+}
+
+.wp-color-result:focus,
+.wp-color-result:hover {
+	color: unset;
+}
+
+.button.button-small.wp-picker-clear {
+    color: #464646;
+    font-size: 11px;
+}
+
+.page-template-system-management-module .acf-form-submit {
+    display: none;
+}
+
+
+
+
+
+
+/*---------------- MODAL ----------------*/
+
+.addNewModal {
+    background: #1BC5BD;
+    border-bottom: none;
+    border-radius: 5px;
+    padding: 7px 20px 7px;
+
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.addNewModal:hover,
+.addNewModal:active,
+.addNewModal:focus {
+	background: #1fa9a2;
+	border-top: none;
+    padding: 7px 20px 7px;
+
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.modal-footer .btn-primary {
+	background: #1BC5BD;
+    border: 1px solid #1BC5BD;
+    padding: 7px 20px 7px;
+
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.modal-footer .btn-primary:hover,
+.modal-footer .btn-primary:active,
+.modal-footer .btn-primary:focus {
+	background: #1fa9a2;
+    border: 1px solid #1fa9a2;
+}
+
+.modal-footer .btn-secondary {
+	background: #5a6268;
+    border: 1px solid #5a6268;
+    padding: 7px 20px 7px;
+
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.modal-footer .btn-secondary:hover,
+.modal-footer .btn-secondary:active,
+.modal-footer .btn-secondary:focus {
+	background: #74787a;
+    border: 1px solid #74787a;
+}
+
+.modal-footer .btn {
+    border-radius: 5px!important;
+    padding: 7px 20px 7px;
+
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}

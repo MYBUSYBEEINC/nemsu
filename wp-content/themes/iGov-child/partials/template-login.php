@@ -25,12 +25,20 @@ acf_form_head();
     <![endif]-->
     
     <?php wp_head(); ?>
+    <?php
+    if ( is_user_logged_in() ) {
+        $loggedin = "y";
+        global $current_user; wp_get_current_user();
+    } else {
+        $loggedin = "";
+    }
+    ?>
 </head>
 
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     <div id="page" class="hfeed site login-page">
-        <div id="main" class="site-main">
+        <div id="main">
 
             <style>
                 .site {
@@ -118,7 +126,8 @@ acf_form_head();
                 .login-container .login-form-container .login-form-wrapper .login-form .login-remember {
                     text-align: right;
                 }
-                .login-container .login-form-container .login-form-wrapper .login-form a, .login-container .login-form-container .login-form-wrapper .login-form .login-remember {
+                .login-container .login-form-container .login-form-wrapper .login-form .logged-out a,
+                .login-container .login-form-container .login-form-wrapper .login-form .login-remember {
                     display: inline-block;
                     width: 50%;
                 }
@@ -165,15 +174,29 @@ acf_form_head();
                                 <div class="login-form-container">
                                     <div class="login-form-wrapper pos-relative">
                                         <div class="vertical-center">
-                                            <div class="login-form-texts txt-center margin-b-45">
-                                                <img src="<?php echo site_url(); ?>/wp-content/uploads/2022/11/nemsu-logo.png" style="width: 200px; margin-bottom: 15px;">
-                                                <h2>Log in NEMSU System</h2>
-                                                <p>Free access to our dashboard</p>
-                                            </div>
+                                            <?php if($loggedin){ ?>
+                                                <div class="login-form-texts txt-center margin-b-45">
+                                                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2022/11/nemsu.png" style="width: 200px; margin-bottom: 15px;">
+                                                    <h2>NEMSU System</h2>
+                                                    <p>Free access to our dashboard</p>
+                                                </div>
 
-                                            <div class="login-form">
-                                                <?php wp_login_form(); ?>
-                                            </div>
+                                                <div class="login-form logged-in txt-center">
+                                                    Welcome back <?php echo $current_user->display_name; ?>!
+                                                    <br>
+                                                    Click <a onclick="window.open(this.href,'_new');return false;" href="<?php echo site_url().'/home'; ?>">here</a> to view dashboard
+                                                </div>
+                                            <?php } else { ?>
+                                                <div class="login-form-texts txt-center margin-b-45">
+                                                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2022/11/nemsu.png" style="width: 200px; margin-bottom: 15px;">
+                                                    <h2>Log in NEMSU System</h2>
+                                                    <p>Free access to our dashboard</p>
+                                                </div>
+
+                                                <div class="login-form logged-out">
+                                                    <?php wp_login_form(); ?>
+                                                </div>
+                                            <?php } ?>
                                         </div>
                                     </div>
                                 </div>

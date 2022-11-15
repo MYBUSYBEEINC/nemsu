@@ -25,6 +25,9 @@ acf_form_head();
     <title><?php wp_title( '|', true, 'right' ); ?></title>
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php echo esc_url( get_bloginfo( 'pingback_url' ) ); ?>">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+    <script  type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
     <script src="https://kit.fontawesome.com/7fddb8c633.js" crossorigin="anonymous"></script>
 
     <!--[if lt IE 9]>
@@ -46,62 +49,80 @@ acf_form_head();
     }
 	?>
 	<div id="page" class="hfeed site">
-		<div class="topbar-wrapper">
-			<div class="topbar-container">
-				<div class="topbar-fl">
-					<img class="school-logo" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/277525637_3113550885536569_8640785450851110724_n-1.png" alt="">
-					<div class="school-name">
-						<h1>NEMSU</h1>
-						<h4>School Management System</h4>
-					</div>
-				</div>
-				<div class="topbar-fln">
-					<div class="topnav">
-						<div class="title-branch">
-						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt="">	
-						<h2>Welcome to <b>NEMSU</b> School Management System</h2>
-						</div>
-						<?php get_search_form(); ?>
-						<div class="notifications">
-						<i class="far fa-bell"></i>
-						<i class="fas fa-user-circle"></i>
-						</div>	
-							
-						
-						</div>
-				</div>
-				<div class="clear"></div>
+		<div class="navbar-wrapper">
+			<div class="navbar-container">
 				<div class="sidenav">
 					<ul>
 						<li>
-							<a href="http://" target="_blank" rel="noopener noreferrer">Nav 1</a>
+							<a href="#">
+							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
+							<span>Dashboard</span>
+							</a>
 						</li>
 						<li>
-							<a href="http://" target="_blank" rel="noopener noreferrer">Nav 2</a>
+							<a href="#">
+							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
+							<span>Students</span>
+							</a>
 						</li>
 						<li>
-							<a href="http://" target="_blank" rel="noopener noreferrer">Nav 3</a>
+							<a href="#">
+							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
+							<span>Enrollment</span>
+							</a>
 						</li>
 						<li>
-							<a href="http://" target="_blank" rel="noopener noreferrer">Nav 4</a>
+							<a href="<?= get_site_url()?>/course-schedule-proposal" rel="noopener noreferrer">
+							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
+							<span>Course Scheduling</span>
+							</a>
 						</li>
 						<li>
-							<a href="http://" target="_blank" rel="noopener noreferrer">Nav 5</a>
+							<a href="<?= get_site_url()?>/finance-dashboard" rel="noopener noreferrer"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br><span>Finance</span></a>
 						</li>
 						<li>
-							<a href="http://" target="_blank" rel="noopener noreferrer">Nav 6</a>
+							<a href="#">
+							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
+							<span>Reports</span>
+							</a>
 						</li>
 						<li>
-							<a href="http://" target="_blank" rel="noopener noreferrer">Nav 7</a>
+							<a href="<?php echo site_url().'/system/'; ?>">
+							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
+							<span>System</span>
+							</a>
 						</li>
-						
 					</ul>
 				</div>
-				<!-- <div class="clear"></div> -->
-				
-			</div>
-			
-		</div>
 
-		
+				<div class="topnav">
+						<div class="logos-homepage">
+							<img class="school-logo" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/277525637_3113550885536569_8640785450851110724_n-1.png" alt="">
+							
+							<div class="school-name ">
+							<h1>NEMSU</h1>
+							<h4>School Management System</h4>
+							</div>
+						</div>
+						
+						
+						<div class="flex-jc white">
+						<div class="welcome white">
+							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt="">
+							<h2>Welcome to <b>NEMSU</b> School Management System</h2>
+							</div>
+						
+						<?php get_search_form(); ?>
+						
+						<div class="notifications">
+						<i class="far fa-bell"></i>
+						<i class="fas fa-user-circle"></i>
+						</div>
+						
+					
+						
+					
+				</div>
+			</div>
+		</div>
 		<div id="main" class="site-main">
