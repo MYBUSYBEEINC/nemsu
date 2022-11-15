@@ -43,6 +43,12 @@ ul {
 a  {
     text-decoration: none;
 }
+a:focus {
+    outline: unset;
+}
+a:hover {
+    text-decoration: none;
+}
 
 .fl { float: left; }
 .fr { float: right; }
@@ -58,6 +64,9 @@ font-weight: 700;
     max-width: unset;
 }
 /* HEADER */
+.navbar-wrapper {
+    background: #346af8;
+}
 .topnav  {
     width: 100%;
     position: fixed;
@@ -76,6 +85,7 @@ font-weight: 700;
 .notifications i {
     font-size: 30px;
     margin-right: 40px;
+    background: #fff;
   }
   .flex {
     display: flex;
@@ -91,6 +101,9 @@ font-weight: 700;
 }
 .welcome h2 {
     padding: 6px 0;
+}
+.welcome.white h2 {
+    background:#fff;
 }
   input[type="search"] {
     border: none;
@@ -157,8 +170,8 @@ font-weight: 700;
     width: 0px;
 }
 .site-main{
-    margin-left: 15rem;
-    padding: 5rem 1rem 1rem 1rem;
+    margin-left: 13rem;
+    padding: 5rem 0 1rem 1rem;
 }
 .breadcrumbs{
     padding: 23px 0px 5px 0px;

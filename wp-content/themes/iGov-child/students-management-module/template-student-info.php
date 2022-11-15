@@ -61,13 +61,13 @@
                     <td><?php the_field('address'); ?></td>
 
                     <td>
-                        <a href="view-student-information?order_id=<?php echo $cpost?>">
+                        <a class="student-icon" href="view-student-information?post_id=<?php echo $cpost?>" title="View">
                         <i class="fas fa-eye"></i>
                         </a>
-                        <a href="view-student-information?order_id=<?php echo $cpost?>">
+                        <a class="student-icon" href="edit-student-information?post_id=<?php echo $cpost?>" title="Edit" >
                         <i class="fas fa-edit"></i>
                         </a> 
-                        <a href="  ">
+                        <a class="student-icon" href="  " title="Delete">
                         <i class="fas fa-trash-alt"></i>
                         </a>
                     </td>
