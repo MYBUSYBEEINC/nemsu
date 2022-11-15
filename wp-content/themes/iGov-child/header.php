@@ -52,8 +52,6 @@ acf_form_head();
 		<div class="navbar-wrapper">
 			<div class="navbar-container">
 				<div class="sidenav">
-					asjdkgasjhdgasjhdgsajhdg
-					<?php echo get_the_id(); ?>
 					<ul>
 						<li>
 							<a href="#">
