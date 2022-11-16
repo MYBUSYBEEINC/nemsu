@@ -2,15 +2,66 @@
 <?php get_header(); ?>
 
 
-				<div class="entry-content">
-					<div class="site-content">
-						hello devs
-					</div>
-
-				</div><!-- .entry-content -->
-    
-    
 				
+					<div class="site-content">
+						<div class="homepage-wrapper">
+							<div class="homepage-container">
+								<div class="student-menu homepage">
+								<ul>
+									<li>
+										<a class="single-block" href="">
+										<i class="fas fa-bars"></i>
+										<h3>Dashboard</h3>
+										</a>
+									</li>
+									<li>
+										<a class="single-block" href="students">
+										<i class="fas fa-user-graduate"></i>
+										<h3>Students</h3>
+										</a>
+										
+									</li>
+									<li>
+										<a class="single-block" href="">
+										<i class="fas fa-file-signature"></i>
+										<h3>Enrollment</h3>
+										</a>
+										
+									</li>
+									<li>
+										<a class="single-block" href="">
+										<i class="fas fa-calendar-alt"></i>
+										<h3>Course Scheduling</h3>
+										</a>
+										
+									</li>
+									<li>
+										<a class="single-block" href="">
+										<i class="fas fa-money-bill"></i>
+										<h3>Finance</h3>
+										</a>
+										
+									</li>
+									<li>
+										<a class="single-block" href="">
+										<i class="fas fa-signal"></i>
+										<h3>Reports</h3>
+										</a>
+										
+									</li>
+									<li>
+										<a class="single-block" href="">
+										<i class="fas fa-cogs"></i>
+										<h3>System</h3>
+										</a>
+										
+									</li>
+								</ul>
+								</div>
+							</div>
+						</div>
+					
+					</div>		
 
 			<?php comments_template(); ?>
 

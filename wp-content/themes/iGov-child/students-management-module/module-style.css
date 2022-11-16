@@ -25,12 +25,18 @@ td .student-icon:nth-child(2):hover {
 td .student-icon:nth-child(2) {
   color: rgb(51, 202, 83);
 }
-.class-wrapper{
+.page-template-template-student-info .class-wrapper,
+.page-template-template-view-student-info  .class-wrapper,
+.old-subject-wrapper{
     background: #fff;
   }
   .class-container {
     height: 100vh;
     padding:20px;
+}
+.old-subject-container {
+  padding: 20px;
+  height: 100vh;
 }
 .student-menu ul {
     padding: 0;
@@ -42,11 +48,11 @@ td .student-icon:nth-child(2) {
 }
 .student-menu ul li  {
   display: inline-block;
-  /* background: #6796f9; */
-  /* width: 150px; */
-  /* height: 150px; */
   margin-left:20px;
-  /* border-radius: 10px; */
+
+}
+.student-menu.main ul li {
+  margin-right: 40px;
 }
 .student-menu ul li .single-block {
   display: flex;
@@ -61,7 +67,11 @@ td .student-icon:nth-child(2) {
   justify-content: center;
 }
 .student-menu ul li .single-block:hover {
-  background: #9fb0d3;
+  background: #e0e2e6;
+}
+.student-menu ul li .single-block:hover i,
+.student-menu ul li .single-block:hover h3 {
+  color: #0267FF;
 }
 .single-block {
   text-decoration: none;
@@ -84,13 +94,20 @@ td .student-icon:nth-child(2) {
   padding: 20px;
 }
 
-student-edit a{
+.student-edit .acf-repeater .acf-actions .acf-button,
+.old-subject-post .acf-repeater .acf-actions .acf-button{
   padding: 10px!important;
-  border-radius: 5px!important;
+  color: #fff;
 }
-student-edit button {
+.student-edit button {
   border-radius: 5px!important;
   border-bottom: none!important;
+}
+.student-edit .acf-button {
+  float: unset!important;
+}
+.student-edit .acf-form-submit {
+  text-align: end;
 }
 .noteBox {
   height: 100vh;

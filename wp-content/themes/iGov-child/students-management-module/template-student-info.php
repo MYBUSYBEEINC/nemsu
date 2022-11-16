@@ -1,4 +1,4 @@
-<?php //Template Name: Student Information ?>
+<?php //Template Name: Student Information List ?>
 <?php get_header(); ?>
 
 

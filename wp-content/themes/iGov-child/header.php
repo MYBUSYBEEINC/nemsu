@@ -63,7 +63,7 @@ acf_form_head();
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a href="<?= get_site_url()?>/students">
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
 							<span>Students</span>
 							</a>

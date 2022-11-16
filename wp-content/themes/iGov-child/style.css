@@ -63,6 +63,9 @@ font-weight: 700;
 .site {
     max-width: unset;
 }
+.homepage-container {
+    height: 100vh;
+}
 /* HEADER */
 .navbar-wrapper {
     background: #346af8;
