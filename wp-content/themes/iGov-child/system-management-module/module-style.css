@@ -1,8 +1,8 @@
 /* Supported CSS Name:  Module Stylesheet
 *
-* Template:    Style Per Module
-* Author:     
-* Text Domain: 
+* Template:     Style Per Module
+* Author:       Diego Pinlac
+* Text Domain:  
 *
 */
 
@@ -23,8 +23,8 @@
 	padding: 15px;
 }
 
-.padding-55-15 {
-    padding: 55px 15px;
+.padding-75-15 {
+    padding: 75px 15px;
 }
 
 .padding-lr-5 {
@@ -54,16 +54,34 @@
 
 /*-----------------------------------------------------------------------------------------*/
 
-.page-template-template-system-dashboard #page .navbar-wrapper{
+.page-template-system-management-module .sidenav {
+    width: 14em;
+}
+
+.page-template-template-system-dashboard .sidenav {
+    width: 15em;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+.page-template-system-management-module .class-container,
+.single-subject_residency .class-container  {
+    height: inherit;
+}
+
+.page-template-template-system-dashboard .class-wrapper {
     background: #346af8;
 }
 
-.page-template-template-system-dashboard #page .navbar-wrapper .class-container {
-    height: 80vh;
+.page-template-template-system-dashboard #page .template-dashboard {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 140px;
 }
 
-.page-template-template-system-dashboard #page .template-dashboard {
-    margin-top: 70px;
+.page-template-template-system-dashboard #page .template-dashboard a {
+    display: inline-block;
+    width: 12%;
 }
 
 .page-template-template-system-dashboard #page .template-dashboard a.disabled {
@@ -71,22 +89,25 @@
     pointer-events: none;
 }
 
-.page-template-template-system-dashboard #page .template-dashboard a img {
+.page-template-template-system-dashboard #page .template-dashboard a:hover .each-card .each-card-container {
+    background: #9fb0d3;
+
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
-.page-template-template-system-dashboard #page .template-dashboard a:hover img,
-.page-template-template-system-dashboard #page .template-dashboard a:active img,
-.page-template-template-system-dashboard #page .template-dashboard a:focus img {
-    transform: scale(1.3);
+.page-template-template-system-dashboard #page .template-dashboard a i {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+}
 
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+.page-template-template-system-dashboard #page .template-dashboard a span {
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #fff;
 }
 
 .page-template-template-system-dashboard #page .template-dashboard .each-card {
@@ -95,6 +116,8 @@
     display: block;
     margin-bottom: 15px;
 }
+
+    
 
 .page-template-template-system-dashboard #page .template-dashboard .each-card .each-card-container {
     color: #fff;
@@ -108,21 +131,37 @@
     padding-right: 0!important;
 }
 
+.page-template-system-management-module .navbar-wrapper, 
 .single-department .navbar-wrapper,
 .single-academic_level .navbar-wrapper,
-.page-template-system-management-module .navbar-wrapper {
+.single-clearance_signatorie .navbar-wrapper,
+.single-dl_grading_mgmt .navbar-wrapper,
+.single-subject_residency .navbar-wrapper,
+.single-grade_status .navbar-wrapper {
 	background: #DCE8FF;
 }
 
+.page-template-template-system-dashboard .navbar-wrapper {
+    background: #346af8;
+}
+
+.page-template-system-management-module .site-main, 
 .single-department .site-main,
 .single-academic_level .site-main,
-.page-template-system-management-module .site-main {
+.single-clearance_signatorie .site-main,
+.single-dl_grading_mgmt .site-main,
+.single-subject_residency .site-main,
+.single-grade_status .site-main {
 	margin-left: 14rem;
+    margin-right: 15px;
 }
 
 .single-department .sidenav,
 .single-academic_level .sidenav,
-.page-template-system-management-module .sidenav {
+.single-clearance_signatorie .sidenav,
+.single-dl_grading_mgmt .sidenav,
+.single-subject_residency .sidenav,
+.single-grade_status .sidenav {
 	width: 14em;
 }
 
@@ -147,13 +186,60 @@
 	border-left: none!important;
 }
 
+.page-template-system-management-module #dept-details-mgmt th {
+    background-color: #fff !important;
+    color: #464E5F!important;
+    padding: 8px 10px!important;
+    text-align : center;
+}
+
+.page-template-system-management-module .dataTable tbody td.actions a {
+    background: #F3F6F9;
+    color: #3699FF;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: 1px solid #e3ecf5;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.page-template-system-management-module .dataTable tbody td.actions a:hover,
+.page-template-system-management-module .dataTable tbody td.actions a:active,
+.page-template-system-management-module .dataTable tbody td.actions a:focus {
+    background: #3699FF;
+    color: #F3F6F9;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.page-template-system-management-module .dataTable tbody td.actions .modal table,
+.page-template-system-management-module .dataTable tbody td.actions .modal table td {
+    border: none!important;
+}
+
+
+
 .single-department .acf-container,
-.single-academic_level .acf-container {
+.single-academic_level .acf-container,
+.single-clearance_signatorie .acf-container,
+.single-dl_grading_mgmt .acf-container,
+.single-subject_residency .acf-container,
+.single-grade_status .acf-container {
     margin-bottom: 45px;
 }
 
 .single-department input, .single-department textarea, 
 .single-academic_level input, .single-academic_level textarea,
+.single-clearance_signatorie input, .single-clearance_signatorie textarea,
+.single-dl_grading_mgmt input, .single-dl_grading_mgmt textarea,
+.single-subject_residency input, .single-subject_residency textarea,
+.single-grade_status input, .single-grade_status input,
 .page-template-system-management-module .acf-container .acf-field input,
 .page-template-system-management-module .acf-container .acf-field textarea {
     background: #F9F9F9;
@@ -201,6 +287,66 @@
     display: none;
 }
 
+.single-subject_residency .acf-container .acf-fields > .acf-field {
+    padding-top: 0;
+
+    border: none;
+    border-left: none!important;
+}
+
+.page-template-template-subject-residency .accordion,
+.single-subject_residency .accordion {
+    margin-top: 8px;
+}
+
+.page-template-template-subject-residency .accordion .card .card-header,
+.page-template-template-subject-residency .accordion .card .card-header .acf-label,
+.page-template-template-subject-residency .accordion .card .card-header .acf-label label,
+.single-subject_residency .accordion .card .card-header,
+.single-subject_residency .accordion .card .card-header .acf-label,
+.single-subject_residency .accordion .card .card-header .acf-label label {
+    cursor: pointer;
+}
+
+.page-template-template-subject-residency .accordion .acf-label,
+.page-template-template-subject-residency .accordion label,
+.single-subject_residency .accordion .acf-label,
+.single-subject_residency .accordion label {
+    margin: 0;
+}
+
+.page-template-template-subject-residency .accordion .card-body .acf-field.acf-field-group,
+.single-subject_residency .accordion .card-body .acf-field.acf-field-group {
+    margin: 0;
+}
+
+.page-template-template-subject-residency .accordion .card-body .acf-field.acf-field-group .-border,
+.single-subject_residency .accordion .card-body .acf-field.acf-field-group .-border {
+    border: unset;
+    margin: 0 -16px;
+}
+
+.page-template-template-subject-residency #viewAccordion table,
+.page-template-template-subject-residency #deleteAccordion table {
+    margin-bottom: 25px;
+}
+.page-template-template-subject-residency #viewAccordion table:last-child,
+.page-template-template-subject-residency #deleteAccordion table:last-child {
+    margin-bottom: 0;
+}
+
+
+.page-template-template-subject-residency #viewAccordion table tr td,
+.page-template-template-subject-residency #deleteAccordion table tr td {
+    width: 25%;
+}
+
+.page-template-template-subject-residency #viewAccordion .td-head ,
+.page-template-template-subject-residency #deleteAccordion .td-head {
+    background: #346af8;
+    color: #fff;
+}
+
 
 
 
@@ -215,6 +361,11 @@
 
 
 /*---------------- MODAL ----------------*/
+
+.modal .modal-body {
+    max-height: 650px;
+    overflow-y: auto;
+}
 
 .addNewModal {
     background: #1BC5BD;

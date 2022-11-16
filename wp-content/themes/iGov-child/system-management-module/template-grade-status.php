@@ -1,4 +1,4 @@
-<?php //Template Name: System - Academic Level ?>
+<?php //Template Name: System - Grade Status Management ?>
 
 <?php acf_form_head(); get_header(); ?>
 
@@ -9,26 +9,26 @@
 
         <?php if(isset($_GET['delete']) || isset($_GET['deleted'])){
             if($_GET['delete']){
-                wp_trash_post( $_GET['delete'] );
-                ?>
+                wp_trash_post( $_GET['delete'] ); ?>
                 <script>
-                    window.location.href = "<?php echo site_url().'/system/academic-level/?deleted='.$_GET['delete']; ?>";
+                    window.location.href = "<?php echo site_url().'/system/grade-status-management/?deleted='.$_GET['delete']; ?>";
                 </script>
             <?php } ?>
 
             <div id="alert-container">
                 <div class="alert alert-danger" role="alert">
-                    <i class="fa fa-trash" aria-hidden="true"></i> Academic Level has been successfully deleted.
+                    <i class="fa fa-trash" aria-hidden="true"></i> Grade Status has been successfully deleted.
                 </div>
             </div>
 
         <?php } ?>
 
 
+
         <?php if(isset($_GET['submitted'])){
             $getCurrentlySubmittedID;
             query_posts( array( 
-                'post_type'         => 'academic_level',
+                'post_type'         => 'grade_status',
                 'posts_per_page'    => 1,
                 's'                 => $_GET['submitted']
             ));
@@ -42,16 +42,16 @@
 
             <div id="alert-container">
                 <div class="alert alert-success" role="alert">
-                    <i class="fa fa-check-circle" aria-hidden="true"></i> Success! <strong><?php echo get_field('academic_level', $getCurrentlySubmittedID); ?></strong> has been successfully created.
+                    <i class="fa fa-check-circle" aria-hidden="true"></i> Success! Grade Status has been successfully created.
                 </div>
             </div>
         <?php } ?>
-
         
+
         
         <div class="bg-white padding-15 border-radius-5">
             <div class="page-title-container">
-                <h4 class="card-title">Academic Level</h4>
+                <h4 class="card-title">Grade Status Management</h4>
             </div>
 
             <div class="action-btns" id="action-btns">
@@ -61,8 +61,9 @@
             <table id="dept-details-mgmt">
                 <thead>
                     <tr>
-                        <th>Academic Level ID</th>
-                        <th>Academic Level</th>
+                        <th>Grade Status Code</th>
+                        <th>Grade Status Name</th>
+                        <th>With Grade Completion?</th>
                         <th>Status</th>
                         <th>Action</th>
                     </tr>
@@ -71,7 +72,7 @@
                 <tbody>
                     <?php 
                     query_posts(array(
-                    'post_type' => 'academic_level',
+                    'post_type' => 'grade_status',
                     'posts_per_page' => -1,
                     ));
 
@@ -81,18 +82,27 @@
                             $title=get_the_title($cpost); ?>
 
                             <tr>
-                                <td class="align-center"><?php echo get_the_id(); ?></td>
-                                <td><?php the_field('academic_level'); ?></td>
+                                <td><?php the_field('grade_status_code'); ?></td>
+                                <td><?php the_field('grade_status_name'); ?></td>
                                 <td class="align-center">
                                     <?php
-                                    if(get_field('status')){
+                                    if(get_field('with_grade_completion')){
+                                        echo "Yes";
+                                    } else {
+                                        echo "No";
+                                    }
+                                    ?>
+                                </td>
+                                <td class="align-center">
+                                    <?php
+                                    if(get_field('grade_status')){
                                         echo "Active";
                                     } else {
                                         echo "Inactive";
                                     }
                                     ?>
                                 </td>
-                                <td class="actions align-center">
+                                <td class="actions">
                                     <div class="align-center">
                                         <a href="#" data-toggle="modal" data-target="#viewModal"><i class="fas fa-eye"></i></a>
                                         <a href="<?php echo get_the_permalink().'/?edit='.get_the_id(); ?>"><i class="fas fa-edit"></i></a> 
@@ -103,26 +113,38 @@
                                         <div class="modal-dialog modal-dialog-centered" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h5 class="modal-title"><?php the_field('academic_level'); ?></h5>
+                                                    <h5 class="modal-title">Grade Status Details</h5>
                                                 </div>
                                                 <div class="modal-body">
                                                     <table>
                                                         <tr>
-                                                            <td><strong>Academic Level ID</strong></td>
-                                                            <td><?php echo get_the_id(); ?></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Academic Level</strong></td>
-                                                            <td><?php the_field('academic_level'); ?></td>
-                                                        </tr>
-                                                        <tr>
                                                             <td><strong>Status</strong></td>
                                                             <td>
                                                                 <?php
-                                                                if(get_field('status')){
+                                                                if(get_field('grade_status')){
                                                                     echo "Active";
                                                                 } else {
                                                                     echo "Inactive";
+                                                                }
+                                                                ?>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Grade Status Code</strong></td>
+                                                            <td><?php the_field('grade_status_code'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Grade Status Name</strong></td>
+                                                            <td><?php the_field('grade_status_name'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>With Grade Completion</strong></td>
+                                                            <td>
+                                                                <?php
+                                                                if(get_field('with_grade_completion')){
+                                                                    echo "Yes";
+                                                                } else {
+                                                                    echo "No";
                                                                 }
                                                                 ?>
                                                             </td>
@@ -142,17 +164,33 @@
                                                 <div class="modal-body">
                                                     <table>
                                                         <tr>
-                                                            <td><strong>Academic Level</strong></td>
-                                                            <td><?php the_field('academic_level'); ?></td>
-                                                        </tr>
-                                                        <tr>
                                                             <td><strong>Status</strong></td>
                                                             <td>
                                                                 <?php
-                                                                if(get_field('status')){
+                                                                if(get_field('grade_status')){
                                                                     echo "Active";
                                                                 } else {
                                                                     echo "Inactive";
+                                                                }
+                                                                ?>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Grade Status Code</strong></td>
+                                                            <td><?php the_field('grade_status_code'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Grade Status Name</strong></td>
+                                                            <td><?php the_field('grade_status_name'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>With Grade Completion</strong></td>
+                                                            <td>
+                                                                <?php
+                                                                if(get_field('with_grade_completion')){
+                                                                    echo "Yes";
+                                                                } else {
+                                                                    echo "No";
                                                                 }
                                                                 ?>
                                                             </td>
@@ -161,7 +199,7 @@
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                    <button type="button" class="btn btn-primary" onclick="window.location.href='<?php echo site_url(); ?>/system/academic-level/?delete=<?php echo get_the_id(); ?>'">Confirm</button>
+                                                    <button type="button" class="btn btn-primary" onclick="window.location.href='<?php echo site_url(); ?>/system/grade-status-management/?delete=<?php echo get_the_id(); ?>'">Confirm</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -183,7 +221,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title">Create New Department</h4>
+                <h5 class="modal-title">Create New Grade Status</h5>
             </div>
             <div class="modal-body">
                 <div class="acf-container">
@@ -201,12 +239,12 @@
                     acf_form(array(
                         'post_id'       => 'new_post',
                         'field_groups'  => array(
-                            'group_6373513d520c5',  // Academic Level
+                            'group_6374937b43453',  // Grade Status
                             
                         ),
                         'new_post'      => array(
                             'post_title'    => $token,
-                            'post_type'     => 'academic_level',
+                            'post_type'     => 'grade_status',
                             'post_status'   => 'publish',
                         ),
                         'submit_value'  => 'Proceed',
@@ -229,7 +267,8 @@
         $('#dept-details-mgmt').DataTable({
             "aaSorting": [],
             "columnDefs": [
-                { "width": "120px", "targets": -1 }
+                { "width": "120px", "targets": -1 },
+                { "bSortable": false, "aTargets": [ -1 ] }
             ]
         });
 
