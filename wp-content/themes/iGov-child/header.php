@@ -62,8 +62,8 @@ acf_form_head();
 							<span>Dashboard</span>
 							</a>
 						</li>
-						<li>
-							<a href="#">
+						<li <?php if(get_the_id() == 279){ echo 'class="active"'; }?> >
+							<a href="<?php echo site_url().'/student-menu/'; ?>">
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
 							<span>Students</span>
 							</a>
