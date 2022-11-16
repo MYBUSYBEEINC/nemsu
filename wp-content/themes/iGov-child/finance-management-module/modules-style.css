@@ -50,7 +50,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     font-size: 14px;
-    line-height: 2.5;
+    line-height: 2.3 !important;
     background-color: #F5F5F5;
     border: 0;
     border-radius: 5px;
