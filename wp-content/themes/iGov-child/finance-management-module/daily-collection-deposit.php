@@ -61,7 +61,7 @@ get_header(); ?>
                     </div>
                     
                 </div>
-                <div class="card-footer bg-white text-muted">
+                <div class="card-footer bg-white text-muted border-0">
                 <table class="table mt-5">
                     <thead>
                         <tr>
