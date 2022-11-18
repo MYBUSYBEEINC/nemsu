@@ -35,8 +35,10 @@ get_header(); ?>
                     <div class="col">
                         <div class="card border-0 text-bg-white mt-3 mb-3">
                             <div class="card-body">
-                                <h5 class="card-title text-center"><?php echo get_the_title();?></h5>
-                                <p class="card-text"><?php echo get_field('description');?></p>
+                                <a href="<?php echo get_site_url();?>/<?php echo get_field('path_link')?>" target="_blank">
+                                    <h5 class="card-title text-center"><?php echo get_the_title();?></h5>
+                                    <p class="card-text"><?php echo get_field('description');?></p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -58,33 +60,6 @@ get_header(); ?>
                     <canvas height="60vh" id="myChart"></canvas>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
-
-        <?php
-            $i = 1;
-
-            while($i <= 3) {
-            echo 
-                "
-                <div class='col-2 '>
-                <div class='d-flex bg-white p-2 rounded'>
-                    <div class='flex-shrink-0'>
-                        <img src='...' alt=''>
-                    </div>
-                    <div class='flex-grow-1 ms-3'>
-                    Lifetime Income
-                    <h6>$40,728</h6>
-                    </div>
-                </div>
-            </div>
-            ";
-            $i++;
-            }
-        ?>
-
-            
         </div>
 
         <div class="row mt-3">
