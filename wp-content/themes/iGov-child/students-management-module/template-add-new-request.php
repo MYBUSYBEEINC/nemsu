@@ -1,4 +1,4 @@
-<?php //Template Name: Enter Old Subjects ?>
+<?php //Template Name: Add New Request ?>
 <?php
 acf_form_head();
 get_header(); ?>
@@ -13,11 +13,11 @@ get_header(); ?>
     
 
             <?php if(isset($_GET['updated'])){
-                echo' <div class="noteBox">Old Subject Submitted!</div>'; ?>
+                echo' <div class="noteBox">Request has submitted!</div>'; ?>
 
                 <script>
                     window.setTimeout(function() {
-                    window.location.href = '<?php echo esc_url( home_url( '/' ) ); ?>student-information';
+                    window.location.href = '<?php echo esc_url( home_url( '/' ) ); ?>students';
                     }, 5000);
                 </script>
 
@@ -40,11 +40,11 @@ get_header(); ?>
                                                 'post_content' => false,
                                                 'html_before_fields' => '<h1 style="font-size:18px;">Enter Old Subjects</h1>',
                                                 'field_groups'  => array(
-                                                    'group_63749ca464650',
-                                                    'group_63749dbdc722e'
+                                                    'group_637b280c66c44'
+                                                    
                             ),
                             'new_post' => array (
-                                'post_type' => 'old_subjects',
+                                'post_type' => 'student_document_req',
                                 'post_title' =>  $token,
                                 'post_status' => 'publish',
                             ),

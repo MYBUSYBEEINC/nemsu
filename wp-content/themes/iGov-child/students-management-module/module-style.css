@@ -29,6 +29,7 @@ td .student-icon:nth-child(2) {
 .page-template-template-view-student-info .class-wrapper,
 .page-template-template-graduating-student-list .class-wrapper,
 .page-template-template-grade-sheets .class-wrapper,
+.page-template-template-student-document-request .class-wrapper,
 .old-subject-wrapper{
     background: #fff;
   }
@@ -219,4 +220,15 @@ edit-requirements span.acf-row-number {
 .grade-buttons button:nth-child(2),
 .grade-buttons button:nth-child(4)  {
   background: #1BC5BD;
+}
+.button-addnew {
+  float: right;
+  padding: 10px;
+  background: #235ddf;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: #fff;
+}
+.class-wrapper-index {
+  background: #fff;
 }
