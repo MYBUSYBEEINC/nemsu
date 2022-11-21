@@ -13,12 +13,15 @@ get_header(); ?>
 
     <style>
         .table thead th {
-            background-color: #ffff !important;
-            font-size: 15px !important;
-            color: #000 !important;
+            background-color: #50829F !important;
+            font-size: 14px !important;
+            color: #fff !important;
+            border:solid 1px #000;
         }.form-control{
             background-color: #F5F5F5;
             border:0;
+        }td{
+            border:solid 1px #000;
         }
     </style>
   </head>
@@ -66,7 +69,7 @@ get_header(); ?>
                     <thead>
                         <tr>
                             <?php
-                                $titleHead = array("Trx Date", "Particular", "Reference No.", "Debit","Credit","Balance","Trx Type
+                                $titleHead = array("Account No", "Bank", "Type", "Date","Cash","Cheque","total
                                 ");
 
                                 foreach ($titleHead as $value) {
@@ -78,7 +81,7 @@ get_header(); ?>
                     <tbody>
                         <tr>
                             <?php
-                                $tableContent = array("9/15/2022", "Current Account", "050066514", "0.00","1,200","6,000","OR
+                                $tableContent = array("08907896", "Cardo dalisay", "Agila", "02/13/2015","1,200","6,000","7,200
                                 ");
 
                                 foreach ($tableContent as $value) {

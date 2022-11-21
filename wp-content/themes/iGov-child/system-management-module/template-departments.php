@@ -25,20 +25,35 @@
 
 
 
-        <?php if(isset($_GET['submitted'])){
+        <?php if(isset($_GET['submitted']) || isset($_GET['changeTitle'])){
             $getCurrentlySubmittedID;
-            query_posts( array( 
-                'post_type'         => 'department',
-                'posts_per_page'    => 1,
-                's'                 => $_GET['submitted']
-            ));
-            if ( have_posts() ) {
-                while ( have_posts() ) { the_post();
-                    $getCurrentlySubmittedID = get_the_id();
+
+            if($_GET['changeTitle']){
+                query_posts( array( 
+                    'post_type'         => 'department',
+                    'posts_per_page'    => 1,
+                    's'                 => $_GET['submitted']
+                ));
+                if ( have_posts() ) {
+                    while ( have_posts() ) { the_post();
+                        $getCurrentlySubmittedID = get_the_id();
+                    }
                 }
-            }
-            wp_reset_query();
-            ?>
+                wp_reset_query();
+
+                $data = array(
+                    'ID'           => $getCurrentlySubmittedID,
+                    'post_title'   => get_field('department', $getCurrentlySubmittedID),
+                );
+
+                wp_update_post( $data );
+                ?>
+                <script>
+                    window.location.href = "<?php echo site_url().'/system/departments-details-management/?submitted='.$getCurrentlySubmittedID; ?>";
+                </script>
+            <?php } else {
+                $getCurrentlySubmittedID = $_GET['submitted'];
+            } ?>
 
             <div id="alert-container">
                 <div class="alert alert-success" role="alert">
@@ -87,8 +102,8 @@
                                 <td><?php the_field('department_code'); ?></td>
                                 <td><?php the_field('department'); ?></td>
                                 <td><?php the_field('department_head'); ?></td>
-                                <td><?php the_field('department_type'); ?></td>
-                                <td>
+                                <td class="align-center"><?php the_field('department_type'); ?></td>
+                                <td class="align-center">
                                     <?php
                                     if(get_field('with_course_filter_on_block_sectioning')){
                                         echo "Yes";
@@ -97,7 +112,7 @@
                                     }
                                     ?>
                                 </td>
-                                <td>
+                                <td class="align-center">
                                     <?php
                                     if(get_field('department_status')){
                                         echo "Active";
@@ -107,9 +122,99 @@
                                     ?>
                                 </td>
                                 <td class="actions">
-                                    <a href="<?php echo get_the_permalink(); ?>"><i class="fas fa-eye"></i></a>
-                                    <a href="<?php echo get_the_permalink().'/?edit='.get_the_id(); ?>"><i class="fas fa-edit"></i></a> 
-                                    <a href="<?php echo site_url().'/system/departments-details-management/?delete='.get_the_id(); ?>"><i class="fas fa-trash-alt"></i></a>
+                                    <div class="align-center">
+                                        <a href="#" data-toggle="modal" data-target="#viewModal"><i class="fas fa-eye"></i></a>
+                                        <a href="<?php echo get_the_permalink().'/?edit='.get_the_id(); ?>"><i class="fas fa-edit"></i></a> 
+                                        <a href="#" data-toggle="modal" data-target="#confirmationModal"><i class="fas fa-trash-alt"></i></a>
+                                    </div>
+
+                                    <div class="modal fade newModal" id="viewModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title"><?php the_field('department'); ?></h5>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table>
+                                                        <tr>
+                                                            <td><strong>Department Code</strong></td>
+                                                            <td><?php the_field('department_code'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Department</strong></td>
+                                                            <td><?php the_field('department'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Head</strong></td>
+                                                            <td><?php the_field('department_head'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Type</strong></td>
+                                                            <td><?php the_field('department_type'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>With Course Filter on Block Sectioning?</strong></td>
+                                                            <td>
+                                                                <?php
+                                                                if(get_field('with_course_filter_on_block_sectioning')){
+                                                                    echo "Yes";
+                                                                } else {
+                                                                    echo "No";
+                                                                }
+                                                                ?>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Status</strong></td>
+                                                            <td>
+                                                                <?php
+                                                                if(get_field('department_status')){
+                                                                    echo "Active";
+                                                                } else {
+                                                                    echo "Inactive";
+                                                                }
+                                                                ?>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="modal fade newModal" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Are you sure you want to delete this entry?</h5>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <table>
+                                                        <tr>
+                                                            <td><strong>Department Code</strong></td>
+                                                            <td><?php the_field('department_code'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Department</strong></td>
+                                                            <td><?php the_field('department'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Head</strong></td>
+                                                            <td><?php the_field('department_head'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Type</strong></td>
+                                                            <td><?php the_field('department_type'); ?></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary" onclick="window.location.href='<?php echo site_url(); ?>/system/departments-details-management/?delete=<?php echo get_the_id(); ?>'">Confirm</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </td>
                             </tr>
 
@@ -127,7 +232,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title">Create New Department</h4>
+                <h5 class="modal-title">Create New Department</h5>
             </div>
             <div class="modal-body">
                 <div class="acf-container">
@@ -154,7 +259,7 @@
                             'post_status'   => 'publish',
                         ),
                         'submit_value'  => 'Proceed',
-                        'return' => '?submitted='.$token
+                        'return' => '?submitted='.$token.'&changeTitle=y'
                     )); ?>
                 </div>
             </div>
@@ -171,7 +276,11 @@
 <script>
     $(document).ready(function () {
         $('#dept-details-mgmt').DataTable({
-            "aaSorting": []
+            "aaSorting": [],
+            "columnDefs": [
+                { "width": "120px", "targets": -1 },
+                { "bSortable": false, "aTargets": [ -1 ] }
+            ]
         });
 
         $("#dept-details-mgmt_filter.dataTables_filter").append($("#action-btns button"));

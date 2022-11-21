@@ -1,4 +1,4 @@
-<?php //Template Name: System - Academic Level ?>
+<?php //Template Name: System - Deans List Grading Management ?>
 
 <?php acf_form_head(); get_header(); ?>
 
@@ -9,26 +9,26 @@
 
         <?php if(isset($_GET['delete']) || isset($_GET['deleted'])){
             if($_GET['delete']){
-                wp_trash_post( $_GET['delete'] );
-                ?>
+                wp_trash_post( $_GET['delete'] ); ?>
                 <script>
-                    window.location.href = "<?php echo site_url().'/system/academic-level/?deleted='.$_GET['delete']; ?>";
+                    window.location.href = "<?php echo site_url().'/system/clearance-signatories/?deleted='.$_GET['delete']; ?>";
                 </script>
             <?php } ?>
 
             <div id="alert-container">
                 <div class="alert alert-danger" role="alert">
-                    <i class="fa fa-trash" aria-hidden="true"></i> Academic Level has been successfully deleted.
+                    <i class="fa fa-trash" aria-hidden="true"></i> Dean's List Grading has been successfully deleted.
                 </div>
             </div>
 
         <?php } ?>
 
 
+
         <?php if(isset($_GET['submitted'])){
             $getCurrentlySubmittedID;
             query_posts( array( 
-                'post_type'         => 'academic_level',
+                'post_type'         => 'dl_grading_mgmt',
                 'posts_per_page'    => 1,
                 's'                 => $_GET['submitted']
             ));
@@ -42,16 +42,16 @@
 
             <div id="alert-container">
                 <div class="alert alert-success" role="alert">
-                    <i class="fa fa-check-circle" aria-hidden="true"></i> Success! <strong><?php echo get_field('academic_level', $getCurrentlySubmittedID); ?></strong> has been successfully created.
+                    <i class="fa fa-check-circle" aria-hidden="true"></i> Success! Dean's List Grading has been successfully created.
                 </div>
             </div>
         <?php } ?>
-
         
+
         
         <div class="bg-white padding-15 border-radius-5">
             <div class="page-title-container">
-                <h4 class="card-title">Academic Level</h4>
+                <h4 class="card-title">Dean's List Grading Management</h4>
             </div>
 
             <div class="action-btns" id="action-btns">
@@ -61,9 +61,10 @@
             <table id="dept-details-mgmt">
                 <thead>
                     <tr>
-                        <th>Academic Level ID</th>
-                        <th>Academic Level</th>
-                        <th>Status</th>
+                        <th>Department</th>
+                        <th>Lowest Grade</th>
+                        <th>Lowest GPA</th>
+                        <th>Lowest Subject Unit</th>
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -71,7 +72,7 @@
                 <tbody>
                     <?php 
                     query_posts(array(
-                    'post_type' => 'academic_level',
+                    'post_type' => 'dl_grading_mgmt',
                     'posts_per_page' => -1,
                     ));
 
@@ -81,18 +82,11 @@
                             $title=get_the_title($cpost); ?>
 
                             <tr>
-                                <td class="align-center"><?php echo get_the_id(); ?></td>
-                                <td><?php the_field('academic_level'); ?></td>
-                                <td class="align-center">
-                                    <?php
-                                    if(get_field('status')){
-                                        echo "Active";
-                                    } else {
-                                        echo "Inactive";
-                                    }
-                                    ?>
-                                </td>
-                                <td class="actions align-center">
+                                <td><?php echo get_field('department', get_field('dl_department')); ?></td>
+                                <td class="align-center"><?php the_field('dl_lowest_grade'); ?></td>
+                                <td class="align-center"><?php the_field('dl_lowest_gpa'); ?></td>
+                                <td class="align-center"><?php the_field('dl_lowest_subject_unit'); ?></td>
+                                <td class="actions">
                                     <div class="align-center">
                                         <a href="#" data-toggle="modal" data-target="#viewModal"><i class="fas fa-eye"></i></a>
                                         <a href="<?php echo get_the_permalink().'/?edit='.get_the_id(); ?>"><i class="fas fa-edit"></i></a> 
@@ -103,26 +97,38 @@
                                         <div class="modal-dialog modal-dialog-centered" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h5 class="modal-title"><?php the_field('academic_level'); ?></h5>
+                                                    <h5 class="modal-title">Dean's List Grading Details</h5>
                                                 </div>
                                                 <div class="modal-body">
                                                     <table>
                                                         <tr>
-                                                            <td><strong>Academic Level ID</strong></td>
-                                                            <td><?php echo get_the_id(); ?></td>
+                                                            <td><strong>Department Code</strong></td>
+                                                            <td><?php echo get_field('department_code', get_field('dl_department')); ?></td>
                                                         </tr>
                                                         <tr>
-                                                            <td><strong>Academic Level</strong></td>
-                                                            <td><?php the_field('academic_level'); ?></td>
+                                                            <td><strong>Department</strong></td>
+                                                            <td><?php echo get_field('department', get_field('dl_department')); ?></td>
                                                         </tr>
                                                         <tr>
-                                                            <td><strong>Status</strong></td>
+                                                            <td><strong>Lowest Grade</strong></td>
+                                                            <td><?php the_field('dl_lowest_grade'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Lowest GPA</strong></td>
+                                                            <td><?php the_field('dl_lowest_gpa'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Lowest Subject Unit</strong></td>
+                                                            <td><?php the_field('dl_lowest_subject_unit'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Include Subjects taken from Other Schools in GPA Computation</strong></td>
                                                             <td>
                                                                 <?php
-                                                                if(get_field('status')){
-                                                                    echo "Active";
+                                                                if(get_field('dl_include_subjects_taken')){
+                                                                    echo "Yes";
                                                                 } else {
-                                                                    echo "Inactive";
+                                                                    echo "No";
                                                                 }
                                                                 ?>
                                                             </td>
@@ -142,17 +148,33 @@
                                                 <div class="modal-body">
                                                     <table>
                                                         <tr>
-                                                            <td><strong>Academic Level</strong></td>
-                                                            <td><?php the_field('academic_level'); ?></td>
+                                                            <td><strong>Department Code</strong></td>
+                                                            <td><?php echo get_field('department_code', get_field('dl_department')); ?></td>
                                                         </tr>
                                                         <tr>
-                                                            <td><strong>Status</strong></td>
+                                                            <td><strong>Department</strong></td>
+                                                            <td><?php echo get_field('department', get_field('dl_department')); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Lowest Grade</strong></td>
+                                                            <td><?php the_field('dl_lowest_grade'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Lowest GPA</strong></td>
+                                                            <td><?php the_field('dl_lowest_gpa'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Lowest Subject Unit</strong></td>
+                                                            <td><?php the_field('dl_lowest_subject_unit'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Include Subjects taken from Other Schools in GPA Computation</strong></td>
                                                             <td>
                                                                 <?php
-                                                                if(get_field('status')){
-                                                                    echo "Active";
+                                                                if(get_field('dl_include_subjects_taken')){
+                                                                    echo "Yes";
                                                                 } else {
-                                                                    echo "Inactive";
+                                                                    echo "No";
                                                                 }
                                                                 ?>
                                                             </td>
@@ -161,7 +183,7 @@
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                    <button type="button" class="btn btn-primary" onclick="window.location.href='<?php echo site_url(); ?>/system/academic-level/?delete=<?php echo get_the_id(); ?>'">Confirm</button>
+                                                    <button type="button" class="btn btn-primary" onclick="window.location.href='<?php echo site_url(); ?>/system/clearance-signatories/?delete=<?php echo get_the_id(); ?>'">Confirm</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -183,7 +205,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title">Create New Department</h4>
+                <h5 class="modal-title">Create New Dean's List Grading</h5>
             </div>
             <div class="modal-body">
                 <div class="acf-container">
@@ -201,12 +223,12 @@
                     acf_form(array(
                         'post_id'       => 'new_post',
                         'field_groups'  => array(
-                            'group_6373513d520c5',  // Academic Level
+                            'group_63746c7008c0a',  // Dean's List Grading
                             
                         ),
                         'new_post'      => array(
                             'post_title'    => $token,
-                            'post_type'     => 'academic_level',
+                            'post_type'     => 'dl_grading_mgmt',
                             'post_status'   => 'publish',
                         ),
                         'submit_value'  => 'Proceed',
@@ -229,7 +251,8 @@
         $('#dept-details-mgmt').DataTable({
             "aaSorting": [],
             "columnDefs": [
-                { "width": "120px", "targets": -1 }
+                { "width": "120px", "targets": -1 },
+                { "bSortable": false, "aTargets": [ -1 ] }
             ]
         });
 
