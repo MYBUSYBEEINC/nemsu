@@ -26,7 +26,7 @@
                     
                 </li>
                 <li>
-                    <a class="single-block" href="">
+                    <a class="single-block" href="graduating-student-list">
                     <i class="fas fa-user-graduate"></i>
                     <h3>View Graduating Student List</h3>
                     </a>

@@ -26,7 +26,9 @@ td .student-icon:nth-child(2) {
   color: rgb(51, 202, 83);
 }
 .page-template-template-student-info .class-wrapper,
-.page-template-template-view-student-info  .class-wrapper,
+.page-template-template-view-student-info .class-wrapper,
+.page-template-template-graduating-student-list .class-wrapper,
+.page-template-template-grade-sheets .class-wrapper,
 .old-subject-wrapper{
     background: #fff;
   }
@@ -206,4 +208,15 @@ edit-requirements span.acf-row-number {
 }
 .ad-height {
   height: 399px;
+}
+.grade-buttons {
+  text-align: center;
+}
+.grade-buttons button:first-child,
+.grade-buttons button:nth-child(3) {
+  background: #F23F44;
+}
+.grade-buttons button:nth-child(2),
+.grade-buttons button:nth-child(4)  {
+  background: #1BC5BD;
 }
