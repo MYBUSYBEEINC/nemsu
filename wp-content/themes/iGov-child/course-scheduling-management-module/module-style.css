@@ -4,24 +4,459 @@
  * Author:     
  * Text Domain: 
  * */
+
+
+ .align-right {
+	text-align: right;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.margin-b-25 {
+	margin-bottom: 25px;
+}
+
+.padding-15 {
+	padding: 15px;
+}
+
+.padding-75-15 {
+    padding: 75px 15px;
+}
+
+.padding-lr-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.border-radius-5 {
+	border-radius: 5px;
+}
+
+.bg-white {
+	background: #fff;
+}
+
+#alert-container .alert-success {
+    color: #155724!important;
+    background-color: #d4edda!important;
+    border-color: #c3e6cb!important;
+}
+
+#alert-container .alert-danger {
+    color: #721c24!important;
+    background-color: #f8d7da!important;
+    border-color: #f5c6cb!important;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+.page-template-system-management-module .sidenav {
+    width: 14em;
+}
+
+.page-template-template-system-dashboard .sidenav {
+    width: 15em;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+.page-template-system-management-module .class-container,
+.single-subject_residency .class-container  {
+    height: inherit;
+}
+
+.page-template-template-system-dashboard .class-wrapper {
+    background: #346af8;
+}
+
+.page-template-template-system-dashboard #page .template-dashboard {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 140px;
+}
+
+.page-template-template-system-dashboard #page .template-dashboard a {
+    display: inline-block;
+    width: 12%;
+}
+
+.page-template-template-system-dashboard #page .template-dashboard a.disabled {
+    filter: grayscale(0.9);
+    pointer-events: none;
+}
+
+.page-template-template-system-dashboard #page .template-dashboard a:hover .each-card .each-card-container {
+    background: #9fb0d3;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.page-template-template-system-dashboard #page .template-dashboard a i {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.page-template-template-system-dashboard #page .template-dashboard a span {
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #fff;
+}
+
+.page-template-template-system-dashboard #page .template-dashboard .each-card {
+    border-radius: 10px;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 15px;
+}
+
+    
+
+.page-template-template-system-dashboard #page .template-dashboard .each-card .each-card-container {
+    color: #fff;
+    background: #6796f9;
+}
+
+
+.page-template-system-management-module.modal-open {
+    max-width: 100%;
+    overflow: hidden!important;
+    padding-right: 0!important;
+}
+
+.page-template-system-management-module .navbar-wrapper, 
+.single-department .navbar-wrapper,
+.single-academic_level .navbar-wrapper,
+.single-clearance_signatorie .navbar-wrapper,
+.single-dl_grading_mgmt .navbar-wrapper,
+.single-subject_residency .navbar-wrapper,
+.single-grade_status .navbar-wrapper {
+	background: #DCE8FF;
+}
+
+.page-template-template-system-dashboard .navbar-wrapper {
+    background: #346af8;
+}
+
+.page-template-system-management-module .site-main, 
+.single-department .site-main,
+.single-academic_level .site-main,
+.single-clearance_signatorie .site-main,
+.single-dl_grading_mgmt .site-main,
+.single-subject_residency .site-main,
+.single-grade_status .site-main {
+	margin-left: 14rem;
+    margin-right: 15px;
+}
+
+.single-department .sidenav,
+.single-academic_level .sidenav,
+.single-clearance_signatorie .sidenav,
+.single-dl_grading_mgmt .sidenav,
+.single-subject_residency .sidenav,
+.single-grade_status .sidenav {
+	width: 14em;
+}
+
+.page-template-system-management-module .page-title-container {
+	margin-bottom: 35px;
+}
+
+.page-template-system-management-module #dept-details-mgmt_filter label {
+	margin-right: 8px;
+}
+
+.page-template-system-management-module .acf-container {
+	margin-right: -16px;
+	margin-left: -16px;
+
+}
+
+.page-template-system-management-module .acf-container .acf-fields > .acf-field {
+	padding-top: 0;
+
+	border: none;
+	border-left: none!important;
+}
+
+.page-template-system-management-module #dept-details-mgmt th {
+    background-color: #fff !important;
+    color: #464E5F!important;
+    padding: 8px 10px!important;
+    text-align : center;
+}
+
+.page-template-system-management-module .dataTable tbody td.actions a {
+    background: #F3F6F9;
+    color: #3699FF;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: 1px solid #e3ecf5;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.page-template-system-management-module .dataTable tbody td.actions a:hover,
+.page-template-system-management-module .dataTable tbody td.actions a:active,
+.page-template-system-management-module .dataTable tbody td.actions a:focus {
+    background: #3699FF;
+    color: #F3F6F9;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.page-template-system-management-module .dataTable tbody td.actions .modal table,
+.page-template-system-management-module .dataTable tbody td.actions .modal table td {
+    border: none!important;
+}
+
+
+
+.single-department .acf-container,
+.single-academic_level .acf-container,
+.single-clearance_signatorie .acf-container,
+.single-dl_grading_mgmt .acf-container,
+.single-subject_residency .acf-container,
+.single-grade_status .acf-container {
+    margin-bottom: 45px;
+}
+
+.single-department input, .single-department textarea, 
+.single-academic_level input, .single-academic_level textarea,
+.single-clearance_signatorie input, .single-clearance_signatorie textarea,
+.single-dl_grading_mgmt input, .single-dl_grading_mgmt textarea,
+.single-subject_residency input, .single-subject_residency textarea,
+.single-grade_status input, .single-grade_status input,
+.page-template-system-management-module .acf-container .acf-field input,
+.page-template-system-management-module .acf-container .acf-field textarea {
+    background: #F9F9F9;
+    border: 1px solid #CED4DA;
+}
+
+.page-template-system-management-module table tbody .actions a {
+	margin: 0 3px;
+}
+
+.wp-picker-container {
+	position: inherit!important;
+}
+
+.wp-picker-container.wp-picker-active {
+	width: 100%;
+}
+
+.wp-picker-input-wrap {
+    width: calc(100% - 110px);
+}
+.wp-picker-input-wrap label {
+    width: calc(100% - 60px);
+}
+.wp-picker-input-wrap label input {
+    width: 100%!important;
+}
+
+.wp-picker-container .wp-color-result.button {
+	min-height: 31px;
+	border-color: unset;
+}
+
+.wp-color-result:focus,
+.wp-color-result:hover {
+	color: unset;
+}
+
+.button.button-small.wp-picker-clear {
+    color: #464646;
+    font-size: 11px;
+}
+
+.page-template-system-management-module .acf-form-submit {
+    display: none;
+}
+
+.single-subject_residency .acf-container .acf-fields > .acf-field {
+    padding-top: 0;
+
+    border: none;
+    border-left: none!important;
+}
+
+.page-template-template-subject-residency .accordion,
+.single-subject_residency .accordion {
+    margin-top: 8px;
+}
+
+.page-template-template-subject-residency .accordion .card .card-header,
+.page-template-template-subject-residency .accordion .card .card-header .acf-label,
+.page-template-template-subject-residency .accordion .card .card-header .acf-label label,
+.single-subject_residency .accordion .card .card-header,
+.single-subject_residency .accordion .card .card-header .acf-label,
+.single-subject_residency .accordion .card .card-header .acf-label label {
+    cursor: pointer;
+}
+
+.page-template-template-subject-residency .accordion .acf-label,
+.page-template-template-subject-residency .accordion label,
+.single-subject_residency .accordion .acf-label,
+.single-subject_residency .accordion label {
+    margin: 0;
+}
+
+.page-template-template-subject-residency .accordion .card-body .acf-field.acf-field-group,
+.single-subject_residency .accordion .card-body .acf-field.acf-field-group {
+    margin: 0;
+}
+
+.page-template-template-subject-residency .accordion .card-body .acf-field.acf-field-group .-border,
+.single-subject_residency .accordion .card-body .acf-field.acf-field-group .-border {
+    border: unset;
+    margin: 0 -16px;
+}
+
+.page-template-template-subject-residency #viewAccordion table,
+.page-template-template-subject-residency #deleteAccordion table {
+    margin-bottom: 25px;
+}
+.page-template-template-subject-residency #viewAccordion table:last-child,
+.page-template-template-subject-residency #deleteAccordion table:last-child {
+    margin-bottom: 0;
+}
+
+
+.page-template-template-subject-residency #viewAccordion table tr td,
+.page-template-template-subject-residency #deleteAccordion table tr td {
+    width: 25%;
+}
+
+.page-template-template-subject-residency #viewAccordion .td-head ,
+.page-template-template-subject-residency #deleteAccordion .td-head {
+    background: #346af8;
+    color: #fff;
+}
+
+
+
+
+
+
+/* SINGLE */
+.sngl-info {
+    margin-top: 35px;
+}
+
+
+
+
+/*---------------- MODAL ----------------*/
+
+.modal .modal-body {
+    max-height: 650px;
+    overflow-y: auto;
+}
+
+.addNewModal {
+    background: #1BC5BD;
+    border-bottom: none;
+    border-radius: 5px;
+    padding: 7px 20px 7px;
+
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.addNewModal:hover,
+.addNewModal:active,
+.addNewModal:focus {
+	background: #1fa9a2;
+	border-top: none;
+    padding: 7px 20px 7px;
+
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.modal-footer .btn-primary {
+	background: #1BC5BD;
+    border: 1px solid #1BC5BD;
+    padding: 7px 20px 7px;
+
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.modal-footer .btn-primary:hover,
+.modal-footer .btn-primary:active,
+.modal-footer .btn-primary:focus {
+	background: #1fa9a2;
+    border: 1px solid #1fa9a2;
+}
+
+.modal-footer .btn-secondary {
+	background: #5a6268;
+    border: 1px solid #5a6268;
+    padding: 7px 20px 7px;
+
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.modal-footer .btn-secondary:hover,
+.modal-footer .btn-secondary:active,
+.modal-footer .btn-secondary:focus {
+	background: #74787a;
+    border: 1px solid #74787a;
+}
+
+.modal-footer .btn {
+    border-radius: 5px!important;
+    padding: 7px 20px 7px;
+
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+
+
  
- .acf-button{
+ /* .acf-button{
     font-size: 14px !important;
     background: rgb(14, 192, 227) !important;
     float: right;
     border-bottom: none !important;
     margin-right: 20px;
-}
+} */
 
 /* Style the tab */
-.tab {
+/* .tab {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
-  }
+  } */
 
   /* Style the buttons inside the tab */
-  .tab button {
+  /* .tab button {
     background: #c1dcef !important;
     border-radius: 3;
     border: none;
@@ -76,4 +511,4 @@
     text-decoration: none;
     color: #333;
     font-weight: 600;
-}
+} */
