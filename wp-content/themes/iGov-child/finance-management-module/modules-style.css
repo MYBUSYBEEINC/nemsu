@@ -95,3 +95,21 @@ button, input[type="submit"], input[type="button"], input[type="reset"] {
     line-height: 2.5;
     background-color: #F5F5F5;
 }
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 45px;
+    border: none !important;
+    background-color: #F5F5F5;
+}
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 45px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.select2-container.-acf .select2-selection {
+    border-color: #F5F5F5 !important;
+}
