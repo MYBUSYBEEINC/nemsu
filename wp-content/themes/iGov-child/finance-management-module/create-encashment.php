@@ -1,10 +1,5 @@
 <?php //Template Name: Encashment?>
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Encashment</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/finance-management-module/modules-style.css" rel="stylesheet" />
@@ -62,8 +57,6 @@
         } */
         
     </style>
-  </head>
-  <body>
 
     <div class="container-fluid">
         <div class="row">
@@ -221,5 +214,3 @@
         }
 
     </script>
-  </body>
-</html>
