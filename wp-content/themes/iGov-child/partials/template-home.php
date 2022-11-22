@@ -1,6 +1,24 @@
 <?php //Template Name: Home ?>
 <?php get_header(); ?>
 
+	<style>
+		.sidenav {
+			display:none;
+		}
+		.site-main {
+			margin-left: unset;
+			padding: unset;
+		}
+		.white,
+		.welcome.white h2 {
+			background: #385fe5;
+			color:#fff;
+		}
+		.notifications i {
+			background: #385fe5;
+		}
+	</style>
+
 
 				
 					<div class="site-content">
