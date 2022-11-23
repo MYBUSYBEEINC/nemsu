@@ -30,7 +30,7 @@
 					</div>
 				</div>
 			</a>
-	    	<a href="#" class="disabled">
+	    	<a href="<?php echo site_url().'/courses'; ?>">
 	    		<div class="padding-lr-5 each-card align-center">
 	    			<div class="padding-75-15 each-card-container">
 						<i class="fas fa-book"></i><br>
@@ -62,7 +62,7 @@
 					</div>
 				</div>
 			</a>
-	    	<a href="#" class="disabled">
+	    	<a href="<?php echo site_url().'/faculty-details-management/faculty-rank/'; ?>">
 	    		<div class="padding-lr-5 each-card align-center">
 	    			<div class="padding-75-15 each-card-container">
 						<i class="fas fa-book"></i><br>
@@ -86,7 +86,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#" class="disabled">
+			<a href="<?php echo site_url().'/change-exemptions-management'; ?>">
 	    		<div class="padding-lr-5 each-card align-center">
 	    			<div class="padding-75-15 each-card-container">
 						<i class="fas fa-book"></i><br>
@@ -94,7 +94,7 @@
 					</div>
 				</div>
 			</a>
-	    	<a href="#" class="disabled">
+	    	<a href="<?php echo site_url().'/laboratory-type-management'; ?>">
 	    		<div class="padding-lr-5 each-card align-center">
 	    			<div class="padding-75-15 each-card-container">
 						<i class="fas fa-book"></i><br>
@@ -102,7 +102,7 @@
 					</div>
 				</div>
 			</a>
-	    	<a href="#" class="disabled">
+	    	<a href="<?php echo site_url().'/scholarship-service-charges-management'; ?>">
 	    		<div class="padding-lr-5 each-card align-center">
 	    			<div class="padding-75-15 each-card-container">
 						<i class="fas fa-book"></i><br>
@@ -110,7 +110,7 @@
 					</div>
 				</div>
 			</a>
-	    	<a href="#" class="disabled">
+	    	<a href="<?php echo site_url().'/adjustment-types-management'; ?>">
 	    		<div class="padding-lr-5 each-card align-center">
 	    			<div class="padding-75-15 each-card-container">
 						<i class="fas fa-book"></i><br>
@@ -118,7 +118,7 @@
 					</div>
 				</div>
 			</a>
-	    	<a href="#" class="disabled">
+	    	<a href="<?php echo site_url().'/bank-accounts-management'; ?>">
 	    		<div class="padding-lr-5 each-card align-center">
 	    			<div class="padding-75-15 each-card-container">
 						<i class="fas fa-book"></i><br>

@@ -50,6 +50,10 @@ a:hover {
     text-decoration: none;
 }
 
+input[type=checkbox] {
+  -webkit-appearance:auto!important;
+}
+
 .fl { float: left; }
 .fr { float: right; }
 .clear { clear:both; visibility:hidden; height:0;}

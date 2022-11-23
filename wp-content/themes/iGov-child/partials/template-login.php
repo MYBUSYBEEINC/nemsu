@@ -126,7 +126,7 @@ acf_form_head();
                 .login-container .login-form-container .login-form-wrapper .login-form .login-remember {
                     text-align: right;
                 }
-                .login-container .login-form-container .login-form-wrapper .login-form .logged-out a,
+                .login-container .login-form-container .login-form-wrapper .login-form a,
                 .login-container .login-form-container .login-form-wrapper .login-form .login-remember {
                     display: inline-block;
                     width: 50%;
@@ -184,7 +184,7 @@ acf_form_head();
                                                 <div class="login-form logged-in txt-center">
                                                     Welcome back <?php echo $current_user->display_name; ?>!
                                                     <br>
-                                                    Click <a onclick="window.open(this.href,'_new');return false;" href="<?php echo site_url().'/home'; ?>">here</a> to view dashboard
+                                                    Click <a href="<?php echo site_url().'/home'; ?>" style="width: auto;">here</a> to view dashboard
                                                 </div>
                                             <?php } else { ?>
                                                 <div class="login-form-texts txt-center margin-b-45">

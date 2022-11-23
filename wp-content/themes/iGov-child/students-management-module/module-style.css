@@ -33,8 +33,9 @@ td .student-icon:nth-child(2) {
 .old-subject-wrapper{
     background: #fff;
   }
-  .class-container {
-    height: 100vh;
+.class-container {
+    height: auto;
+    min-height: 100vh;
     padding:20px;
 }
 .old-subject-container {

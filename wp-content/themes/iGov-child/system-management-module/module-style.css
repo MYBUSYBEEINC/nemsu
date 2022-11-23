@@ -32,12 +32,37 @@
     padding-right: 5px;
 }
 
+.padding-lr-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .border-radius-5 {
 	border-radius: 5px;
 }
 
 .bg-white {
 	background: #fff;
+}
+
+.card-nav {
+    border-radius: 15px;
+    min-height: 150px;
+}
+.card-nav h4, .card-nav p {
+    color: #fff;
+}
+.card-nav.card-red {
+    background: #F64E60;
+}
+.card-nav.card-blue1 {
+    background: #6993FF;
+}
+.card-nav.card-green {
+    background: #1BC5BD;
+}
+.card-nav.card-blue2 {
+    background: #3699FF;
 }
 
 #alert-container .alert-success {
@@ -137,7 +162,16 @@
 .single-clearance_signatorie .navbar-wrapper,
 .single-dl_grading_mgmt .navbar-wrapper,
 .single-subject_residency .navbar-wrapper,
-.single-grade_status .navbar-wrapper {
+.single-grade_status .navbar-wrapper,
+.single-courses .navbar-wrapper,
+.single-course_groups .navbar-wrapper,
+.single-supervising_agency .navbar-wrapper,
+.single-course_discipline .navbar-wrapper,
+.single-laboratory_type_mgmt .navbar-wrapper,
+.single-scholarship_charge .navbar-wrapper,
+.single-bank_accounts .navbar-wrapper,
+.single-change_exemptions .navbar-wrapper,
+.single-faculty_ranks .navbar-wrapper {
 	background: #DCE8FF;
 }
 
@@ -151,7 +185,16 @@
 .single-clearance_signatorie .site-main,
 .single-dl_grading_mgmt .site-main,
 .single-subject_residency .site-main,
-.single-grade_status .site-main {
+.single-grade_status .site-main,
+.single-courses .site-main,
+.single-course_groups .site-main,
+.single-supervising_agency .site-main,
+.single-course_discipline .site-main,
+.single-laboratory_type_mgmt .site-main,
+.single-scholarship_charge .site-main,
+.single-bank_accounts .site-main,
+.single-change_exemptions .site-main,
+.single-faculty_ranks .site-main {
 	margin-left: 14rem;
     margin-right: 15px;
 }
@@ -161,7 +204,16 @@
 .single-clearance_signatorie .sidenav,
 .single-dl_grading_mgmt .sidenav,
 .single-subject_residency .sidenav,
-.single-grade_status .sidenav {
+.single-grade_status .sidenav,
+.single-courses .sidenav,
+.single-course_groups .sidenav,
+.single-supervising_agency .sidenav,
+.single-course_discipline .sidenav,
+.single-laboratory_type_mgmt .sidenav,
+.single-scholarship_charge .sidenav,
+.single-bank_accounts .sidenav,
+.single-change_exemptions .sidenav,
+.single-faculty_ranks .sidenav {
 	width: 14em;
 }
 
@@ -230,7 +282,16 @@
 .single-clearance_signatorie .acf-container,
 .single-dl_grading_mgmt .acf-container,
 .single-subject_residency .acf-container,
-.single-grade_status .acf-container {
+.single-grade_status .acf-container,
+.single-courses .acf-container,
+.single-course_groups .acf-container,
+.single-supervising_agency .acf-container,
+.single-course_discipline .acf-container,
+.single-laboratory_type_mgmt .acf-container,
+.single-scholarship_charge .acf-container,
+.single-bank_accounts .acf-container,
+.single-change_exemptions .acf-container,
+.single-faculty_ranks .acf-container {
     margin-bottom: 45px;
 }
 
@@ -239,11 +300,117 @@
 .single-clearance_signatorie input, .single-clearance_signatorie textarea,
 .single-dl_grading_mgmt input, .single-dl_grading_mgmt textarea,
 .single-subject_residency input, .single-subject_residency textarea,
-.single-grade_status input, .single-grade_status input,
+.single-grade_status input, .single-grade_status textarea,
+.single-courses input, .single-courses textarea,
+.single-course_groups input, .single-course_groups textarea,
+.single-course_discipline input, .single-course_discipline textarea,
+.single-supervising_agency input, .single-supervising_agency textarea,
+.single-laboratory_type_mgmt input, .single-laboratory_type_mgmt textarea,
+.single-scholarship_charge input, .single-scholarship_charge textarea,
+.single-bank_accounts input, .single-bank_accounts textarea,
+.single-change_exemptions input, .single-change_exemptions textarea,
+.single-faculty_ranks input, .single-faculty_ranks textarea,
 .page-template-system-management-module .acf-container .acf-field input,
 .page-template-system-management-module .acf-container .acf-field textarea {
     background: #F9F9F9;
     border: 1px solid #CED4DA;
+}
+
+.single-department .acf-form-submit,
+.single-academic_level .acf-form-submit,
+.single-clearance_signatorie .acf-form-submit,
+.single-dl_grading_mgmt .acf-form-submit,
+.single-subject_residency .acf-form-submit,
+.single-grade_status .acf-form-submit,
+.single-courses .acf-form-submit,
+.single-course_groups .acf-form-submit,
+.single-supervising_agency .acf-form-submit,
+.single-course_discipline .acf-form-submit,
+.single-laboratory_type_mgmt .acf-form-submit,
+.single-scholarship_charge .acf-form-submit,
+.single-bank_accounts .acf-form-submit,
+.single-change_exemptions .acf-form-submit,
+.single-faculty_ranks .acf-form-submit {
+    text-align: right;
+}
+
+.single-department .acf-form-submit input,
+.single-academic_level .acf-form-submit input,
+.single-clearance_signatorie .acf-form-submit input,
+.single-dl_grading_mgmt .acf-form-submit input,
+.single-subject_residency .acf-form-submit input,
+.single-grade_status .acf-form-submit input,
+.single-courses .acf-form-submit input,
+.single-course_groups .acf-form-submit input,
+.single-supervising_agency .acf-form-submit input,
+.single-course_discipline .acf-form-submit input,
+.single-laboratory_type_mgmt .acf-form-submit input,
+.single-scholarship_charge .acf-form-submit input,
+.single-bank_accounts .acf-form-submit input,
+.single-change_exemptions .acf-form-submit input,
+.single-faculty_ranks .acf-form-submit input {
+    background: #1BC5BD;
+    border-bottom: none;
+    border-radius: 5px;
+    padding: 7px 20px 7px;
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.single-department .acf-form-submit input:hover,
+.single-department .acf-form-submit input:active,
+.single-department .acf-form-submit input:focus,
+.single-academic_level .acf-form-submit input:hover,
+.single-academic_level .acf-form-submit input:active,
+.single-academic_level .acf-form-submit input:focus,
+.single-clearance_signatorie .acf-form-submit input:hover,
+.single-clearance_signatorie .acf-form-submit input:active,
+.single-clearance_signatorie .acf-form-submit input:focus,
+.single-dl_grading_mgmt .acf-form-submit input:hover,
+.single-dl_grading_mgmt .acf-form-submit input:active,
+.single-dl_grading_mgmt .acf-form-submit input:focus,
+.single-subject_residency .acf-form-submit input:hover,
+.single-subject_residency .acf-form-submit input:active,
+.single-subject_residency .acf-form-submit input:focus,
+.single-grade_status .acf-form-submit input:hover,
+.single-grade_status .acf-form-submit input:active,
+.single-grade_status .acf-form-submit input:focus,
+.single-courses .acf-form-submit input:hover,
+.single-courses .acf-form-submit input:active,
+.single-courses .acf-form-submit input:focus,
+.single-course_groups .acf-form-submit input:hover,
+.single-course_groups .acf-form-submit input:active,
+.single-course_groups .acf-form-submit input:focus,
+.single-supervising_agency .acf-form-submit input:hover,
+.single-supervising_agency .acf-form-submit input:active,
+.single-supervising_agency .acf-form-submit input:focus,
+.single-course_discipline .acf-form-submit input:hover,
+.single-course_discipline .acf-form-submit input:active,
+.single-course_discipline .acf-form-submit input:focus,
+.single-laboratory_type_mgmt .acf-form-submit input:hover,
+.single-laboratory_type_mgmt .acf-form-submit input:active,
+.single-laboratory_type_mgmt .acf-form-submit input:focus,
+.single-scholarship_charge .acf-form-submit input:hover,
+.single-scholarship_charge .acf-form-submit input:active,
+.single-scholarship_charge .acf-form-submit input:focus,
+.single-bank_accounts .acf-form-submit input:hover,
+.single-bank_accounts .acf-form-submit input:active,
+.single-bank_accounts .acf-form-submit input:focus,
+.single-change_exemptions .acf-form-submit input:hover,
+.single-change_exemptions .acf-form-submit input:active,
+.single-change_exemptions .acf-form-submit input:focus,
+.single-faculty_ranks .acf-form-submit input:hover,
+.single-faculty_ranks .acf-form-submit input:active,
+.single-faculty_ranks .acf-form-submit input:focus {
+    background: #1fa9a2;
+    border-top: none;
+    padding: 7px 20px 7px;
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
 }
 
 .page-template-system-management-module table tbody .actions a {
@@ -347,7 +514,9 @@
     color: #fff;
 }
 
-
+.course-cards {
+    margin: 0 -5px 15px;
+}
 
 
 
