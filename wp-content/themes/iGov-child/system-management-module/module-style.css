@@ -114,7 +114,9 @@
     pointer-events: none;
 }
 
-.page-template-template-system-dashboard #page .template-dashboard a:hover .each-card .each-card-container {
+.page-template-template-system-dashboard #page .template-dashboard a:hover .each-card .each-card-container,
+.page-template-template-system-dashboard #page .template-dashboard a:active .each-card .each-card-container,
+.page-template-template-system-dashboard #page .template-dashboard a:focus .each-card .each-card-container {
     background: #9fb0d3;
 
     -webkit-transition: all 0.5s ease;
@@ -142,11 +144,15 @@
     margin-bottom: 15px;
 }
 
-    
-
 .page-template-template-system-dashboard #page .template-dashboard .each-card .each-card-container {
     color: #fff;
     background: #6796f9;
+    border-radius: 10px;
+    
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 
