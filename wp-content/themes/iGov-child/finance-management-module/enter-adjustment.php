@@ -18,7 +18,7 @@ get_header();
         <?php 
             acf_form(
                 array(
-                    // 'post_id' => $post_id,z
+                    'post_id' => $post_id,
                     'post_title'   => false,
                     'post_content' => false,
                     'field_groups'  => array(
@@ -26,39 +26,37 @@ get_header();
                     ),
                     'updated_message' => __("", 'acf'),
                     'return' => add_query_arg(array('updated' => 'true'), get_permalink()),
-                    'submit_value'  => __('Update'),
+                    'submit_value'  => __('Save'),
                 )
             );
         ?>
     </div>
     <div class="row">
-        <div class="col-lg-12">
-        <table class="table mt-5">
-                    <thead>
-                        <tr>
-                            <?php
-                                $titleHead = array("Account No", "Bank", "Type", "Date","Cash","Cheque","total
-                                ");
+        <div class="col-lg-12 bg-white">
+            <table class="table mt-5">
+                <thead>
+                    <tr>
+                        <?php
+                            $titleHead = array("Reference No", "Particular", "Balance", "Adjustments Remarks","Adj Amount");
 
-                                foreach ($titleHead as $value) {
-                                    echo "<th scope='col' class='text-center'>$value</th>";
-                                }
-                            ?>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <?php
-                                $tableContent = array("08907896", "Cardo dalisay", "Agila", "02/13/2015","1,200","6,000","7,200
-                                ");
+                            foreach ($titleHead as $value) {
+                                echo "<th scope='col' class='text-center'>$value</th>";
+                            }
+                        ?>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <?php
+                            $tableContent = array("08907896", "Cardo dalisay", "Agila", "02/13/2015","1,200");
 
-                                foreach ($tableContent as $value) {
-                                    echo "<td class='text-center'>$value</td>";
-                                }
-                            ?>
-                        </tr>
-                    </tbody>
-                    </table>
+                            foreach ($tableContent as $value) {
+                                echo "<td class='text-center'>$value</td>";
+                            }
+                        ?>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </div>

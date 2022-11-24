@@ -1,19 +1,15 @@
 <?php //Template Name: Daily Collection Deposit?>
-
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DAILY COLLECTION DEPOSIT</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="<?php echo get_stylesheet_directory_uri(); ?>finance-management-module/modules-style.css" rel="stylesheet" />
     <?php 
-get_header(); ?>
-
+    get_header(); 
+        $title =  'DAILY COLLECTION DEPOSIT';
+    ?>
+    <title><?=$title?></title>
     <style>
         .table thead th {
-            background-color: #50829F !important;
+            background-color: #90ADCB !important;
             font-size: 14px !important;
             color: #fff !important;
             border:solid 1px #000;
@@ -30,7 +26,7 @@ get_header(); ?>
     <div id="primary" class="content-area">
         <div id="content" class="site-content" role="main">
             <div class="card border-0 mt-3">
-                <h5 class="card-header bg-white border-0">Daily Collection Deposit</h5>
+                <h5 class="card-header bg-white border-0 text-capitalize"><?=$title?></h5>
                 <div class="card-body">
                     <div class="row">
                         <div class="col-lg-6 col-md-12">
