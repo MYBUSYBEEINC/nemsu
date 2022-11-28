@@ -1,4 +1,5 @@
-<?php //Template Name: Course Schedule Proposal?>
+<?php //Template Name: Course Schedule Proposal - Block Section ?>
+
 <?php acf_form_head(); get_header(); ?>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -53,13 +54,14 @@
         <div class="" style="width: 160px; margin-left:20px;">
             <a class="card-block stretched-link text-decoration-none" href="<?= site_url(); ?>">
                 <div class="card p-1 card-nav card-blue2">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/course-scheduling-management-module/icon/finalize.png" alt="" width="50">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/course-scheduling-management-module/icon/teacher.png" alt="" width="50">
                     <p class="card-title mt-2 mb-0">Professor List</p>
                  
                 </div>
             </a>
         </div>
 </div>
+
 
 <div class="class-wrapper">
     <div class="class-container">
@@ -68,13 +70,13 @@
             if($_GET['delete']){
                 wp_trash_post( $_GET['delete'] ); ?>
                 <script>
-                    window.location.href = "<?php echo site_url().'/course-schedule-proposal/?deleted='.$_GET['delete']; ?>";
+                    window.location.href = "<?php echo site_url().'/home/course-schedule-proposal/block-section/?deleted='.$_GET['delete']; ?>";
                 </script>
             <?php } ?>
 
             <div id="alert-container">
                 <div class="alert alert-danger" role="alert">
-                    <i class="fa fa-trash" aria-hidden="true"></i> Course Schedule Proposal has been successfully deleted.
+                    <i class="fa fa-trash" aria-hidden="true"></i> Block Section has been successfully deleted.
                 </div>
             </div>
 
@@ -87,7 +89,7 @@
 
             if($_GET['changeTitle']){
                 query_posts( array( 
-                    'post_type'         => 'course_schedule_pros',
+                    'post_type'         => 'create_block_section',
                     'posts_per_page'    => 1,
                     's'                 => $_GET['submitted']
                 ));
@@ -100,13 +102,13 @@
 
                 $data = array(
                     'ID'           => $getCurrentlySubmittedID,
-                    'post_title'   => get_field('course_schedule_pros', $getCurrentlySubmittedID),
+                    'post_title'   => get_field('create_block_section', $getCurrentlySubmittedID),
                 );
 
                 wp_update_post( $data );
                 ?>
                 <script>
-                    window.location.href = "<?php echo site_url().'/home/course-schedule-proposal/?submitted='.$getCurrentlySubmittedID; ?>";
+                    window.location.href = "<?php echo site_url().'/course-schedule-proposal/block-section/?submitted='.$getCurrentlySubmittedID; ?>";
                 </script>
             <?php } else {
                 $getCurrentlySubmittedID = $_GET['submitted'];
@@ -118,34 +120,31 @@
                 </div>
             </div>
         <?php } ?>
-        
-
-        
         <div class="bg-white padding-15 border-radius-5">
             <div class="page-title-container">
-                <h4 class="card-title">Proposal Schedule</h4>
+                <h4 class="card-title">Block Section</h4>
             </div>
+
             <div class="action-btns" id="action-btns">
                 <button class="addNewModal" data-toggle="modal" data-target="#addNewModal">Add New</button>
             </div>
+
             <table id="dept-details-mgmt">
                 <thead>
                     <tr>
-                        <th>Course</th>
+                        <th>Section Code</th>
+                        <th>Descriptions</th>
                         <th>School Year</th>
                         <th>Department</th>
-                        <th>Subject Name</th>
-                        <th>Subject Desc</th>
-                        <th>Curriculum Year</th>
-                        <th>Section</th>
-                        <th>Year Level</th>
+                        <th>Status</th>
                         <th>Action</th>
                     </tr>
                 </thead>
+
                 <tbody>
                     <?php 
                     query_posts(array(
-                    'post_type' => 'course_schedule_pros',
+                    'post_type' => 'create_block_section',
                     'posts_per_page' => -1,
                     ));
 
@@ -155,16 +154,20 @@
                             $title=get_the_title($cpost); ?>
 
                             <tr>
-                                <td><?php the_field('course'); ?></td>
+                                <td><?php the_field('section_code'); ?></td>
+                                <td><?php the_field('section_desriptions'); ?></td>
                                 <td><?php the_field('school_year'); ?></td>
-                                <td><?php the_field('department'); ?></td>
-                                <td ><?php the_field('subject_name'); ?></td>
-
-                                <td><?php the_field('subject_desc'); ?></td>
-                                <td><?php the_field('curriculum_year'); ?></td>
-                                <td ><?php the_field('section'); ?></td>
-                                <td ><?php the_field('year_level'); ?></td>
-                               
+                                <td><?php the_field('departments'); ?></td>
+                                <td class="align-center">
+                                    <?php
+                                    if(get_field('active')){
+                                        echo "Active";
+                                    } else {
+                                        echo "Inactive";
+                                    }
+                                    ?>
+                                </td>
+                                
                                 <td class="actions">
                                     <div class="align-center">
                                         <a href="#" data-toggle="modal" data-target="#viewModal"><i class="fas fa-eye"></i></a>
@@ -176,25 +179,50 @@
                                         <div class="modal-dialog modal-dialog-centered" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h5 class="modal-title"><?php the_field('course_schedule_pros'); ?></h5>
+                                                    <h5 class="modal-title"><?php the_field('department'); ?></h5>
                                                 </div>
                                                 <div class="modal-body">
                                                     <table>
-                                                    <tr>
-                                                            <td><strong>Course</strong></td>
-                                                            <td><?php the_field('course'); ?></td>
-                                                        </tr>
                                                         <tr>
-                                                            <td><strong>School year</strong></td>
-                                                            <td><?php the_field('school_year'); ?></td>
+                                                            <td><strong>Department Code</strong></td>
+                                                            <td><?php the_field('department_code'); ?></td>
                                                         </tr>
                                                         <tr>
                                                             <td><strong>Department</strong></td>
                                                             <td><?php the_field('department'); ?></td>
                                                         </tr>
-                                                     
-                                                        
-                                                       
+                                                        <tr>
+                                                            <td><strong>Head</strong></td>
+                                                            <td><?php the_field('department_head'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Type</strong></td>
+                                                            <td><?php the_field('department_type'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>With Course Filter on Block Sectioning?</strong></td>
+                                                            <td>
+                                                                <?php
+                                                                if(get_field('with_course_filter_on_block_sectioning')){
+                                                                    echo "Yes";
+                                                                } else {
+                                                                    echo "No";
+                                                                }
+                                                                ?>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Status</strong></td>
+                                                            <td>
+                                                                <?php
+                                                                if(get_field('department_status')){
+                                                                    echo "Active";
+                                                                } else {
+                                                                    echo "Inactive";
+                                                                }
+                                                                ?>
+                                                            </td>
+                                                        </tr>
                                                     </table>
                                                 </div>
                                             </div>
@@ -210,10 +238,21 @@
                                                 <div class="modal-body">
                                                     <table>
                                                         <tr>
-                                                            <td><strong></strong></td>
-                                                            <td><?php the_field(''); ?></td>
+                                                            <td><strong>Department Code</strong></td>
+                                                            <td><?php the_field('department_code'); ?></td>
                                                         </tr>
-                                                        
+                                                        <tr>
+                                                            <td><strong>Department</strong></td>
+                                                            <td><?php the_field('department'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Head</strong></td>
+                                                            <td><?php the_field('department_head'); ?></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Type</strong></td>
+                                                            <td><?php the_field('department_type'); ?></td>
+                                                        </tr>
                                                     </table>
                                                 </div>
                                                 <div class="modal-footer">
@@ -236,14 +275,14 @@
 
 <?php get_footer(); ?>
 
-<div  class="modal fade newModal" id="addNewModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade newModal" id="addNewModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content" >
+        <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Create Course Schedule Proposal</h5>
+                <h5 class="modal-title">Create New Department</h5>
             </div>
-            <div class="modal-body "  >
-                <div class="acf-container"  style="width:1200px !important ">
+            <div class="modal-body">
+                <div class="acf-container">
                     <?php function generateRandomString($length) {
                         $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
                         $charactersLength = strlen($characters);
@@ -258,12 +297,12 @@
                     acf_form(array(
                         'post_id'       => 'new_post',
                         'field_groups'  => array(
-                            'group_636b60795a859',  // Course Proposal Schedule
+                            'group_63719f8da057d	',  // Create Block Section
                             
                         ),
                         'new_post'      => array(
                             'post_title'    => $token,
-                            'post_type'     => 'course_schedule_pros',
+                            'post_type'     => 'create_block_section',
                             'post_status'   => 'publish',
                         ),
                         'submit_value'  => 'Proceed',
