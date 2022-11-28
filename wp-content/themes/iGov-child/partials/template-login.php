@@ -182,7 +182,7 @@ acf_form_head();
                                                 </div>
 
                                                 <div class="login-form logged-in txt-center">
-                                                    Welcome back <?php echo $current_user->display_name; ?>!
+                                                    Welcome back, <?php echo $current_user->display_name; ?>!
                                                     <br>
                                                     Click <a href="<?php echo site_url().'/home'; ?>" style="width: auto;">here</a> to view dashboard
                                                 </div>
