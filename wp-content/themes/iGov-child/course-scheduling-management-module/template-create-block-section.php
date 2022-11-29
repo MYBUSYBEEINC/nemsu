@@ -1,4 +1,4 @@
-<?php //Template Name: Create Course Schedule Proposal?>
+<?php //Template Name: Block Section - Create Block Section?>
 <?php acf_form_head(); get_header(); ?>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -69,12 +69,12 @@
                         <div class="card-body">
                             <div>
                                 <h4 style="color:mediumblue;">
-                                    <b>Schedule Proposal</b> 
+                                    <b>Create Block Section</b> 
                                 </h4>
                             </div>
                             <?php if(isset($_GET['submitted'])){ ?>
                                 <div class="thankyouBox">
-                                    <h3 class="align-center">Course Schedule Proposal Save</h3>
+                                    <h3 class="align-center">Block Section Save</h3>
                                 </div>
                             <?php } else { 
                                 function generateRandomString($length) {
@@ -91,11 +91,11 @@
                                 acf_form(array(
                                     'post_id'		=> 'new_post',
                                     'field_groups'  => array(
-                                        'group_636b60795a859',
+                                        'group_63719f8da057d',
                                     ),
                                     'new_post'		=> array(
                                         'post_title'    => $token,
-                                        'post_type' 	=> 'course_schedule_pros',
+                                        'post_type' 	=> 'create_block_section',
                                         'post_status'	=> 'publish',
                                     ),
                                     'submit_value'  => 'Done'
@@ -106,5 +106,47 @@
                 </div>
             </div>
         </div>
+
+        <div class="row">
+                <div class="card border-0 mt-3 col-lg-12">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tr>
+                                    <th>School ID</th>
+                                    <th>Subject Name</th>
+                                    <th>Subject Descriptions</th>
+                                    <th>Max Student</th>
+                                </tr>
+                                <?php
+                                query_posts(array(    
+                                    'posts_per_page' => -1,
+                                    'orderby' => 'DESC',
+                                    'post_type' => array(
+                                    'course_schedule_pros')));
+                                if ( have_posts() ) :
+                                while ( have_posts() ) : the_post();
+                                ?>
+                                <tr>
+                                    <td><?php echo the_field('schedule_id');?></td>
+                                    <td><?php echo the_field('subject_name');?></td>
+                                    <td><?php echo the_field('subject_desc');?></td>
+                                    <td><?php echo the_field('max_student');?></td>
+
+                                </tr>
+                                <?php
+                                the_content();
+                                endwhile; endif;
+                                ?>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
     </div>
 <?php get_footer(); ?>

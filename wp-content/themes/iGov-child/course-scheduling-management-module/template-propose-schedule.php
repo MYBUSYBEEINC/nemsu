@@ -15,7 +15,7 @@
             </a>
         </div>
         <div class="" style="width: 160px; margin-left:20px;">
-            <a class="card-block stretched-link text-decoration-none" href="<?= site_url(); ?>/course-schedule-proposal/block-section/">
+            <a class="card-block stretched-link text-decoration-none" href="<?= site_url(); ?>/block-section/">
                 <div class="card p-1 card-nav card-blue1">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/course-scheduling-management-module/icon/section.png" alt="" width="50">
                     <p class="card-title mt-2 mb-0">Block Section</p>
@@ -33,7 +33,7 @@
             </a>
         </div>
         <div class="" style="width: 160px; margin-left:20px;">
-            <a class="card-block stretched-link text-decoration-none" href="<?= site_url(); ?>">
+            <a class="card-block stretched-link text-decoration-none" href="<?= site_url(); ?>/approve-schedule/">
                 <div class="card p-1 card-nav card-blue2">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/course-scheduling-management-module/icon/plot.png" alt="" width="50">
                     <p class="card-title mt-2 mb-0">Plot Schedule</p>
@@ -60,6 +60,8 @@
             </a>
         </div>
 </div>
+
+<a href="http://localhost/nemsu/home/course-schedule-proposal/create-course-schedule-proposal/">Add New AAAA</a>
 
 <div class="class-wrapper">
     <div class="class-container">
@@ -125,9 +127,8 @@
             <div class="page-title-container">
                 <h4 class="card-title">Proposal Schedule</h4>
             </div>
-            <div class="action-btns" id="action-btns">
-                <button class="addNewModal" data-toggle="modal" data-target="#addNewModal">Add New</button>
-            </div>
+            
+
             <table id="dept-details-mgmt">
                 <thead>
                     <tr>
@@ -236,52 +237,10 @@
 
 <?php get_footer(); ?>
 
-<div  class="modal fade newModal" id="addNewModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content" >
-            <div class="modal-header">
-                <h5 class="modal-title">Create Course Schedule Proposal</h5>
-            </div>
-            <div class="modal-body "  >
-                <div class="acf-container"  style="width:1200px !important ">
-                    <?php function generateRandomString($length) {
-                        $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-                        $charactersLength = strlen($characters);
-                        $randomString = '';
-                        for ($i = 0; $i < $length; $i++) {
-                            $randomString .= $characters[rand(0, $charactersLength - 1)];
-                        }
-                        return $randomString;
-                    }
-                    $token = generateRandomString(15);
-                    
-                    acf_form(array(
-                        'post_id'       => 'new_post',
-                        'field_groups'  => array(
-                            'group_636b60795a859',  // Course Proposal Schedule
-                            
-                        ),
-                        'new_post'      => array(
-                            'post_title'    => $token,
-                            'post_type'     => 'course_schedule_pros',
-                            'post_status'   => 'publish',
-                        ),
-                        'submit_value'  => 'Proceed',
-                        'return' => '?submitted='.$token.'&changeTitle=y'
-                    )); ?>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="closePassModal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="showNextStep('submit')">Submit</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<script>
+<!-- <script>
     $(document).ready(function () {
         $('#dept-details-mgmt').DataTable({
             "aaSorting": [],
@@ -302,4 +261,4 @@
             });
         }
     }
-</script>
+</script> -->

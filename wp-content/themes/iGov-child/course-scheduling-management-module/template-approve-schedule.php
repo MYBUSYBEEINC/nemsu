@@ -1,4 +1,4 @@
-<?php //Template Name: Course Schedule Proposal - Block Section ?>
+<?php //Template Name: Course Schedule Proposal - Approve Schedule ?>
 
 <?php acf_form_head(); get_header(); ?>
 
@@ -76,7 +76,7 @@
 
             <div id="alert-container">
                 <div class="alert alert-danger" role="alert">
-                    <i class="fa fa-trash" aria-hidden="true"></i> Block Section has been successfully deleted.
+                    <i class="fa fa-trash" aria-hidden="true"></i> Approve Section has been successfully deleted.
                 </div>
             </div>
 
@@ -89,7 +89,7 @@
 
             if($_GET['changeTitle']){
                 query_posts( array( 
-                    'post_type'         => 'create_block_section',
+                    'post_type'         => 'approve_schedule',
                     'posts_per_page'    => 1,
                     's'                 => $_GET['submitted']
                 ));
@@ -102,13 +102,13 @@
 
                 $data = array(
                     'ID'           => $getCurrentlySubmittedID,
-                    'post_title'   => get_field('create_block_section', $getCurrentlySubmittedID),
+                    'post_title'   => get_field('approve_schedule', $getCurrentlySubmittedID),
                 );
 
                 wp_update_post( $data );
                 ?>
                 <script>
-                    window.location.href = "<?php echo site_url().'/course-schedule-proposal/block-section/?submitted='.$getCurrentlySubmittedID; ?>";
+                    window.location.href = "<?php echo site_url().'/course-schedule-proposal/approve-schedule/?submitted='.$getCurrentlySubmittedID; ?>";
                 </script>
             <?php } else {
                 $getCurrentlySubmittedID = $_GET['submitted'];
@@ -116,13 +116,13 @@
 
             <div id="alert-container">
                 <div class="alert alert-success" role="alert">
-                    <i class="fa fa-check-circle" aria-hidden="true"></i> Success! <strong><?php echo get_field('course_schedule_pros', $getCurrentlySubmittedID); ?></strong> has been successfully created.
+                    <i class="fa fa-check-circle" aria-hidden="true"></i> Success! <strong><?php echo get_field('approve_schedule', $getCurrentlySubmittedID); ?></strong> has been successfully created.
                 </div>
             </div>
         <?php } ?>
         <div class="bg-white padding-15 border-radius-5">
             <div class="page-title-container">
-                <h4 class="card-title">Block Section</h4>
+                <h4 class="card-title">Approve Schedule</h4>
             </div>
 
             <div class="action-btns" id="action-btns">
