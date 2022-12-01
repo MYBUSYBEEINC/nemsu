@@ -12,7 +12,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="single-block" href="">
+                    <a class="single-block" href="shift-student">
                     <i class="fas fa-exchange-alt"></i>
                     <h3>Shift Student</h3>
                     </a>
