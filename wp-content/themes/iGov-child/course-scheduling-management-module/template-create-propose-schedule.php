@@ -1,64 +1,64 @@
-<?php //Template Name: Create Course Schedule Proposal?>
+<?php //Template Name: Create Schedule Proposal?>
 <?php acf_form_head(); get_header(); ?>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <div class="row" style="margin-left:40px !important;">
    
-        <div style="width: 160px;">
-            <a class="card-block stretched-link text-decoration-none" href="<?= site_url(); ?>/course-schedule-proposal/">
-                <div class="card p-1 card-nav card-red">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/course-scheduling-management-module/icon/schedule.png" alt="" width="50">
-                    <p class="card-title mt-2 mb-0">Propose Schedule</p>
-                    
-                </div>
-            </a>
-        </div>
-        <div class="" style="width: 160px; margin-left:20px;">
-            <a class="card-block stretched-link text-decoration-none" href="<?= site_url(); ?>/block-section/">
-                <div class="card p-1 card-nav card-blue1">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/course-scheduling-management-module/icon/section.png" alt="" width="50">
-                    <p class="card-title mt-2 mb-0">Block Section</p>
-               
-                </div>
-            </a>
-        </div>
-        <div class="" style="width: 160px; margin-left:20px;">
-            <a class="card-block stretched-link text-decoration-none" href="<?= site_url(); ?>">
-                <div class="card p-1 card-nav card-green">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/course-scheduling-management-module/icon/approved.png" alt="" width="50">
-                    <p class="card-title mt-2 mb-0">Approve Schedule</p>
-                  
-                </div>
-            </a>
-        </div>
-        <div class="" style="width: 160px; margin-left:20px;">
-            <a class="card-block stretched-link text-decoration-none" href="<?= site_url(); ?>/approve-schedule/">
-                <div class="card p-1 card-nav card-blue2">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/course-scheduling-management-module/icon/plot.png" alt="" width="50">
-                    <p class="card-title mt-2 mb-0">Plot Schedule</p>
-                   
-                </div>
-            </a>
-        </div>
-        <div class="" style="width: 160px; margin-left:20px;">
-            <a class="card-block stretched-link text-decoration-none" href="<?= site_url(); ?>">
-                <div class="card p-1 card-nav card-blue2">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/course-scheduling-management-module/icon/finalize.png" alt="" width="50">
-                    <p class="card-title mt-2 mb-0">Finalize Schedule</p>
-                 
-                </div>
-            </a>
-        </div>
-        <div class="" style="width: 160px; margin-left:20px;">
-            <a class="card-block stretched-link text-decoration-none" href="<?= site_url(); ?>">
-                <div class="card p-1 card-nav card-blue2">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/course-scheduling-management-module/icon/teacher.png" alt="" width="50">
-                    <p class="card-title mt-2 mb-0">Professor List</p>
-                 
-                </div>
-            </a>
-        </div>
+    <div style="width: 160px;">
+        <a class="card-block stretched-link text-decoration-none" href="<?= site_url(); ?>/course-schedule-proposal/">
+            <div class="card p-1 card-nav card-red">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/course-scheduling-management-module/icon/schedule.png" alt="" width="50">
+                <p class="card-title mt-2 mb-0">Propose Schedule</p>
+                
+            </div>
+        </a>
+    </div>
+    <div class="" style="width: 160px; margin-left:20px;">
+        <a class="card-block stretched-link text-decoration-none" href="<?= site_url(); ?>/block-section/">
+            <div class="card p-1 card-nav card-blue1">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/course-scheduling-management-module/icon/section.png" alt="" width="50">
+                <p class="card-title mt-2 mb-0">Block Section</p>
+            
+            </div>
+        </a>
+    </div>
+    <div class="" style="width: 160px; margin-left:20px;">
+        <a class="card-block stretched-link text-decoration-none" href="<?= site_url(); ?>">
+            <div class="card p-1 card-nav card-green">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/course-scheduling-management-module/icon/approved.png" alt="" width="50">
+                <p class="card-title mt-2 mb-0">Approve Schedule</p>
+                
+            </div>
+        </a>
+    </div>
+    <div class="" style="width: 160px; margin-left:20px;">
+        <a class="card-block stretched-link text-decoration-none" href="<?= site_url(); ?>/approve-schedule/">
+            <div class="card p-1 card-nav card-blue2">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/course-scheduling-management-module/icon/plot.png" alt="" width="50">
+                <p class="card-title mt-2 mb-0">Plot Schedule</p>
+                
+            </div>
+        </a>
+    </div>
+    <div class="" style="width: 160px; margin-left:20px;">
+        <a class="card-block stretched-link text-decoration-none" href="<?= site_url(); ?>">
+            <div class="card p-1 card-nav card-blue2">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/course-scheduling-management-module/icon/finalize.png" alt="" width="50">
+                <p class="card-title mt-2 mb-0">Finalize Schedule</p>
+                
+            </div>
+        </a>
+    </div>
+    <div class="" style="width: 160px; margin-left:20px;">
+        <a class="card-block stretched-link text-decoration-none" href="<?= site_url(); ?>">
+            <div class="card p-1 card-nav card-blue2">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/course-scheduling-management-module/icon/teacher.png" alt="" width="50">
+                <p class="card-title mt-2 mb-0">Professor List</p>
+                
+            </div>
+        </a>
+    </div>
 </div>
 
 <div class="container">
