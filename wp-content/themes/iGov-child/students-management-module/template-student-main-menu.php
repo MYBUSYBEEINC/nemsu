@@ -26,7 +26,7 @@
                     
                 </li>
                 <li>
-                    <a class="single-block" href="">
+                    <a class="single-block" href="student-schedule">
                     <i class="fas fa-calendar-alt"></i>
                     <h3>Student Schedule</h3>
                     </a>
