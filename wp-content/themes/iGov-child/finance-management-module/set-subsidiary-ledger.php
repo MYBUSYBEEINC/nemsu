@@ -1,10 +1,6 @@
 <?php //Template Name: Set Subsidiary Ledger?>
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Set Subsidiary Ledger</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="<?php echo get_stylesheet_directory_uri(); ?>finance-management-module/modules-style.css" rel="stylesheet" />
@@ -12,21 +8,19 @@
 get_header(); ?>
 
     <style>
-        .table thead th {
+        /* .table thead th {
             background-color: #ffff !important;
             font-size: 15px !important;
             color: #000 !important;
-        }.form-control{
+        } */
+        .form-control{
             background-color: #F5F5F5;
             border:0;
         }tr td{
             text-align:center;
         }
     </style>
-  </head>
-  <body>
 
-    
     <div id="primary" class="content-area">
         <div id="content" class="site-content" role="main">
             <div class="card border-0 mt-3">
@@ -176,8 +170,8 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="card-footer bg-white text-muted">
-                <table class="table mt-5">
+                <div class="card-footer bg-white text-muted p-3">
+                <table class="table mt-5 filter-base-date">
                     <?php
                         query_posts(array(    
                             'posts_per_page' => -1,
@@ -195,7 +189,13 @@ get_header(); ?>
                     <thead>
                         <tr>
                             <?php
-                                $titleHead = array("Trx Date", "Particular", "Reference No.", "Debit","Credit","Balance","Trx Type
+                                $titleHead = array(
+                                    "Trx Date", 
+                                    "Particular", 
+                                    "Reference No.", 
+                                    "Debit","Credit",
+                                    "Balance",
+                                    "Trx Type
                                 ");
 
                                 foreach ($titleHead as $value) {
@@ -223,5 +223,36 @@ get_header(); ?>
        
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </body>
-</html>
+
+    <script>
+        $(function() {
+            var table = $(".filter-base-date").DataTable();
+
+            // Date range vars
+            minDateFilter = "";
+            maxDateFilter = "";
+
+            $("#date").daterangepicker();
+            $("#date").on("apply.daterangepicker", function(ev, picker) {
+            minDateFilter = Date.parse(picker.startDate);
+            maxDateFilter = Date.parse(picker.endDate);
+            
+            $.fn.dataTable.ext.search.push(function(settings, data, dataIndex) {
+            var date = Date.parse(data[1]);
+
+            if (
+            (isNaN(minDateFilter) && isNaN(maxDateFilter)) ||
+            (isNaN(minDateFilter) && date <= maxDateFilter) ||
+            (minDateFilter <= date && isNaN(maxDateFilter)) ||
+            (minDateFilter <= date && date <= maxDateFilter)
+            ) {
+            return true;
+            }
+            return false;
+            });
+            table.draw();
+            }); 
+            
+
+        });
+    </script>
