@@ -113,3 +113,19 @@ button, input[type="submit"], input[type="button"], input[type="reset"] {
 .select2-container.-acf .select2-selection {
     border-color: #F5F5F5 !important;
 }
+
+.table thead th {
+    background-color: #90ADCB !important;
+    font-size: 14px !important;
+    color: #fff !important;
+    border:solid 1px #000;
+}
+td{
+    text-align:center;
+}
+.form-control{
+    background-color: #F5F5F5;
+    border:0;
+}td{
+    border:solid 1px #000;
+}
