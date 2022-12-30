@@ -75,7 +75,7 @@
             <h4 class="card-title">Enrolled Students List School Year 2022-2023</h4>
             <p class="card-description text-secondary"> More than 1,000+ enrolled students </p>
             <div class="table-responsive">
-                <table class="table">
+                <table class="table table-hover" id="enrolled-students-table">
                     <thead>
                         <tr class="text-uppercase text-12">
                             <th>Student Number</th>
@@ -84,64 +84,30 @@
                             <th>Class</th>
                             <th>Section</th>
                             <th>Email</th>
-                            <th>Status</th>
                         </tr>
                     </thead>
                     <tbody>
+                    <?php
+                        query_posts([
+                            'post_type' => 'student_information',
+                            'posts_per_page' => -1,
+                        ]);
+                        if ( have_posts() ) :
+                            while ( have_posts() ) : the_post(); 
+                                $cpost = get_the_ID(); 
+                                $title = get_the_title($cpost);
+                    ?>
                         <tr>
-                            <td>5412545125</td>
-                            <td>Samso Park</td>
-                            <td>Male</td>
-                            <td>1</td>
-                            <td>A</td>
-                            <td>samso@gmail.com</td>
-                            <td><label class="badge badge-success">Enrolled</label></td>
+                            <td>--</td>
+                            <td><?php the_field('student_name'); ?></td>
+                            <td><?php the_field('gender'); ?></td>
+                            <td><?php the_field('class'); ?></td>
+                            <td><?php the_field('section'); ?></td>
+                            <td><?php the_field('email'); ?></td>
                         </tr>
-                        <tr>
-                            <td>5445122365</td>
-                            <td>Andres Sthreet</td>
-                            <td>Male</td>
-                            <td>1</td>
-                            <td>B</td>
-                            <td>andres@gmail.com</td>
-                            <td><label class="badge badge-success">Enrolled</label></td>
-                        </tr>
-                        <tr>
-                            <td>9556526331</td>
-                            <td>Park Mujin</td>
-                            <td>Male</td>
-                            <td>1</td>
-                            <td>A</td>
-                            <td>park@gmail.com</td>
-                            <td><label class="badge badge-success">Enrolled</label></td>
-                        </tr>
-                        <tr>
-                            <td>5542122211</td>
-                            <td>Steven Gong</td>
-                            <td>Male</td>
-                            <td>2</td>
-                            <td>C</td>
-                            <td>steve@gmail.com</td>
-                            <td><label class="badge badge-success">Enrolled</label></td>
-                        </tr>
-                        <tr>
-                            <td>8845115001</td>
-                            <td>Denice Lauriat</td>
-                            <td>Female</td>
-                            <td>1</td>
-                            <td>A</td>
-                            <td>denice@gmail.com</td>
-                            <td><label class="badge badge-success">Enrolled</label></td>
-                        </tr>
-                        <tr>
-                            <td>1000502101</td>
-                            <td>Jonnie Bravio</td>
-                            <td>Male</td>
-                            <td>2</td>
-                            <td>A</td>
-                            <td>jonnie@gmail.com</td>
-                            <td><label class="badge badge-success">Enrolled</label></td>
-                        </tr>
+                        
+                    <?php endwhile; ?>
+                    <?php endif; wp_reset_query(); ?>
                     </tbody>
                 </table>
             </div>
@@ -149,3 +115,8 @@
     </div>
 </div>
 <?php get_footer(); ?>
+<script>
+    $(document).ready(function() {
+        $('#enrolled-students-table').DataTable();
+    });
+</script>
