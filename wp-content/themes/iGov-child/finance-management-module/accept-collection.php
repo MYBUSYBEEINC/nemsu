@@ -1,4 +1,4 @@
-<?php //Template Name: Accept Collection ?>
+<?php //Template Name: Finance - Accept Collection ?>
 <?php 
 acf_form_head();
 get_header(); ?>

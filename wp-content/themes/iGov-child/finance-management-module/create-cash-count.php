@@ -1,6 +1,8 @@
-<?php //Template Name: Create Cash Count?>
+<?php //Template Name: Finance - Create Cash Count
+    $title = 'Create Cash Count';
+?>
 
-    <title>Create Cash Count</title>
+    <title><?=$title?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/finance-management-module/modules-style.css" rel="stylesheet" />
     <?php 
@@ -70,7 +72,7 @@
             <div class="col-lg-12 col-md-12">
                 <div class="tab-content" id="acceptCollection">
                     <div class="card border-0 mt-3">
-                        <h5 class="card-header bg-white border-0">Cash Count</h5>
+                        <h5 class="card-header bg-white border-0"><?=$title?></h5>
                         <div class="card-body">
                             <!-- <div class="row">
                                 <div class="col-lg-12 col-md-12"> -->

@@ -1,4 +1,4 @@
-<?php //Template Name: Set Collection Period?>
+<?php //Template Name: Finance - Set Collection Period?>
 
 <?php 
     acf_form_head();

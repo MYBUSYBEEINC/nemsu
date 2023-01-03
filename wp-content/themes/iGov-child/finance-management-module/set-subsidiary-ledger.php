@@ -1,11 +1,15 @@
-<?php //Template Name: Set Subsidiary Ledger?>
+<?php //Template Name: Finance - Set Subsidiary Ledger
 
+    $title = 'Set Subsidiary Ledger';
+?>
 
-    <title>Set Subsidiary Ledger</title>
+    <title><?=$title?></title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="<?php echo get_stylesheet_directory_uri(); ?>finance-management-module/modules-style.css" rel="stylesheet" />
     <?php 
-get_header(); ?>
+        get_header(); 
+    ?>
 
     <style>
         /* .table thead th {
@@ -24,7 +28,7 @@ get_header(); ?>
     <div id="primary" class="content-area">
         <div id="content" class="site-content" role="main">
             <div class="card border-0 mt-3">
-                <h5 class="card-header bg-white border-0">Set Subsidiary Ledger</h5>
+                <h5 class="card-header bg-white border-0"><?=$title?></h5>
                 <div class="card-body">
                 <?php
                     $postid= $_GET['post_id'];
@@ -39,7 +43,7 @@ get_header(); ?>
                     // student name
                     $student_photo = get_field('student_photo');
                     $student_no  = get_field('student_no');
-                    $title = get_field('title');
+                    // $title = get_field('title');
                     $lname = get_field('last_name');
                     $fname = get_field('first_name');
                     $mname = get_field('middle_name');

@@ -1,4 +1,4 @@
-<?php //Template Name: Finance Dashboard?>
+<?php //Template Name: Finance - Dashboard?>
 
 <!doctype html>
 <html lang="en">
