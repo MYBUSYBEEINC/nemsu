@@ -28,7 +28,7 @@
     }
 </style>
 
-<div class="container-fluid">
+<div class="container-fluid p-5 pt-0">
 
 
     <div class="row">
@@ -72,17 +72,16 @@
     
     <div class="card border-0 mt-3">
         <div class="card-body">
-            <h4 class="card-title">Enrolled Students List School Year 2022-2023</h4>
-            <p class="card-description text-secondary"> More than 1,000+ enrolled students </p>
+            <h4 class="card-title">Pending Enrollment Applications</h4>
+            <!-- <p class="card-description text-secondary"> More than 1,000+ enrolled students </p> -->
             <div class="table-responsive">
                 <table class="table table-hover" id="enrolled-students-table">
                     <thead>
                         <tr class="text-uppercase text-12">
-                            <th>Student Number</th>
+                            <th>Applicant Number</th>
                             <th>Name</th>
                             <th>Gender</th>
-                            <th>Class</th>
-                            <th>Section</th>
+                            <th>Address</th>
                             <th>Email</th>
                         </tr>
                     </thead>
@@ -101,8 +100,7 @@
                             <td>--</td>
                             <td><?php the_field('student_name'); ?></td>
                             <td><?php the_field('gender'); ?></td>
-                            <td><?php the_field('class'); ?></td>
-                            <td><?php the_field('section'); ?></td>
+                            <td><?php the_field('address'); ?></td>
                             <td><?php the_field('email'); ?></td>
                         </tr>
                         
@@ -117,6 +115,43 @@
 <?php get_footer(); ?>
 <script>
     $(document).ready(function() {
-        $('#enrolled-students-table').DataTable();
+        $('#enrolled-students-table').DataTable({
+            processing: true,
+            serverSide: false,
+            language: {
+                searchPlaceholder: 'Search applicant',
+                sSearch: '',
+                processing: `<div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div>`,
+                emptyTable: "No class to display.",
+                infoFiltered: ''/*" - filtered from _MAX_ records"*/
+            },
+            "paging": true,
+            "scrollCollapse": false,
+            "responsive": false,
+            "lengthChange": true,
+            "searching": true,
+            /* "ordering": false,
+            "order": [[ 5, "desc" ]],
+            "autoWidth": true,
+            "scrollX": true,
+            "scrollY": "calc(100vh - 380px)", */
+            /* "columns": [
+
+            ], */
+            createdRow: function( row, data, index ) {
+                $(row).css('cursor','pointer').click(function() {
+                    
+                });
+            },
+            /* columnDefs: [{
+				targets: [3, 4, 5],
+				className: 'dt-body-center'
+			}], */
+            initComplete: function() {
+                $('.dataTables_filter').append(`
+                    <a href="add-new-applicant/" class="ml-2 btn float-right btn-primary text-white"><i class="fa fa-user-plus"></i> New Applicant</a>
+                `);
+            }
+        });
     });
 </script>
