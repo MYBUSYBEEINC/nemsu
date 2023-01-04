@@ -101,10 +101,10 @@
                                 <label  class="form-label fw-bd">Student No</label>
                                 <input type="number" class="form-control" value="<?=$student_no ?>">
                             </div>
-                            <div class="mb-3">
+                            <!-- <div class="mb-3">
                                 <label  class="form-label fw-bd">Course</label>
                                 <input type="text" class="form-control" value="<?php echo $department ?>">
-                            </div>
+                            </div> -->
                             <div class="mb-3">
                                 <label  class="form-label fw-bd">Address</label>
                                 <input type="text" class="form-control" value="<?php echo $gaddress ?>">

@@ -26,12 +26,26 @@ acf_form_head();
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php echo esc_url( get_bloginfo( 'pingback_url' ) ); ?>">
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script  type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
 	<script type="text/javascript" src="https://cdn.datatables.net/select/1.5.0/js/dataTables.select.min.js"></script>
     <script src="https://kit.fontawesome.com/7fddb8c633.js" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.debug.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/printThis/1.15.0/printThis.min.js" integrity="sha512-d5Jr3NflEZmFDdFHZtxeJtBzk0eB+kkRXWFQqEc1EKmolXjHm2IKCA7kTvXBNjIYzjXfD5XzIjaaErpkZHCkBg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+	<style>.collapse{
+			margin-top:-5x;
+			color:#fff;
+			border-radius: 8px;
+		}div .list-menu{
+			height: 35px !important;
+			padding-bottom:8px;
+			color:#fff;
+		}
+	</style>
+	
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <!--[if lt IE 9]>
@@ -69,6 +83,7 @@ acf_form_head();
 							<span>Students</span>
 							</a>
 						</li>
+
 						<li <?php if(get_the_id() == 239){ echo 'class="active"'; }?> >
 							<a href="<?= get_site_url()?>/enrollment">
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
@@ -82,8 +97,25 @@ acf_form_head();
 							</a>
 						</li>
 						<li <?php if(get_the_id() == 41){ echo 'class="active"'; }?> >
-							<a href="<?= get_site_url()?>/finance-dashboard"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br><span>Finance</span></a>
+							<a href="#" id="financeCollapse">
+								<div><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png"></div>Finance
+							</a>
 						</li>
+						<div class="collapseContent bg-primary" style="display:none">
+							<div class="list-group">
+								<a href="<?= get_site_url()?>/finance-dashboard/" class='pt-2 pl-2 pr-2 bg-primary list-menu'>Dashboard</a>
+								<a href="<?= get_site_url()?>/finance-dashboard/accept-collection/" class='pt-2 pl-2 pr-2 bg-primary list-menu'>Accept Collection</a>
+								<a href="<?= get_site_url()?>/finance-dashboard/create-encashment/" class="pt-2 pl-2 pr-2 bg-primary list-menu">Create Encashment</a>
+								<a href="<?= get_site_url()?>/finance-dashboard/create-cash-count/" class="pt-2 pl-2 pr-2 bg-primary list-menu">Create Cash Count</a>
+								<a href="<?= get_site_url()?>/finance-dashboard/enter-daily-collection-deposit/" class="pt-2 pl-2 pr-2 bg-primary list-menu">Enter Daily Collection Deposit</a>
+								<a href="<?= get_site_url()?>/finance-dashboard/enter-adjustment/" class="pt-2 pl-2 pr-2 bg-primary list-menu">Enter Adjustments</a>
+								<a href="<?= get_site_url()?>/finance-dashboard/enter-group-adjustments//" class="pt-2 pl-2 pr-2 bg-primary list-menu">Enter Group Adjustments</a>
+								<a href="<?= get_site_url()?>/finance-dashboard/set-subsidiary-ledger/" class="pt-2 pl-2 pr-2 bg-primary list-menu">View Subsidiary Ledger</a>
+								<a href="<?= get_site_url()?>/finance-dashboard/print-admission-slip/" class="pt-2 pl-2 pr-2 bg-primary list-menu">Print Admission Slip</a>
+								<a href="<?= get_site_url()?>/finance-dashboard/approve-scholarship-grant/" class="pt-2 pl-2 pr-2 bg-primary list-menu">Approve Scholarship or Grant</a>
+								<a href="<?= get_site_url()?>/finance-dashboard/" class="pt-2 pl-2 pr-2 bg-primary list-menu">Set Teller OR Number Range</a>
+							</div>
+						</div>
 						<li>
 							<a href="#">
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
@@ -130,3 +162,17 @@ acf_form_head();
 			</div>
 		</div>
 		<div id="main" class="site-main">
+
+		<script>
+			$(document).ready(function(){
+				// Finance module
+				$('#financeCollapse').click(function () {
+					if ($('.collapseContent').is(':hidden')) {
+						$('.collapseContent').show();
+					} else {
+						$('.collapseContent').hide();
+					}
+				}); 
+			});
+
+		</script>
