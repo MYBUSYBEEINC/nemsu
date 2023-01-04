@@ -9,6 +9,89 @@
     get_header(); 
 ?>
 <div class="container-fluid">
+
+    <?php
+        if (isset($_POST["btn-find-student"])) {
+            $input_student_no = $_POST["student-no"];
+            query_posts( array( 
+                'post_type' => 'student_information', 
+                'post_status' => array('publish'),
+                'posts_per_page' => 1,
+                'meta_query'     => array(
+                    'relation' => 'AND',
+                    array(
+                        'key' => 'student_no',
+                        'value' => $input_student_no,
+                        'compare' => '==',
+                    ),
+                )
+            ));
+            if ( have_posts() ) :
+                while ( have_posts() ) : the_post();
+                    // student name
+                    $student_photo = get_field('student_photo');
+                    $student_no  = get_field('student_no');
+                    $title = get_field('title');
+                    $lname = get_field('last_name');
+                    $fname = get_field('first_name');
+                    $mname = get_field('middle_name');
+                    $suffix = get_field('suffix');               
+                    // current course information
+                    $course = get_field('course');
+                    // $department = get_field('department');
+                    $schoolYear = get_field('school_year');
+                    $yearLevel = get_field('year_level');
+                endwhile;
+            endif;
+        }
+    ?>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-12">
+                    <h6><label>Student No.:</label></h6> 
+                </div>
+                <div class="col-lg-9 col-md-12">
+                    <form method="post">
+                        <input type="text" name="student-no" style="width:50%;" value="<?php echo $student_no ?>">
+                        <input type="submit" name="btn-find-student" value="Find">
+                    </form>                   
+                </div>            
+            </div>
+            <div class="row mt-3 mb-3">  
+                <div class="col-lg-3 col-md-12">
+                    <h6><label>Student Name:</label></h6>
+                </div>
+                <div class="col-lg-9 col-md-12 mb-3">
+                    <input type="text" style="width:60%;" value="<?php echo $fname .' '. $mname .' '. $lname .' '. $suffix ?>" readonly>
+                </div>
+
+                <div class="col-lg-3 col-md-12">
+                    <h6><label>Year Level:</label></h6>
+                </div>
+                <div class="col-lg-9 col-md-12 mb-3">
+                    <input type="text" style="width:60%;" value="<?=$yearLevel ?>" readonly>
+                </div>
+            
+                <div class="col-lg-3 col-md-12">
+                    <h6><label>Current Course:</label></h6>
+                </div>
+                <div class="col-lg-9 col-md-12 mb-3">
+                    <input  type="text" style="width:60%;" value="<?=$course ?>" readonly>
+                </div>
+            
+                <div class="col-lg-3 col-md-12">
+                    <label><h6>School Year:</h6></label>
+                </div>
+                <div class="col-lg-9 col-md-12 mb-3">
+                    <input type="text" style="width:60%;" value="<?=$schoolYear?>">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <table class="table mt-5 filter-base-date display nowrap" id="scrollbar-horizontal" style="width:100%">
         <thead>
             <tr>
