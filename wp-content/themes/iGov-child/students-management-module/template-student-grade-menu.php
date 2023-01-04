@@ -1,6 +1,11 @@
 <?php //Template Name: Student Grade ?>
 <?php get_header(); ?>
-
+<style>
+.site-main{
+    margin-left: 13rem;
+    padding: 0;
+}
+</style>
 	<div class="class-wrapper-menu">
       <div class="class-container">
         <div class="student-menu">

@@ -32,7 +32,14 @@ td .student-icon:nth-child(2) {
 .page-template-template-student-document-request .class-wrapper,
 .old-subject-wrapper{
     background: #fff;
-  }
+}
+.page-template-template-student-main-menu .class-wrapper-menu-student,
+.page-template-template-student-info-menu .class-wrapper-menu,
+.page-template-template-student-grade-menu .class-wrapper-menu,
+.page-template-template-student-schedule-menu .class-wrapper-menu {
+    background: #346af8;
+}
+  
 .class-container {
     height: auto;
     min-height: 100vh;
