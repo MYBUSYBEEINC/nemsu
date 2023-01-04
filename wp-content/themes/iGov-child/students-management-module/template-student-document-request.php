@@ -1,6 +1,10 @@
 <?php //Template Name: Student Document Request ?>
 <?php get_header(); ?>
-
+<style>
+.site-main{
+    margin-left: 13.1rem;
+}
+</style>
 
 		<div class="class-wrapper-index">
       <div class="class-container">

@@ -2,7 +2,11 @@
 <?php
 acf_form_head();
 get_header(); ?>
-
+<style>
+.site-main{
+    margin-left: 13.1rem;
+}
+</style>
 <div class="old-subject-wrapper">
         <div class="old-subject-container">
             <div class="old-subject-post">

@@ -1,6 +1,10 @@
 <?php //Template Name: Graduating Student List ?>
 <?php get_header(); ?>
-
+<style>
+.site-main{
+    margin-left: 13.1rem;
+}
+</style>
 
 		<div class="class-wrapper">
       <div class="class-container">
