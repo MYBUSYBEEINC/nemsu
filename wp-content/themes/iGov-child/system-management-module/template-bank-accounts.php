@@ -23,8 +23,6 @@
 
         <?php } ?>
 
-
-
         <?php if(isset($_GET['submitted']) || isset($_GET['changeTitle'])){
             $getCurrentlySubmittedID;
 
@@ -61,8 +59,6 @@
                 </div>
             </div>
         <?php } ?>
-        
-
         
         <div class="bg-white padding-15 border-radius-5">
             <div class="page-title-container">
