@@ -23,8 +23,6 @@
 
         <?php } ?>
 
-
-
         <?php if(isset($_GET['submitted'])){
             $getCurrentlySubmittedID;
             query_posts( array( 
