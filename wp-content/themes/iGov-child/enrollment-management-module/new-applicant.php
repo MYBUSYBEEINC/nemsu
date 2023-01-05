@@ -40,16 +40,19 @@
                         'post_title'   => false,
                         'post_content' => false,
                         'field_groups'  => array(
-                            'group_63b412dd6f31f'
-                            /* 'group_637209e28d3df',
-                            'group_63720a4da8b8a',
-                            'group_63720be55255d',
-                            'group_6372190919e9f', */
-                            // 'group_6372198fa3096',
+                            'group_63b412dd6f31f',
+                            'group_6372198fa3096'
                         ),
+                        /* 'fields' => array(
+                            'main_name', 
+                            'main_personal_information',
+                            'main_address',
+                            'main_educational_background',
+                            'main_contact_information'
+                        ), */
                         'updated_message' => __("New applicant successfully added.", 'acf'),
                         'return' => add_query_arg(array('updated' => 'true'), get_permalink()),
-                        'submit_value'  => __('Save'),
+                        'submit_value'  => __('Save', 'acf'),
                     )
                 );
             ?>
@@ -68,5 +71,26 @@
         
         // Repeater (Contact Information): set 2nd row value as `Emergency #` by default
         $('#acf-field_63b437bd64b5b-row-1-field_63b4391764b5d').val('Emergency #');
+
+        // Course Code: Fill `Course` field after selecting a value
+        $courseField = $('#acf-field_637219a2c8457');
+        $courseField.attr('readonly', true);
+        $('#acf-field_63721992c8456').on('select2:select', function() {
+            console.log('select2 on select triggered');
+            var courseId = $('#acf-field_63721992c8456').val();
+            
+            $courseField.val('');
+            $.get('<?php echo get_site_url(); ?>/enrollment/scripts/?course=' + courseId, function(res) {
+                if (res['status'] == 'success') {
+                    $courseField.val(res['data']['course_title']);
+                }
+                else {
+                    alert('Error: Could not display course name.');
+                }
+            }).fail(function() {
+                alert('Error: Could not display course name.');
+            });
+        });
+
     });
 </script>
