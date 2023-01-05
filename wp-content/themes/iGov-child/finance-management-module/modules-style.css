@@ -115,7 +115,7 @@ button, input[type="submit"], input[type="button"], input[type="reset"] {
 }
 
 .table thead th {
-    background-color: #90ADCB !important;
+    /* background-color: #90ADCB !important; */
     font-size: 14px !important;
     color: #fff !important;
     border:solid 1px #000;
