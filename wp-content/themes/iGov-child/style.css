@@ -178,13 +178,14 @@ font-weight: 700;
     color: #6796f9;
     background: #fff;
 }
-
-
+.sidenav img {
+    padding: 20px 0 5px 0;
+}
 .sidenav::-webkit-scrollbar {
     width: 0px;
 }
 .site-main{
-    margin-left: 13rem;
+    margin-left: 13.1rem;
     padding: 5rem 0 1rem 1rem;
 }
 .breadcrumbs{

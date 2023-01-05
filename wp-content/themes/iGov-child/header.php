@@ -73,32 +73,32 @@ acf_form_head();
 					<ul>
 						<li>
 							<a href="#">
-							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
+							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2023/01/Vector.png" alt=""><br>
 							<span>Dashboard</span>
 							</a>
 						</li>
 						<li>
 							<a href="<?= get_site_url()?>/students">
-							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
+							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2023/01/🦆-icon-_Education_-1.png" alt=""><br>
 							<span>Students</span>
 							</a>
 						</li>
 
 						<li <?php if(get_the_id() == 239){ echo 'class="active"'; }?> >
 							<a href="<?= get_site_url()?>/enrollment">
-							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
+							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2023/01/🦆-icon-_file-add_.png" alt=""><br>
 							<span>Enrollment</span>
 							</a>
 						</li>
 						<li <?php if(get_the_id() == 39){ echo 'class="active"'; }?> >
 							<a href="<?= get_site_url()?>/course-schedule-proposal">
-							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
+							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2023/01/🦆-icon-_calendar_.png" alt=""><br>
 							<span>Course Scheduling</span>
 							</a>
 						</li>
 						<li <?php if(get_the_id() == 41){ echo 'class="active"'; }?> >
 							<a href="#" id="financeCollapse">
-								<div><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png"></div>Finance
+								<div><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2023/01/38982111-e23a-43e5-951a-d0c7594d266e.png"></div>Finance
 							</a>
 						</li>
 						<div class="collapseContent bg-primary" style="display:none">
@@ -118,13 +118,13 @@ acf_form_head();
 						</div>
 						<li>
 							<a href="#">
-							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
+							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2023/01/🦆-icon-_reports_.png" alt=""><br>
 							<span>Reports</span>
 							</a>
 						</li>
 						<li <?php if(get_the_id() == 393){ echo 'class="active"'; }?> >
 							<a href="<?php echo site_url().'/system/'; ?>">
-							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/11/Vector.png" alt=""><br>
+							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2023/01/🦆-icon-_system-run-symbolic_.png" alt=""><br>
 							<span>System</span>
 							</a>
 						</li>
