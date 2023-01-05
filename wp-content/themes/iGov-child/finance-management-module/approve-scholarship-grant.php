@@ -41,6 +41,7 @@
                     // $department = get_field('department');
                     $schoolYear = get_field('school_year');
                     $yearLevel = get_field('year_level');
+                    $studentType = get_field('student_type');
                 endwhile;
             endif;
         }
@@ -68,6 +69,13 @@
                 </div>
 
                 <div class="col-lg-3 col-md-12">
+                    <label><h6>School Year:</h6></label>
+                </div>
+                <div class="col-lg-9 col-md-12 mb-3">
+                    <input type="text" style="width:60%;" value="<?=$schoolYear?>">
+                </div>
+
+                <div class="col-lg-3 col-md-12">
                     <h6><label>Year Level:</label></h6>
                 </div>
                 <div class="col-lg-9 col-md-12 mb-3">
@@ -80,12 +88,12 @@
                 <div class="col-lg-9 col-md-12 mb-3">
                     <input  type="text" style="width:60%;" value="<?=$course ?>" readonly>
                 </div>
-            
+                
                 <div class="col-lg-3 col-md-12">
-                    <label><h6>School Year:</h6></label>
+                    <label><h6>Type:</h6></label>
                 </div>
                 <div class="col-lg-9 col-md-12 mb-3">
-                    <input type="text" style="width:60%;" value="<?=$schoolYear?>">
+                    <input type="text" style="width:60%;" value="<?=$studentType?>">
                 </div>
             </div>
         </div>
