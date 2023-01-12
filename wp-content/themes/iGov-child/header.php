@@ -104,10 +104,11 @@ acf_form_head();
 						<div class="collapseContent bg-primary" style="display:none">
 							<div class="list-group">
 								<a href="<?= get_site_url()?>/finance-dashboard/" class='pt-2 pl-2 pr-2 bg-primary list-menu'>Dashboard</a>
-								<a href="<?= get_site_url()?>/finance-dashboard/accept-collection/" class='pt-2 pl-2 pr-2 bg-primary list-menu'>Accept Collection</a>
+								<a href="<?= get_site_url()?>/finance-dashboard/accept-collection/?id=&steps=1" class='pt-2 pl-2 pr-2 bg-primary list-menu'>Accept Collection</a>
 								<a href="<?= get_site_url()?>/finance-dashboard/create-encashment/" class="pt-2 pl-2 pr-2 bg-primary list-menu">Create Encashment</a>
 								<a href="<?= get_site_url()?>/finance-dashboard/create-cash-count/" class="pt-2 pl-2 pr-2 bg-primary list-menu">Create Cash Count</a>
 								<a href="<?= get_site_url()?>/finance-dashboard/enter-daily-collection-deposit/" class="pt-2 pl-2 pr-2 bg-primary list-menu">Enter Daily Collection Deposit</a>
+								<a href="<?= get_site_url()?>/finance-dashboard/view-daily-collection-deposit/" class="pt-2 pl-2 pr-2 bg-primary list-menu">View Daily Collection Deposit</a>
 								<a href="<?= get_site_url()?>/finance-dashboard/enter-adjustment/" class="pt-2 pl-2 pr-2 bg-primary list-menu">Enter Adjustments</a>
 								<a href="<?= get_site_url()?>/finance-dashboard/enter-group-adjustments//" class="pt-2 pl-2 pr-2 bg-primary list-menu">Enter Group Adjustments</a>
 								<a href="<?= get_site_url()?>/finance-dashboard/set-subsidiary-ledger/" class="pt-2 pl-2 pr-2 bg-primary list-menu">View Subsidiary Ledger</a>

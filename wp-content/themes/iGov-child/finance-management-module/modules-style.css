@@ -5,10 +5,6 @@
  * Text Domain: 
  * */
 
-
-body{
-    background-color:#F5F5F5;
-}
 .site {
     background-color: #F5F5F5 !important;
     /* border-left: 1px solid #f2f2f2;
@@ -63,8 +59,8 @@ button, input[type="submit"], input[type="button"], input[type="reset"] {
     background: linear-gradient(to bottom, #F5F5F5 0%, #F5F5F5 100%);
     border: none;
     border-bottom: 3px solid #F5F5F5 !important;
-    border-radius: 2px;
-    color: #000 !important;
+    border-radius: 6px;
+    color: #fff !important;
     display: inline-block;
     padding: 11px 24px 10px;
     text-decoration: none;
@@ -115,17 +111,11 @@ button, input[type="submit"], input[type="button"], input[type="reset"] {
 }
 
 .table thead th {
-    /* background-color: #90ADCB !important; */
     font-size: 14px !important;
     color: #fff !important;
     border:solid 1px #000;
 }
 td{
-    text-align:center;
-}
-.form-control{
-    background-color: #F5F5F5;
-    border:0;
-}td{
     border:solid 1px #000;
+    text-align:center;
 }
