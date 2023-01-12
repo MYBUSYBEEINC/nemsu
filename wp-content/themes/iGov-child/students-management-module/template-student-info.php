@@ -89,8 +89,52 @@
     $(document).ready(function () {
     $('#student-info').DataTable({
         order: [[3, 'desc']],
+        dom: '<"top"f>rt<"bottom"lp><"clear">',
+        search: {
+            return: true,
+        },
+        processing: true,
+            serverSide: false,
+            language: {
+                class: 'searchbox',
+                searchPlaceholder: '# Roll Type Here...',
+                sSearch: '',
+                processing: `<div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div>`,
+                emptyTable: "No class to display.",
+                infoFiltered: ''/*" - filtered from _MAX_ records"*/
+            },
+            "paging": true,
+            "scrollCollapse": false,
+            "responsive": false,
+            "lengthChange": true,
+            "searching": true,
+            createdRow: function( row, data, index ) {
+                $(row).css('cursor','pointer').click(function() {
+                    
+                });
+            },
+            /* columnDefs: [{
+				targets: [3, 4, 5],
+				className: 'dt-body-center'
+			}], */
+            initComplete: function() {
+                    
+                $('.dataTables_filter').append(`
+                    <a href="" class="search ml-2 btn btn-primary text-white">SEARCH</a>
+                    <a class="reload-data" onclick="refreshData()"><i class="fas fa-sync-alt"></i></a>
+                    <a class="ekis-data" ><i class="fas fa-times"></i></a>
+                    
+                `);
+            },
+            
     });
     });
+</script>
+<script>
+function refreshData(){
+	$('#student-info').load(location.href + " #student-info");
+    console.log('reload done');
+}
 </script>
     
 	
